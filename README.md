@@ -1,6 +1,5 @@
 # model-catalog
 
-**Repository:** model-catalog
 **Purpose:** A curated catalog of Large Language Models (LLMs) sourced from the Hugging Face Hub, specifically designed for integration with the Jan application's model hub.  This catalog provides a database for popular HF repositories and the models hosted by them.
 
 ## Introduction
