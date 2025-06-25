@@ -26,7 +26,8 @@ The core of the catalog is a JSON file named `models.json`. This file contains a
   "quants": [
     {
         "model_id": "jan-nano-4b-iQ4_XS.gguf",
-        "path": "https://huggingface.co/Menlo/Jan-nano-gguf/resolve/main/jan-nano-4b-iQ4_XS.gguf?download=true"
+        "path": "https://huggingface.co/Menlo/Jan-nano-gguf/resolve/main/jan-nano-4b-iQ4_XS.gguf?download=true",
+        "file_size": "2.3 GB"
     }
   ]
 }
