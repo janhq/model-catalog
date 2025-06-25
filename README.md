@@ -17,10 +17,18 @@ The core of the catalog is a JSON file named `models.json`. This file contains a
 
 ```json
 [
-  {
-    "repo_id": "Menlo/Jan-nano-gguf",
-    "file_name": "jan-nano-4b-iQ4_XS.gguf",
-    "url": "https://huggingface.co/Menlo/Jan-nano-gguf/resolve/main/jan-nano-4b-iQ4_XS.gguf?download=true"
-  }
+{
+  "model_name": "Jan-Nano-Gguf",
+  "description": "Jan Nano is a fine-tuned language model built on top of the Qwen3 architecture. Developed as part of the Jan ecosystem, it balances compact size and extended context length, making it ide...",
+  "developer": "Menlo",
+  "downloads": 19148,
+  "num_quants": 14,
+  "quants": [
+    {
+        "model_id": "jan-nano-4b-iQ4_XS.gguf",
+        "path": "https://huggingface.co/Menlo/Jan-nano-gguf/resolve/main/jan-nano-4b-iQ4_XS.gguf?download=true"
+    }
+  ]
+}
 ]
 ```
