@@ -106,7 +106,7 @@ def get_gguf_model_catalog():
                             rfilename = sibling.get('rfilename')
                             if rfilename and rfilename.lower().endswith('.gguf'):
                                 file_size = sibling.get('size')
-                                quant_path = f"https://huggingface.co/{hf_repo_id}/resolve/main/{rfilename}?download=true"
+                                quant_path = f"https://huggingface.co/{hf_repo_id}/resolve/main/{rfilename}"
                                 current_model_quants.append({
                                     "model_id": rfilename, # This is the GGUF filename (e.g., "llama-3.1-8b-instruct-q2_k.gguf")
                                     "path": quant_path,
