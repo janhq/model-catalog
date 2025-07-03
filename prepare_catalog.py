@@ -173,6 +173,8 @@ def get_gguf_model_catalog():
     for entry in existing_map.values():
         final_catalog.append(entry)
 
+    final_catalog = list(existing_map.values())
+
     # sort: menlo first, then alphabetically by model_name
     final_catalog.sort(key=lambda e: (e["developer"] != "Menlo", e["model_name"].lower()))
 
