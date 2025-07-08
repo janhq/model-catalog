@@ -12,6 +12,7 @@ MODELS_PER_PAGE   = 1_000_000
 MAX_PAGES         = None       # None = fetch until exhausted
 REQUEST_DELAY     = 0.1
 REQUEST_TIMEOUT   = 10         # seconds
+priority_devs = ["Menlo", "cortexso"]
 
 # Tags to look for in the summary metadata
 DESIRED_TAGS = {"text-generation", "conversational", "llama"}
@@ -103,10 +104,26 @@ def get_gguf_model_catalog():
 
             # fetch full metadata
             time.sleep(REQUEST_DELAY)
-            detail = requests.get(
-                f"{HF_BASE_API_URL}/models/{repo_id}?blobs=true",
-                timeout=REQUEST_TIMEOUT
-            ).json()
+            try:
+                r = requests.get(
+                    f"{HF_BASE_API_URL}/models/{repo_id}?blobs=true",
+                    timeout=REQUEST_TIMEOUT
+                )
+                r.raise_for_status()
+                detail = r.json()
+            except requests.exceptions.Timeout:
+                print(f"Timeout occurred while fetching: {HF_BASE_API_URL}/models/{repo_id}?blobs=true")
+                continue
+            except requests.exceptions.HTTPError as e:
+                print(f"HTTP error: {e} - {detail.text}")
+                continue
+            except requests.exceptions.RequestException as e:
+                print(f"Request failed: {e}")
+                continue
+            except ValueError:
+                print("Failed to parse JSON response.")
+                continue
+
 
             # normalize and collect GGUF files + README
             quants      = []
@@ -118,7 +135,6 @@ def get_gguf_model_catalog():
                 if not raw:
                     continue
                 name = raw.lower()
-                print(name)
                 url  = f"https://huggingface.co/{repo_id}/resolve/main/{raw}"
 
                 if name.endswith(".gguf") and all(x not in name for x in ("embedding","ocr","speech")):
@@ -175,8 +191,8 @@ def get_gguf_model_catalog():
 
     final_catalog = list(existing_map.values())
 
-    # sort: menlo first, then alphabetically by model_name
-    final_catalog.sort(key=lambda e: (e["developer"] != "Menlo", e["model_name"].lower()))
+    # sort: menlo, bartowski and cortexso first, then alphabetically by model_name
+    final_catalog.sort(key=lambda e: (e["developer"] not in priority_devs, e["model_name"].lower()))
 
     # write out catalog
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
