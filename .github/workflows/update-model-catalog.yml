@@ -34,50 +34,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Create branch name
-        id: branch-name
-        run: |
-          DATE=$(date +'%d-%m-%Y')
-          echo "branch-name=update-model-catalog-$DATE" >> $GITHUB_OUTPUT
-
-      - name: Create and checkout new branch
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -b ${{ steps.branch-name.outputs.branch-name }}
-
       - name: Run model catalog update script
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           python prepare_catalog.py
-
-      - name: Check if there are changes
-        id: check-changes
-        run: |
-          if git diff --quiet; then
-            echo "has-changes=false" >> $GITHUB_OUTPUT
-            echo "No changes detected in model catalog"
-          else
-            echo "has-changes=true" >> $GITHUB_OUTPUT
-            echo "Changes detected in model catalog"
-          fi
-
-      - name: Commit and push changes
-        if: steps.check-changes.outputs.has-changes == 'true'
-        run: |
-          git add model_catalog.json
-          git commit -m "🤖 Auto-update model catalog - $(date +'%Y-%m-%d %H:%M:%S UTC')"
-          git push origin ${{ steps.branch-name.outputs.branch-name }}
+        timeout-minutes: 90
 
       - name: Create Pull Request
-        if: steps.check-changes.outputs.has-changes == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.PAT_SERVICE_ACCOUNT }}
-          branch: ${{ steps.branch-name.outputs.branch-name }}
-          base: main
-          title: "🤖 Auto-update Model Catalog - $(date +'%d-%m-%Y')"
+          commit-message: "🤖 Auto-update model catalog - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          title: "🤖 Auto-update Model Catalog - $(date +'%d-%m-%Y %H:%M')"
           body: |
-            Update model catalog $(date +'%d-%m-%Y')
+            🤖 Automated model catalog update for $(date +'%d-%m-%Y %H:%M UTC')      
+            *This PR was automatically created by GitHub Actions*
+          branch-suffix: timestamp
+          delete-branch: true
