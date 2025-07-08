@@ -54,10 +54,13 @@ jobs:
       - name: Extract summary from script output
         id: extract-summary
         run: |
-          SUMMARY=$(tail -n 1 script_output.log)
-          echo "summary=$SUMMARY" >> $GITHUB_OUTPUT
+          SUMMARY_LINE=$(tail -n 1 script_output.log)
+          NEW_MODELS=$(echo "$SUMMARY_LINE" | grep -oP 'Added \K[0-9]+')
+          TOTAL_MODELS=$(echo "$SUMMARY_LINE" | grep -oP 'total now \K[0-9]+')
+          echo "new_models=$NEW_MODELS" >> $GITHUB_OUTPUT
+          echo "total_models=$TOTAL_MODELS" >> $GITHUB_OUTPUT
 
-      - name: Create Pull Request
+            - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           base: main
@@ -66,6 +69,15 @@ jobs:
           commit-message: "🤖 Auto-update model catalog - ${{ steps.date.outputs.datetime }}"
           title: "🤖 Auto-update Model Catalog - ${{ steps.date.outputs.datetime_short }}"
           body: |
-            🤖 Automated model catalog update for ${{ steps.date.outputs.datetime_short }}
-            *This PR was automatically created by GitHub Actions*
-            ${{ steps.extract-summary.outputs.summary }}
+            ## 🤖 Automated Model Catalog Update
+
+            **Date:** ${{ steps.date.outputs.datetime_short }}
+
+            ---
+
+            ### Summary
+
+            - **New models added:** ${{ steps.extract-summary.outputs.new_models }}
+            - **Total models in catalog:** ${{ steps.extract-summary.outputs.total_models }}
+
+
