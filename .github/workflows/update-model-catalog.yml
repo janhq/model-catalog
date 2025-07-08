@@ -48,8 +48,14 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          python prepare_catalog.py
+          python prepare_catalog.py | tee script_output.log
         timeout-minutes: 90
+
+      - name: Extract summary from script output
+        id: extract-summary
+        run: |
+          SUMMARY=$(tail -n 1 script_output.log)
+          echo "summary=$SUMMARY" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
@@ -62,3 +68,4 @@ jobs:
           body: |
             🤖 Automated model catalog update for ${{ steps.date.outputs.datetime_short }}
             *This PR was automatically created by GitHub Actions*
+            ${{ steps.extract-summary.outputs.summary }}
