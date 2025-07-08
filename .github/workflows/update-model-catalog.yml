@@ -34,6 +34,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Set date variables
+        id: date
+        run: |
+          echo "today=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
+          echo "today_with_time=$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
+          echo "today_readable=$(date +'%d-%m-%Y')" >> $GITHUB_OUTPUT
+          echo "datetime=$(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+          echo "datetime_short=$(date +'%d-%m-%Y %H:%M')" >> $GITHUB_OUTPUT
+
       - name: Run model catalog update script
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -47,10 +56,9 @@ jobs:
         with:
           base: main
           token: ${{ secrets.PAT_SERVICE_ACCOUNT }}
-          commit-message: "🤖 Auto-update model catalog - $(date +'%Y-%m-%d %H:%M:%S UTC')"
-          title: "🤖 Auto-update Model Catalog - $(date +'%d-%m-%Y %H:%M')"
+          branch: update-model-catalog-${{ steps.date.outputs.today_with_time }}
+          commit-message: "🤖 Auto-update model catalog - ${{ steps.date.outputs.datetime }}"
+          title: "🤖 Auto-update Model Catalog - ${{ steps.date.outputs.datetime_short }}"
           body: |
-            🤖 Automated model catalog update for $(date +'%d-%m-%Y %H:%M UTC')      
+            🤖 Automated model catalog update for ${{ steps.date.outputs.datetime_short }}
             *This PR was automatically created by GitHub Actions*
-          branch-suffix: timestamp
-          delete-branch: true
