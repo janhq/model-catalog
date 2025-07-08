@@ -22,6 +22,9 @@ client = openai.OpenAI(
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
+HF_TOKEN = os.getenv("HF_TOKEN")
+HEADERS = {"Authorization": f"Bearer {HF_TOKEN}"} if HF_TOKEN else {}
+
 def summarize_readme_one_liner(text: str) -> str:
     resp = client.chat.completions.create(
         model="Jan-nano-128k",
@@ -70,7 +73,8 @@ def get_gguf_model_catalog():
         resp = requests.get(
             f"{HF_BASE_API_URL}/models",
             params={"limit": MODELS_PER_PAGE, "offset": offset},
-            timeout=REQUEST_TIMEOUT
+            timeout=REQUEST_TIMEOUT,
+            headers=HEADERS
         )
         resp.raise_for_status()
         summaries = resp.json()
@@ -107,7 +111,8 @@ def get_gguf_model_catalog():
             try:
                 r = requests.get(
                     f"{HF_BASE_API_URL}/models/{repo_id}?blobs=true",
-                    timeout=REQUEST_TIMEOUT
+                    timeout=REQUEST_TIMEOUT,
+                    headers=HEADERS
                 )
                 r.raise_for_status()
                 detail = r.json()
@@ -146,7 +151,7 @@ def get_gguf_model_catalog():
                 elif name == "readme.md":
                     readme_url = url
                     try:
-                        d = requests.get(url, timeout=REQUEST_TIMEOUT)
+                        d = requests.get(url, timeout=REQUEST_TIMEOUT, headers=HEADERS)
                         d.raise_for_status()
                         readme_text = d.text
                     except Exception:
