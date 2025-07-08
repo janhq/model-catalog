@@ -71,9 +71,7 @@ jobs:
           body: |
             ## 🤖 Automated Model Catalog Update
 
-            **Date:** ${{ steps.date.outputs.datetime_short }}
-
-            ---
+            ### **Date:** ${{ steps.date.outputs.datetime_short }}
 
             ### Summary
 
