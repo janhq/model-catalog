@@ -60,7 +60,7 @@ jobs:
           echo "new_models=$NEW_MODELS" >> $GITHUB_OUTPUT
           echo "total_models=$TOTAL_MODELS" >> $GITHUB_OUTPUT
 
-            - name: Create Pull Request
+      - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           base: main
