@@ -115,7 +115,7 @@ def get_gguf_model_catalog():
                 print(f"Timeout occurred while fetching: {HF_BASE_API_URL}/models/{repo_id}?blobs=true")
                 continue
             except requests.exceptions.HTTPError as e:
-                print(f"HTTP error: {e} - {detail.text}")
+                print(f"HTTP error: {e}")
                 continue
             except requests.exceptions.RequestException as e:
                 print(f"Request failed: {e}")
