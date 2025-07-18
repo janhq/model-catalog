@@ -82,7 +82,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PAT_SERVICE_ACCOUNT }}
         run: |
           # Get the PR number from the create-pull-request action output
-          PR_NUMBER="${{ steps.create-pr.outputs.pull-request-number }}"
+          PR_NUMBER=$(gh pr list --search "🤖 Auto-update Model Catalog" --json number --jq '.[0].number')
           
           if [ -n "$PR_NUMBER" ]; then
             echo "Found PR number: $PR_NUMBER"
