@@ -65,6 +65,7 @@ jobs:
           branch: update-model-catalog-${{ steps.date.outputs.today_with_time }}
           commit-message: "🤖 Auto-update model catalog - ${{ steps.date.outputs.datetime }}"
           title: "🤖 Auto-update Model Catalog - ${{ steps.date.outputs.datetime_short }}"
+          labels: "automerge"
           body: |
             ## 🤖 Automated Model Catalog Update
 
@@ -74,5 +75,11 @@ jobs:
 
             - **New models added:** ${{ steps.extract-summary.outputs.new_models }}
             - **Total models in catalog:** ${{ steps.extract-summary.outputs.total_models }}
-
+      
+      - name: Auto-merge PR if no conflicts
+        uses: pascalgn/automerge-action@v0.16.4
+        env:
+          GH_TOKEN: ${{ secrets.PAT_SERVICE_ACCOUNT }}
+          MERGE_LABELS: "automerge"
+          
 
