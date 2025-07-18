@@ -17,6 +17,10 @@ jobs:
     steps:
       - id: automerge
         name: automerge
+        permissions:
+          contents: write
+          pull-requests: write
+          actions: read
         uses: pascalgn/automerge-action@v0.16.4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
