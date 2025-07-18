@@ -86,7 +86,7 @@ jobs:
             sleep 10
             MERGABLE=$(gh pr view "$PR_NUMBER" --json mergeable --jq '.mergeable')
             if [ "$MERGABLE" = "MERGEABLE" ]; then
-              gh pr merge --auto "$PR_NUMBER"
+              gh pr merge --auto --merge "$PR_NUMBER"
               gh pr comment "$PR_NUMBER" --body "🤖 Auto-merged by GitHub Actions"
             else
               gh pr comment "$PR_NUMBER" --body "🤖 PR is not mergeable, please review and merge manually"
