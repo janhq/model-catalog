@@ -6218,7 +6218,7 @@
   {
     "model_name": "ERNIE-4.5-21B-A3B-PT-GGUF",
     "developer": "lmstudio-community",
-    "downloads": 0,
+    "downloads": 174,
     "createdAt": "2025-06-30T03:51:30.000Z",
     "num_quants": 4,
     "quants": [
@@ -6244,6 +6244,733 @@
       }
     ],
     "readme": "https://huggingface.co/lmstudio-community/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
+    "model_name": "ERNIE-4.5-21B-A3B-PT-GGUF",
+    "developer": "unsloth",
+    "downloads": 84,
+    "createdAt": "2025-07-18T01:00:17.000Z",
+    "num_quants": 27,
+    "quants": [
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-BF16",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-BF16.gguf",
+        "file_size": "40.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-IQ4_NL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-IQ4_NL.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-IQ4_XS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-IQ4_XS.gguf",
+        "file_size": "10.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q2_K",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q2_K.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q2_K_L",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q2_K_L.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q3_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q3_K_M.gguf",
+        "file_size": "9.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q3_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q3_K_S.gguf",
+        "file_size": "8.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_0.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_1",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_1.gguf",
+        "file_size": "12.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_K_M.gguf",
+        "file_size": "12.3 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_K_S.gguf",
+        "file_size": "11.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q5_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q5_K_M.gguf",
+        "file_size": "14.4 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q5_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q5_K_S.gguf",
+        "file_size": "14.0 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q6_K",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q6_K.gguf",
+        "file_size": "16.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q8_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q8_0.gguf",
+        "file_size": "21.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ1_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ1_M.gguf",
+        "file_size": "6.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ1_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ1_S.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ2_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ2_M.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ2_XXS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ2_XXS.gguf",
+        "file_size": "7.2 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ3_XXS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ3_XXS.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q2_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q2_K_XL.gguf",
+        "file_size": "8.0 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q3_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q3_K_XL.gguf",
+        "file_size": "9.3 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q4_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q4_K_XL.gguf",
+        "file_size": "11.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q5_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q5_K_XL.gguf",
+        "file_size": "14.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q6_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q6_K_XL.gguf",
+        "file_size": "17.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q8_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q8_K_XL.gguf",
+        "file_size": "24.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-TQ1_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-TQ1_0.gguf",
+        "file_size": "6.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
+    "model_name": "ERNIE-4.5-300B-A47B-PT-GGUF",
+    "developer": "unsloth",
+    "downloads": 0,
+    "createdAt": "2025-07-18T01:15:04.000Z",
+    "num_quants": 114,
+    "quants": [
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00001-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00001-of-00013.gguf",
+        "file_size": "45.7 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00002-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00002-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00003-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00003-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00004-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00004-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00005-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00005-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00006-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00006-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00007-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00007-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00008-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00008-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00009-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00009-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00010-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00010-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00011-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00011-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00012-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00012-of-00013.gguf",
+        "file_size": "43.1 GB"
+      },
+      {
+        "model_id": "BF16/ERNIE-4.5-300B-A47B-PT-BF16-00013-of-00013",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/BF16/ERNIE-4.5-300B-A47B-PT-BF16-00013-of-00013.gguf",
+        "file_size": "37.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-300B-A47B-PT-UD-TQ1_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/ERNIE-4.5-300B-A47B-PT-UD-TQ1_0.gguf",
+        "file_size": "71.5 GB"
+      },
+      {
+        "model_id": "IQ4_NL/ERNIE-4.5-300B-A47B-PT-IQ4_NL-00001-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/IQ4_NL/ERNIE-4.5-300B-A47B-PT-IQ4_NL-00001-of-00004.gguf",
+        "file_size": "46.0 GB"
+      },
+      {
+        "model_id": "IQ4_NL/ERNIE-4.5-300B-A47B-PT-IQ4_NL-00002-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/IQ4_NL/ERNIE-4.5-300B-A47B-PT-IQ4_NL-00002-of-00004.gguf",
+        "file_size": "46.5 GB"
+      },
+      {
+        "model_id": "IQ4_NL/ERNIE-4.5-300B-A47B-PT-IQ4_NL-00003-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/IQ4_NL/ERNIE-4.5-300B-A47B-PT-IQ4_NL-00003-of-00004.gguf",
+        "file_size": "46.6 GB"
+      },
+      {
+        "model_id": "IQ4_NL/ERNIE-4.5-300B-A47B-PT-IQ4_NL-00004-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/IQ4_NL/ERNIE-4.5-300B-A47B-PT-IQ4_NL-00004-of-00004.gguf",
+        "file_size": "18.2 GB"
+      },
+      {
+        "model_id": "IQ4_XS/ERNIE-4.5-300B-A47B-PT-IQ4_XS-00001-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/IQ4_XS/ERNIE-4.5-300B-A47B-PT-IQ4_XS-00001-of-00004.gguf",
+        "file_size": "46.4 GB"
+      },
+      {
+        "model_id": "IQ4_XS/ERNIE-4.5-300B-A47B-PT-IQ4_XS-00002-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/IQ4_XS/ERNIE-4.5-300B-A47B-PT-IQ4_XS-00002-of-00004.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "IQ4_XS/ERNIE-4.5-300B-A47B-PT-IQ4_XS-00003-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/IQ4_XS/ERNIE-4.5-300B-A47B-PT-IQ4_XS-00003-of-00004.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "IQ4_XS/ERNIE-4.5-300B-A47B-PT-IQ4_XS-00004-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/IQ4_XS/ERNIE-4.5-300B-A47B-PT-IQ4_XS-00004-of-00004.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "Q2_K/ERNIE-4.5-300B-A47B-PT-Q2_K-00001-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q2_K/ERNIE-4.5-300B-A47B-PT-Q2_K-00001-of-00003.gguf",
+        "file_size": "46.2 GB"
+      },
+      {
+        "model_id": "Q2_K/ERNIE-4.5-300B-A47B-PT-Q2_K-00002-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q2_K/ERNIE-4.5-300B-A47B-PT-Q2_K-00002-of-00003.gguf",
+        "file_size": "46.4 GB"
+      },
+      {
+        "model_id": "Q2_K/ERNIE-4.5-300B-A47B-PT-Q2_K-00003-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q2_K/ERNIE-4.5-300B-A47B-PT-Q2_K-00003-of-00003.gguf",
+        "file_size": "9.0 GB"
+      },
+      {
+        "model_id": "Q2_K_L/ERNIE-4.5-300B-A47B-PT-Q2_K_L-00001-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q2_K_L/ERNIE-4.5-300B-A47B-PT-Q2_K_L-00001-of-00003.gguf",
+        "file_size": "46.4 GB"
+      },
+      {
+        "model_id": "Q2_K_L/ERNIE-4.5-300B-A47B-PT-Q2_K_L-00002-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q2_K_L/ERNIE-4.5-300B-A47B-PT-Q2_K_L-00002-of-00003.gguf",
+        "file_size": "46.4 GB"
+      },
+      {
+        "model_id": "Q2_K_L/ERNIE-4.5-300B-A47B-PT-Q2_K_L-00003-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q2_K_L/ERNIE-4.5-300B-A47B-PT-Q2_K_L-00003-of-00003.gguf",
+        "file_size": "9.0 GB"
+      },
+      {
+        "model_id": "Q3_K_M/ERNIE-4.5-300B-A47B-PT-Q3_K_M-00001-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q3_K_M/ERNIE-4.5-300B-A47B-PT-Q3_K_M-00001-of-00003.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "Q3_K_M/ERNIE-4.5-300B-A47B-PT-Q3_K_M-00002-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q3_K_M/ERNIE-4.5-300B-A47B-PT-Q3_K_M-00002-of-00003.gguf",
+        "file_size": "46.1 GB"
+      },
+      {
+        "model_id": "Q3_K_M/ERNIE-4.5-300B-A47B-PT-Q3_K_M-00003-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q3_K_M/ERNIE-4.5-300B-A47B-PT-Q3_K_M-00003-of-00003.gguf",
+        "file_size": "40.9 GB"
+      },
+      {
+        "model_id": "Q3_K_S/ERNIE-4.5-300B-A47B-PT-Q3_K_S-00001-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q3_K_S/ERNIE-4.5-300B-A47B-PT-Q3_K_S-00001-of-00003.gguf",
+        "file_size": "46.1 GB"
+      },
+      {
+        "model_id": "Q3_K_S/ERNIE-4.5-300B-A47B-PT-Q3_K_S-00002-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q3_K_S/ERNIE-4.5-300B-A47B-PT-Q3_K_S-00002-of-00003.gguf",
+        "file_size": "46.4 GB"
+      },
+      {
+        "model_id": "Q3_K_S/ERNIE-4.5-300B-A47B-PT-Q3_K_S-00003-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q3_K_S/ERNIE-4.5-300B-A47B-PT-Q3_K_S-00003-of-00003.gguf",
+        "file_size": "27.8 GB"
+      },
+      {
+        "model_id": "Q4_0/ERNIE-4.5-300B-A47B-PT-Q4_0-00001-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_0/ERNIE-4.5-300B-A47B-PT-Q4_0-00001-of-00004.gguf",
+        "file_size": "46.4 GB"
+      },
+      {
+        "model_id": "Q4_0/ERNIE-4.5-300B-A47B-PT-Q4_0-00002-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_0/ERNIE-4.5-300B-A47B-PT-Q4_0-00002-of-00004.gguf",
+        "file_size": "46.5 GB"
+      },
+      {
+        "model_id": "Q4_0/ERNIE-4.5-300B-A47B-PT-Q4_0-00003-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_0/ERNIE-4.5-300B-A47B-PT-Q4_0-00003-of-00004.gguf",
+        "file_size": "46.5 GB"
+      },
+      {
+        "model_id": "Q4_0/ERNIE-4.5-300B-A47B-PT-Q4_0-00004-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_0/ERNIE-4.5-300B-A47B-PT-Q4_0-00004-of-00004.gguf",
+        "file_size": "18.2 GB"
+      },
+      {
+        "model_id": "Q4_1/ERNIE-4.5-300B-A47B-PT-Q4_1-00001-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_1/ERNIE-4.5-300B-A47B-PT-Q4_1-00001-of-00004.gguf",
+        "file_size": "46.5 GB"
+      },
+      {
+        "model_id": "Q4_1/ERNIE-4.5-300B-A47B-PT-Q4_1-00002-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_1/ERNIE-4.5-300B-A47B-PT-Q4_1-00002-of-00004.gguf",
+        "file_size": "46.0 GB"
+      },
+      {
+        "model_id": "Q4_1/ERNIE-4.5-300B-A47B-PT-Q4_1-00003-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_1/ERNIE-4.5-300B-A47B-PT-Q4_1-00003-of-00004.gguf",
+        "file_size": "46.1 GB"
+      },
+      {
+        "model_id": "Q4_1/ERNIE-4.5-300B-A47B-PT-Q4_1-00004-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_1/ERNIE-4.5-300B-A47B-PT-Q4_1-00004-of-00004.gguf",
+        "file_size": "35.9 GB"
+      },
+      {
+        "model_id": "Q4_K_M/ERNIE-4.5-300B-A47B-PT-Q4_K_M-00001-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_K_M/ERNIE-4.5-300B-A47B-PT-Q4_K_M-00001-of-00004.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "Q4_K_M/ERNIE-4.5-300B-A47B-PT-Q4_K_M-00002-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_K_M/ERNIE-4.5-300B-A47B-PT-Q4_K_M-00002-of-00004.gguf",
+        "file_size": "45.7 GB"
+      },
+      {
+        "model_id": "Q4_K_M/ERNIE-4.5-300B-A47B-PT-Q4_K_M-00003-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_K_M/ERNIE-4.5-300B-A47B-PT-Q4_K_M-00003-of-00004.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "Q4_K_M/ERNIE-4.5-300B-A47B-PT-Q4_K_M-00004-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_K_M/ERNIE-4.5-300B-A47B-PT-Q4_K_M-00004-of-00004.gguf",
+        "file_size": "30.4 GB"
+      },
+      {
+        "model_id": "Q4_K_S/ERNIE-4.5-300B-A47B-PT-Q4_K_S-00001-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_K_S/ERNIE-4.5-300B-A47B-PT-Q4_K_S-00001-of-00004.gguf",
+        "file_size": "45.7 GB"
+      },
+      {
+        "model_id": "Q4_K_S/ERNIE-4.5-300B-A47B-PT-Q4_K_S-00002-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_K_S/ERNIE-4.5-300B-A47B-PT-Q4_K_S-00002-of-00004.gguf",
+        "file_size": "46.5 GB"
+      },
+      {
+        "model_id": "Q4_K_S/ERNIE-4.5-300B-A47B-PT-Q4_K_S-00003-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_K_S/ERNIE-4.5-300B-A47B-PT-Q4_K_S-00003-of-00004.gguf",
+        "file_size": "46.5 GB"
+      },
+      {
+        "model_id": "Q4_K_S/ERNIE-4.5-300B-A47B-PT-Q4_K_S-00004-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q4_K_S/ERNIE-4.5-300B-A47B-PT-Q4_K_S-00004-of-00004.gguf",
+        "file_size": "19.2 GB"
+      },
+      {
+        "model_id": "Q5_K_M/ERNIE-4.5-300B-A47B-PT-Q5_K_M-00001-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q5_K_M/ERNIE-4.5-300B-A47B-PT-Q5_K_M-00001-of-00005.gguf",
+        "file_size": "46.4 GB"
+      },
+      {
+        "model_id": "Q5_K_M/ERNIE-4.5-300B-A47B-PT-Q5_K_M-00002-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q5_K_M/ERNIE-4.5-300B-A47B-PT-Q5_K_M-00002-of-00005.gguf",
+        "file_size": "45.4 GB"
+      },
+      {
+        "model_id": "Q5_K_M/ERNIE-4.5-300B-A47B-PT-Q5_K_M-00003-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q5_K_M/ERNIE-4.5-300B-A47B-PT-Q5_K_M-00003-of-00005.gguf",
+        "file_size": "45.4 GB"
+      },
+      {
+        "model_id": "Q5_K_M/ERNIE-4.5-300B-A47B-PT-Q5_K_M-00004-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q5_K_M/ERNIE-4.5-300B-A47B-PT-Q5_K_M-00004-of-00005.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "Q5_K_M/ERNIE-4.5-300B-A47B-PT-Q5_K_M-00005-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q5_K_M/ERNIE-4.5-300B-A47B-PT-Q5_K_M-00005-of-00005.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "Q5_K_S/ERNIE-4.5-300B-A47B-PT-Q5_K_S-00001-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q5_K_S/ERNIE-4.5-300B-A47B-PT-Q5_K_S-00001-of-00005.gguf",
+        "file_size": "46.1 GB"
+      },
+      {
+        "model_id": "Q5_K_S/ERNIE-4.5-300B-A47B-PT-Q5_K_S-00002-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q5_K_S/ERNIE-4.5-300B-A47B-PT-Q5_K_S-00002-of-00005.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "Q5_K_S/ERNIE-4.5-300B-A47B-PT-Q5_K_S-00003-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q5_K_S/ERNIE-4.5-300B-A47B-PT-Q5_K_S-00003-of-00005.gguf",
+        "file_size": "45.7 GB"
+      },
+      {
+        "model_id": "Q5_K_S/ERNIE-4.5-300B-A47B-PT-Q5_K_S-00004-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q5_K_S/ERNIE-4.5-300B-A47B-PT-Q5_K_S-00004-of-00005.gguf",
+        "file_size": "45.7 GB"
+      },
+      {
+        "model_id": "Q5_K_S/ERNIE-4.5-300B-A47B-PT-Q5_K_S-00005-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q5_K_S/ERNIE-4.5-300B-A47B-PT-Q5_K_S-00005-of-00005.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "Q6_K/ERNIE-4.5-300B-A47B-PT-Q6_K-00001-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q6_K/ERNIE-4.5-300B-A47B-PT-Q6_K-00001-of-00005.gguf",
+        "file_size": "46.1 GB"
+      },
+      {
+        "model_id": "Q6_K/ERNIE-4.5-300B-A47B-PT-Q6_K-00002-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q6_K/ERNIE-4.5-300B-A47B-PT-Q6_K-00002-of-00005.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "Q6_K/ERNIE-4.5-300B-A47B-PT-Q6_K-00003-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q6_K/ERNIE-4.5-300B-A47B-PT-Q6_K-00003-of-00005.gguf",
+        "file_size": "45.7 GB"
+      },
+      {
+        "model_id": "Q6_K/ERNIE-4.5-300B-A47B-PT-Q6_K-00004-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q6_K/ERNIE-4.5-300B-A47B-PT-Q6_K-00004-of-00005.gguf",
+        "file_size": "45.7 GB"
+      },
+      {
+        "model_id": "Q6_K/ERNIE-4.5-300B-A47B-PT-Q6_K-00005-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q6_K/ERNIE-4.5-300B-A47B-PT-Q6_K-00005-of-00005.gguf",
+        "file_size": "45.7 GB"
+      },
+      {
+        "model_id": "Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00001-of-00007",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00001-of-00007.gguf",
+        "file_size": "45.3 GB"
+      },
+      {
+        "model_id": "Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00002-of-00007",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00002-of-00007.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00003-of-00007",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00003-of-00007.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00004-of-00007",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00004-of-00007.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00005-of-00007",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00005-of-00007.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00006-of-00007",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00006-of-00007.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00007-of-00007",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/Q8_0/ERNIE-4.5-300B-A47B-PT-Q8_0-00007-of-00007.gguf",
+        "file_size": "21.9 GB"
+      },
+      {
+        "model_id": "UD-IQ1_M/ERNIE-4.5-300B-A47B-PT-UD-IQ1_M-00001-of-00002",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ1_M/ERNIE-4.5-300B-A47B-PT-UD-IQ1_M-00001-of-00002.gguf",
+        "file_size": "46.2 GB"
+      },
+      {
+        "model_id": "UD-IQ1_M/ERNIE-4.5-300B-A47B-PT-UD-IQ1_M-00002-of-00002",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ1_M/ERNIE-4.5-300B-A47B-PT-UD-IQ1_M-00002-of-00002.gguf",
+        "file_size": "40.6 GB"
+      },
+      {
+        "model_id": "UD-IQ1_S/ERNIE-4.5-300B-A47B-PT-UD-IQ1_S-00001-of-00002",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ1_S/ERNIE-4.5-300B-A47B-PT-UD-IQ1_S-00001-of-00002.gguf",
+        "file_size": "46.5 GB"
+      },
+      {
+        "model_id": "UD-IQ1_S/ERNIE-4.5-300B-A47B-PT-UD-IQ1_S-00002-of-00002",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ1_S/ERNIE-4.5-300B-A47B-PT-UD-IQ1_S-00002-of-00002.gguf",
+        "file_size": "34.1 GB"
+      },
+      {
+        "model_id": "UD-IQ2_M/ERNIE-4.5-300B-A47B-PT-UD-IQ2_M-00001-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ2_M/ERNIE-4.5-300B-A47B-PT-UD-IQ2_M-00001-of-00003.gguf",
+        "file_size": "46.4 GB"
+      },
+      {
+        "model_id": "UD-IQ2_M/ERNIE-4.5-300B-A47B-PT-UD-IQ2_M-00002-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ2_M/ERNIE-4.5-300B-A47B-PT-UD-IQ2_M-00002-of-00003.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "UD-IQ2_M/ERNIE-4.5-300B-A47B-PT-UD-IQ2_M-00003-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ2_M/ERNIE-4.5-300B-A47B-PT-UD-IQ2_M-00003-of-00003.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "UD-IQ2_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ2_XXS-00001-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ2_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ2_XXS-00001-of-00003.gguf",
+        "file_size": "46.6 GB"
+      },
+      {
+        "model_id": "UD-IQ2_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ2_XXS-00002-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ2_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ2_XXS-00002-of-00003.gguf",
+        "file_size": "45.7 GB"
+      },
+      {
+        "model_id": "UD-IQ2_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ2_XXS-00003-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ2_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ2_XXS-00003-of-00003.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "UD-IQ3_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ3_XXS-00001-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ3_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ3_XXS-00001-of-00003.gguf",
+        "file_size": "46.4 GB"
+      },
+      {
+        "model_id": "UD-IQ3_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ3_XXS-00002-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ3_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ3_XXS-00002-of-00003.gguf",
+        "file_size": "46.4 GB"
+      },
+      {
+        "model_id": "UD-IQ3_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ3_XXS-00003-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-IQ3_XXS/ERNIE-4.5-300B-A47B-PT-UD-IQ3_XXS-00003-of-00003.gguf",
+        "file_size": "23.8 GB"
+      },
+      {
+        "model_id": "UD-Q2_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q2_K_XL-00001-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q2_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q2_K_XL-00001-of-00003.gguf",
+        "file_size": "46.1 GB"
+      },
+      {
+        "model_id": "UD-Q2_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q2_K_XL-00002-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q2_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q2_K_XL-00002-of-00003.gguf",
+        "file_size": "46.1 GB"
+      },
+      {
+        "model_id": "UD-Q2_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q2_K_XL-00003-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q2_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q2_K_XL-00003-of-00003.gguf",
+        "file_size": "14.5 GB"
+      },
+      {
+        "model_id": "UD-Q3_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q3_K_XL-00001-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q3_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q3_K_XL-00001-of-00003.gguf",
+        "file_size": "46.1 GB"
+      },
+      {
+        "model_id": "UD-Q3_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q3_K_XL-00002-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q3_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q3_K_XL-00002-of-00003.gguf",
+        "file_size": "46.0 GB"
+      },
+      {
+        "model_id": "UD-Q3_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q3_K_XL-00003-of-00003",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q3_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q3_K_XL-00003-of-00003.gguf",
+        "file_size": "33.1 GB"
+      },
+      {
+        "model_id": "UD-Q4_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q4_K_XL-00001-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q4_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q4_K_XL-00001-of-00004.gguf",
+        "file_size": "46.5 GB"
+      },
+      {
+        "model_id": "UD-Q4_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q4_K_XL-00002-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q4_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q4_K_XL-00002-of-00004.gguf",
+        "file_size": "45.8 GB"
+      },
+      {
+        "model_id": "UD-Q4_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q4_K_XL-00003-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q4_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q4_K_XL-00003-of-00004.gguf",
+        "file_size": "45.6 GB"
+      },
+      {
+        "model_id": "UD-Q4_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q4_K_XL-00004-of-00004",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q4_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q4_K_XL-00004-of-00004.gguf",
+        "file_size": "22.9 GB"
+      },
+      {
+        "model_id": "UD-Q5_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q5_K_XL-00001-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q5_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q5_K_XL-00001-of-00005.gguf",
+        "file_size": "45.6 GB"
+      },
+      {
+        "model_id": "UD-Q5_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q5_K_XL-00002-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q5_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q5_K_XL-00002-of-00005.gguf",
+        "file_size": "45.4 GB"
+      },
+      {
+        "model_id": "UD-Q5_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q5_K_XL-00003-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q5_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q5_K_XL-00003-of-00005.gguf",
+        "file_size": "45.4 GB"
+      },
+      {
+        "model_id": "UD-Q5_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q5_K_XL-00004-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q5_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q5_K_XL-00004-of-00005.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "UD-Q5_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q5_K_XL-00005-of-00005",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q5_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q5_K_XL-00005-of-00005.gguf",
+        "file_size": "17.0 GB"
+      },
+      {
+        "model_id": "UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00001-of-00006",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00001-of-00006.gguf",
+        "file_size": "46.1 GB"
+      },
+      {
+        "model_id": "UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00002-of-00006",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00002-of-00006.gguf",
+        "file_size": "45.2 GB"
+      },
+      {
+        "model_id": "UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00003-of-00006",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00003-of-00006.gguf",
+        "file_size": "46.0 GB"
+      },
+      {
+        "model_id": "UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00004-of-00006",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00004-of-00006.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00005-of-00006",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00005-of-00006.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00006-of-00006",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q6_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q6_K_XL-00006-of-00006.gguf",
+        "file_size": "10.3 GB"
+      },
+      {
+        "model_id": "UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00001-of-00008",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00001-of-00008.gguf",
+        "file_size": "45.3 GB"
+      },
+      {
+        "model_id": "UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00002-of-00008",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00002-of-00008.gguf",
+        "file_size": "44.4 GB"
+      },
+      {
+        "model_id": "UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00003-of-00008",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00003-of-00008.gguf",
+        "file_size": "45.1 GB"
+      },
+      {
+        "model_id": "UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00004-of-00008",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00004-of-00008.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00005-of-00008",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00005-of-00008.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00006-of-00008",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00006-of-00008.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00007-of-00008",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00007-of-00008.gguf",
+        "file_size": "45.9 GB"
+      },
+      {
+        "model_id": "UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00008-of-00008",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/UD-Q8_K_XL/ERNIE-4.5-300B-A47B-PT-UD-Q8_K_XL-00008-of-00008.gguf",
+        "file_size": "5.6 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/unsloth/ERNIE-4.5-300B-A47B-PT-GGUF/resolve/main/README.md",
     "description": ""
   },
   {
@@ -9006,6 +9733,147 @@
       }
     ],
     "readme": "https://huggingface.co/unsloth/GLM-4-32B-0414-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
+    "model_name": "GLM-4-9B-0414-GGUF",
+    "developer": "unsloth",
+    "downloads": 7683,
+    "createdAt": "2025-04-30T18:36:06.000Z",
+    "num_quants": 26,
+    "quants": [
+      {
+        "model_id": "GLM-4-9B-0414-BF16",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-BF16.gguf",
+        "file_size": "17.5 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-IQ4_NL",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-IQ4_NL.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-IQ4_XS",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-IQ4_XS.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q2_K",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q2_K.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q2_K_L",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q2_K_L.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q3_K_M",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q3_K_M.gguf",
+        "file_size": "4.6 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q3_K_S",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q3_K_S.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q4_0",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q4_0.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q4_1",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q4_1.gguf",
+        "file_size": "5.6 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q4_K_M",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q4_K_M.gguf",
+        "file_size": "5.7 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q4_K_S",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q4_K_S.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q5_K_M",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q5_K_M.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q5_K_S",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q5_K_S.gguf",
+        "file_size": "6.2 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q6_K",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q6_K.gguf",
+        "file_size": "7.7 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-Q8_0",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-Q8_0.gguf",
+        "file_size": "9.3 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-IQ1_M",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-IQ1_M.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-IQ1_S",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-IQ1_S.gguf",
+        "file_size": "3.0 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-IQ2_M",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-IQ2_M.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-IQ2_XXS",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-IQ2_XXS.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-IQ3_XXS",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-IQ3_XXS.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-Q2_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-Q2_K_XL.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-Q3_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-Q3_K_XL.gguf",
+        "file_size": "4.8 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-Q4_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-Q4_K_XL.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-Q5_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-Q5_K_XL.gguf",
+        "file_size": "6.5 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-Q6_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-Q6_K_XL.gguf",
+        "file_size": "8.3 GB"
+      },
+      {
+        "model_id": "GLM-4-9B-0414-UD-Q8_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/GLM-4-9B-0414-UD-Q8_K_XL.gguf",
+        "file_size": "11.2 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/unsloth/GLM-4-9B-0414-GGUF/resolve/main/README.md",
     "description": ""
   },
   {
@@ -14077,7 +14945,7 @@
   {
     "model_name": "Llama-3.2-3B-Instruct-GGUF",
     "developer": "bartowski",
-    "downloads": 298462,
+    "downloads": 336965,
     "createdAt": "2024-09-25T18:35:33.000Z",
     "num_quants": 18,
     "quants": [
@@ -15383,6 +16251,27 @@
       }
     ],
     "readme": "https://huggingface.co/unsloth/Magistral-Small-2506-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
+    "model_name": "Magistral-Small-2506_gguf",
+    "developer": "mistralai",
+    "downloads": 3126,
+    "createdAt": "2025-06-09T09:25:46.000Z",
+    "num_quants": 2,
+    "quants": [
+      {
+        "model_id": "Magistral-Small-2506",
+        "path": "https://huggingface.co/mistralai/Magistral-Small-2506_gguf/resolve/main/Magistral-Small-2506.gguf",
+        "file_size": "43.9 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2506_Q8_0",
+        "path": "https://huggingface.co/mistralai/Magistral-Small-2506_gguf/resolve/main/Magistral-Small-2506_Q8_0.gguf",
+        "file_size": "23.3 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/mistralai/Magistral-Small-2506_gguf/resolve/main/README.md",
     "description": ""
   },
   {
@@ -16957,6 +17846,142 @@
       }
     ],
     "readme": "https://huggingface.co/bartowski/Mistral-Nemo-Instruct-2407-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
+    "model_name": "Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF",
+    "developer": "bartowski",
+    "downloads": 12410,
+    "createdAt": "2024-09-26T14:36:19.000Z",
+    "num_quants": 25,
+    "quants": [
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-IQ2_M",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-IQ2_M.gguf",
+        "file_size": "7.1 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-IQ2_S",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-IQ2_S.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-IQ3_M",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-IQ3_M.gguf",
+        "file_size": "9.4 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-IQ3_XS",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-IQ3_XS.gguf",
+        "file_size": "8.5 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-IQ4_XS",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-IQ4_XS.gguf",
+        "file_size": "11.1 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q2_K",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q2_K.gguf",
+        "file_size": "7.7 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q2_K_L",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q2_K_L.gguf",
+        "file_size": "7.9 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q3_K_L",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q3_K_L.gguf",
+        "file_size": "10.9 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q3_K_M",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q3_K_M.gguf",
+        "file_size": "10.0 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q3_K_S",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q3_K_S.gguf",
+        "file_size": "9.0 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q3_K_XL",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q3_K_XL.gguf",
+        "file_size": "11.1 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_0",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_0.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_0_4_4",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_0_4_4.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_0_4_8",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_0_4_8.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_0_8_8",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_0_8_8.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_K_L",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_K_L.gguf",
+        "file_size": "12.6 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_K_M",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_K_M.gguf",
+        "file_size": "12.4 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_K_S",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q4_K_S.gguf",
+        "file_size": "11.8 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q5_K_L",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q5_K_L.gguf",
+        "file_size": "14.8 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q5_K_M",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q5_K_M.gguf",
+        "file_size": "14.6 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q5_K_S",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q5_K_S.gguf",
+        "file_size": "14.3 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q6_K",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q6_K.gguf",
+        "file_size": "17.0 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q6_K_L",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q6_K_L.gguf",
+        "file_size": "17.1 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-Q8_0",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-Q8_0.gguf",
+        "file_size": "22.0 GB"
+      },
+      {
+        "model_id": "Mistral-Small-22B-ArliAI-RPMax-v1.1-f16",
+        "path": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/Mistral-Small-22B-ArliAI-RPMax-v1.1-f16.gguf",
+        "file_size": "41.4 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF/resolve/main/README.md",
     "description": ""
   },
   {
@@ -19992,6 +21017,157 @@
     "description": "This repository provides quantized versions of the Qwen2.5-14B_Uncensored_Instruct model using llama.cpp, with various quantization types and optimizations for different hardware, including ARM and Apple Metal, suitable for different performance and quality trade-offs."
   },
   {
+    "model_name": "Qwen2.5-Coder-32B-Instruct-GGUF",
+    "developer": "bartowski",
+    "downloads": 8931,
+    "createdAt": "2024-11-06T19:20:14.000Z",
+    "num_quants": 28,
+    "quants": [
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-IQ2_M",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-IQ2_M.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-IQ2_S",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-IQ2_S.gguf",
+        "file_size": "9.7 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-IQ2_XS",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-IQ2_XS.gguf",
+        "file_size": "9.3 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-IQ2_XXS",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-IQ2_XXS.gguf",
+        "file_size": "8.4 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-IQ3_M",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-IQ3_M.gguf",
+        "file_size": "13.8 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-IQ3_XS",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-IQ3_XS.gguf",
+        "file_size": "12.8 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-IQ3_XXS",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-IQ3_XXS.gguf",
+        "file_size": "12.0 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-IQ4_NL",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-IQ4_NL.gguf",
+        "file_size": "17.4 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-IQ4_XS",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-IQ4_XS.gguf",
+        "file_size": "16.5 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q2_K",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q2_K.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q2_K_L",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q2_K_L.gguf",
+        "file_size": "12.2 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q3_K_L",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q3_K_L.gguf",
+        "file_size": "16.1 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q3_K_M",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q3_K_M.gguf",
+        "file_size": "14.8 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q3_K_S",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q3_K_S.gguf",
+        "file_size": "13.4 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q3_K_XL",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q3_K_XL.gguf",
+        "file_size": "16.7 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q4_0",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q4_0.gguf",
+        "file_size": "17.4 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q4_0_4_4",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q4_0_4_4.gguf",
+        "file_size": "17.4 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q4_0_4_8",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q4_0_4_8.gguf",
+        "file_size": "17.4 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q4_0_8_8",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q4_0_8_8.gguf",
+        "file_size": "17.4 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q4_K_L",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q4_K_L.gguf",
+        "file_size": "19.0 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q4_K_M",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q4_K_M.gguf",
+        "file_size": "18.5 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q4_K_S",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q4_K_S.gguf",
+        "file_size": "17.5 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q5_K_L",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q5_K_L.gguf",
+        "file_size": "22.1 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q5_K_M",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q5_K_M.gguf",
+        "file_size": "21.7 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q5_K_S",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q5_K_S.gguf",
+        "file_size": "21.1 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q6_K",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q6_K.gguf",
+        "file_size": "25.0 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q6_K_L",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q6_K_L.gguf",
+        "file_size": "25.4 GB"
+      },
+      {
+        "model_id": "Qwen2.5-Coder-32B-Instruct-Q8_0",
+        "path": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-32B-Instruct-Q8_0.gguf",
+        "file_size": "32.4 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/bartowski/Qwen2.5-Coder-32B-Instruct-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
     "model_name": "Qwen2.5-VL-7B-Instruct-GGUF",
     "developer": "unsloth",
     "downloads": 6716,
@@ -20865,7 +22041,7 @@
   {
     "model_name": "Qwen3-30B-A3B-GGUF",
     "developer": "unsloth",
-    "downloads": 103667,
+    "downloads": 111865,
     "createdAt": "2025-04-28T13:48:41.000Z",
     "num_quants": 27,
     "quants": [
@@ -21027,7 +22203,7 @@
   {
     "model_name": "Qwen3-32B-GGUF",
     "developer": "unsloth",
-    "downloads": 32268,
+    "downloads": 29232,
     "createdAt": "2025-04-28T08:55:52.000Z",
     "num_quants": 27,
     "quants": [
@@ -22174,6 +23350,132 @@
       }
     ],
     "readme": "https://huggingface.co/bartowski/Skywork_Skywork-R1V3-38B-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
+    "model_name": "SmolLM2-135M-Instruct-GGUF",
+    "developer": "bartowski",
+    "downloads": 1198,
+    "createdAt": "2024-10-31T19:25:41.000Z",
+    "num_quants": 23,
+    "quants": [
+      {
+        "model_id": "SmolLM2-135M-Instruct-IQ3_M",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-IQ3_M.gguf",
+        "file_size": "86.0 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-IQ3_XS",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-IQ3_XS.gguf",
+        "file_size": "84.1 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-IQ4_XS",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-IQ4_XS.gguf",
+        "file_size": "86.7 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q2_K",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q2_K.gguf",
+        "file_size": "84.1 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q2_K_L",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q2_K_L.gguf",
+        "file_size": "84.1 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q3_K_L",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q3_K_L.gguf",
+        "file_size": "93.0 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q3_K_M",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q3_K_M.gguf",
+        "file_size": "89.2 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q3_K_S",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q3_K_S.gguf",
+        "file_size": "84.1 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q3_K_XL",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q3_K_XL.gguf",
+        "file_size": "93.0 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q4_0",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q4_0.gguf",
+        "file_size": "87.6 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q4_0_4_4",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q4_0_4_4.gguf",
+        "file_size": "87.5 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q4_0_4_8",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q4_0_4_8.gguf",
+        "file_size": "87.5 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q4_0_8_8",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q4_0_8_8.gguf",
+        "file_size": "87.5 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q4_K_L",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q4_K_L.gguf",
+        "file_size": "100.6 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q4_K_M",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q4_K_M.gguf",
+        "file_size": "100.6 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q4_K_S",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q4_K_S.gguf",
+        "file_size": "97.3 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q5_K_L",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q5_K_L.gguf",
+        "file_size": "106.9 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q5_K_M",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q5_K_M.gguf",
+        "file_size": "106.9 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q5_K_S",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q5_K_S.gguf",
+        "file_size": "104.9 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q6_K",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q6_K.gguf",
+        "file_size": "132.0 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q6_K_L",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q6_K_L.gguf",
+        "file_size": "132.0 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-Q8_0",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q8_0.gguf",
+        "file_size": "138.1 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-Instruct-f16",
+        "path": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-f16.gguf",
+        "file_size": "258.3 MB"
+      }
+    ],
+    "readme": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/README.md",
     "description": ""
   },
   {
