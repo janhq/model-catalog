@@ -44,6 +44,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          BASE_URL: ${{ secrets.BASE_URL }}
         run: |
           python prepare_catalog.py | tee script_output.log
         timeout-minutes: 90
