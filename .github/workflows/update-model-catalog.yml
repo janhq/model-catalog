@@ -32,7 +32,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Set up GitHub CLI
-        run:
+        run: |
           sudo apt-get update
           sudo apt-get install gh -y
 
