@@ -32,9 +32,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Set up GitHub CLI
-        uses: actions4gh/setup-gh@v1.0.2
-        with:
-          token: ${{ secrets.PAT_SERVICE_ACCOUNT }}
+        run:
+          sudo apt-get update
+          sudo apt-get install gh -y
 
       - name: Set date variables
         id: date
