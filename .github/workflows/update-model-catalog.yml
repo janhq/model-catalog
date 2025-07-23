@@ -12,7 +12,7 @@ env:
 
 jobs:
   update-catalog:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22-04
     
     steps:
       - name: Checkout repository
@@ -44,6 +44,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          BASE_URL: ${{ secrets.BASE_URL }}
         run: |
           python prepare_catalog.py | tee script_output.log
         timeout-minutes: 90

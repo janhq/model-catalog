@@ -18,7 +18,7 @@ priority_devs = ["Menlo", "cortexso"]
 DESIRED_TAGS = {"text-generation", "conversational", "llama"}
 
 client = openai.OpenAI(
-    base_url="https://nano.jan.ai/v1",
+    base_url=os.getenv("BASE_URL"),
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
