@@ -20,6 +20,10 @@ priority_devs = ["Menlo", "cortexso"]
 # Tags to look for in the summary metadata
 DESIRED_TAGS = {"text-generation", "conversational", "llama"}
 
+BLACKLISTED_DEVELOPERS = {
+    "TheBloke",
+}
+
 client = openai.OpenAI(
     base_url=os.getenv("BASE_URL"), api_key=os.getenv("OPENAI_API_KEY")
 )
@@ -209,10 +213,18 @@ def get_gguf_model_catalog():
                 continue
 
             processed_models.add(repo_id)
-            print(f"Processing {repo_id}")
-
             model_name = repo_id.split("/")[-1]
             developer = repo_id.split("/")[0]
+
+            # Apply filtering
+            if developer in BLACKLISTED_DEVELOPERS:
+                print(f"Filtering out blacklisted developer: {developer}/{model_name}")
+                continue
+
+            print(f"Processing {repo_id}")
+
+            downloads = summary.get("downloads", 0)
+            createdAt = summary.get("createdAt")
 
             # Create the correct key format
             entry_key = f"{developer}/{model_name}"
@@ -224,7 +236,6 @@ def get_gguf_model_catalog():
                 continue
 
             downloads = summary.get("downloads", 0)
-            createdAt = summary.get("createdAt")
 
             # Check if we need to process this model
             existing_entry = existing_map.get(entry_key)
@@ -426,7 +437,15 @@ def get_gguf_model_catalog():
 
     for entry_key in existing_not_in_api:
         existing_entry = existing_map[entry_key]
-        repo_id = f"{existing_entry.get('developer', '')}/{existing_entry.get('model_name', '')}"
+        developer = existing_entry.get("developer", "")
+        model_name = existing_entry.get("model_name", "")
+        repo_id = f"{developer}/{model_name}"
+
+        # Apply filtering to existing entries too
+        if developer in BLACKLISTED_DEVELOPERS:
+            print(f"Removing blacklisted developer from existing catalog: {repo_id}")
+            del existing_map[entry_key]
+            continue
 
         print(f"Processing existing model not in API: {repo_id}")
 
