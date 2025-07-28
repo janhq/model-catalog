@@ -166,7 +166,7 @@
   {
     "model_name": "Lucy-128k-gguf",
     "developer": "Menlo",
-    "downloads": 4751,
+    "downloads": 5141,
     "createdAt": "2025-07-18T08:52:46.000Z",
     "tools": true,
     "num_quants": 13,
@@ -243,7 +243,7 @@
   {
     "model_name": "Lucy-gguf",
     "developer": "Menlo",
-    "downloads": 3029,
+    "downloads": 3120,
     "createdAt": "2025-07-18T07:04:35.000Z",
     "tools": true,
     "num_quants": 13,
@@ -412,7 +412,7 @@
   {
     "model_name": "AceInstruct-1.5B-GGUF",
     "developer": "Mungert",
-    "downloads": 1585,
+    "downloads": 1603,
     "createdAt": "2025-07-15T11:15:49.000Z",
     "tools": false,
     "num_quants": 34,
@@ -1135,7 +1135,7 @@
   {
     "model_name": "CausalLM-14B-DPO-alpha-GGUF",
     "developer": "tastypear",
-    "downloads": 4234,
+    "downloads": 4240,
     "createdAt": "2023-11-25T15:58:11.000Z",
     "tools": false,
     "num_quants": 7,
@@ -1229,7 +1229,7 @@
   {
     "model_name": "claude-3.7-sonnet-reasoning-gemma3-12B",
     "developer": "reedmayhew",
-    "downloads": 8975,
+    "downloads": 8993,
     "createdAt": "2025-03-22T19:40:09.000Z",
     "tools": false,
     "num_quants": 1,
@@ -1850,7 +1850,7 @@
   {
     "model_name": "DeepHat-V1-7B-GGUF",
     "developer": "mradermacher",
-    "downloads": 397,
+    "downloads": 412,
     "createdAt": "2025-07-22T05:01:10.000Z",
     "tools": true,
     "num_quants": 12,
@@ -1944,7 +1944,7 @@
   {
     "model_name": "DeepSeek-R1-0528-Qwen3-8B-GGUF",
     "developer": "unsloth",
-    "downloads": 1086167,
+    "downloads": 1047198,
     "createdAt": "2025-05-29T14:17:25.000Z",
     "tools": true,
     "num_quants": 26,
@@ -2086,7 +2086,7 @@
   {
     "model_name": "DeepSeek-R1-Distill-Qwen-1.5B-GGUF",
     "developer": "unsloth",
-    "downloads": 21892,
+    "downloads": 21837,
     "createdAt": "2025-01-20T13:47:45.000Z",
     "tools": true,
     "num_quants": 17,
@@ -2179,6 +2179,73 @@
     ],
     "readme": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/resolve/main/README.md",
     "description": "This model is a 1.5B parameter version of DeepSeek-R1, fine-tuned for faster inference with 70% less memory using Unsloth, and can be run with llama.cpp for efficient performance."
+  },
+  {
+    "model_name": "DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF",
+    "developer": "mradermacher",
+    "downloads": 4301,
+    "createdAt": "2025-01-25T01:35:17.000Z",
+    "tools": true,
+    "num_quants": 11,
+    "quants": [
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.IQ4_XS",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.IQ4_XS.gguf",
+        "file_size": "7.6 GB"
+      },
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q2_K",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q2_K.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q3_K_L",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q3_K_L.gguf",
+        "file_size": "7.4 GB"
+      },
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q3_K_M",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q3_K_M.gguf",
+        "file_size": "6.8 GB"
+      },
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q3_K_S",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q3_K_S.gguf",
+        "file_size": "6.2 GB"
+      },
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q4_K_M",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q4_K_M.gguf",
+        "file_size": "8.4 GB"
+      },
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q4_K_S",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q4_K_S.gguf",
+        "file_size": "8.0 GB"
+      },
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q5_K_M",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q5_K_M.gguf",
+        "file_size": "9.8 GB"
+      },
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q5_K_S",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q5_K_S.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q6_K",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q6_K.gguf",
+        "file_size": "11.3 GB"
+      },
+      {
+        "model_id": "DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q8_0",
+        "path": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Uncensored.Q8_0.gguf",
+        "file_size": "14.6 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF/resolve/main/README.md",
+    "description": "This model is a quantized version of the DeepSeek-R1-Distill-Qwen-14B-Uncensored base model, available in various GGUF quantization formats for different performance and quality trade-offs."
   },
   {
     "model_name": "DeepSeek-R1-Distill-Qwen-32B-Uncensored-GGUF",
@@ -2434,7 +2501,7 @@
   {
     "model_name": "Devstral-Small-2505_gguf",
     "developer": "mistralai",
-    "downloads": 14058,
+    "downloads": 4280,
     "createdAt": "2025-05-19T16:34:03.000Z",
     "tools": false,
     "num_quants": 5,
@@ -2471,7 +2538,7 @@
   {
     "model_name": "Devstral-Small-2507-GGUF",
     "developer": "unsloth",
-    "downloads": 58661,
+    "downloads": 60360,
     "createdAt": "2025-07-10T13:20:40.000Z",
     "tools": true,
     "num_quants": 28,
@@ -2623,7 +2690,7 @@
   {
     "model_name": "Devstral-Small-2507_gguf",
     "developer": "mistralai",
-    "downloads": 11601,
+    "downloads": 11986,
     "createdAt": "2025-07-07T12:22:38.000Z",
     "tools": false,
     "num_quants": 4,
@@ -2655,7 +2722,7 @@
   {
     "model_name": "DiffuCoder-7B-cpGRPO-GGUF",
     "developer": "Mungert",
-    "downloads": 1695,
+    "downloads": 1705,
     "createdAt": "2025-07-16T19:37:57.000Z",
     "tools": true,
     "num_quants": 41,
@@ -2870,6 +2937,223 @@
     "description": "This is a GGUF quantized version of the DiffuCoder-7B-Instruct model, enhanced with coupled-GRPO for improved code generation performance and optimized for quantum-ready security checks and network monitoring tasks."
   },
   {
+    "model_name": "DiffuCoder-7B-Instruct-GGUF",
+    "developer": "Mungert",
+    "downloads": 1965,
+    "createdAt": "2025-07-17T15:51:36.000Z",
+    "tools": true,
+    "num_quants": 41,
+    "quants": [
+      {
+        "model_id": "DiffuCoder-7B-Instruct-bf16",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-bf16.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-bf16_q4_k.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-bf16_q6_k.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-bf16_q8_0.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-f16",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-f16.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-f16_q4_k.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-f16_q6_k.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-f16_q8_0.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-iq2_m",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-iq2_m.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-iq2_s",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-iq2_s.gguf",
+        "file_size": "2.7 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-iq2_xs",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-iq2_xs.gguf",
+        "file_size": "2.6 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-iq2_xxs.gguf",
+        "file_size": "2.5 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-iq3_m",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-iq3_m.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-iq3_s",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-iq3_s.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-iq3_xs",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-iq3_xs.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-iq3_xxs.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-iq4_nl",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-iq4_nl.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-iq4_xs",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-iq4_xs.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q2_k_l",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q2_k_l.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q2_k_m",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q2_k_m.gguf",
+        "file_size": "3.0 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q2_k_s",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q2_k_s.gguf",
+        "file_size": "2.9 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q3_k_l",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q3_k_l.gguf",
+        "file_size": "4.0 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q3_k_m",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q3_k_m.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q3_k_s",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q3_k_s.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q4_0",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q4_0.gguf",
+        "file_size": "4.0 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q4_0_l",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q4_0_l.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q4_1",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q4_1.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q4_1_l",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q4_1_l.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q4_k_l",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q4_k_l.gguf",
+        "file_size": "4.7 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q4_k_m",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q4_k_m.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q4_k_s",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q4_k_s.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q5_0",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q5_0.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q5_0_l",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q5_0_l.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q5_1",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q5_1.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q5_1_l",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q5_1_l.gguf",
+        "file_size": "5.6 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q5_k_l",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q5_k_l.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q5_k_m",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q5_k_m.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q5_k_s",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q5_k_s.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q6_k_l",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q6_k_l.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q6_k_m",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q6_k_m.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "DiffuCoder-7B-Instruct-q8_0",
+        "path": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/DiffuCoder-7B-Instruct-q8_0.gguf",
+        "file_size": "7.5 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/Mungert/DiffuCoder-7B-Instruct-GGUF/resolve/main/README.md",
+    "description": "The DiffuCoder-7B-Instruct model is a code-related text diffusion model based on the DiffuCoder-7B-Base checkpoint, trained with instruction-tuning and optimized for performance using a custom quantization approach."
+  },
+  {
     "model_name": "dolphin-2.9.3-mistral-7B-32k-GGUF",
     "developer": "mradermacher",
     "downloads": 793,
@@ -3044,10 +3328,238 @@
     "tools": false
   },
   {
+    "model_name": "Dolphin-Mistral-24B-Venice-Edition-GGUF",
+    "developer": "Mungert",
+    "downloads": 584,
+    "createdAt": "2025-07-23T11:58:09.000Z",
+    "tools": false,
+    "num_quants": 43,
+    "quants": [
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-bf16",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-bf16.gguf",
+        "file_size": "43.9 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-bf16_q4_k.gguf",
+        "file_size": "24.5 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-bf16_q6_k.gguf",
+        "file_size": "28.0 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-bf16_q8_0.gguf",
+        "file_size": "31.3 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-f16",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-f16.gguf",
+        "file_size": "43.9 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-f16_q4_k.gguf",
+        "file_size": "24.5 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-f16_q6_k.gguf",
+        "file_size": "28.0 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-f16_q8_0.gguf",
+        "file_size": "31.3 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq1_m",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq1_m.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq1_s",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq1_s.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq2_m",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq2_m.gguf",
+        "file_size": "8.1 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq2_s",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq2_s.gguf",
+        "file_size": "7.7 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq2_xs",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq2_xs.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq2_xxs.gguf",
+        "file_size": "6.9 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq3_m",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq3_m.gguf",
+        "file_size": "10.6 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq3_s",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq3_s.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq3_xs",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq3_xs.gguf",
+        "file_size": "9.4 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq3_xxs.gguf",
+        "file_size": "9.2 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq4_nl",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq4_nl.gguf",
+        "file_size": "12.5 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-iq4_xs",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-iq4_xs.gguf",
+        "file_size": "11.9 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q2_k_l",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q2_k_l.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q2_k_m",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q2_k_m.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q2_k_s",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q2_k_s.gguf",
+        "file_size": "8.5 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q3_k_l",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q3_k_l.gguf",
+        "file_size": "11.2 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q3_k_m",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q3_k_m.gguf",
+        "file_size": "10.9 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q3_k_s",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q3_k_s.gguf",
+        "file_size": "10.7 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q4_0",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q4_0.gguf",
+        "file_size": "12.4 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q4_0_l",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q4_0_l.gguf",
+        "file_size": "13.0 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q4_1",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q4_1.gguf",
+        "file_size": "13.7 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q4_1_l",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q4_1_l.gguf",
+        "file_size": "14.3 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q4_k_l",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q4_k_l.gguf",
+        "file_size": "13.8 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q4_k_m",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q4_k_m.gguf",
+        "file_size": "13.5 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q4_k_s",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q4_k_s.gguf",
+        "file_size": "12.9 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q5_0",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q5_0.gguf",
+        "file_size": "15.1 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q5_0_l",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q5_0_l.gguf",
+        "file_size": "15.6 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q5_1",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q5_1.gguf",
+        "file_size": "16.5 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q5_1_l",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q5_1_l.gguf",
+        "file_size": "16.9 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q5_k_l",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q5_k_l.gguf",
+        "file_size": "16.0 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q5_k_m",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q5_k_m.gguf",
+        "file_size": "15.7 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q5_k_s",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q5_k_s.gguf",
+        "file_size": "15.5 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q6_k_l",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q6_k_l.gguf",
+        "file_size": "18.3 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q6_k_m",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q6_k_m.gguf",
+        "file_size": "18.0 GB"
+      },
+      {
+        "model_id": "Dolphin-Mistral-24B-Venice-Edition-q8_0",
+        "path": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/Dolphin-Mistral-24B-Venice-Edition-q8_0.gguf",
+        "file_size": "23.3 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/Mungert/Dolphin-Mistral-24B-Venice-Edition-GGUF/resolve/main/README.md",
+    "description": "This model is a quantized version of Mistral-Small-24B-Instruct-2501, optimized for performance with selective layer precision enhancement beyond standard IMatrix quantization."
+  },
+  {
     "model_name": "Dolphin3.0-Llama3.1-8B-GGUF",
     "developer": "dphn",
-    "downloads": 34099,
+    "downloads": 31852,
     "createdAt": "2025-01-02T22:11:05.000Z",
+    "tools": false,
     "num_quants": 18,
     "quants": [
       {
@@ -3142,8 +3654,224 @@
       }
     ],
     "readme": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/README.md",
-    "description": "",
-    "tools": false
+    "description": "Dolphin 3.0 Llama 3.1 8B is a general-purpose instruct-tuned model designed for coding, math, agentic, and function calling tasks, offering full control to the user through customizable system prompts and data ownership."
+  },
+  {
+    "model_name": "Dolphin3.0-Llama3.2-3B-GGUF",
+    "developer": "Mungert",
+    "downloads": 175,
+    "createdAt": "2025-07-25T05:14:52.000Z",
+    "tools": true,
+    "num_quants": 41,
+    "quants": [
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-bf16",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-bf16.gguf",
+        "file_size": "6.0 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-bf16_q4_k.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-bf16_q6_k.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-bf16_q8_0.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-f16",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-f16.gguf",
+        "file_size": "6.0 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-f16_q4_k.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-f16_q6_k.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-f16_q8_0.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-iq2_m",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-iq2_m.gguf",
+        "file_size": "1.2 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-iq2_s",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-iq2_s.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-iq2_xs",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-iq2_xs.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-iq2_xxs.gguf",
+        "file_size": "1.0 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-iq3_m",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-iq3_m.gguf",
+        "file_size": "1.5 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-iq3_s",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-iq3_s.gguf",
+        "file_size": "1.5 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-iq3_xs",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-iq3_xs.gguf",
+        "file_size": "1.3 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-iq3_xxs.gguf",
+        "file_size": "1.3 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-iq4_nl",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-iq4_nl.gguf",
+        "file_size": "1.8 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-iq4_xs",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-iq4_xs.gguf",
+        "file_size": "1.7 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q2_k_l",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q2_k_l.gguf",
+        "file_size": "1.4 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q2_k_m",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q2_k_m.gguf",
+        "file_size": "1.3 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q2_k_s",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q2_k_s.gguf",
+        "file_size": "1.2 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q3_k_l",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q3_k_l.gguf",
+        "file_size": "1.7 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q3_k_m",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q3_k_m.gguf",
+        "file_size": "1.6 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q3_k_s",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q3_k_s.gguf",
+        "file_size": "1.5 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q4_0",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q4_0.gguf",
+        "file_size": "1.7 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q4_0_l",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q4_0_l.gguf",
+        "file_size": "1.9 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q4_1",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q4_1.gguf",
+        "file_size": "1.9 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q4_1_l",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q4_1_l.gguf",
+        "file_size": "2.0 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q4_k_l",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q4_k_l.gguf",
+        "file_size": "2.0 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q4_k_m",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q4_k_m.gguf",
+        "file_size": "1.9 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q4_k_s",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q4_k_s.gguf",
+        "file_size": "1.8 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q5_0",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q5_0.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q5_0_l",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q5_0_l.gguf",
+        "file_size": "2.2 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q5_1",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q5_1.gguf",
+        "file_size": "2.3 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q5_1_l",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q5_1_l.gguf",
+        "file_size": "2.4 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q5_k_l",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q5_k_l.gguf",
+        "file_size": "2.3 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q5_k_m",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q5_k_m.gguf",
+        "file_size": "2.2 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q5_k_s",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q5_k_s.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q6_k_l",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q6_k_l.gguf",
+        "file_size": "2.6 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q6_k_m",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q6_k_m.gguf",
+        "file_size": "2.5 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.2-3B-q8_0",
+        "path": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-q8_0.gguf",
+        "file_size": "3.2 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/Mungert/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/README.md",
+    "description": "This repository provides the Dolphin 3.0 Llama 3.2 3B GGUF models, which are instruct-tuned for coding, math, agentic, and function calling tasks, with a focus on being a customizable and controllable local AI model."
   },
   {
     "model_name": "Dream-org_Dream-v0-Instruct-7B-GGUF",
@@ -3534,7 +4262,7 @@
   {
     "model_name": "EXAONE-4.0-1.2B-GGUF",
     "developer": "LGAI-EXAONE",
-    "downloads": 5994,
+    "downloads": 6165,
     "createdAt": "2025-07-11T07:03:24.000Z",
     "tools": true,
     "num_quants": 6,
@@ -4337,6 +5065,238 @@
     "tools": true
   },
   {
+    "model_name": "functionary-v4r-small-preview-GGUF",
+    "developer": "Mungert",
+    "downloads": 126,
+    "createdAt": "2025-03-23T18:56:56.000Z",
+    "tools": true,
+    "num_quants": 44,
+    "quants": [
+      {
+        "model_id": "functionary-v4r-small-preview-bf16-q4_k",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-bf16-q4_k.gguf",
+        "file_size": "5.9 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-bf16-q6_k",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-bf16-q6_k.gguf",
+        "file_size": "7.3 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-bf16-q8_0",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-bf16-q8_0.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-bf16",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-bf16.gguf",
+        "file_size": "15.0 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-f16-q4_k",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-f16-q4_k.gguf",
+        "file_size": "5.9 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-f16-q6_k",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-f16-q6_k.gguf",
+        "file_size": "7.3 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-f16-q8_0",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-f16-q8_0.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-f16",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-f16.gguf",
+        "file_size": "15.0 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq1_m",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq1_m.gguf",
+        "file_size": "2.4 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq1_s",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq1_s.gguf",
+        "file_size": "2.3 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq2_m",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq2_m.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq2_s",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq2_s.gguf",
+        "file_size": "3.0 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq2_xs",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq2_xs.gguf",
+        "file_size": "2.7 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq2_xxs.gguf",
+        "file_size": "2.5 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq3_m",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq3_m.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq3_s",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq3_s.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq3_xs",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq3_xs.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq3_xxs.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq4_nl",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq4_nl.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-iq4_xs",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-iq4_xs.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q2_k_l",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q2_k_l.gguf",
+        "file_size": "3.4 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q2_k_s",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q2_k_s.gguf",
+        "file_size": "2.9 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q3_k_l",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q3_k_l.gguf",
+        "file_size": "4.2 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q3_k_m",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q3_k_m.gguf",
+        "file_size": "3.8 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q3_k_s",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q3_k_s.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q4_0",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q4_0.gguf",
+        "file_size": "4.2 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q4_0_l",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q4_0_l.gguf",
+        "file_size": "4.7 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q4_1",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q4_1.gguf",
+        "file_size": "4.7 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q4_1_l",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q4_1_l.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q4_k_l",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q4_k_l.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q4_k_m",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q4_k_m.gguf",
+        "file_size": "4.7 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q4_k_s",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q4_k_s.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q5_0",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q5_0.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q5_0_l",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q5_0_l.gguf",
+        "file_size": "5.5 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q5_1",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q5_1.gguf",
+        "file_size": "5.6 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q5_1_l",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q5_1_l.gguf",
+        "file_size": "5.9 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q5_k_l",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q5_k_l.gguf",
+        "file_size": "5.6 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q5_k_m",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q5_k_m.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q5_k_s",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q5_k_s.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q6_k_l",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q6_k_l.gguf",
+        "file_size": "6.4 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q6_k_m",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q6_k_m.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-q8_0",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-q8_0.gguf",
+        "file_size": "8.0 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-tq1_0",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-tq1_0.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "functionary-v4r-small-preview-tq2_0",
+        "path": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/functionary-v4r-small-preview-tq2_0.gguf",
+        "file_size": "2.4 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/Mungert/functionary-v4r-small-preview-GGUF/resolve/main/README.md",
+    "description": "This model is an ultra-low-bit quantized version of Llama-3-8B-Instruct with precision-adaptive quantization (1-2 bit) for extreme memory efficiency and improved accuracy, suitable for CPU and low-VRAM inference."
+  },
+  {
     "model_name": "gemma-2-2b-it-GGUF",
     "developer": "bartowski",
     "downloads": 119886,
@@ -4406,7 +5366,7 @@
   {
     "model_name": "gemma-2b",
     "developer": "google",
-    "downloads": 212213,
+    "downloads": 212179,
     "createdAt": "2024-02-08T08:11:26.000Z",
     "tools": false,
     "num_quants": 1,
@@ -4423,7 +5383,7 @@
   {
     "model_name": "gemma-2b-it",
     "developer": "google",
-    "downloads": 139963,
+    "downloads": 139202,
     "createdAt": "2024-02-08T13:23:59.000Z",
     "tools": false,
     "num_quants": 1,
@@ -4440,7 +5400,7 @@
   {
     "model_name": "gemma-3-12b-it-GGUF",
     "developer": "unsloth",
-    "downloads": 52112,
+    "downloads": 53284,
     "createdAt": "2025-03-12T10:34:12.000Z",
     "tools": false,
     "num_quants": 29,
@@ -4918,7 +5878,7 @@
   {
     "model_name": "gemma-3-1b-it-qat-q4_0-gguf",
     "developer": "google",
-    "downloads": 2627,
+    "downloads": 2628,
     "createdAt": "2025-03-10T22:42:41.000Z",
     "tools": false,
     "num_quants": 1,
@@ -5024,7 +5984,7 @@
   {
     "model_name": "gemma-3-27b-it-qat-q4_0-gguf",
     "developer": "google",
-    "downloads": 7303,
+    "downloads": 7295,
     "createdAt": "2025-03-20T22:44:27.000Z",
     "tools": false,
     "num_quants": 2,
@@ -5203,7 +6163,7 @@
   {
     "model_name": "gemma-3-4b-it-qat-q4_0-gguf",
     "developer": "google",
-    "downloads": 6924,
+    "downloads": 6749,
     "createdAt": "2025-03-12T20:43:28.000Z",
     "tools": false,
     "num_quants": 2,
@@ -5225,7 +6185,7 @@
   {
     "model_name": "gemma-3n-E2B-it-GGUF",
     "developer": "unsloth",
-    "downloads": 121480,
+    "downloads": 120062,
     "createdAt": "2025-06-26T12:24:52.000Z",
     "tools": false,
     "num_quants": 24,
@@ -5384,7 +6344,7 @@
   {
     "model_name": "gemma-3n-E4B-it-GGUF",
     "developer": "unsloth",
-    "downloads": 237975,
+    "downloads": 237214,
     "createdAt": "2025-06-26T12:24:35.000Z",
     "tools": false,
     "num_quants": 24,
@@ -5560,7 +6520,7 @@
   {
     "model_name": "gemma-7b-it",
     "developer": "google",
-    "downloads": 72485,
+    "downloads": 73029,
     "createdAt": "2024-02-13T01:07:30.000Z",
     "tools": false,
     "num_quants": 1,
@@ -5577,7 +6537,7 @@
   {
     "model_name": "Gemma-The-Writer-N-Restless-Quill-10B-Uncensored-GGUF",
     "developer": "DavidAU",
-    "downloads": 17340,
+    "downloads": 17619,
     "createdAt": "2024-10-25T00:19:23.000Z",
     "tools": false,
     "num_quants": 22,
@@ -5840,145 +6800,205 @@
   },
   {
     "model_name": "GLM-4.1V-9B-Thinking-GGUF",
-    "developer": "unsloth",
-    "downloads": 0,
-    "createdAt": "2025-07-25T11:47:05.000Z",
+    "developer": "Mungert",
+    "downloads": 2212,
+    "createdAt": "2025-07-24T12:02:11.000Z",
     "tools": false,
-    "num_quants": 26,
+    "num_quants": 38,
     "quants": [
       {
-        "model_id": "GLM-4.1V-9B-Thinking-BF16",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-BF16.gguf",
+        "model_id": "GLM-4.1V-9B-Thinking-bf16",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-bf16.gguf",
         "file_size": "17.5 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-IQ4_NL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-IQ4_NL.gguf",
+        "model_id": "GLM-4.1V-9B-Thinking-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-bf16_q4_k.gguf",
+        "file_size": "10.6 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-bf16_q6_k.gguf",
+        "file_size": "11.8 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-bf16_q8_0.gguf",
+        "file_size": "13.0 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-f16",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-f16.gguf",
+        "file_size": "17.5 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-f16_q4_k.gguf",
+        "file_size": "10.6 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-f16_q6_k.gguf",
+        "file_size": "11.8 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-f16_q8_0.gguf",
+        "file_size": "13.0 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-iq2_m",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-iq2_m.gguf",
+        "file_size": "3.8 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-iq2_s",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-iq2_s.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-iq2_xs",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-iq2_xs.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-iq2_xxs.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-iq3_m",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-iq3_m.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-iq3_s",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-iq3_s.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-iq3_xs",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-iq3_xs.gguf",
+        "file_size": "4.2 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-iq3_xxs.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-iq4_nl",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-iq4_nl.gguf",
         "file_size": "5.1 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-IQ4_XS",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-IQ4_XS.gguf",
+        "model_id": "GLM-4.1V-9B-Thinking-iq4_xs",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-iq4_xs.gguf",
         "file_size": "4.9 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-Q2_K",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q2_K.gguf",
-        "file_size": "3.7 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q2_K_L",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q2_K_L.gguf",
-        "file_size": "3.9 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q3_K_M",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q3_K_M.gguf",
-        "file_size": "4.6 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q3_K_S",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q3_K_S.gguf",
+        "model_id": "GLM-4.1V-9B-Thinking-q2_k_l",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q2_k_l.gguf",
         "file_size": "4.3 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-Q4_0",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_0.gguf",
+        "model_id": "GLM-4.1V-9B-Thinking-q2_k_m",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q2_k_m.gguf",
+        "file_size": "4.0 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-q2_k_s",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q2_k_s.gguf",
+        "file_size": "3.8 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-q3_k_l",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q3_k_l.gguf",
         "file_size": "5.1 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-Q4_1",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_1.gguf",
-        "file_size": "5.6 GB"
+        "model_id": "GLM-4.1V-9B-Thinking-q3_k_m",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q3_k_m.gguf",
+        "file_size": "4.9 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-Q4_K_M",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_K_M.gguf",
-        "file_size": "5.7 GB"
+        "model_id": "GLM-4.1V-9B-Thinking-q4_0",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q4_0.gguf",
+        "file_size": "4.9 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-Q4_K_S",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_K_S.gguf",
-        "file_size": "5.4 GB"
+        "model_id": "GLM-4.1V-9B-Thinking-q4_0_l",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q4_0_l.gguf",
+        "file_size": "5.5 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-Q5_K_M",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q5_K_M.gguf",
-        "file_size": "6.6 GB"
+        "model_id": "GLM-4.1V-9B-Thinking-q4_1",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q4_1.gguf",
+        "file_size": "5.5 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-Q5_K_S",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q5_K_S.gguf",
+        "model_id": "GLM-4.1V-9B-Thinking-q4_1_l",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q4_1_l.gguf",
+        "file_size": "6.0 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-q4_k_l",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q4_k_l.gguf",
         "file_size": "6.2 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-Q6_K",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q6_K.gguf",
-        "file_size": "7.7 GB"
+        "model_id": "GLM-4.1V-9B-Thinking-q4_k_m",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q4_k_m.gguf",
+        "file_size": "5.9 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-Q8_0",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q8_0.gguf",
-        "file_size": "9.3 GB"
+        "model_id": "GLM-4.1V-9B-Thinking-q5_0",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q5_0.gguf",
+        "file_size": "6.0 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ1_M",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ1_M.gguf",
-        "file_size": "3.1 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ1_S",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ1_S.gguf",
-        "file_size": "3.0 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ2_M",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ2_M.gguf",
-        "file_size": "3.7 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ2_XXS",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ2_XXS.gguf",
-        "file_size": "3.3 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ3_XXS",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ3_XXS.gguf",
-        "file_size": "3.9 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q2_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q2_K_XL.gguf",
-        "file_size": "3.9 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q3_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q3_K_XL.gguf",
-        "file_size": "4.8 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q4_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q4_K_XL.gguf",
-        "file_size": "5.8 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q5_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q5_K_XL.gguf",
+        "model_id": "GLM-4.1V-9B-Thinking-q5_0_l",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q5_0_l.gguf",
         "file_size": "6.5 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q6_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q6_K_XL.gguf",
-        "file_size": "8.3 GB"
+        "model_id": "GLM-4.1V-9B-Thinking-q5_1",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q5_1.gguf",
+        "file_size": "6.6 GB"
       },
       {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q8_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q8_K_XL.gguf",
-        "file_size": "11.2 GB"
+        "model_id": "GLM-4.1V-9B-Thinking-q5_1_l",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q5_1_l.gguf",
+        "file_size": "6.9 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-q5_k_l",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q5_k_l.gguf",
+        "file_size": "6.9 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-q5_k_m",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q5_k_m.gguf",
+        "file_size": "6.7 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-q6_k_l",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q6_k_l.gguf",
+        "file_size": "8.0 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-q6_k_m",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q6_k_m.gguf",
+        "file_size": "7.7 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-q8_0",
+        "path": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-q8_0.gguf",
+        "file_size": "9.3 GB"
       }
     ],
-    "readme": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/README.md",
-    "description": "This is a 9B-parameter vision-language model (GLM-4.1V-9B-Thinking) that enhances reasoning capabilities through a thinking paradigm and reinforcement learning, achieving state-of-the-art performance on 18 benchmark tasks."
+    "readme": "https://huggingface.co/Mungert/GLM-4.1V-9B-Thinking-GGUF/resolve/main/README.md",
+    "description": "This is a GGUF quantized version of the GLM-4.1V-9B-Thinking model, optimized for reasoning tasks with improved precision for key layers and supporting both Chinese and English."
   },
   {
     "model_name": "google_gemma-3n-E2B-it-GGUF",
@@ -6354,7 +7374,7 @@
   {
     "model_name": "granite-4.0-tiny-preview-GGUF",
     "developer": "Mungert",
-    "downloads": 767,
+    "downloads": 822,
     "createdAt": "2025-07-22T07:07:31.000Z",
     "tools": false,
     "num_quants": 41,
@@ -7149,7 +8169,7 @@
   {
     "model_name": "KAT-V1-40B-i1-GGUF",
     "developer": "mradermacher",
-    "downloads": 935,
+    "downloads": 1008,
     "createdAt": "2025-07-22T07:40:11.000Z",
     "tools": true,
     "num_quants": 23,
@@ -7527,7 +8547,7 @@
   {
     "model_name": "L3-8B-Stheno-v3.3-32K-GGUF-IQ-Imatrix",
     "developer": "Lewdiculous",
-    "downloads": 885,
+    "downloads": 920,
     "createdAt": "2024-06-23T20:13:10.000Z",
     "tools": false,
     "num_quants": 12,
@@ -7803,7 +8823,7 @@
   {
     "model_name": "LFM2-1.2B-GGUF",
     "developer": "LiquidAI",
-    "downloads": 20069,
+    "downloads": 21066,
     "createdAt": "2025-07-12T12:01:44.000Z",
     "tools": false,
     "num_quants": 6,
@@ -8414,7 +9434,7 @@
   {
     "model_name": "Llama-3.2-3B-Instruct-GGUF",
     "developer": "bartowski",
-    "downloads": 337498,
+    "downloads": 331976,
     "createdAt": "2024-09-25T18:35:33.000Z",
     "tools": false,
     "num_quants": 18,
@@ -8516,7 +9536,7 @@
   {
     "model_name": "Llama-3.2-4X3B-MOE-Hell-California-Uncensored-10B-GGUF",
     "developer": "DavidAU",
-    "downloads": 5987,
+    "downloads": 5956,
     "createdAt": "2024-12-12T01:30:01.000Z",
     "tools": false,
     "num_quants": 14,
@@ -8710,7 +9730,7 @@
   {
     "model_name": "Llama-3.2-8X3B-MOE-Dark-Champion-Instruct-uncensored-abliterated-18.4B-GGUF",
     "developer": "DavidAU",
-    "downloads": 90335,
+    "downloads": 92346,
     "createdAt": "2024-12-10T13:12:37.000Z",
     "tools": false,
     "num_quants": 14,
@@ -8792,8 +9812,9 @@
   {
     "model_name": "Llama-3.2-8X4B-MOE-V2-Dark-Champion-Instruct-uncensored-abliterated-21B-GGUF",
     "developer": "DavidAU",
-    "downloads": 10843,
+    "downloads": 10597,
     "createdAt": "2025-02-12T00:29:33.000Z",
+    "tools": false,
     "num_quants": 11,
     "quants": [
       {
@@ -8853,8 +9874,149 @@
       }
     ],
     "readme": "https://huggingface.co/DavidAU/Llama-3.2-8X4B-MOE-V2-Dark-Champion-Instruct-uncensored-abliterated-21B-GGUF/resolve/main/README.md",
-    "description": "",
-    "tools": false
+    "description": "This is a Llama-3.2-8X4B-MOE-V2-Dark-Champion-Instruct-uncensored-abliterated-21B-GGUF model, a powerful mixture of 8 top L3.2 4B models combined into a 21"
+  },
+  {
+    "model_name": "Llama-3_3-Nemotron-Super-49B-v1_5-GGUF",
+    "developer": "gabriellarson",
+    "downloads": 291,
+    "createdAt": "2025-07-25T23:29:14.000Z",
+    "tools": true,
+    "num_quants": 26,
+    "quants": [
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ1_M",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ1_M.gguf",
+        "file_size": "11.2 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ1_S",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ1_S.gguf",
+        "file_size": "10.3 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ2_M",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ2_M.gguf",
+        "file_size": "16.0 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ2_S",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ2_S.gguf",
+        "file_size": "14.8 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ2_XS",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ2_XS.gguf",
+        "file_size": "14.0 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ2_XXS",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ2_XXS.gguf",
+        "file_size": "12.7 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ3_M",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ3_M.gguf",
+        "file_size": "21.1 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ3_S",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ3_S.gguf",
+        "file_size": "20.4 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ3_XS",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ3_XS.gguf",
+        "file_size": "19.5 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ3_XXS",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ3_XXS.gguf",
+        "file_size": "18.2 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ4_NL",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ4_NL.gguf",
+        "file_size": "26.4 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-IQ4_XS",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-IQ4_XS.gguf",
+        "file_size": "25.0 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q2_K",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q2_K.gguf",
+        "file_size": "17.5 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q2_K_S",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q2_K_S.gguf",
+        "file_size": "16.3 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q3_K_L",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q3_K_L.gguf",
+        "file_size": "24.5 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q3_K_M",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q3_K_M.gguf",
+        "file_size": "22.6 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q3_K_S",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q3_K_S.gguf",
+        "file_size": "20.4 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q4_0",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q4_0.gguf",
+        "file_size": "26.5 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q4_K_M",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q4_K_M.gguf",
+        "file_size": "28.1 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q4_K_S",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q4_K_S.gguf",
+        "file_size": "26.7 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q5_0",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q5_0.gguf",
+        "file_size": "32.2 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q5_K_M",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q5_K_M.gguf",
+        "file_size": "33.0 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q5_K_S",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q5_K_S.gguf",
+        "file_size": "32.1 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q6_K",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q6_K.gguf",
+        "file_size": "38.1 GB"
+      },
+      {
+        "model_id": "Llama-3_3-Nemotron-Super-49B-v1_5-Q8_0",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-3_3-Nemotron-Super-49B-v1_5-Q8_0.gguf",
+        "file_size": "49.4 GB"
+      },
+      {
+        "model_id": "Llama-49B-3_3-Nemotron-Super-v1_5-F16",
+        "path": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/Llama-49B-3_3-Nemotron-Super-v1_5-F16.gguf",
+        "file_size": "92.9 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF/resolve/main/README.md",
+    "description": "The Llama-3.3-Nemotron-Super-49B-v1.5 is a large language model derived from Meta's Llama-3.3-70B-Instruct, optimized for reasoning and chat tasks with a 128K token context length, enhanced"
   },
   {
     "model_name": "llama-joycaption-beta-one-hf-llava-mmproj-gguf",
@@ -8978,7 +10140,7 @@
   {
     "model_name": "Llama-xLAM-2-8b-fc-r-GGUF",
     "developer": "Mungert",
-    "downloads": 566,
+    "downloads": 525,
     "createdAt": "2025-06-21T07:38:01.000Z",
     "tools": true,
     "num_quants": 41,
@@ -9307,7 +10469,7 @@
   {
     "model_name": "Magistral-Small-2506-GGUF",
     "developer": "unsloth",
-    "downloads": 64725,
+    "downloads": 60497,
     "createdAt": "2025-06-10T07:31:42.000Z",
     "tools": false,
     "num_quants": 27,
@@ -9475,35 +10637,145 @@
   },
   {
     "model_name": "Magistral-Small-2507-GGUF",
-    "developer": "lmstudio-community",
-    "downloads": 595,
-    "createdAt": "2025-07-23T17:13:56.000Z",
+    "developer": "unsloth",
+    "downloads": 1022,
+    "createdAt": "2025-07-24T21:29:04.000Z",
     "tools": true,
-    "num_quants": 4,
+    "num_quants": 26,
     "quants": [
       {
-        "model_id": "Magistral-Small-2507-Q3_K_L",
-        "path": "https://huggingface.co/lmstudio-community/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q3_K_L.gguf",
-        "file_size": "11.5 GB"
+        "model_id": "Magistral-Small-2507-BF16",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-BF16.gguf",
+        "file_size": "43.9 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-IQ4_NL",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-IQ4_NL.gguf",
+        "file_size": "12.5 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-IQ4_XS",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-IQ4_XS.gguf",
+        "file_size": "11.9 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-Q2_K",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q2_K.gguf",
+        "file_size": "8.3 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-Q2_K_L",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q2_K_L.gguf",
+        "file_size": "8.4 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-Q3_K_M",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q3_K_M.gguf",
+        "file_size": "10.7 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-Q3_K_S",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q3_K_S.gguf",
+        "file_size": "9.7 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-Q4_0",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q4_0.gguf",
+        "file_size": "12.6 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-Q4_1",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q4_1.gguf",
+        "file_size": "13.9 GB"
       },
       {
         "model_id": "Magistral-Small-2507-Q4_K_M",
-        "path": "https://huggingface.co/lmstudio-community/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q4_K_M.gguf",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q4_K_M.gguf",
         "file_size": "13.3 GB"
       },
       {
+        "model_id": "Magistral-Small-2507-Q4_K_S",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q4_K_S.gguf",
+        "file_size": "12.6 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-Q5_K_M",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q5_K_M.gguf",
+        "file_size": "15.6 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-Q5_K_S",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q5_K_S.gguf",
+        "file_size": "15.2 GB"
+      },
+      {
         "model_id": "Magistral-Small-2507-Q6_K",
-        "path": "https://huggingface.co/lmstudio-community/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q6_K.gguf",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q6_K.gguf",
         "file_size": "18.0 GB"
       },
       {
         "model_id": "Magistral-Small-2507-Q8_0",
-        "path": "https://huggingface.co/lmstudio-community/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q8_0.gguf",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-Q8_0.gguf",
         "file_size": "23.3 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-IQ1_M",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-IQ1_M.gguf",
+        "file_size": "5.6 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-IQ1_S",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-IQ1_S.gguf",
+        "file_size": "5.2 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-IQ2_M",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-IQ2_M.gguf",
+        "file_size": "7.7 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-IQ2_XXS",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-IQ2_XXS.gguf",
+        "file_size": "6.3 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-IQ3_XXS",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-IQ3_XXS.gguf",
+        "file_size": "8.8 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-Q2_K_XL",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-Q2_K_XL.gguf",
+        "file_size": "8.7 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-Q3_K_XL",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-Q3_K_XL.gguf",
+        "file_size": "11.0 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-Q4_K_XL",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-Q4_K_XL.gguf",
+        "file_size": "13.5 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-Q5_K_XL",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-Q5_K_XL.gguf",
+        "file_size": "15.6 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-Q6_K_XL",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-Q6_K_XL.gguf",
+        "file_size": "19.4 GB"
+      },
+      {
+        "model_id": "Magistral-Small-2507-UD-Q8_K_XL",
+        "path": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/Magistral-Small-2507-UD-Q8_K_XL.gguf",
+        "file_size": "27.0 GB"
       }
     ],
-    "readme": "https://huggingface.co/lmstudio-community/Magistral-Small-2507-GGUF/resolve/main/README.md",
-    "description": "This GGUF quantized version of the Magistral-Small-2507 model by mistralai is provided by LM Studio using llama.cpp release b5980."
+    "readme": "https://huggingface.co/unsloth/Magistral-Small-2507-GGUF/resolve/main/README.md",
+    "description": "Magistral Small 1.1 is a multilingual, efficient reasoning model with 24B parameters, supporting dozens of languages and offering SOTA performance in model quantization, optimized for deployment on a single RTX 4090 or 32GB RAM MacBook."
   },
   {
     "model_name": "medgemma-4b-it-GGUF",
@@ -10262,7 +11534,7 @@
   {
     "model_name": "Mistral-MOE-4X7B-Dark-MultiVerse-Uncensored-Enhanced32-24B-gguf",
     "developer": "DavidAU",
-    "downloads": 5971,
+    "downloads": 6223,
     "createdAt": "2024-12-26T11:22:27.000Z",
     "tools": false,
     "num_quants": 19,
@@ -10640,7 +11912,7 @@
   {
     "model_name": "Mistral-Small-3.2-24B-Instruct-2506-GGUF",
     "developer": "unsloth",
-    "downloads": 105160,
+    "downloads": 78154,
     "createdAt": "2025-06-20T22:27:21.000Z",
     "tools": true,
     "num_quants": 29,
@@ -11091,7 +12363,7 @@
   {
     "model_name": "mistralai_Magistral-Small-2507-GGUF",
     "developer": "bartowski",
-    "downloads": 624,
+    "downloads": 2169,
     "createdAt": "2025-07-24T16:40:51.000Z",
     "tools": true,
     "num_quants": 27,
@@ -12022,7 +13294,7 @@
   {
     "model_name": "MythoMakiseMerged-13b",
     "developer": "Heralax",
-    "downloads": 280,
+    "downloads": 288,
     "createdAt": "2023-09-30T06:59:22.000Z",
     "tools": false,
     "num_quants": 2,
@@ -12071,7 +13343,7 @@
   {
     "model_name": "NemoMix-Unleashed-12B-GGUF",
     "developer": "bartowski",
-    "downloads": 23087,
+    "downloads": 23568,
     "createdAt": "2024-08-22T04:03:49.000Z",
     "tools": false,
     "num_quants": 20,
@@ -12179,6 +13451,223 @@
     ],
     "readme": "https://huggingface.co/bartowski/NemoMix-Unleashed-12B-GGUF/resolve/main/README.md",
     "description": "This repository provides quantized versions of the NemoMix-Unleashed-12B model for efficient text generation on various platforms, with recommendations based on system resources and performance needs."
+  },
+  {
+    "model_name": "NextCoder-7B-GGUF",
+    "developer": "Mungert",
+    "downloads": 1353,
+    "createdAt": "2025-07-10T20:19:08.000Z",
+    "tools": true,
+    "num_quants": 41,
+    "quants": [
+      {
+        "model_id": "NextCoder-7B-bf16",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-bf16.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-bf16_q4_k.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-bf16_q6_k.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-bf16_q8_0.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-f16",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-f16.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-f16_q4_k.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-f16_q6_k.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-f16_q8_0.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-iq2_m",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-iq2_m.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-iq2_s",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-iq2_s.gguf",
+        "file_size": "2.7 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-iq2_xs",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-iq2_xs.gguf",
+        "file_size": "2.6 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-iq2_xxs.gguf",
+        "file_size": "2.5 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-iq3_m",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-iq3_m.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-iq3_s",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-iq3_s.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-iq3_xs",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-iq3_xs.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-iq3_xxs.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-iq4_nl",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-iq4_nl.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-iq4_xs",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-iq4_xs.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q2_k_l",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q2_k_l.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q2_k_m",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q2_k_m.gguf",
+        "file_size": "3.0 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q2_k_s",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q2_k_s.gguf",
+        "file_size": "2.9 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q3_k_l",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q3_k_l.gguf",
+        "file_size": "4.0 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q3_k_m",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q3_k_m.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q3_k_s",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q3_k_s.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q4_0",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q4_0.gguf",
+        "file_size": "4.0 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q4_0_l",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q4_0_l.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q4_1",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q4_1.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q4_1_l",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q4_1_l.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q4_k_l",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q4_k_l.gguf",
+        "file_size": "4.7 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q4_k_m",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q4_k_m.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q4_k_s",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q4_k_s.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q5_0",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q5_0.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q5_0_l",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q5_0_l.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q5_1",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q5_1.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q5_1_l",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q5_1_l.gguf",
+        "file_size": "5.6 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q5_k_l",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q5_k_l.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q5_k_m",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q5_k_m.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q5_k_s",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q5_k_s.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q6_k_l",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q6_k_l.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q6_k_m",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q6_k_m.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "NextCoder-7B-q8_0",
+        "path": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/NextCoder-7B-q8_0.gguf",
+        "file_size": "7.5 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/Mungert/NextCoder-7B-GGUF/resolve/main/README.md",
+    "description": "This is a 7.61B parameter code-editing large language model based on Qwen2.5-Coder Instruct, trained with the novel SeleKT finetuning method, supporting up to 32K tokens and achieving high performance on code editing benchmarks."
   },
   {
     "model_name": "Nidum-Llama-3.2-3B-Uncensored-GGUF",
@@ -12486,7 +13975,7 @@
   {
     "model_name": "nvidia_OpenReasoning-Nemotron-7B-GGUF",
     "developer": "bartowski",
-    "downloads": 2550,
+    "downloads": 2706,
     "createdAt": "2025-07-18T20:42:50.000Z",
     "tools": false,
     "num_quants": 24,
@@ -12820,6 +14309,592 @@
     "tools": false
   },
   {
+    "model_name": "OpenReasoning-Nemotron-1.5B-GGUF",
+    "developer": "Mungert",
+    "downloads": 136,
+    "createdAt": "2025-07-25T13:59:58.000Z",
+    "tools": false,
+    "num_quants": 34,
+    "quants": [
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-bf16",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-bf16.gguf",
+        "file_size": "2.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-bf16_q4_k.gguf",
+        "file_size": "1.7 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-bf16_q6_k.gguf",
+        "file_size": "1.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-bf16_q8_0.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-f16",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-f16.gguf",
+        "file_size": "2.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-f16_q4_k.gguf",
+        "file_size": "1.7 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-f16_q6_k.gguf",
+        "file_size": "1.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-f16_q8_0.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-iq3_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-iq3_m.gguf",
+        "file_size": "745.7 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-iq3_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-iq3_s.gguf",
+        "file_size": "738.7 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-iq3_xs",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-iq3_xs.gguf",
+        "file_size": "676.2 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-iq3_xxs.gguf",
+        "file_size": "663.0 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-iq4_nl",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-iq4_nl.gguf",
+        "file_size": "893.0 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-iq4_xs",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-iq4_xs.gguf",
+        "file_size": "854.2 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q3_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q3_k_l.gguf",
+        "file_size": "839.9 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q3_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q3_k_m.gguf",
+        "file_size": "786.0 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q3_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q3_k_s.gguf",
+        "file_size": "753.2 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q4_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q4_0.gguf",
+        "file_size": "834.3 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q4_0_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q4_0_l.gguf",
+        "file_size": "945.5 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q4_1",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q4_1.gguf",
+        "file_size": "926.3 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q4_1_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q4_1_l.gguf",
+        "file_size": "1023.6 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q4_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q4_k_l.gguf",
+        "file_size": "996.0 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q4_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q4_k_m.gguf",
+        "file_size": "942.1 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q4_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q4_k_s.gguf",
+        "file_size": "903.5 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q5_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q5_0.gguf",
+        "file_size": "1018.3 MB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q5_0_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q5_0_l.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q5_1",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q5_1.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q5_1_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q5_1_l.gguf",
+        "file_size": "1.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q5_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q5_k_l.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q5_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q5_k_m.gguf",
+        "file_size": "1.0 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q5_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q5_k_s.gguf",
+        "file_size": "1.0 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q6_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q6_k_l.gguf",
+        "file_size": "1.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q6_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q6_k_m.gguf",
+        "file_size": "1.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-1.5B-q8_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/OpenReasoning-Nemotron-1.5B-q8_0.gguf",
+        "file_size": "1.5 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-1.5B-GGUF/resolve/main/README.md",
+    "description": "This is a large language model derived from Qwen2.5-1.5B-Instruct, optimized for reasoning tasks like math, code, and science problem-solving, with support for GenSelect inference mode and available in multiple sizes (1.5B, 7B, 14"
+  },
+  {
+    "model_name": "OpenReasoning-Nemotron-14B-GGUF",
+    "developer": "Mungert",
+    "downloads": 0,
+    "createdAt": "2025-07-26T17:12:29.000Z",
+    "tools": false,
+    "num_quants": 35,
+    "quants": [
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-bf16_q4_k.gguf",
+        "file_size": "16.4 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-bf16_q6_k.gguf",
+        "file_size": "18.4 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-bf16_q8_0.gguf",
+        "file_size": "20.3 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-f16",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-f16.gguf",
+        "file_size": "27.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-f16_q4_k.gguf",
+        "file_size": "16.4 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-f16_q6_k.gguf",
+        "file_size": "18.4 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-f16_q8_0.gguf",
+        "file_size": "20.3 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-iq1_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-iq1_m.gguf",
+        "file_size": "4.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-iq1_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-iq1_s.gguf",
+        "file_size": "4.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-iq2_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-iq2_s.gguf",
+        "file_size": "5.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-iq2_xs",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-iq2_xs.gguf",
+        "file_size": "5.0 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-iq2_xxs.gguf",
+        "file_size": "4.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q2_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q2_k_l.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q2_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q2_k_m.gguf",
+        "file_size": "5.7 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q2_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q2_k_s.gguf",
+        "file_size": "5.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q3_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q3_k_l.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q3_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q3_k_m.gguf",
+        "file_size": "7.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q3_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q3_k_s.gguf",
+        "file_size": "6.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q4_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q4_0.gguf",
+        "file_size": "7.7 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q4_0_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q4_0_l.gguf",
+        "file_size": "8.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q4_1",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q4_1.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q4_1_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q4_1_l.gguf",
+        "file_size": "9.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q4_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q4_k_l.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q4_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q4_k_m.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q4_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q4_k_s.gguf",
+        "file_size": "8.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q5_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q5_0.gguf",
+        "file_size": "9.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q5_0_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q5_0_l.gguf",
+        "file_size": "10.0 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q5_1",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q5_1.gguf",
+        "file_size": "10.3 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q5_1_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q5_1_l.gguf",
+        "file_size": "10.8 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q5_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q5_k_l.gguf",
+        "file_size": "10.3 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q5_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q5_k_m.gguf",
+        "file_size": "9.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q5_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q5_k_s.gguf",
+        "file_size": "9.8 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q6_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q6_k_l.gguf",
+        "file_size": "11.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q6_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q6_k_m.gguf",
+        "file_size": "11.3 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-14B-q8_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-14B-GGUF/resolve/main/OpenReasoning-Nemotron-14B-q8_0.gguf",
+        "file_size": "14.6 GB"
+      }
+    ],
+    "readme": null,
+    "description": ""
+  },
+  {
+    "model_name": "OpenReasoning-Nemotron-7B-GGUF",
+    "developer": "Mungert",
+    "downloads": 179,
+    "createdAt": "2025-07-25T07:42:25.000Z",
+    "tools": false,
+    "num_quants": 41,
+    "quants": [
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-bf16",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-bf16.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-bf16_q4_k.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-bf16_q6_k.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-bf16_q8_0.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-f16",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-f16.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-f16_q4_k.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-f16_q6_k.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-f16_q8_0.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-iq2_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-iq2_m.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-iq2_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-iq2_s.gguf",
+        "file_size": "2.7 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-iq2_xs",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-iq2_xs.gguf",
+        "file_size": "2.7 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-iq2_xxs.gguf",
+        "file_size": "2.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-iq3_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-iq3_m.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-iq3_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-iq3_s.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-iq3_xs",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-iq3_xs.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-iq3_xxs.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-iq4_nl",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-iq4_nl.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-iq4_xs",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-iq4_xs.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q2_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q2_k_l.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q2_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q2_k_m.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q2_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q2_k_s.gguf",
+        "file_size": "2.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q3_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q3_k_l.gguf",
+        "file_size": "4.0 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q3_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q3_k_m.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q3_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q3_k_s.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q4_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q4_0.gguf",
+        "file_size": "4.0 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q4_0_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q4_0_l.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q4_1",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q4_1.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q4_1_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q4_1_l.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q4_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q4_k_l.gguf",
+        "file_size": "4.7 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q4_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q4_k_m.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q4_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q4_k_s.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q5_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q5_0.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q5_0_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q5_0_l.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q5_1",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q5_1.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q5_1_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q5_1_l.gguf",
+        "file_size": "5.6 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q5_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q5_k_l.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q5_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q5_k_m.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q5_k_s",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q5_k_s.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q6_k_l",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q6_k_l.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q6_k_m",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q6_k_m.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "OpenReasoning-Nemotron-7B-q8_0",
+        "path": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/OpenReasoning-Nemotron-7B-q8_0.gguf",
+        "file_size": "7.5 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/Mungert/OpenReasoning-Nemotron-7B-GGUF/resolve/main/README.md",
+    "description": "This is a large language model (LLM) derived from Qwen2.5-7B-Instruct, optimized for reasoning tasks like math, code, and science problem-solving, with support for GenSelect inference and available in multiple sizes (1.5B, 7B, 1"
+  },
+  {
     "model_name": "Osmosis-Apply-1.7B",
     "developer": "osmosis-ai",
     "downloads": 497,
@@ -12976,7 +15051,7 @@
   {
     "model_name": "Phi-3-mini-4k-instruct-gguf",
     "developer": "microsoft",
-    "downloads": 58211,
+    "downloads": 60500,
     "createdAt": "2024-04-22T17:02:08.000Z",
     "tools": false,
     "num_quants": 2,
@@ -12998,7 +15073,7 @@
   {
     "model_name": "Phi-3.5-mini-instruct-GGUF",
     "developer": "MaziyarPanahi",
-    "downloads": 255561,
+    "downloads": 254745,
     "createdAt": "2024-08-20T20:07:57.000Z",
     "tools": false,
     "num_quants": 15,
@@ -13954,7 +16029,7 @@
   {
     "model_name": "Qwen2.5-1.5B-Instruct-GGUF",
     "developer": "Qwen",
-    "downloads": 35555,
+    "downloads": 35425,
     "createdAt": "2024-09-17T13:57:52.000Z",
     "tools": true,
     "num_quants": 9,
@@ -14509,7 +16584,7 @@
   {
     "model_name": "Qwen3-0.6B-GGUF",
     "developer": "unsloth",
-    "downloads": 28540,
+    "downloads": 28490,
     "createdAt": "2025-04-28T10:24:13.000Z",
     "tools": true,
     "num_quants": 26,
@@ -14793,7 +16868,7 @@
   {
     "model_name": "qwen3-1.7b-mixture-of-thought",
     "developer": "ertghiu256",
-    "downloads": 388,
+    "downloads": 458,
     "createdAt": "2025-07-19T10:25:11.000Z",
     "tools": true,
     "num_quants": 2,
@@ -14889,7 +16964,7 @@
   {
     "model_name": "Qwen3-4B-GGUF",
     "developer": "unsloth",
-    "downloads": 28720,
+    "downloads": 29242,
     "createdAt": "2025-04-28T07:55:09.000Z",
     "tools": true,
     "num_quants": 26,
@@ -15090,7 +17165,7 @@
   {
     "model_name": "Qwen3-8B-GGUF",
     "developer": "unsloth",
-    "downloads": 19788,
+    "downloads": 19832,
     "createdAt": "2025-04-28T14:24:34.000Z",
     "tools": true,
     "num_quants": 25,
@@ -15227,7 +17302,7 @@
   {
     "model_name": "Qwen3-Jan-Nano-128k-6B-Brainstorm20x-GGUF",
     "developer": "mradermacher",
-    "downloads": 311,
+    "downloads": 343,
     "createdAt": "2025-07-23T05:15:11.000Z",
     "tools": true,
     "num_quants": 12,
@@ -15299,7 +17374,7 @@
   {
     "model_name": "Qwen3-Zero-Coder-Reasoning-0.8B-NEO-EX-GGUF",
     "developer": "DavidAU",
-    "downloads": 3696,
+    "downloads": 4529,
     "createdAt": "2025-07-17T07:28:04.000Z",
     "tools": true,
     "num_quants": 81,
@@ -15979,7 +18054,7 @@
   {
     "model_name": "RuadaptQwen3-4B-Instruct-GGUF",
     "developer": "RefalMachine",
-    "downloads": 3594,
+    "downloads": 3698,
     "createdAt": "2025-06-30T06:13:47.000Z",
     "tools": true,
     "num_quants": 16,
@@ -16504,7 +18579,7 @@
   {
     "model_name": "SmolLM3-3B-GGUF",
     "developer": "ggml-org",
-    "downloads": 13652,
+    "downloads": 13891,
     "createdAt": "2025-07-08T12:36:39.000Z",
     "tools": true,
     "num_quants": 3,
@@ -16531,7 +18606,7 @@
   {
     "model_name": "SmolVLM-500M-Instruct-GGUF",
     "developer": "ggml-org",
-    "downloads": 38243,
+    "downloads": 37676,
     "createdAt": "2025-04-21T19:02:08.000Z",
     "tools": false,
     "num_quants": 4,
@@ -16761,9 +18836,226 @@
     "tools": true
   },
   {
+    "model_name": "SWE-Dev-7B-GGUF",
+    "developer": "Mungert",
+    "downloads": 712,
+    "createdAt": "2025-07-12T13:29:36.000Z",
+    "tools": true,
+    "num_quants": 41,
+    "quants": [
+      {
+        "model_id": "SWE-Dev-7B-bf16",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-bf16.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-bf16_q4_k.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-bf16_q6_k.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-bf16_q8_0.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-f16",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-f16.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-f16_q4_k.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-f16_q6_k.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-f16_q8_0.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-iq2_m",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-iq2_m.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-iq2_s",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-iq2_s.gguf",
+        "file_size": "2.7 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-iq2_xs",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-iq2_xs.gguf",
+        "file_size": "2.6 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-iq2_xxs.gguf",
+        "file_size": "2.5 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-iq3_m",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-iq3_m.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-iq3_s",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-iq3_s.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-iq3_xs",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-iq3_xs.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-iq3_xxs.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-iq4_nl",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-iq4_nl.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-iq4_xs",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-iq4_xs.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q2_k_l",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q2_k_l.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q2_k_m",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q2_k_m.gguf",
+        "file_size": "3.0 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q2_k_s",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q2_k_s.gguf",
+        "file_size": "2.9 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q3_k_l",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q3_k_l.gguf",
+        "file_size": "4.0 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q3_k_m",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q3_k_m.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q3_k_s",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q3_k_s.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q4_0",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q4_0.gguf",
+        "file_size": "4.0 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q4_0_l",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q4_0_l.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q4_1",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q4_1.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q4_1_l",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q4_1_l.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q4_k_l",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q4_k_l.gguf",
+        "file_size": "4.7 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q4_k_m",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q4_k_m.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q4_k_s",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q4_k_s.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q5_0",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q5_0.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q5_0_l",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q5_0_l.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q5_1",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q5_1.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q5_1_l",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q5_1_l.gguf",
+        "file_size": "5.6 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q5_k_l",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q5_k_l.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q5_k_m",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q5_k_m.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q5_k_s",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q5_k_s.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q6_k_l",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q6_k_l.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q6_k_m",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q6_k_m.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "SWE-Dev-7B-q8_0",
+        "path": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/SWE-Dev-7B-q8_0.gguf",
+        "file_size": "7.5 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/Mungert/SWE-Dev-7B-GGUF/resolve/main/README.md",
+    "description": "This is a MIT-licensed SWE-Dev-7B GGUF model generated using llama.cpp, with a focus on improving precision through selective layer quantization for better performance in software engineering tasks."
+  },
+  {
     "model_name": "T-pro-it-2.0-GGUF",
     "developer": "t-tech",
-    "downloads": 32667,
+    "downloads": 32913,
     "createdAt": "2025-07-17T21:36:22.000Z",
     "tools": true,
     "num_quants": 6,
@@ -16822,7 +19114,7 @@
   {
     "model_name": "TheDrummer_Cydonia-24B-v4-GGUF",
     "developer": "bartowski",
-    "downloads": 9450,
+    "downloads": 10277,
     "createdAt": "2025-07-18T17:30:25.000Z",
     "tools": false,
     "num_quants": 26,
@@ -17111,8 +19403,9 @@
   {
     "model_name": "Tifa-DeepsexV2-7b-MGRPO-GGUF-Q8",
     "developer": "ValueFX9507",
-    "downloads": 4286,
+    "downloads": 3910,
     "createdAt": "2025-02-15T13:30:54.000Z",
+    "tools": false,
     "num_quants": 7,
     "quants": [
       {
@@ -17152,13 +19445,12 @@
       }
     ],
     "readme": "https://huggingface.co/ValueFX9507/Tifa-DeepsexV2-7b-MGRPO-GGUF-Q8/resolve/main/README.md",
-    "description": "",
-    "tools": false
+    "description": "Tifa-DeepSexV2-7b-MGRPO 是基于 Qwen2.5-7B 的深度优化模型，具备 100 万字上下文能力，通过 MGRPO 算法和 Tifa_220B 数据集训练，"
   },
   {
     "model_name": "Tifa-DeepsexV3-14b-GGUF-Q6",
     "developer": "ValueFX9507",
-    "downloads": 4448,
+    "downloads": 4951,
     "createdAt": "2025-06-26T10:15:21.000Z",
     "tools": true,
     "num_quants": 1,
@@ -17175,7 +19467,7 @@
   {
     "model_name": "Triplex",
     "developer": "SciPhi",
-    "downloads": 2021,
+    "downloads": 2172,
     "createdAt": "2024-07-10T21:58:18.000Z",
     "tools": false,
     "num_quants": 1,
@@ -17191,75 +19483,220 @@
   },
   {
     "model_name": "UIGEN-X-8B-GGUF",
-    "developer": "mradermacher",
-    "downloads": 856,
-    "createdAt": "2025-07-19T03:26:18.000Z",
+    "developer": "Mungert",
+    "downloads": 944,
+    "createdAt": "2025-07-21T23:42:26.000Z",
     "tools": true,
-    "num_quants": 12,
+    "num_quants": 41,
     "quants": [
       {
-        "model_id": "UIGEN-X-8B.IQ4_XS",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.IQ4_XS.gguf",
-        "file_size": "4.3 GB"
+        "model_id": "UIGEN-X-8B-bf16",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-bf16.gguf",
+        "file_size": "15.3 GB"
       },
       {
-        "model_id": "UIGEN-X-8B.Q2_K",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.Q2_K.gguf",
+        "model_id": "UIGEN-X-8B-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-bf16_q4_k.gguf",
+        "file_size": "9.4 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-bf16_q6_k.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-bf16_q8_0.gguf",
+        "file_size": "11.4 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-f16",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-f16.gguf",
+        "file_size": "15.3 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-f16_q4_k.gguf",
+        "file_size": "9.4 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-f16_q6_k.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-f16_q8_0.gguf",
+        "file_size": "11.4 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-iq2_m",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-iq2_m.gguf",
         "file_size": "3.1 GB"
       },
       {
-        "model_id": "UIGEN-X-8B.Q3_K_L",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.Q3_K_L.gguf",
-        "file_size": "4.1 GB"
+        "model_id": "UIGEN-X-8B-iq2_s",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-iq2_s.gguf",
+        "file_size": "3.0 GB"
       },
       {
-        "model_id": "UIGEN-X-8B.Q3_K_M",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.Q3_K_M.gguf",
+        "model_id": "UIGEN-X-8B-iq2_xs",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-iq2_xs.gguf",
+        "file_size": "2.9 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-iq2_xxs.gguf",
+        "file_size": "2.7 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-iq3_m",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-iq3_m.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-iq3_s",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-iq3_s.gguf",
         "file_size": "3.8 GB"
       },
       {
-        "model_id": "UIGEN-X-8B.Q3_K_S",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.Q3_K_S.gguf",
+        "model_id": "UIGEN-X-8B-iq3_xs",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-iq3_xs.gguf",
         "file_size": "3.5 GB"
       },
       {
-        "model_id": "UIGEN-X-8B.Q4_K_M",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.Q4_K_M.gguf",
-        "file_size": "4.7 GB"
+        "model_id": "UIGEN-X-8B-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-iq3_xxs.gguf",
+        "file_size": "3.4 GB"
       },
       {
-        "model_id": "UIGEN-X-8B.Q4_K_S",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.Q4_K_S.gguf",
+        "model_id": "UIGEN-X-8B-iq4_nl",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-iq4_nl.gguf",
         "file_size": "4.5 GB"
       },
       {
-        "model_id": "UIGEN-X-8B.Q5_K_M",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.Q5_K_M.gguf",
-        "file_size": "5.4 GB"
+        "model_id": "UIGEN-X-8B-iq4_xs",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-iq4_xs.gguf",
+        "file_size": "4.2 GB"
       },
       {
-        "model_id": "UIGEN-X-8B.Q5_K_S",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.Q5_K_S.gguf",
+        "model_id": "UIGEN-X-8B-q2_k_l",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q2_k_l.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q2_k_m",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q2_k_m.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q2_k_s",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q2_k_s.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q3_k_l",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q3_k_l.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q3_k_m",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q3_k_m.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q3_k_s",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q3_k_s.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q4_0",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q4_0.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q4_0_l",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q4_0_l.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q4_1",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q4_1.gguf",
+        "file_size": "4.8 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q4_1_l",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q4_1_l.gguf",
         "file_size": "5.3 GB"
       },
       {
-        "model_id": "UIGEN-X-8B.Q6_K",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.Q6_K.gguf",
+        "model_id": "UIGEN-X-8B-q4_k_l",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q4_k_l.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q4_k_m",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q4_k_m.gguf",
+        "file_size": "4.8 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q4_k_s",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q4_k_s.gguf",
+        "file_size": "4.7 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q5_0",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q5_0.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q5_0_l",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q5_0_l.gguf",
+        "file_size": "5.7 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q5_1",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q5_1.gguf",
+        "file_size": "5.7 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q5_1_l",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q5_1_l.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q5_k_l",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q5_k_l.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q5_k_m",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q5_k_m.gguf",
+        "file_size": "5.5 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q5_k_s",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q5_k_s.gguf",
+        "file_size": "5.5 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q6_k_l",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q6_k_l.gguf",
+        "file_size": "6.5 GB"
+      },
+      {
+        "model_id": "UIGEN-X-8B-q6_k_m",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q6_k_m.gguf",
         "file_size": "6.3 GB"
       },
       {
-        "model_id": "UIGEN-X-8B.Q8_0",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.Q8_0.gguf",
+        "model_id": "UIGEN-X-8B-q8_0",
+        "path": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B-q8_0.gguf",
         "file_size": "8.1 GB"
-      },
-      {
-        "model_id": "UIGEN-X-8B.f16",
-        "path": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/UIGEN-X-8B.f16.gguf",
-        "file_size": "15.3 GB"
       }
     ],
-    "readme": "https://huggingface.co/mradermacher/UIGEN-X-8B-GGUF/resolve/main/README.md",
-    "description": "The model is a quantized version of the UIGEN-X-8B base model, optimized for text generation and hybrid thinking with various GGUF quantization types available."
+    "readme": "https://huggingface.co/Mungert/UIGEN-X-8B-GGUF/resolve/main/README.md",
+    "description": "UIGEN-X-8B is a hybrid reasoning UI generation model based on Qwen3-8B, trained to systematically plan, architect, and implement complete user interfaces across 26 languages, 7 platforms, and 26 major categories of web and desktop development with support for tool"
   },
   {
     "model_name": "Violet_Twilight-v0.2-GGUF",
@@ -17446,6 +19883,223 @@
     ],
     "readme": "https://huggingface.co/winninghealth/WiNGPT-Babel-2-GGUF/resolve/main/README.md",
     "description": "WiNGPT-Babel-2 is a multilingual translation language model optimized for 55 languages, enhanced Chinese translation, and structured data handling, built on the GemmaX2-28-2B-Pretrain base model."
+  },
+  {
+    "model_name": "xLAM-2-3b-fc-r-GGUF",
+    "developer": "Mungert",
+    "downloads": 426,
+    "createdAt": "2025-06-21T02:39:26.000Z",
+    "tools": true,
+    "num_quants": 41,
+    "quants": [
+      {
+        "model_id": "xLAM-2-3b-fc-r-bf16",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-bf16.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-bf16_q4_k",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-bf16_q4_k.gguf",
+        "file_size": "3.4 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-bf16_q6_k",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-bf16_q6_k.gguf",
+        "file_size": "3.8 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-bf16_q8_0",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-bf16_q8_0.gguf",
+        "file_size": "4.2 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-f16",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-f16.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-f16_q4_k",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-f16_q4_k.gguf",
+        "file_size": "3.4 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-f16_q6_k",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-f16_q6_k.gguf",
+        "file_size": "3.8 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-f16_q8_0",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-f16_q8_0.gguf",
+        "file_size": "4.2 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-iq2_m",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-iq2_m.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-iq2_s",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-iq2_s.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-iq2_xs",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-iq2_xs.gguf",
+        "file_size": "1.0 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-iq2_xxs",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-iq2_xxs.gguf",
+        "file_size": "979.5 MB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-iq3_m",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-iq3_m.gguf",
+        "file_size": "1.3 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-iq3_s",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-iq3_s.gguf",
+        "file_size": "1.3 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-iq3_xs",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-iq3_xs.gguf",
+        "file_size": "1.3 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-iq3_xxs",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-iq3_xxs.gguf",
+        "file_size": "1.2 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-iq4_nl",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-iq4_nl.gguf",
+        "file_size": "1.7 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-iq4_xs",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-iq4_xs.gguf",
+        "file_size": "1.6 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q2_k_l",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q2_k_l.gguf",
+        "file_size": "1.2 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q2_k_m",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q2_k_m.gguf",
+        "file_size": "1.2 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q2_k_s",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q2_k_s.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q3_k_l",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q3_k_l.gguf",
+        "file_size": "1.5 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q3_k_m",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q3_k_m.gguf",
+        "file_size": "1.5 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q3_k_s",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q3_k_s.gguf",
+        "file_size": "1.3 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q4_0",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q4_0.gguf",
+        "file_size": "1.6 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q4_0_l",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q4_0_l.gguf",
+        "file_size": "1.8 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q4_1",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q4_1.gguf",
+        "file_size": "1.8 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q4_1_l",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q4_1_l.gguf",
+        "file_size": "1.9 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q4_k_l",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q4_k_l.gguf",
+        "file_size": "1.8 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q4_k_m",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q4_k_m.gguf",
+        "file_size": "1.8 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q4_k_s",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q4_k_s.gguf",
+        "file_size": "1.7 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q5_0",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q5_0.gguf",
+        "file_size": "2.0 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q5_0_l",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q5_0_l.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q5_1",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q5_1.gguf",
+        "file_size": "2.2 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q5_1_l",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q5_1_l.gguf",
+        "file_size": "2.3 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q5_k_l",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q5_k_l.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q5_k_m",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q5_k_m.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q5_k_s",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q5_k_s.gguf",
+        "file_size": "2.0 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q6_k_l",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q6_k_l.gguf",
+        "file_size": "2.4 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q6_k_m",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q6_k_m.gguf",
+        "file_size": "2.4 GB"
+      },
+      {
+        "model_id": "xLAM-2-3b-fc-r-q8_0",
+        "path": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/xLAM-2-3b-fc-r-q8_0.gguf",
+        "file_size": "3.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/Mungert/xLAM-2-3b-fc-r-GGUF/resolve/main/README.md",
+    "description": "This repository provides GGUF versions of xLAM-2 large action models fine-tuned for function calling, offering improved performance and compatibility with vLLM and Transformers for multi-turn conversations and tool usage."
   },
   {
     "model_name": "XortronCriminalComputingConfig-GGUF",
