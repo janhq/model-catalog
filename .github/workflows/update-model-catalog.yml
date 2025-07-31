@@ -47,6 +47,7 @@ jobs:
 
       - name: Run model catalog update script
         env:
+          API_KEY: ${{ secrets.API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           BASE_URL: ${{ secrets.BASE_URL }}
         run: |
