@@ -5,7 +5,6 @@ import re
 import time
 from collections import defaultdict
 
-import openai
 import requests
 
 # --- Configuration ---
@@ -24,9 +23,6 @@ BLACKLISTED_DEVELOPERS = {
     "TheBloke",
 }
 
-client = openai.OpenAI(
-    base_url=os.getenv("BASE_URL"), api_key=os.getenv("OPENAI_API_KEY")
-)
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 HEADERS = {"Authorization": f"Bearer {HF_TOKEN}"} if HF_TOKEN else {}

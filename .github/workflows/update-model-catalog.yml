@@ -47,7 +47,6 @@ jobs:
 
       - name: Run model catalog update script
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           BASE_URL: ${{ secrets.BASE_URL }}
         run: |
