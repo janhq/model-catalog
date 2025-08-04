@@ -1,0 +1,68 @@
+name: Auto Create Draft Release on PR Merge
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+  path:
+    - model_catalog.json
+    - script_output.log
+
+jobs:
+  create-draft-release:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.title, '🤖 Auto-update Model Catalog')
+    permissions:
+      contents: write
+    outputs:
+      upload_url: ${{ steps.create_release.outputs.upload_url }}
+      version: ${{ steps.get_version.outputs.version }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set date variables
+        id: date
+        run: |
+          echo "today=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
+          echo "today_with_time=$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
+          echo "today_readable=$(date +'%d-%m-%Y')" >> $GITHUB_OUTPUT
+          echo "datetime=$(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+          echo "datetime_short=$(date +'%d-%m-%Y %H:%M')" >> $GITHUB_OUTPUT
+      
+      - name: Generate version from date
+        id: get_version
+        run: |
+          echo "VERSION=${{ steps.date.outputs.today_with_time }}" >> $GITHUB_ENV
+          echo "version=${{ steps.date.outputs.today_with_time }}" >> $GITHUB_OUTPUT
+      
+      - name: Create Draft Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "v${{ steps.date.outputs.today_with_time }}"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          name: "Auto Release - ${{ steps.date.outputs.datetime_short }}"
+          draft: true
+          prerelease: false
+          body: |
+            ## 🤖 Automated Release
+            
+            This release was automatically created after merging the model catalog update PR.
+            
+            **Date:** ${{ steps.date.outputs.datetime_short }}
+            **PR:** #${{ github.event.pull_request.number }}
+            
+            ### Changes
+            - Updated model catalog with latest models
+            - Automated via GitHub Actions workflow
+      
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+            upload_url: ${{ steps.create_release.outputs.upload_url }}
+            asset_path: ./model_catalog.json
+            asset_name: model_catalog-${{ steps.get_version.outputs.version }}.json
+            asset_content_type: application/json 
