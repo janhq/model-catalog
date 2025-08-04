@@ -71,6 +71,7 @@ jobs:
           branch: update-model-catalog-${{ steps.date.outputs.today_with_time }}
           commit-message: "🤖 Auto-update model catalog - ${{ steps.date.outputs.datetime }}"
           title: "🤖 Auto-update Model Catalog - ${{ steps.date.outputs.datetime_short }}"
+          reviewers: Minh141120,qnixsynapse
           body: |
             ## 🤖 Automated Model Catalog Update
 
@@ -80,30 +81,4 @@ jobs:
 
             - **New models added:** ${{ steps.extract-summary.outputs.new_models }}
             - **Total models in catalog:** ${{ steps.extract-summary.outputs.total_models }} 
-
-      - name: Auto-merge PR
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_SERVICE_ACCOUNT }}
-        run: |
-          PR_NUMBER=$(gh pr list --search "🤖 Auto-update Model Catalog" --json number --jq '.[0].number')
-          
-          if [ -n "$PR_NUMBER" ]; then
-            echo "Found PR number: $PR_NUMBER"
-            sleep 10
-            
-            # Check if PR is mergeable
-            MERGEABLE=$(gh pr view "$PR_NUMBER" --json mergeable --jq '.mergeable')
-            echo "PR mergeable status: $MERGEABLE"
-            
-            if [ "$MERGEABLE" = "MERGEABLE" ]; then
-              echo "Merging PR $PR_NUMBER"
-              gh pr merge --auto --merge "$PR_NUMBER"
-              gh pr comment "$PR_NUMBER" --body "🤖 Auto-merged by GitHub Actions"
-            else
-              echo "PR is not mergeable"
-              gh pr comment "$PR_NUMBER" --body "🤖 PR is not mergeable, please review and merge manually"
-            fi
-          else
-            echo "No PR number found"
-          fi
           
