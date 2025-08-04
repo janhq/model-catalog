@@ -4,9 +4,9 @@ on:
   pull_request:
     types: [closed]
     branches: [main]
-  path:
-    - model_catalog.json
-    - script_output.log
+    paths:
+      - model_catalog.json
+      - script_output.log
 
 jobs:
   create-draft-release:
