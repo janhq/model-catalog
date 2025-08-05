@@ -7681,6 +7681,23 @@
     "description": "This is a 9B-parameter vision-language model (GLM-4.1V-9B-Thinking) that enhances reasoning capabilities through a thinking paradigm and reinforcement learning, achieving state-of-the-art performance on 18 benchmark tasks."
   },
   {
+    "model_name": "GLM-4.5-Air-GGUF",
+    "developer": "mradermacher",
+    "downloads": 0,
+    "createdAt": "2025-08-04T22:29:17.000Z",
+    "tools": true,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "GLM-4.5-Air.Q2_K",
+        "path": "https://huggingface.co/mradermacher/GLM-4.5-Air-GGUF/resolve/main/GLM-4.5-Air.Q2_K.gguf",
+        "file_size": "41.9 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/mradermacher/GLM-4.5-Air-GGUF/resolve/main/README.md",
+    "description": "This is a quantized version of the GLM-4.5-Air model, available in various quantization formats including Q2_K, Q3_K_S, Q4_K_S, Q5_K_S, and Q8_0, with the Q4_K_S and Q6_K"
+  },
+  {
     "model_name": "google_gemma-3n-E2B-it-GGUF",
     "developer": "bartowski",
     "downloads": 4644,
@@ -8744,6 +8761,337 @@
     ],
     "readme": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-i1-GGUF/resolve/main/README.md",
     "description": "This is a quantized version of the Huihui-Qwen3-30B-A3B-Instruct-2507 model with various quantization types available for different trade-offs between size, speed, and quality."
+  },
+  {
+    "model_name": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF",
+    "developer": "mradermacher",
+    "downloads": 373,
+    "createdAt": "2025-08-03T08:14:34.000Z",
+    "tools": true,
+    "num_quants": 11,
+    "quants": [
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.IQ4_XS",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.IQ4_XS.gguf",
+        "file_size": "15.4 GB"
+      },
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q2_K",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q2_K.gguf",
+        "file_size": "10.5 GB"
+      },
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q3_K_L",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q3_K_L.gguf",
+        "file_size": "14.8 GB"
+      },
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q3_K_M",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q3_K_M.gguf",
+        "file_size": "13.7 GB"
+      },
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q3_K_S",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q3_K_S.gguf",
+        "file_size": "12.4 GB"
+      },
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q4_K_M",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q4_K_M.gguf",
+        "file_size": "17.3 GB"
+      },
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q4_K_S",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q4_K_S.gguf",
+        "file_size": "16.3 GB"
+      },
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q5_K_M",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q5_K_M.gguf",
+        "file_size": "20.2 GB"
+      },
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q5_K_S",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q5_K_S.gguf",
+        "file_size": "19.6 GB"
+      },
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q6_K",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q6_K.gguf",
+        "file_size": "23.4 GB"
+      },
+      {
+        "model_id": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q8_0",
+        "path": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated.Q8_0.gguf",
+        "file_size": "30.3 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF/resolve/main/README.md",
+    "description": "This is a quantized version of the Huihui-Qwen3-30B-A3B-Thinking-2507 model, offering various quantization types for efficient deployment."
+  },
+  {
+    "model_name": "Hunyuan-4B-Instruct-GGUF",
+    "developer": "gabriellarson",
+    "downloads": 0,
+    "createdAt": "2025-08-04T06:44:18.000Z",
+    "tools": true,
+    "num_quants": 24,
+    "quants": [
+      {
+        "model_id": "Hunyuan-4B-Instruct-F16",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-F16.gguf",
+        "file_size": "7.9 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-IQ2_M",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-IQ2_M.gguf",
+        "file_size": "1.5 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-IQ2_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-IQ2_S.gguf",
+        "file_size": "1.4 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-IQ2_XS",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-IQ2_XS.gguf",
+        "file_size": "1.3 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-IQ2_XXS",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-IQ2_XXS.gguf",
+        "file_size": "1.2 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-IQ3_M",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-IQ3_M.gguf",
+        "file_size": "1.9 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-IQ3_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-IQ3_S.gguf",
+        "file_size": "1.8 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-IQ3_XS",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-IQ3_XS.gguf",
+        "file_size": "1.8 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-IQ3_XXS",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-IQ3_XXS.gguf",
+        "file_size": "1.6 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-IQ4_NL",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-IQ4_NL.gguf",
+        "file_size": "2.3 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-IQ4_XS",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-IQ4_XS.gguf",
+        "file_size": "2.2 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q2_K",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q2_K.gguf",
+        "file_size": "1.6 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q2_K_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q2_K_S.gguf",
+        "file_size": "1.5 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q3_K_L",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q3_K_L.gguf",
+        "file_size": "2.2 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q3_K_M",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q3_K_M.gguf",
+        "file_size": "2.0 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q3_K_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q3_K_S.gguf",
+        "file_size": "1.8 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q4_0",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q4_0.gguf",
+        "file_size": "2.3 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q4_K_M",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q4_K_M.gguf",
+        "file_size": "2.4 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q4_K_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q4_K_S.gguf",
+        "file_size": "2.3 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q5_0",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q5_0.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q5_K_M",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q5_K_M.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q5_K_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q5_K_S.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q6_K",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q6_K.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "Hunyuan-4B-Instruct-Q8_0",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/Hunyuan-4B-Instruct-Q8_0.gguf",
+        "file_size": "4.2 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/gabriellarson/Hunyuan-4B-Instruct-GGUF/resolve/main/README.md",
+    "description": "This Hugging Face repository provides the Hunyuan series of large language models (0.5B, 1.8B, 4B, 7B) with instruction tuning, quantization support (FP8, INT4), and deployment options using TensorRT-LLM, v"
+  },
+  {
+    "model_name": "Hunyuan-7B-Instruct-GGUF",
+    "developer": "gabriellarson",
+    "downloads": 0,
+    "createdAt": "2025-08-04T06:40:11.000Z",
+    "tools": true,
+    "num_quants": 24,
+    "quants": [
+      {
+        "model_id": "Hunyuan-7B-Instruct-F16",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-F16.gguf",
+        "file_size": "14.0 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-IQ2_M",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-IQ2_M.gguf",
+        "file_size": "2.5 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-IQ2_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-IQ2_S.gguf",
+        "file_size": "2.4 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-IQ2_XS",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-IQ2_XS.gguf",
+        "file_size": "2.3 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-IQ2_XXS",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-IQ2_XXS.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-IQ3_M",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-IQ3_M.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-IQ3_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-IQ3_S.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-IQ3_XS",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-IQ3_XS.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-IQ3_XXS",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-IQ3_XXS.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-IQ4_NL",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-IQ4_NL.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-IQ4_XS",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-IQ4_XS.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q2_K",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q2_K.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q2_K_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q2_K_S.gguf",
+        "file_size": "2.6 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q3_K_L",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q3_K_L.gguf",
+        "file_size": "3.8 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q3_K_M",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q3_K_M.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q3_K_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q3_K_S.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q4_0",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q4_0.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q4_K_M",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q4_K_M.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q4_K_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q4_K_S.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q5_0",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q5_0.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q5_K_M",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q5_K_M.gguf",
+        "file_size": "5.0 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q5_K_S",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q5_K_S.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q6_K",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q6_K.gguf",
+        "file_size": "5.7 GB"
+      },
+      {
+        "model_id": "Hunyuan-7B-Instruct-Q8_0",
+        "path": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/Hunyuan-7B-Instruct-Q8_0.gguf",
+        "file_size": "7.4 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/gabriellarson/Hunyuan-7B-Instruct-GGUF/resolve/main/README.md",
+    "description": "This Hugging Face repository provides the Tencent Hunyuan-7B-Instruct large language model, offering efficient inference with support for hybrid reasoning, ultra-long context understanding, and various quantization formats like FP8 and INT4, suitable for deployment across different computational environments."
   },
   {
     "model_name": "Hunyuan-A13B-Instruct-GGUF",
@@ -10540,7 +10888,7 @@
   {
     "model_name": "Llama-3.2-1B-Instruct-GGUF",
     "developer": "MaziyarPanahi",
-    "downloads": 150404,
+    "downloads": 152980,
     "createdAt": "2024-09-25T19:26:01.000Z",
     "tools": false,
     "num_quants": 16,
@@ -14665,6 +15013,163 @@
     "description": "This is a quantized version of the Mistralai Voxtral-Mini-3B-2507 model using llama.cpp imatrix quantization, offering various quantization types for different performance and memory trade-offs."
   },
   {
+    "model_name": "mistralai_Voxtral-Small-24B-2507-GGUF",
+    "developer": "bartowski",
+    "downloads": 1698,
+    "createdAt": "2025-07-28T17:12:11.000Z",
+    "tools": true,
+    "num_quants": 29,
+    "quants": [
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-IQ2_M",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-IQ2_M.gguf",
+        "file_size": "7.6 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-IQ2_S",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-IQ2_S.gguf",
+        "file_size": "7.0 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-IQ2_XS",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-IQ2_XS.gguf",
+        "file_size": "6.7 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-IQ3_M",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-IQ3_M.gguf",
+        "file_size": "9.9 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-IQ3_XS",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-IQ3_XS.gguf",
+        "file_size": "9.2 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-IQ3_XXS",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-IQ3_XXS.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-IQ4_NL",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-IQ4_NL.gguf",
+        "file_size": "12.5 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-IQ4_XS",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-IQ4_XS.gguf",
+        "file_size": "11.9 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q2_K",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q2_K.gguf",
+        "file_size": "8.3 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q2_K_L",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q2_K_L.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q3_K_L",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q3_K_L.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q3_K_M",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q3_K_M.gguf",
+        "file_size": "10.7 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q3_K_S",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q3_K_S.gguf",
+        "file_size": "9.7 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q3_K_XL",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q3_K_XL.gguf",
+        "file_size": "12.1 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q4_0",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q4_0.gguf",
+        "file_size": "12.6 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q4_1",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q4_1.gguf",
+        "file_size": "13.9 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q4_K_L",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q4_K_L.gguf",
+        "file_size": "13.8 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q4_K_M",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q4_K_M.gguf",
+        "file_size": "13.3 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q4_K_S",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q4_K_S.gguf",
+        "file_size": "12.6 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q5_K_L",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q5_K_L.gguf",
+        "file_size": "16.0 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q5_K_M",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q5_K_M.gguf",
+        "file_size": "15.6 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q5_K_S",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q5_K_S.gguf",
+        "file_size": "15.2 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q6_K",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q6_K.gguf",
+        "file_size": "18.0 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q6_K_L",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q6_K_L.gguf",
+        "file_size": "18.3 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-Q8_0",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-Q8_0.gguf",
+        "file_size": "23.3 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-bf16",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-bf16.gguf",
+        "file_size": "43.9 GB"
+      },
+      {
+        "model_id": "mistralai_Voxtral-Small-24B-2507-imatrix",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mistralai_Voxtral-Small-24B-2507-imatrix.gguf",
+        "file_size": "9.6 MB"
+      },
+      {
+        "model_id": "mmproj-mistralai_Voxtral-Small-24B-2507-bf16",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mmproj-mistralai_Voxtral-Small-24B-2507-bf16.gguf",
+        "file_size": "1.3 GB"
+      },
+      {
+        "model_id": "mmproj-mistralai_Voxtral-Small-24B-2507-f16",
+        "path": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/mmproj-mistralai_Voxtral-Small-24B-2507-f16.gguf",
+        "file_size": "1.3 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/bartowski/mistralai_Voxtral-Small-24B-2507-GGUF/resolve/main/README.md",
+    "description": "This is a quantized version of the Mistralai Voxtral-Small-24B-2507 model using llama.cpp's imatrix quantization method, optimized for various hardware platforms with different performance and quality trade-offs."
+  },
+  {
     "model_name": "Mixtral-4x3B-v1-GGUF",
     "developer": "TheDrummer",
     "downloads": 757,
@@ -18651,7 +19156,7 @@
   {
     "model_name": "Qwen2.5-Omni-7B-GGUF",
     "developer": "unsloth",
-    "downloads": 11215,
+    "downloads": 11321,
     "createdAt": "2025-05-28T19:15:45.000Z",
     "tools": false,
     "num_quants": 28,
@@ -19801,6 +20306,23 @@
     ],
     "readme": "https://huggingface.co/Intel/Qwen3-Coder-30B-A3B-Instruct-gguf-q2ks-mixed-AutoRound/resolve/main/README.md",
     "description": "This is a quantized version of the Qwen3-Coder-30B-A3B-Instruct model using the Intel AutoRound algorithm, with 8-bit embeddings and 4-bit non-expert layers, optimized for efficient inference on the codeparrot/github-code-clean dataset."
+  },
+  {
+    "model_name": "Qwen3-Coder-30B-A3B-Instruct-gguf-q4km-AutoRound",
+    "developer": "Intel",
+    "downloads": 0,
+    "createdAt": "2025-08-04T08:15:17.000Z",
+    "tools": true,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "Qwen3-Coder-30B-A3B-Instruct-128x1.8B-Q4_K_M",
+        "path": "https://huggingface.co/Intel/Qwen3-Coder-30B-A3B-Instruct-gguf-q4km-AutoRound/resolve/main/Qwen3-Coder-30B-A3B-Instruct-128x1.8B-Q4_K_M.gguf",
+        "file_size": "16.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/Intel/Qwen3-Coder-30B-A3B-Instruct-gguf-q4km-AutoRound/resolve/main/README.md",
+    "description": "This is a quantized version of the Qwen3-Coder-30B-A3B-Instruct model, optimized for efficiency using Intel's auto-round algorithm, suitable for deployment with Llamacpp."
   },
   {
     "model_name": "Qwen3-Jan-Nano-128k-6B-Brainstorm20x-GGUF",
