@@ -4,6 +4,7 @@ import os
 import re
 import time
 from collections import defaultdict
+
 import openai
 import requests
 
@@ -22,6 +23,8 @@ DESIRED_TAGS = {"text-generation", "conversational", "llama"}
 BLACKLISTED_DEVELOPERS = {
     "TheBloke",
 }
+
+PINNED_MODELS = ["ggml-org/gpt-oss-20b-GGUF"]
 
 client = openai.OpenAI(
     base_url=os.getenv("BASE_URL"),
@@ -131,23 +134,37 @@ def remove_duplicates_and_multipart(catalog_data):
 
     for model_name, entries in model_groups.items():
         if len(entries) > 1:
-            # Sort by downloads (descending) to keep the one with most downloads
-            entries.sort(key=lambda x: x.get("downloads", 0), reverse=True)
-            best_entry = entries[0]
-            removed_duplicates += len(entries) - 1
+            kept_entries = []
+            removed_entries = []
+
+            for entry in entries:
+                repo_id = f"{entry.get('developer', '')}/{entry.get('model_name', '')}"
+                if (
+                    repo_id in PINNED_MODELS
+                    or entry.get("developer", "") in priority_devs
+                ):
+                    kept_entries.append(entry)
+                else:
+                    removed_entries.append(entry)
+
+            if not kept_entries:
+                # If no pinned/priority entries, keep the one with highest downloads
+                removed_entries.sort(key=lambda x: x.get("downloads", 0), reverse=True)
+                kept_entries.append(removed_entries.pop(0))  # Keep best
+                removed_duplicates += len(removed_entries)
+            else:
+                removed_duplicates += len(removed_entries)
+
+            final_entries.extend(kept_entries)
 
             print(f"Duplicate model '{model_name}' found in {len(entries)} repos:")
-            for i, entry in enumerate(entries):
-                developer = entry.get("developer", "unknown")
+            for entry in entries:
+                repo_id = f"{entry.get('developer', '')}/{entry.get('model_name', '')}"
                 downloads = entry.get("downloads", 0)
-                status = "KEPT" if i == 0 else "REMOVED"
-                print(
-                    f"  - {developer}/{model_name} ({downloads} downloads) [{status}]"
-                )
+                status = "KEPT" if entry in kept_entries else "REMOVED"
+                print(f"  - {repo_id} ({downloads} downloads) [{status}]")
         else:
-            best_entry = entries[0]
-
-        final_entries.append(best_entry)
+            final_entries.append(entries[0])
 
     print(f"\nCleanup summary:")
     print(
@@ -624,13 +641,18 @@ def get_gguf_model_catalog():
     preliminary_catalog = list(existing_map.values())
     final_catalog = remove_duplicates_and_multipart(preliminary_catalog)
 
-    # Sort: priority devs first, then alphabetically by model_name
-    final_catalog.sort(
-        key=lambda e: (
-            e.get("developer", "") not in priority_devs,
-            e.get("model_name", "").lower(),
+    def sort_key(entry):
+        repo_id = f"{entry.get('developer', '')}/{entry.get('model_name', '')}"
+        is_pinned = repo_id in PINNED_MODELS
+        is_priority_dev = entry.get("developer", "") in priority_devs
+        return (
+            not is_pinned,           # Pinned models come first (False < True)
+            not is_priority_dev,     # Then priority devs
+            -entry.get("downloads", 0),  # Then by downloads descending
+            entry.get("model_name", "").lower(),  # Then alphabetically
         )
-    )
+
+    final_catalog.sort(key=sort_key)
 
     # Write out catalog
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
