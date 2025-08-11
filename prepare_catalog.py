@@ -18,7 +18,7 @@ REQUEST_TIMEOUT = 10  # seconds
 priority_devs = ["Menlo", "cortexso"]
 
 # Tags to look for in the summary metadata
-DESIRED_TAGS = {"text-generation", "conversational", "llama"}
+DESIRED_TAGS = {"text-generation", "conversational", "llama", "image-text-to-text"}
 
 BLACKLISTED_DEVELOPERS = {
     "TheBloke",
@@ -76,6 +76,15 @@ def is_multipart_gguf(filename):
     return bool(re.match(multipart_pattern, filename, re.IGNORECASE))
 
 
+def is_mmproj_file(filename):
+    """
+    Check if a file is a multimodal projection model file.
+    These are typically named like mmproj-model-f16.gguf or similar.
+    """
+    name = filename.lower()
+    return name.startswith("mmproj") and name.endswith(".gguf")
+
+
 def remove_duplicates_and_multipart(catalog_data):
     """
     Remove duplicate models (keeping the one with higher downloads)
@@ -87,11 +96,12 @@ def remove_duplicates_and_multipart(catalog_data):
 
     for entry in catalog_data:
         quants = entry.get("quants", [])
+        mmproj_models = entry.get("mmproj_models", [])
         developer = entry.get("developer", "unknown")
         model_name = entry.get("model_name", "unknown")
 
-        if not quants:
-            # No quants at all, remove
+        if not quants and not mmproj_models:
+            # No quants or mmproj at all, remove
             print(f"Removing repository with no GGUF files: {developer}/{model_name}")
             removed_multipart_repos += 1
             continue
@@ -103,6 +113,15 @@ def remove_duplicates_and_multipart(catalog_data):
         for quant in quants:
             quant_path = quant.get("path", "")
             filename = quant_path.split("/")[-1] if quant_path else ""
+
+            if is_multipart_gguf(filename):
+                has_multipart = True
+                multipart_files.append(filename)
+
+        # Also check mmproj models for multipart (though less common)
+        for mmproj in mmproj_models:
+            mmproj_path = mmproj.get("path", "")
+            filename = mmproj_path.split("/")[-1] if mmproj_path else ""
 
             if is_multipart_gguf(filename):
                 has_multipart = True
@@ -182,7 +201,34 @@ def get_gguf_model_catalog():
     if os.path.exists(OUTPUT_FILE):
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             existing_catalog = json.load(f)
-            # First, remove duplicates and multipart files from existing catalog
+            # First, separate mmproj models from existing catalog entries
+            print("=== SEPARATING MMPROJ FROM EXISTING CATALOG ===")
+            for entry in existing_catalog:
+                # Separate mmproj files from regular quants in existing entries
+                existing_quants = entry.get("quants", [])
+                existing_mmproj = entry.get("mmproj_models", [])
+
+                separated_quants = []
+                separated_mmproj = existing_mmproj.copy()  # Keep existing mmproj
+
+                for quant in existing_quants:
+                    quant_path = quant.get("path", "")
+                    filename = quant_path.split("/")[-1] if quant_path else ""
+
+                    # Check if this quant is actually an mmproj file
+                    if is_mmproj_file(filename):
+                        separated_mmproj.append(quant)
+                        print(f"  -> Moved {filename} from quants to mmproj_models")
+                    else:
+                        separated_quants.append(quant)
+
+                # Update the entry with separated files
+                entry["quants"] = separated_quants
+                entry["mmproj_models"] = separated_mmproj
+                entry["num_quants"] = len(separated_quants)
+                entry["num_mmproj"] = len(separated_mmproj)
+
+            # Then, remove duplicates and multipart files from existing catalog
             print("=== CLEANING EXISTING CATALOG ===")
             cleaned_catalog = remove_duplicates_and_multipart(existing_catalog)
             for entry in cleaned_catalog:
@@ -269,6 +315,8 @@ def get_gguf_model_catalog():
                 "quants",
                 "readme",
                 "description",
+                "mmproj_models",  # Added mmproj_models to expected keys
+                "num_mmproj",  # Added num_mmproj to expected keys
             ]
             if existing_entry is None:
                 # New entry
@@ -325,8 +373,9 @@ def get_gguf_model_catalog():
                     supports_tools = True
             print(f"  -> Tool support: {supports_tools}")
 
-            # Normalize and collect GGUF files + README
+            # Normalize and collect GGUF files + README, separating text models from mmproj
             quants = []
+            mmproj_models = []
             readme_url = None
             readme_text = None
             has_multipart_gguf = False
@@ -353,7 +402,7 @@ def get_gguf_model_catalog():
                 )
                 continue
 
-            # Second pass: collect valid GGUF files (only if no multi-part files were found)
+            # Second pass: collect valid GGUF files, separating text models from mmproj
             for sib in detail.get("siblings", []):
                 raw = sib.get("rfilename")
                 if not raw:
@@ -361,18 +410,32 @@ def get_gguf_model_catalog():
                 name = raw.lower()
                 url = f"https://huggingface.co/{repo_id}/resolve/main/{raw}"
 
-                if name.endswith(".gguf") and all(
-                    x not in name for x in ("embedding", "ocr", "speech", "reranker")
-                ):
-                    quants.append(
-                        {
-                            "model_id": raw.rsplit(".gguf", 1)[0],
-                            "path": url,
-                            "file_size": convert_bytes_to_human_readable(
-                                sib.get("size")
-                            ),
-                        }
-                    )
+                if name.endswith(".gguf"):
+                    # Check if it's an mmproj model
+                    if is_mmproj_file(name):
+                        mmproj_models.append(
+                            {
+                                "model_id": raw.rsplit(".gguf", 1)[0],
+                                "path": url,
+                                "file_size": convert_bytes_to_human_readable(
+                                    sib.get("size")
+                                ),
+                            }
+                        )
+                    # Check if it's a regular text generation model (not embedding/ocr/speech/reranker)
+                    elif all(
+                        x not in name
+                        for x in ("embedding", "ocr", "speech", "reranker")
+                    ):
+                        quants.append(
+                            {
+                                "model_id": raw.rsplit(".gguf", 1)[0],
+                                "path": url,
+                                "file_size": convert_bytes_to_human_readable(
+                                    sib.get("size")
+                                ),
+                            }
+                        )
                 elif name == "readme.md":
                     readme_url = url
                     try:
@@ -383,10 +446,14 @@ def get_gguf_model_catalog():
                         print(f"  -> Failed to fetch README: {e}")
                         readme_text = None
 
-            # Only keep repos that actually have valid GGUF files
-            if not quants:
+            # Only keep repos that actually have valid GGUF files (either text models or mmproj)
+            if not quants and not mmproj_models:
                 print(f"  -> No valid model GGUF files found, skipping")
                 continue
+
+            print(
+                f"  -> Found {len(quants)} text models and {len(mmproj_models)} mmproj models"
+            )
 
             # Summarize the README if present and if it's a new entry or missing description
             description = ""
@@ -414,6 +481,8 @@ def get_gguf_model_catalog():
                 "tools": supports_tools,
                 "num_quants": len(quants),
                 "quants": quants,
+                "num_mmproj": len(mmproj_models),
+                "mmproj_models": mmproj_models,
                 "readme": readme_url,
                 "description": description,
             }
@@ -477,6 +546,8 @@ def get_gguf_model_catalog():
             "quants",
             "readme",
             "description",
+            "mmproj_models",
+            "num_mmproj",
         ]
         missing_keys = []
 
@@ -532,8 +603,9 @@ def get_gguf_model_catalog():
 
         print(f"  -> Tool support: {supports_tools}")
 
-        # Collect GGUF files from API or keep existing (but check for multipart)
+        # Collect GGUF files from API or keep existing (but check for multipart and separate mmproj)
         quants = []
+        mmproj_models = []
         readme_url = existing_entry.get("readme")
 
         if detail.get("siblings"):
@@ -562,7 +634,7 @@ def get_gguf_model_catalog():
                     del existing_map[entry_key]
                 continue
 
-            # Second pass: collect valid GGUF files (only if no multi-part files were found)
+            # Second pass: collect valid GGUF files, separating text models from mmproj
             for sib in detail.get("siblings", []):
                 raw = sib.get("rfilename")
                 if not raw:
@@ -570,25 +642,41 @@ def get_gguf_model_catalog():
                 name = raw.lower()
                 url = f"https://huggingface.co/{repo_id}/resolve/main/{raw}"
 
-                if name.endswith(".gguf") and all(
-                    x not in name for x in ("embedding", "ocr", "speech", "reranker")
-                ):
-                    quants.append(
-                        {
-                            "model_id": raw.rsplit(".gguf", 1)[0],
-                            "path": url,
-                            "file_size": convert_bytes_to_human_readable(
-                                sib.get("size")
-                            ),
-                        }
-                    )
+                if name.endswith(".gguf"):
+                    # Check if it's an mmproj model
+                    if is_mmproj_file(name):
+                        mmproj_models.append(
+                            {
+                                "model_id": raw.rsplit(".gguf", 1)[0],
+                                "path": url,
+                                "file_size": convert_bytes_to_human_readable(
+                                    sib.get("size")
+                                ),
+                            }
+                        )
+                    # Check if it's a regular text generation model
+                    elif all(
+                        x not in name
+                        for x in ("embedding", "ocr", "speech", "reranker")
+                    ):
+                        quants.append(
+                            {
+                                "model_id": raw.rsplit(".gguf", 1)[0],
+                                "path": url,
+                                "file_size": convert_bytes_to_human_readable(
+                                    sib.get("size")
+                                ),
+                            }
+                        )
                 elif name == "readme.md":
                     readme_url = url
         else:
-            # Check existing quants for multi-part files
+            # Check existing quants and mmproj for multi-part files and separate them properly
             existing_quants = existing_entry.get("quants", [])
+            existing_mmproj = existing_entry.get("mmproj_models", [])
             has_multipart_gguf = False
 
+            # Check existing quants for multipart
             for quant in existing_quants:
                 quant_path = quant.get("path", "")
                 filename = quant_path.split("/")[-1] if quant_path else ""
@@ -597,7 +685,19 @@ def get_gguf_model_catalog():
                     print(f"  -> Found multi-part GGUF in existing quants: {filename}")
                     break
 
-            # If any existing quant is multipart, remove this repository
+            # Check existing mmproj for multipart
+            if not has_multipart_gguf:
+                for mmproj in existing_mmproj:
+                    mmproj_path = mmproj.get("path", "")
+                    filename = mmproj_path.split("/")[-1] if mmproj_path else ""
+                    if is_multipart_gguf(filename):
+                        has_multipart_gguf = True
+                        print(
+                            f"  -> Found multi-part GGUF in existing mmproj: {filename}"
+                        )
+                        break
+
+            # If any existing file is multipart, remove this repository
             if has_multipart_gguf:
                 print(
                     f"  -> Existing repository contains multi-part GGUF files, removing from catalog"
@@ -606,8 +706,9 @@ def get_gguf_model_catalog():
                     del existing_map[entry_key]
                 continue
             else:
-                # Keep all existing quants since none are multipart
+                # Keep existing files since none are multipart
                 quants = existing_quants
+                mmproj_models = existing_mmproj
 
         # Use existing description
         description = existing_entry.get("description", "")
@@ -627,6 +728,16 @@ def get_gguf_model_catalog():
                     len(quants) if quants else existing_entry.get("num_quants", 0)
                 ),
                 "quants": quants if quants else existing_entry.get("quants", []),
+                "num_mmproj": (
+                    len(mmproj_models)
+                    if mmproj_models
+                    else existing_entry.get("num_mmproj", 0)
+                ),
+                "mmproj_models": (
+                    mmproj_models
+                    if mmproj_models
+                    else existing_entry.get("mmproj_models", [])
+                ),
                 "readme": readme_url,
                 "description": description,
             }
@@ -646,8 +757,8 @@ def get_gguf_model_catalog():
         is_pinned = repo_id in PINNED_MODELS
         is_priority_dev = entry.get("developer", "") in priority_devs
         return (
-            not is_pinned,           # Pinned models come first (False < True)
-            not is_priority_dev,     # Then priority devs
+            not is_pinned,  # Pinned models come first (False < True)
+            not is_priority_dev,  # Then priority devs
             -entry.get("downloads", 0),  # Then by downloads descending
             entry.get("model_name", "").lower(),  # Then alphabetically
         )
