@@ -85,6 +85,151 @@ def is_mmproj_file(filename):
     return name.startswith("mmproj") and name.endswith(".gguf")
 
 
+def process_model_details(repo_id, detail=None, existing_entry=None):
+    """
+    Process model details from HF API response and return structured entry.
+    Returns None if model should be skipped.
+    """
+    if not detail:
+        return None
+
+    developer = repo_id.split("/")[0]
+    model_name = repo_id.split("/")[-1]
+
+    # Apply filtering
+    if developer in BLACKLISTED_DEVELOPERS:
+        print(f"Filtering out blacklisted developer: {developer}/{model_name}")
+        return None
+
+    downloads = detail.get("downloads", 0)
+    createdAt = detail.get("createdAt")
+
+    # Check for tool support in chat template
+    supports_tools = False
+    gguf_data = detail.get("gguf")
+    if gguf_data and isinstance(gguf_data, dict):
+        chat_template = gguf_data.get("chat_template")
+        if (
+            chat_template
+            and isinstance(chat_template, str)
+            and "for tool" in chat_template
+        ):
+            supports_tools = True
+    print(f"  -> Tool support: {supports_tools}")
+
+    # Normalize and collect GGUF files + README, separating text models from mmproj
+    quants = []
+    mmproj_models = []
+    readme_url = None
+    readme_text = None
+    has_multipart_gguf = False
+
+    # First pass: check for any multi-part GGUF files
+    for sib in detail.get("siblings", []):
+        raw = sib.get("rfilename")
+        if not raw:
+            continue
+        name = raw.lower()
+
+        if name.endswith(".gguf"):
+            # Check if ANY GGUF file is multi-part (regardless of type)
+            if is_multipart_gguf(raw):
+                print(f"  -> Found multi-part GGUF: {raw}")
+                has_multipart_gguf = True
+
+    # If ANY multi-part GGUF file is found, skip this entire repository
+    if has_multipart_gguf:
+        print(f"  -> Repository contains multi-part GGUF files, skipping entire repo")
+        return None
+
+    # Second pass: collect valid GGUF files, separating text models from mmproj
+    for sib in detail.get("siblings", []):
+        raw = sib.get("rfilename")
+        if not raw:
+            continue
+        name = raw.lower()
+        url = f"https://huggingface.co/{repo_id}/resolve/main/{raw}"
+
+        if name.endswith(".gguf"):
+            # Check if it's an mmproj model
+            if is_mmproj_file(name):
+                mmproj_models.append(
+                    {
+                        "model_id": raw.rsplit(".gguf", 1)[0],
+                        "path": url,
+                        "file_size": convert_bytes_to_human_readable(sib.get("size")),
+                    }
+                )
+            # Check if it's a regular text generation model (not embedding/ocr/speech/reranker)
+            elif all(x not in name for x in ("embedding", "ocr", "speech", "reranker")):
+                quants.append(
+                    {
+                        "model_id": raw.rsplit(".gguf", 1)[0],
+                        "path": url,
+                        "file_size": convert_bytes_to_human_readable(sib.get("size")),
+                    }
+                )
+        elif name == "readme.md":
+            readme_url = url
+            try:
+                d = requests.get(url, timeout=REQUEST_TIMEOUT, headers=HEADERS)
+                d.raise_for_status()
+                readme_text = d.text
+            except Exception as e:
+                print(f"  -> Failed to fetch README: {e}")
+                readme_text = None
+
+    # Only keep repos that actually have valid GGUF files (either text models or mmproj)
+    if not quants and not mmproj_models:
+        print(f"  -> No valid model GGUF files found, skipping")
+        return None
+
+    print(
+        f"  -> Found {len(quants)} text models and {len(mmproj_models)} mmproj models"
+    )
+
+    # Summarize the README if present and if it's a new entry or missing description
+    description = ""
+    if existing_entry:
+        description = existing_entry.get("description", "")
+
+    if readme_text and (not existing_entry or not existing_entry.get("description")):
+        try:
+            description = summarize_readme_one_liner(readme_text.strip())
+            print(f"  -> Generated new description")
+        except Exception as e:
+            print(f"  -> Failed to summarize README: {e}")
+            description = (
+                existing_entry.get("description", "") if existing_entry else ""
+            )
+
+    # Create entry
+    entry = {
+        "model_name": model_name,
+        "developer": developer,
+        "downloads": downloads,
+        "createdAt": createdAt,
+        "tools": supports_tools,
+        "num_quants": len(quants),
+        "quants": quants,
+        "num_mmproj": len(mmproj_models),
+        "mmproj_models": mmproj_models,
+        "readme": readme_url,
+        "description": description,
+    }
+
+    # If updating an existing entry, preserve values that don't need to change
+    if existing_entry:
+        # Keep existing description if we didn't generate a new one
+        if not readme_text or (existing_entry.get("description") and not description):
+            entry["description"] = existing_entry.get("description", "")
+        # Keep existing createdAt if current one is missing
+        if not createdAt and existing_entry.get("createdAt"):
+            entry["createdAt"] = existing_entry.get("createdAt")
+
+    return entry
+
+
 def remove_duplicates_and_multipart(catalog_data):
     """
     Remove duplicate models (keeping the one with higher downloads)
@@ -360,143 +505,10 @@ def get_gguf_model_catalog():
                 print(f"  -> Failed to parse JSON response for {repo_id}")
                 continue
 
-            # Check for tool support in chat template
-            supports_tools = False
-            gguf_data = detail.get("gguf")
-            if gguf_data and isinstance(gguf_data, dict):
-                chat_template = gguf_data.get("chat_template")
-                if (
-                    chat_template
-                    and isinstance(chat_template, str)
-                    and "for tool" in chat_template
-                ):
-                    supports_tools = True
-            print(f"  -> Tool support: {supports_tools}")
-
-            # Normalize and collect GGUF files + README, separating text models from mmproj
-            quants = []
-            mmproj_models = []
-            readme_url = None
-            readme_text = None
-            has_multipart_gguf = False
-            total_gguf_files = 0
-
-            # First pass: check for any multi-part GGUF files
-            for sib in detail.get("siblings", []):
-                raw = sib.get("rfilename")
-                if not raw:
-                    continue
-                name = raw.lower()
-
-                if name.endswith(".gguf"):
-                    total_gguf_files += 1
-                    # Check if ANY GGUF file is multi-part (regardless of type)
-                    if is_multipart_gguf(raw):
-                        print(f"  -> Found multi-part GGUF: {raw}")
-                        has_multipart_gguf = True
-
-            # If ANY multi-part GGUF file is found, skip this entire repository
-            if has_multipart_gguf:
-                print(
-                    f"  -> Repository contains multi-part GGUF files, skipping entire repo"
-                )
+            # Process the model details
+            entry = process_model_details(repo_id, detail, existing_entry)
+            if entry is None:
                 continue
-
-            # Second pass: collect valid GGUF files, separating text models from mmproj
-            for sib in detail.get("siblings", []):
-                raw = sib.get("rfilename")
-                if not raw:
-                    continue
-                name = raw.lower()
-                url = f"https://huggingface.co/{repo_id}/resolve/main/{raw}"
-
-                if name.endswith(".gguf"):
-                    # Check if it's an mmproj model
-                    if is_mmproj_file(name):
-                        mmproj_models.append(
-                            {
-                                "model_id": raw.rsplit(".gguf", 1)[0],
-                                "path": url,
-                                "file_size": convert_bytes_to_human_readable(
-                                    sib.get("size")
-                                ),
-                            }
-                        )
-                    # Check if it's a regular text generation model (not embedding/ocr/speech/reranker)
-                    elif all(
-                        x not in name
-                        for x in ("embedding", "ocr", "speech", "reranker")
-                    ):
-                        quants.append(
-                            {
-                                "model_id": raw.rsplit(".gguf", 1)[0],
-                                "path": url,
-                                "file_size": convert_bytes_to_human_readable(
-                                    sib.get("size")
-                                ),
-                            }
-                        )
-                elif name == "readme.md":
-                    readme_url = url
-                    try:
-                        d = requests.get(url, timeout=REQUEST_TIMEOUT, headers=HEADERS)
-                        d.raise_for_status()
-                        readme_text = d.text
-                    except Exception as e:
-                        print(f"  -> Failed to fetch README: {e}")
-                        readme_text = None
-
-            # Only keep repos that actually have valid GGUF files (either text models or mmproj)
-            if not quants and not mmproj_models:
-                print(f"  -> No valid model GGUF files found, skipping")
-                continue
-
-            print(
-                f"  -> Found {len(quants)} text models and {len(mmproj_models)} mmproj models"
-            )
-
-            # Summarize the README if present and if it's a new entry or missing description
-            description = ""
-            if existing_entry:
-                description = existing_entry.get("description", "")
-
-            if readme_text and (
-                not existing_entry or not existing_entry.get("description")
-            ):
-                try:
-                    description = summarize_readme_one_liner(readme_text.strip())
-                    print(f"  -> Generated new description")
-                except Exception as e:
-                    print(f"  -> Failed to summarize README: {e}")
-                    description = (
-                        existing_entry.get("description", "") if existing_entry else ""
-                    )
-
-            # Create or update entry, preserving existing values where appropriate
-            entry = {
-                "model_name": model_name,
-                "developer": developer,
-                "downloads": downloads,  # Always update downloads
-                "createdAt": createdAt,
-                "tools": supports_tools,
-                "num_quants": len(quants),
-                "quants": quants,
-                "num_mmproj": len(mmproj_models),
-                "mmproj_models": mmproj_models,
-                "readme": readme_url,
-                "description": description,
-            }
-
-            # If updating an existing entry, preserve values that don't need to change
-            if existing_entry:
-                # Keep existing description if we didn't generate a new one
-                if not readme_text or (
-                    existing_entry.get("description") and not description
-                ):
-                    entry["description"] = existing_entry.get("description", "")
-                # Keep existing createdAt if current one is missing
-                if not createdAt and existing_entry.get("createdAt"):
-                    entry["createdAt"] = existing_entry.get("createdAt")
 
             if entry_key not in existing_map:
                 print(f"  -> Added new entry")
@@ -746,6 +758,44 @@ def get_gguf_model_catalog():
         existing_map[entry_key] = updated_entry
         added_or_updated += 1
         print(f"  -> Updated existing entry with missing keys")
+
+    # Third pass: Process pinned models that weren't found in API or existing catalog
+    print("\n=== PASS 3: Processing pinned models not found elsewhere ===")
+    all_processed_models = set(existing_map.keys())
+
+    for pinned_repo_id in PINNED_MODELS:
+        if pinned_repo_id not in all_processed_models:
+            print(f"Processing missing pinned model: {pinned_repo_id}")
+
+            time.sleep(REQUEST_DELAY)
+            try:
+                r = requests.get(
+                    f"{HF_BASE_API_URL}/models/{pinned_repo_id}?blobs=true",
+                    timeout=REQUEST_TIMEOUT,
+                    headers=HEADERS,
+                )
+                r.raise_for_status()
+                detail = r.json()
+
+                print(f"  -> Successfully fetched pinned model details")
+
+                # Process the pinned model details
+                entry = process_model_details(pinned_repo_id, detail)
+                if entry is not None:
+                    existing_map[pinned_repo_id] = entry
+                    added_or_updated += 1
+                    print(f"  -> Added pinned model to catalog")
+                else:
+                    print(f"  -> Pinned model failed validation, skipping")
+
+            except requests.exceptions.RequestException as e:
+                print(f"  -> Failed to fetch pinned model {pinned_repo_id}: {e}")
+            except ValueError:
+                print(
+                    f"  -> Failed to parse JSON response for pinned model {pinned_repo_id}"
+                )
+        else:
+            print(f"Pinned model {pinned_repo_id} already in catalog")
 
     # Convert to list and apply final duplicate removal and multipart filtering
     print("\n=== FINAL CLEANUP: Removing duplicates and multipart files ===")
