@@ -24,7 +24,7 @@ BLACKLISTED_DEVELOPERS = {
     "TheBloke",
 }
 
-PINNED_MODELS = ["ggml-org/gpt-oss-20b-GGUF"]
+PINNED_MODELS = ["janhq/Jan-v1-4B-GGUF", "ggml-org/gpt-oss-20b-GGUF"]
 
 client = openai.OpenAI(
     base_url=os.getenv("BASE_URL"),
