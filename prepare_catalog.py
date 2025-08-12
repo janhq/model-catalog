@@ -15,7 +15,7 @@ MODELS_PER_PAGE = 100000  # Reasonable page size
 MAX_PAGES = 1  # Set a reasonable limit to prevent infinite loops
 REQUEST_DELAY = 0.1
 REQUEST_TIMEOUT = 10  # seconds
-priority_devs = ["Menlo", "cortexso"]
+priority_devs = ["Menlo", "jan-hq", "cortexso"]
 
 # Tags to look for in the summary metadata
 DESIRED_TAGS = {"text-generation", "conversational", "llama", "image-text-to-text"}
