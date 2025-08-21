@@ -22,6 +22,7 @@ DESIRED_TAGS = {"text-generation", "conversational", "llama", "image-text-to-tex
 
 BLACKLISTED_DEVELOPERS = {
     "TheBloke",
+    "Mungert" # Temporarily blacklist Diffucoder
 }
 
 PINNED_MODELS = ["janhq/Jan-v1-4B-GGUF", "ggml-org/gpt-oss-20b-GGUF"]
