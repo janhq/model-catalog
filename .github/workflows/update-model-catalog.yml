@@ -71,7 +71,7 @@ jobs:
           branch: update-model-catalog-${{ steps.date.outputs.today_with_time }}
           commit-message: "🤖 Auto-update model catalog - ${{ steps.date.outputs.datetime }}"
           title: "🤖 Auto-update Model Catalog - ${{ steps.date.outputs.datetime_short }}"
-          reviewers: Minh141120,qnixsynapse
+          reviewers: Minh141120
           body: |
             ## 🤖 Automated Model Catalog Update
 
