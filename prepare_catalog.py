@@ -22,7 +22,8 @@ DESIRED_TAGS = {"text-generation", "conversational", "llama", "image-text-to-tex
 
 BLACKLISTED_DEVELOPERS = {
     "TheBloke",
-    "Mungert" # Temporarily blacklist Diffucoder
+    "Mungert",  # Temporarily blacklist Diffucoder
+    "UmeAiRT",
 }
 
 PINNED_MODELS = ["janhq/Jan-v1-4B-GGUF", "ggml-org/gpt-oss-20b-GGUF"]
@@ -162,7 +163,7 @@ def process_model_details(repo_id, detail=None, existing_entry=None):
                     }
                 )
             # Check if it's a regular text generation model (not embedding/ocr/speech/reranker)
-            elif all(x not in name for x in ("embedding", "ocr", "speech", "reranker")):
+            elif all(x not in name for x in ("embedding", "ocr", "speech", "reranker", "encoder", "clip")):
                 quants.append(
                     {
                         "model_id": raw.rsplit(".gguf", 1)[0],
@@ -347,7 +348,19 @@ def get_gguf_model_catalog():
     if os.path.exists(OUTPUT_FILE):
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             existing_catalog = json.load(f)
-            # First, separate mmproj models from existing catalog entries
+            print("=== FILTERING BLACKLISTED DEVELOPERS FROM EXISTING CATALOG ===")
+            pre_filter_count = len(existing_catalog)
+            existing_catalog = [
+                entry
+                for entry in existing_catalog
+                if entry["developer"] not in BLACKLISTED_DEVELOPERS
+            ]
+            removed_blacklisted = pre_filter_count - len(existing_catalog)
+            if removed_blacklisted > 0:
+                print(
+                    f"  -> Removed {removed_blacklisted} model(s) from blacklisted developers"
+                )
+            # Separate mmproj models from existing catalog entries
             print("=== SEPARATING MMPROJ FROM EXISTING CATALOG ===")
             for entry in existing_catalog:
                 # Separate mmproj files from regular quants in existing entries
