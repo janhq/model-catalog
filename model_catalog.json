@@ -16413,7 +16413,7 @@
     "downloads": 4319,
     "createdAt": "2025-08-31T08:41:52.000Z",
     "tools": true,
-    "num_quants": 5,
+    "num_quants": 4,
     "quants": [
       {
         "model_id": "GGUF/ggml-model-Q4_K_M",
@@ -16434,15 +16434,16 @@
         "model_id": "GGUF/ggml-model-f16",
         "path": "https://huggingface.co/huihui-ai/Huihui-MiniCPM-V-4_5-abliterated/resolve/main/GGUF/ggml-model-f16.gguf",
         "file_size": "15.3 GB"
-      },
+      }
+    ],
+    "num_mmproj": 1,
+    "mmproj_models": [
       {
         "model_id": "GGUF/mmproj-model-f16",
         "path": "https://huggingface.co/huihui-ai/Huihui-MiniCPM-V-4_5-abliterated/resolve/main/GGUF/mmproj-model-f16.gguf",
         "file_size": "1.0 GB"
       }
     ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
     "readme": "https://huggingface.co/huihui-ai/Huihui-MiniCPM-V-4_5-abliterated/resolve/main/README.md",
     "description": "This is an uncensored, multi-language, vision-based model derived from MiniCPM-V-4_5, capable of processing images and text without safety filtering, suitable for research and controlled environments."
   },
@@ -33441,6 +33442,140 @@
     "tools": false,
     "mmproj_models": [],
     "num_mmproj": 0
+  },
+  {
+    "model_name": "ERNIE-4.5-21B-A3B-Thinking-GGUF",
+    "developer": "gabriellarson",
+    "downloads": 0,
+    "createdAt": "2025-09-09T01:16:03.000Z",
+    "tools": true,
+    "num_quants": 24,
+    "quants": [
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-F16",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-F16.gguf",
+        "file_size": "40.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ2_M",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ2_M.gguf",
+        "file_size": "6.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ2_S",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ2_S.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ2_XS",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ2_XS.gguf",
+        "file_size": "6.0 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ2_XXS",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ2_XXS.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ3_M",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ3_M.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ3_S",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ3_S.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ3_XS",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ3_XS.gguf",
+        "file_size": "8.4 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ3_XXS",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ3_XXS.gguf",
+        "file_size": "7.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ4_NL",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ4_NL.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ4_XS",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ4_XS.gguf",
+        "file_size": "10.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q2_K",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q2_K.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q2_K_S",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q2_K_S.gguf",
+        "file_size": "6.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q3_K_L",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q3_K_L.gguf",
+        "file_size": "10.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q3_K_M",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q3_K_M.gguf",
+        "file_size": "9.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q3_K_S",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q3_K_S.gguf",
+        "file_size": "8.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_0",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_0.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_K_M",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_K_M.gguf",
+        "file_size": "12.3 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_K_S",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_K_S.gguf",
+        "file_size": "11.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q5_0",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q5_0.gguf",
+        "file_size": "14.1 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q5_K_M",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q5_K_M.gguf",
+        "file_size": "14.4 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q5_K_S",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q5_K_S.gguf",
+        "file_size": "14.0 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q6_K",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q6_K.gguf",
+        "file_size": "16.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q8_0",
+        "path": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q8_0.gguf",
+        "file_size": "21.6 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/gabriellarson/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/README.md",
+    "description": "<think>\nOkay, I need to summarize this Hugging Face README.md file in the shortest possible sentence. Let me read through it carefully.\n\nThe README is for the ERNIE-4.5-21B-A3B-Thinking model. Key points from the text:\n\n- It's"
   },
   {
     "model_name": "medgemma3-thinking",
