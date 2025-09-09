@@ -7563,150 +7563,6 @@
     "description": "Nous-Hermes 2 Mistral 7B DPO is a 7B parameter model fine-tuned with DPO from Teknium/OpenHermes-2.5-Mistral-7B, showing improved performance on AGIEval, BigBench, GPT4"
   },
   {
-    "model_name": "GLM-4.1V-9B-Thinking-GGUF",
-    "developer": "unsloth",
-    "downloads": 17437,
-    "createdAt": "2025-07-25T11:47:05.000Z",
-    "tools": false,
-    "num_quants": 26,
-    "quants": [
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-BF16",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-BF16.gguf",
-        "file_size": "17.5 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-IQ4_NL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-IQ4_NL.gguf",
-        "file_size": "5.1 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-IQ4_XS",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-IQ4_XS.gguf",
-        "file_size": "4.9 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q2_K",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q2_K.gguf",
-        "file_size": "3.7 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q2_K_L",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q2_K_L.gguf",
-        "file_size": "3.9 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q3_K_M",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q3_K_M.gguf",
-        "file_size": "4.6 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q3_K_S",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q3_K_S.gguf",
-        "file_size": "4.3 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q4_0",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_0.gguf",
-        "file_size": "5.1 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q4_1",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_1.gguf",
-        "file_size": "5.6 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q4_K_M",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_K_M.gguf",
-        "file_size": "5.7 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q4_K_S",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_K_S.gguf",
-        "file_size": "5.4 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q5_K_M",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q5_K_M.gguf",
-        "file_size": "6.6 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q5_K_S",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q5_K_S.gguf",
-        "file_size": "6.2 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q6_K",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q6_K.gguf",
-        "file_size": "7.7 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-Q8_0",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q8_0.gguf",
-        "file_size": "9.3 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ1_M",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ1_M.gguf",
-        "file_size": "3.1 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ1_S",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ1_S.gguf",
-        "file_size": "3.0 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ2_M",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ2_M.gguf",
-        "file_size": "3.7 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ2_XXS",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ2_XXS.gguf",
-        "file_size": "3.3 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ3_XXS",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ3_XXS.gguf",
-        "file_size": "3.9 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q2_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q2_K_XL.gguf",
-        "file_size": "3.9 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q3_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q3_K_XL.gguf",
-        "file_size": "4.8 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q4_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q4_K_XL.gguf",
-        "file_size": "5.8 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q5_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q5_K_XL.gguf",
-        "file_size": "6.5 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q6_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q6_K_XL.gguf",
-        "file_size": "8.3 GB"
-      },
-      {
-        "model_id": "GLM-4.1V-9B-Thinking-UD-Q8_K_XL",
-        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q8_K_XL.gguf",
-        "file_size": "11.2 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/README.md",
-    "description": "This is a 9B-parameter vision-language model (GLM-4.1V-9B-Thinking) that enhances reasoning capabilities through a thinking paradigm and reinforcement learning, achieving state-of-the-art performance on 18 benchmark tasks."
-  },
-  {
     "model_name": "Cydonia-24B-v4.1-GGUF",
     "developer": "TheDrummer",
     "downloads": 17394,
@@ -7873,6 +7729,150 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/DavidAU/Gemma-The-Writer-N-Restless-Quill-10B-Uncensored-GGUF/resolve/main/README.md",
     "description": "This is a highly advanced, uncensored Gemma2 model designed for creative writing, particularly fiction and storytelling, combining four top storytelling models with additional modifications for vivid, detailed, and emotionally engaging prose across various genres, including science fiction, horror, and romance, with options for different quantization levels and"
+  },
+  {
+    "model_name": "GLM-4.1V-9B-Thinking-GGUF",
+    "developer": "unsloth",
+    "downloads": 16908,
+    "createdAt": "2025-07-25T11:47:05.000Z",
+    "tools": false,
+    "num_quants": 26,
+    "quants": [
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-BF16",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-BF16.gguf",
+        "file_size": "17.5 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-IQ4_NL",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-IQ4_NL.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-IQ4_XS",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-IQ4_XS.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q2_K",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q2_K.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q2_K_L",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q2_K_L.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q3_K_M",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q3_K_M.gguf",
+        "file_size": "4.6 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q3_K_S",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q3_K_S.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q4_0",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_0.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q4_1",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_1.gguf",
+        "file_size": "5.6 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q4_K_M",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_K_M.gguf",
+        "file_size": "5.7 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q4_K_S",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q4_K_S.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q5_K_M",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q5_K_M.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q5_K_S",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q5_K_S.gguf",
+        "file_size": "6.2 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q6_K",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q6_K.gguf",
+        "file_size": "7.7 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-Q8_0",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-Q8_0.gguf",
+        "file_size": "9.3 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ1_M",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ1_M.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ1_S",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ1_S.gguf",
+        "file_size": "3.0 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ2_M",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ2_M.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ2_XXS",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ2_XXS.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-IQ3_XXS",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-IQ3_XXS.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-Q2_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q2_K_XL.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-Q3_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q3_K_XL.gguf",
+        "file_size": "4.8 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-Q4_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q4_K_XL.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-Q5_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q5_K_XL.gguf",
+        "file_size": "6.5 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-Q6_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q6_K_XL.gguf",
+        "file_size": "8.3 GB"
+      },
+      {
+        "model_id": "GLM-4.1V-9B-Thinking-UD-Q8_K_XL",
+        "path": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/GLM-4.1V-9B-Thinking-UD-Q8_K_XL.gguf",
+        "file_size": "11.2 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF/resolve/main/README.md",
+    "description": "This is a 9B-parameter vision-language model (GLM-4.1V-9B-Thinking) that enhances reasoning capabilities through a thinking paradigm and reinforcement learning, achieving state-of-the-art performance on 18 benchmark tasks."
   },
   {
     "model_name": "Qwen3-30B-A3B-GGUF",
