@@ -34,6 +34,40 @@
     "description": "Jan-v1 is an advanced agentic language model built on the Qwen3-4B-thinking model, optimized for complex problem-solving and integration with the Jan App."
   },
   {
+    "model_name": "Jan-v1-2509-gguf",
+    "developer": "janhq",
+    "downloads": 0,
+    "createdAt": "2025-09-09T03:24:24.000Z",
+    "tools": true,
+    "num_quants": 4,
+    "quants": [
+      {
+        "model_id": "Jan-v1-2509-Q4_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q4_K_M.gguf",
+        "file_size": "2.3 GB"
+      },
+      {
+        "model_id": "Jan-v1-2509-Q5_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q5_K_M.gguf",
+        "file_size": "2.7 GB"
+      },
+      {
+        "model_id": "Jan-v1-2509-Q6_K",
+        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q6_K.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "Jan-v1-2509-Q8_0",
+        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q8_0.gguf",
+        "file_size": "4.0 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/README.md",
+    "description": "<think>\nOkay, I need to summarize this Hugging Face README.md file in the shortest possible sentence. Let me read through it carefully.\n\nThe README is for a model called Jan-v1, which is part of the Jan Family. It's described as an advanced agentic language model designed for problem"
+  },
+  {
     "model_name": "gpt-oss-20b-GGUF",
     "developer": "ggml-org",
     "downloads": 123954,
@@ -2067,7 +2101,7 @@
   {
     "model_name": "gemma-3-12b-it-qat-q4_0-gguf",
     "developer": "google",
-    "downloads": 85315,
+    "downloads": 84731,
     "createdAt": "2025-03-12T12:32:41.000Z",
     "tools": false,
     "num_quants": 1,
@@ -4197,7 +4231,7 @@
   {
     "model_name": "Qwen3-4B-GGUF",
     "developer": "unsloth",
-    "downloads": 34350,
+    "downloads": 34682,
     "createdAt": "2025-04-28T07:55:09.000Z",
     "tools": true,
     "num_quants": 26,
@@ -4481,6 +4515,155 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/unsloth/Qwen3-0.6B-GGUF/resolve/main/README.md",
     "description": "Qwen3-0.6B is a 0.6B parameter large language model developed by Alibaba Cloud, offering enhanced reasoning, instruction-following, and multilingual capabilities with support for seamless switching between thinking and non-thinking modes."
+  },
+  {
+    "model_name": "TheDrummer_Cydonia-24B-v4.1-GGUF",
+    "developer": "bartowski",
+    "downloads": 33827,
+    "createdAt": "2025-08-18T16:31:24.000Z",
+    "tools": false,
+    "num_quants": 27,
+    "quants": [
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ2_M",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ2_M.gguf",
+        "file_size": "7.6 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ2_S",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ2_S.gguf",
+        "file_size": "7.0 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ2_XS",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ2_XS.gguf",
+        "file_size": "6.7 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ3_M",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ3_M.gguf",
+        "file_size": "9.9 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ3_XS",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ3_XS.gguf",
+        "file_size": "9.2 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ3_XXS",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ3_XXS.gguf",
+        "file_size": "8.6 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ4_NL",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ4_NL.gguf",
+        "file_size": "12.5 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ4_XS",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ4_XS.gguf",
+        "file_size": "11.9 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q2_K",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q2_K.gguf",
+        "file_size": "8.3 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q2_K_L",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q2_K_L.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q3_K_L",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q3_K_L.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q3_K_M",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q3_K_M.gguf",
+        "file_size": "10.7 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q3_K_S",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q3_K_S.gguf",
+        "file_size": "9.7 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q3_K_XL",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q3_K_XL.gguf",
+        "file_size": "12.1 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q4_0",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q4_0.gguf",
+        "file_size": "12.6 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q4_1",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q4_1.gguf",
+        "file_size": "13.9 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q4_K_L",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q4_K_L.gguf",
+        "file_size": "13.8 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q4_K_M",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q4_K_M.gguf",
+        "file_size": "13.3 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q4_K_S",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q4_K_S.gguf",
+        "file_size": "12.6 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q5_K_L",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q5_K_L.gguf",
+        "file_size": "16.0 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q5_K_M",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q5_K_M.gguf",
+        "file_size": "15.6 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q5_K_S",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q5_K_S.gguf",
+        "file_size": "15.2 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q6_K",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q6_K.gguf",
+        "file_size": "18.0 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q6_K_L",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q6_K_L.gguf",
+        "file_size": "18.3 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q8_0",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q8_0.gguf",
+        "file_size": "23.3 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-bf16",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-bf16.gguf",
+        "file_size": "43.9 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-24B-v4.1-imatrix",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-imatrix.gguf",
+        "file_size": "9.6 MB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/README.md",
+    "description": "This is a quantized version of the Cydonia-24B-v4.1 model using llama.cpp's imatrix method, offering various quantization types for different performance and quality trade-offs."
   },
   {
     "model_name": "gemma-3n-E2B-it-GGUF",
@@ -6383,155 +6566,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/DavidAU/Llama-3.2-8X4B-MOE-V2-Dark-Champion-Instruct-uncensored-abliterated-21B-GGUF/resolve/main/README.md",
     "description": "This is a Llama-3.2-8X4B-MOE-V2-Dark-Champion-Instruct-uncensored-abliterated-21B-GGUF model, a powerful mixture of 8 top L3.2 4B models combined into a 21"
-  },
-  {
-    "model_name": "TheDrummer_Cydonia-24B-v4.1-GGUF",
-    "developer": "bartowski",
-    "downloads": 22601,
-    "createdAt": "2025-08-18T16:31:24.000Z",
-    "tools": false,
-    "num_quants": 27,
-    "quants": [
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ2_M",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ2_M.gguf",
-        "file_size": "7.6 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ2_S",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ2_S.gguf",
-        "file_size": "7.0 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ2_XS",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ2_XS.gguf",
-        "file_size": "6.7 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ3_M",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ3_M.gguf",
-        "file_size": "9.9 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ3_XS",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ3_XS.gguf",
-        "file_size": "9.2 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ3_XXS",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ3_XXS.gguf",
-        "file_size": "8.6 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ4_NL",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ4_NL.gguf",
-        "file_size": "12.5 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-IQ4_XS",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-IQ4_XS.gguf",
-        "file_size": "11.9 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q2_K",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q2_K.gguf",
-        "file_size": "8.3 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q2_K_L",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q2_K_L.gguf",
-        "file_size": "8.9 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q3_K_L",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q3_K_L.gguf",
-        "file_size": "11.5 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q3_K_M",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q3_K_M.gguf",
-        "file_size": "10.7 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q3_K_S",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q3_K_S.gguf",
-        "file_size": "9.7 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q3_K_XL",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q3_K_XL.gguf",
-        "file_size": "12.1 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q4_0",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q4_0.gguf",
-        "file_size": "12.6 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q4_1",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q4_1.gguf",
-        "file_size": "13.9 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q4_K_L",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q4_K_L.gguf",
-        "file_size": "13.8 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q4_K_M",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q4_K_M.gguf",
-        "file_size": "13.3 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q4_K_S",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q4_K_S.gguf",
-        "file_size": "12.6 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q5_K_L",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q5_K_L.gguf",
-        "file_size": "16.0 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q5_K_M",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q5_K_M.gguf",
-        "file_size": "15.6 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q5_K_S",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q5_K_S.gguf",
-        "file_size": "15.2 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q6_K",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q6_K.gguf",
-        "file_size": "18.0 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q6_K_L",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q6_K_L.gguf",
-        "file_size": "18.3 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-Q8_0",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-Q8_0.gguf",
-        "file_size": "23.3 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-bf16",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-bf16.gguf",
-        "file_size": "43.9 GB"
-      },
-      {
-        "model_id": "TheDrummer_Cydonia-24B-v4.1-imatrix",
-        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/TheDrummer_Cydonia-24B-v4.1-imatrix.gguf",
-        "file_size": "9.6 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/README.md",
-    "description": "This is a quantized version of the Cydonia-24B-v4.1 model using llama.cpp's imatrix method, offering various quantization types for different performance and quality trade-offs."
   },
   {
     "model_name": "DeepSeek-R1-Distill-Qwen-1.5B-GGUF",
@@ -31912,6 +31946,80 @@
     "description": "The model is a quantized version of the Mistral-v3-7b-32k base model, available in various GGUF quantization types for different trade-offs between size and quality.",
     "mmproj_models": [],
     "num_mmproj": 0
+  },
+  {
+    "model_name": "SmolLM2-135M-multilingual-base-GGUF",
+    "developer": "mradermacher",
+    "downloads": 349,
+    "createdAt": "2025-08-30T12:24:40.000Z",
+    "tools": false,
+    "num_quants": 12,
+    "quants": [
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.IQ4_XS",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.IQ4_XS.gguf",
+        "file_size": "87.1 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.Q2_K",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.Q2_K.gguf",
+        "file_size": "84.1 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.Q3_K_L",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.Q3_K_L.gguf",
+        "file_size": "93.0 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.Q3_K_M",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.Q3_K_M.gguf",
+        "file_size": "89.2 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.Q3_K_S",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.Q3_K_S.gguf",
+        "file_size": "84.1 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.Q4_K_M",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.Q4_K_M.gguf",
+        "file_size": "100.6 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.Q4_K_S",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.Q4_K_S.gguf",
+        "file_size": "97.3 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.Q5_K_M",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.Q5_K_M.gguf",
+        "file_size": "106.9 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.Q5_K_S",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.Q5_K_S.gguf",
+        "file_size": "104.9 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.Q6_K",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.Q6_K.gguf",
+        "file_size": "132.0 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.Q8_0",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.Q8_0.gguf",
+        "file_size": "138.1 MB"
+      },
+      {
+        "model_id": "SmolLM2-135M-multilingual-base.f16",
+        "path": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/SmolLM2-135M-multilingual-base.f16.gguf",
+        "file_size": "258.3 MB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/mradermacher/SmolLM2-135M-multilingual-base-GGUF/resolve/main/README.md",
+    "description": "<think>\nOkay, I need to summarize this Hugging Face README.md file in the shortest possible sentence. Let me read through it carefully.\n\nThe model is SmolLM2-135M-multilingual-base from agentlans, with quantized versions available in GGUF format. It supports"
   },
   {
     "model_name": "Llama-3-Soliloquy-8B-v2-GGUF",
