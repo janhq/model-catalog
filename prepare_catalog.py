@@ -48,7 +48,7 @@ def summarize_readme_one_liner(text: str) -> str:
             {"role": "user", "content": text},
         ],
         temperature=0.3,
-        max_tokens=60,
+        max_tokens=30000,
     )
     return resp.choices[0].message.content.strip()
 
