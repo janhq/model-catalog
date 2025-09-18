@@ -14263,31 +14263,6 @@
     "description": "Various llama.cpp imatrix quantizations of the Hermes‑4‑14B model with download links, usage instructions, and recommended selections."
   },
   {
-    "model_name": "gemma-3-4b-it-qat-q4_0-gguf",
-    "developer": "google",
-    "downloads": 6254,
-    "createdAt": "2025-03-12T20:43:28Z",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "gemma-3-4b-it-q4_0",
-        "path": "https://huggingface.co/google/gemma-3-4b-it-qat-q4_0-gguf/resolve/main/gemma-3-4b-it-q4_0.gguf",
-        "file_size": "2.9 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/google/gemma-3-4b-it-qat-q4_0-gguf/resolve/main/README.md",
-    "description": "The Gemma 3 4B model is a lightweight, open-source, instruction-tuned multimodal model from Google, capable of handling text and image inputs, generating text outputs, and trained on diverse data including text, code, math, and images, with strong performance across various benchmarks and tasks",
-    "mmproj_models": [
-      {
-        "model_id": "mmproj-model-f16-4B",
-        "path": "https://huggingface.co/google/gemma-3-4b-it-qat-q4_0-gguf/resolve/main/mmproj-model-f16-4B.gguf",
-        "file_size": "811.8 MB"
-      }
-    ],
-    "num_mmproj": 1
-  },
-  {
     "model_name": "Qwen3-4B-2507-abliterated-GGUF",
     "developer": "prithivMLmods",
     "downloads": 6117,
@@ -19421,6 +19396,31 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/bartowski/tencent_Hunyuan-1.8B-Instruct-GGUF/resolve/main/README.md",
     "description": "This repository provides quantized versions of the Tencent Hunyuan-1.8B-Instruct model using llama.cpp, with various quantization types and quality-performance trade-offs for different hardware."
+  },
+  {
+    "model_name": "gemma-3-4b-it-qat-q4_0-gguf",
+    "developer": "google",
+    "downloads": 3366,
+    "createdAt": "2025-03-12T20:43:28.000Z",
+    "tools": false,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "gemma-3-4b-it-q4_0",
+        "path": "https://huggingface.co/google/gemma-3-4b-it-qat-q4_0-gguf/resolve/main/gemma-3-4b-it-q4_0.gguf",
+        "file_size": "2.9 GB"
+      }
+    ],
+    "num_mmproj": 1,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-model-f16-4B",
+        "path": "https://huggingface.co/google/gemma-3-4b-it-qat-q4_0-gguf/resolve/main/mmproj-model-f16-4B.gguf",
+        "file_size": "811.8 MB"
+      }
+    ],
+    "readme": "https://huggingface.co/google/gemma-3-4b-it-qat-q4_0-gguf/resolve/main/README.md",
+    "description": "The Gemma 3 4B model is a lightweight, open-source, instruction-tuned multimodal model from Google, capable of handling text and image inputs, generating text outputs, and trained on diverse data including text, code, math, and images, with strong performance across various benchmarks and tasks"
   },
   {
     "model_name": "InternVL3_5-30B-A3B-GGUF",
