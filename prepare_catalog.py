@@ -26,7 +26,7 @@ BLACKLISTED_DEVELOPERS = {
     "UmeAiRT",
 }
 
-PINNED_MODELS = ["janhq/Jan-v1-2509-gguf","janhq/Jan-v1-4B-GGUF", "ggml-org/gpt-oss-20b-GGUF", "bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF", "unsloth/ERNIE-4.5-21B-A3B-PT-GGUF"]
+PINNED_MODELS = ["janhq/Jan-v1-2509-gguf","janhq/Jan-v1-4B-GGUF", "bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF", "unsloth/ERNIE-4.5-21B-A3B-PT-GGUF", "ggml-org/gpt-oss-20b-GGUF"]
 
 client = openai.OpenAI(
     base_url=os.getenv("BASE_URL"),
