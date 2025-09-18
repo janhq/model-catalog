@@ -68,25 +68,6 @@
     "description": "Jan-v1 is an advanced agentic language model in the Jan Family, built for reasoning, problem-solving, and seamless integration with the Jan App."
   },
   {
-    "model_name": "gpt-oss-20b-GGUF",
-    "developer": "ggml-org",
-    "downloads": 136257,
-    "createdAt": "2025-08-02T10:45:18.000Z",
-    "tools": true,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "gpt-oss-20b-mxfp4",
-        "path": "https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-mxfp4.gguf",
-        "file_size": "11.3 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/README.md",
-    "description": "The GPT OSS 120B GGUF model can be run using `llama-server` with the command `llama-server -hf ggml-org/gpt-oss-20b-GGUF -c 0 -fa --jinja --reasoning-format none` and"
-  },
-  {
     "model_name": "ERNIE-4.5-21B-A3B-Thinking-GGUF",
     "developer": "unsloth",
     "downloads": 27505,
@@ -383,6 +364,25 @@
     "description": "ERNIE-4.5-21B-A3B-PT is a large-scale text generation model with 21B parameters and 3B activated parameters per token, trained using advanced multimodal MoE techniques and optimized for high-performance inference on various hardware platforms under the Apache 2",
     "mmproj_models": [],
     "num_mmproj": 0
+  },
+  {
+    "model_name": "gpt-oss-20b-GGUF",
+    "developer": "ggml-org",
+    "downloads": 136257,
+    "createdAt": "2025-08-02T10:45:18.000Z",
+    "tools": true,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "gpt-oss-20b-mxfp4",
+        "path": "https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-mxfp4.gguf",
+        "file_size": "11.3 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/README.md",
+    "description": "The GPT OSS 120B GGUF model can be run using `llama-server` with the command `llama-server -hf ggml-org/gpt-oss-20b-GGUF -c 0 -fa --jinja --reasoning-format none` and"
   },
   {
     "model_name": "Jan-nano-128k-gguf",
