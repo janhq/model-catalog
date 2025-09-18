@@ -1,12 +1,11 @@
 === FILTERING BLACKLISTED DEVELOPERS FROM EXISTING CATALOG ===
 === SEPARATING MMPROJ FROM EXISTING CATALOG ===
-  -> Moved mmproj-model-f16.gguf from quants to mmproj_models
 === CLEANING EXISTING CATALOG ===
 
 Cleanup summary:
   - Removed 0 repositories containing multi-part GGUF files
   - Removed 0 duplicate models
-  - Final catalog size: 370 models
+  - Final catalog size: 375 models
 
 === PASS 1: Processing models from Hugging Face API ===
 Fetching page 1...
@@ -62,15 +61,15 @@ Processing inclusionAI/Ling-mini-2.0
   -> No valid model GGUF files found, skipping
 Processing Qwen/Qwen-Image-Edit
 Processing Phr00t/WAN2.2-14B-Rapid-AllInOne
+Processing inclusionAI/Ling-flash-2.0
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
 Processing tencent/POINTS-Reader
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing unsloth/Qwen3-Next-80B-A3B-Instruct
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
-Processing inclusionAI/Ling-flash-2.0
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
@@ -113,12 +112,12 @@ Processing trillionlabs/Tri-70B-Intermediate-Checkpoints
 Processing ResembleAI/chatterbox
 Processing InstantX/Qwen-Image-ControlNet-Inpainting
 Processing nunchaku-tech/nunchaku-qwen-image-edit
-Processing sentence-transformers/all-MiniLM-L6-v2
-Processing swiss-ai/Apertus-8B-Instruct-2509
+Processing driaforall/mem-agent
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing driaforall/mem-agent
+Processing sentence-transformers/all-MiniLM-L6-v2
+Processing swiss-ai/Apertus-8B-Instruct-2509
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
@@ -137,32 +136,28 @@ Processing google/gemma-3-270m
   -> No valid model GGUF files found, skipping
 Processing lightx2v/Qwen-Image-Lightning
 Processing rockerBOO/flux.1-dev-SRPO
-Processing yichengup/flux.1-fill-dev-OneReward
 Processing openai/whisper-large-v3
 Processing meta-llama/Llama-3.1-8B-Instruct
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing yichengup/flux.1-fill-dev-OneReward
 Processing openbmb/MiniCPM4.1-8B
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing nvidia/parakeet-tdt-0.6b-v3
 Processing calcuis/hunyuanimage-gguf
-Processing google/timesfm-2.5-200m-pytorch
 Processing unitreerobotics/UnifoLM-WMA-0-Base
+Processing google/timesfm-2.5-200m-pytorch
 Processing aoi-ot/VibeVoice-Large
 Processing Vikhrmodels/Borealis
+Processing unsloth/Magistral-Small-2509-GGUF
+  -> No update needed
 Processing apple/FastVLM-0.5B
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing unsloth/Magistral-Small-2509-GGUF
-  -> New model found
-  -> Tool support: True
-  -> Found 24 text models and 3 mmproj models
-  -> Generated new description
-  -> Added new entry
 Processing vibevoice/VibeVoice-7B
 Processing black-forest-labs/FLUX.1-Kontext-dev
 Processing nvidia/NVIDIA-Nemotron-Nano-9B-v2
@@ -197,6 +192,10 @@ Processing google/gemma-3n-E2B-it-litert-lm
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing google/gemma-3n-E4B-it-litert-lm
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
 Processing tencent/Hunyuan-MT-7B
   -> New model found
   -> Tool support: False
@@ -205,7 +204,7 @@ Processing Writer/palmyra-mini-thinking-a
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing google/gemma-3n-E4B-it-litert-lm
+Processing baidu/ERNIE-4.5-VL-28B-A3B-PT
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
@@ -215,10 +214,6 @@ Processing Qwen/Qwen3-4B-Instruct-2507
   -> No valid model GGUF files found, skipping
 Processing inclusionAI/LLaDA-MoE-7B-A1B-Instruct
 Processing deepseek-ai/DeepSeek-R1
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
-Processing baidu/ERNIE-4.5-VL-28B-A3B-PT
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
@@ -235,18 +230,22 @@ Processing baidu/ERNIE-4.5-21B-A3B-PT
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing meituan-longcat/LongCat-Flash-Chat
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
 Processing swiss-ai/Apertus-70B-Instruct-2509
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing alibaba-pai/Wan2.2-Fun-Reward-LoRAs
 Processing bytedance-research/OneReward
+Processing FireRedTeam/FireRedTTS2
 Processing cpatonn/Qwen3-Next-80B-A3B-Instruct-AWQ-4bit
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing Alissonerdx/flux.1-dev-SRPO-LoRas
-Processing FireRedTeam/FireRedTTS2
 Processing bytedance-research/UMO
 Processing befox/SRPO-GGUF
 Processing pyannote/speaker-diarization-3.1
@@ -258,7 +257,7 @@ Processing litert-community/Gemma3-1B-IT
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing meituan-longcat/LongCat-Flash-Chat
+Processing apple/FastVLM-7B
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
@@ -284,10 +283,6 @@ Processing unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF
   -> Found multi-part GGUF: BF16/Qwen3-Coder-30B-A3B-Instruct-BF16-00001-of-00002.gguf
   -> Found multi-part GGUF: BF16/Qwen3-Coder-30B-A3B-Instruct-BF16-00002-of-00002.gguf
   -> Repository contains multi-part GGUF files, skipping entire repo
-Processing apple/FastVLM-7B
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
 Processing deepghs/pixai-tagger-v0.9-onnx
 Processing Hcompany/Holo1.5-72B
   -> New model found
@@ -302,6 +297,11 @@ Processing meta-llama/Llama-3.1-8B
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing Lightricks/LTX-Video
+Processing Qwen/Qwen3-0.6B
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
 Processing baidu/ERNIE-4.5-300B-A47B-PT
   -> New model found
   -> Tool support: False
@@ -311,11 +311,6 @@ Processing Wan-AI/Wan2.2-I2V-A14B
 Processing DavidAU/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
   -> No update needed
 Processing jhu-clsp/mmBERT-small
-Processing Lightricks/LTX-Video
-Processing Qwen/Qwen3-0.6B
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
 Processing dphn/Dolphin-Mistral-24B-Venice-Edition
   -> New model found
   -> Tool support: False
@@ -336,6 +331,7 @@ Processing deepseek-ai/DeepSeek-V3.1-Base
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing Kijai/WanVideo_comfy_GGUF
 Processing InternRobotics/InternVLA-N1
   -> New model found
   -> Tool support: False
@@ -362,15 +358,22 @@ Processing Qwen/Qwen3-4B-Thinking-2507
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing Kijai/WanVideo_comfy_GGUF
 Processing tencent/HunyuanWorld-Voyager
+Processing befox/WAN2.2-14B-Rapid-AllInOne-GGUF
 Processing mistralai/Magistral-Small-2509-GGUF
 Processing nari-labs/Dia-1.6B
+Processing mistralai/Mistral-Small-3.2-24B-Instruct-2506
 Processing moonshotai/Kimi-K2-Instruct
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+Processing unsloth/gpt-oss-20b-GGUF
+  -> New model found
+  -> Tool support: True
+  -> Found 16 text models and 0 mmproj models
+  -> Generated new description
+  -> Added new entry
 Processing TildeAI/TildeOpen-30b
   -> New model found
   -> Tool support: False
@@ -379,7 +382,6 @@ Processing swiss-ai/Apertus-70B-2509
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing befox/WAN2.2-14B-Rapid-AllInOne-GGUF
 Processing Kwai-Klear/Klear-46B-A2.5B-Instruct
   -> New model found
   -> Tool support: False
@@ -389,14 +391,16 @@ Processing google/medgemma-4b-it
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing mistralai/Mistral-Small-3.2-24B-Instruct-2506
-Processing city96/Qwen-Image-gguf
-Processing unsloth/gpt-oss-20b-GGUF
+Processing ibm-granite/granite-docling-258M-mlx
   -> New model found
-  -> Tool support: True
-  -> Found 16 text models and 0 mmproj models
-  -> Generated new description
-  -> Added new entry
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
+Processing merve/smol-vision
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
+Processing city96/Qwen-Image-gguf
+Processing lodestones/Chroma1-HD
 Processing zai-org/GLM-4.5V
   -> New model found
   -> Tool support: False
@@ -509,8 +513,16 @@ Processing unsloth/grok-2-GGUF
   -> Found multi-part GGUF: UD-Q8_K_XL/grok-2-UD-Q8_K_XL-00006-of-00007.gguf
   -> Found multi-part GGUF: UD-Q8_K_XL/grok-2-UD-Q8_K_XL-00007-of-00007.gguf
   -> Repository contains multi-part GGUF files, skipping entire repo
+Processing janhq/Jan-v1-2509
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
 Processing VLA-Adapter/LIBERO-Long
 Processing mlx-community/Qwen3-Next-80B-A3B-Instruct-4bit
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
+Processing inclusionAI/Ling-flash-base-2.0
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
@@ -518,14 +530,6 @@ Processing pyannote/segmentation-3.0
 Processing reducto/RolmOCR
 Processing lerobot/smolvla_base
 Processing bosonai/higgs-audio-v2-generation-3B-base
-Processing ibm-granite/granite-docling-258M-mlx
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
-Processing merve/smol-vision
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
 Processing Qwen/Qwen3-Coder-480B-A35B-Instruct
   -> New model found
   -> Tool support: False
@@ -534,19 +538,21 @@ Processing Qwen/Qwen3-30B-A3B-Thinking-2507
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing lodestones/Chroma1-HD
-Processing drbaph/Qwen-Image-Edit-Mannequin-Clipper-LoRA
-Processing janhq/Jan-v1-2509
+Processing QuantStack/Qwen-Image-Edit-GGUF
+Processing deepseek-ai/DeepSeek-V3.1
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing drbaph/Qwen-Image-Edit-Mannequin-Clipper-LoRA
 Processing bralynn/pydevmini1
 Processing Comfy-Org/HunyuanImage_2.1_ComfyUI
+Processing lmms-lab/LLaVA-OneVision-1.5-8B-Instruct
 Processing meta-llama/Llama-2-7b-chat-hf
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing stabilityai/stable-diffusion-3-medium
+Processing openai/whisper-large-v3-turbo
 Processing google/gemma-3-4b-it
   -> New model found
   -> Tool support: False
@@ -562,11 +568,6 @@ Processing Qwen/Qwen3-4B
   -> No valid model GGUF files found, skipping
 Processing black-forest-labs/FLUX.1-Krea-dev
 Processing sanaka87/BAGEL-RecA
-Processing QuantStack/Qwen-Image-Edit-GGUF
-Processing deepseek-ai/DeepSeek-V3.1
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
 Processing TheDrummer/Cydonia-ReduX-22B-v1
 Processing facebook/MobileLLM-R1-950M-base
   -> New model found
@@ -712,11 +713,6 @@ Processing Intel/Qwen3-Next-80B-A3B-Instruct-int4-mixed-AutoRound
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing QuantStack/Wan2.2-VACE-Fun-A14B-GGUF
-Processing lmms-lab/LLaVA-OneVision-1.5-8B-Instruct
-Processing inclusionAI/Ling-flash-base-2.0
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
 Processing sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
 Processing mistralai/Mistral-7B-v0.1
   -> New model found
@@ -724,7 +720,6 @@ Processing mistralai/Mistral-7B-v0.1
   -> No valid model GGUF files found, skipping
 Processing coqui/XTTS-v2
 Processing stabilityai/stable-video-diffusion-img2vid-xt
-Processing openai/whisper-large-v3-turbo
 Processing Qwen/Qwen3-30B-A3B
   -> New model found
   -> Tool support: False
@@ -733,6 +728,7 @@ Processing Goedel-LM/Goedel-Prover-V2-32B
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing bullerwins/Wan2.2-I2V-A14B-GGUF
 Processing Tesslate/WEBGEN-4B-Preview
   -> New model found
   -> Tool support: False
@@ -758,6 +754,10 @@ Processing BasedBase/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-V2
 Processing google-bert/bert-base-uncased
 Processing openai/clip-vit-base-patch32
 Processing ggerganov/whisper.cpp
+Processing Qwen/Qwen2.5-7B-Instruct
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
 Processing stabilityai/stable-diffusion-3.5-large
 Processing black-forest-labs/FLUX.1-Fill-dev
 Processing deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
@@ -794,7 +794,6 @@ Processing Qwen/Qwen3-235B-A22B-Instruct-2507
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing QuantStack/Wan2.2-I2V-A14B-GGUF
-Processing bullerwins/Wan2.2-I2V-A14B-GGUF
 Processing QuantStack/Wan2.2-T2V-A14B-GGUF
 Processing facebook/dinov3-vit7b16-pretrain-lvd1689m
 Processing nvidia/canary-1b-v2
@@ -815,6 +814,7 @@ Processing facebook/MobileLLM-R1-360M-base
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing VeryAladeen/Wan2_1-HuMo_17B-GGUF
+Processing facebook/bart-large-cnn
 Processing suno/bark
 Processing meta-llama/Llama-2-7b-hf
   -> New model found
@@ -831,10 +831,6 @@ Processing meta-llama/Meta-Llama-3-8B
   -> No valid model GGUF files found, skipping
 Processing ZhengPeng7/BiRefNet
 Processing city96/FLUX.1-dev-gguf
-Processing Qwen/Qwen2.5-7B-Instruct
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
 Processing meta-llama/Llama-3.2-1B
   -> New model found
   -> Tool support: False
@@ -887,7 +883,11 @@ Processing unsloth/NVIDIA-Nemotron-Nano-9B-v2-GGUF
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing facebook/bart-large-cnn
+Processing wikeeyang/SRPO-for-ComfyUI
+Processing opendatalab/MinerU2.5-2509-1.2B
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
 Processing briaai/RMBG-1.4
 Processing TinyLlama/TinyLlama-1.1B-Chat-v1.0
   -> New model found
@@ -934,10 +934,13 @@ Processing LiquidAI/LFM2-1.2B
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing Wan-AI/Wan2.2-TI2V-5B
 Processing zai-org/GLM-4.5-Air
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF
+  -> No update needed
 Processing AQ-MedAI/MedResearcher-R1-32B
 Processing OpenGVLab/InternVL3_5-8B
   -> New model found
@@ -1317,6 +1320,7 @@ Processing unsloth/Kimi-K2-Instruct-0905-GGUF
   -> Found multi-part GGUF: UD-TQ1_0/Kimi-K2-Instruct-0905-UD-TQ1_0-00005-of-00006.gguf
   -> Found multi-part GGUF: UD-TQ1_0/Kimi-K2-Instruct-0905-UD-TQ1_0-00006-of-00006.gguf
   -> Repository contains multi-part GGUF files, skipping entire repo
+Processing prithivMLmods/Qwen-Image-HeadshotX
 Processing joelseytre/toonout
 Processing ytu-ce-cosmos/Turkish-Gemma-9b-T1
   -> New model found
@@ -1332,13 +1336,9 @@ Processing facebook/MobileLLM-R1-140M-base
   -> No valid model GGUF files found, skipping
 Processing Alissonerdx/Wan2.1-HuMo-GGUF
 Processing InternRobotics/VLAC
-Processing wikeeyang/SRPO-for-ComfyUI
 Processing gabriellarson/Tongyi-DeepResearch-30B-A3B-GGUF
   -> No update needed
-Processing opendatalab/MinerU2.5-2509-1.2B
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
+Processing mrzmk/take_off
 Processing distilbert/distilgpt2
   -> New model found
   -> Tool support: False
@@ -1355,6 +1355,7 @@ Processing Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro
 Processing stable-diffusion-v1-5/stable-diffusion-v1-5
 Processing jinaai/jina-embeddings-v3
 Processing polyglots/SinLlama_v01
+Processing tabularisai/multilingual-sentiment-analysis
 Processing google/timesfm-2.0-500m-pytorch
 Processing deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
   -> New model found
@@ -1379,10 +1380,7 @@ Processing Qwen/Qwen3-8B-GGUF
   -> No update needed
 Processing ByteDance-Seed/BAGEL-7B-MoT
 Processing unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF
-  -> Downloads changed: 148418 -> 150293
-  -> Tool support: True
-  -> Found 26 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing katanemo/Arch-Router-1.5B
   -> New model found
   -> Tool support: False
@@ -1400,10 +1398,9 @@ Processing NCSOFT/VARCO-VISION-2.0-14B
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing kyutai/tts-0.75b-en-public
-Processing Wan-AI/Wan2.2-TI2V-5B
-Processing mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF
-  -> No update needed
 Processing amaai-lab/SonicMaster
+Processing unsloth/Qwen3-4B-Thinking-2507-GGUF
+  -> No update needed
 Processing zai-org/GLM-4.5V-FP8
   -> New model found
   -> Tool support: False
@@ -1419,6 +1416,10 @@ Processing nvidia/NVIDIA-Nemotron-Nano-12B-v2
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing lodestones/Chroma1-Radiance
+Processing AQ-MedAI/Diver-Retriever-4B
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
 Processing onnx-community/embeddinggemma-300m-ONNX
 Processing bytedance-research/USO
 Processing ibm-granite/granite-guardian-3.2-5b-lora-harm-correction
@@ -1426,7 +1427,6 @@ Processing ibm-granite/granite-guardian-3.2-5b-lora-harm-correction
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing unsloth/embeddinggemma-300m-GGUF
-Processing prithivMLmods/Qwen-Image-HeadshotX
 Processing xuminglong/kontext-tryon7
 Processing janhq/Jan-v1-2509-gguf
   -> No update needed
@@ -1436,7 +1436,7 @@ Processing Intel/Qwen3-Next-80B-A3B-Instruct-int4-AutoRound
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing BasedBase/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-V2-FP32
-Processing mrzmk/take_off
+Processing ostris/qwen_image_detail_slider
 Processing google-bert/bert-base-chinese
 Processing google-bert/bert-base-multilingual-cased
 Processing google-t5/t5-small
@@ -1456,15 +1456,9 @@ Processing microsoft/phi-2
   -> No valid model GGUF files found, skipping
 Processing h94/IP-Adapter-FaceID
 Processing google/gemma-2b
-  -> Downloads changed: 123908 -> 125665
-  -> Tool support: False
-  -> Found 1 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing google/gemma-7b
-  -> Downloads changed: 39813 -> 42395
-  -> Tool support: False
-  -> Found 1 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing llava-hf/llava-v1.6-mistral-7b-hf
   -> New model found
   -> Tool support: False
@@ -1535,8 +1529,6 @@ Processing trillionlabs/Tri-70B-preview-SFT
   -> No valid model GGUF files found, skipping
 Processing Comfy-Org/Qwen-Image_ComfyUI
 Processing facebook/dinov3-vitl16-pretrain-lvd1689m
-Processing unsloth/Qwen3-4B-Thinking-2507-GGUF
-  -> No update needed
 Processing dousery/medical-reasoning-gpt-oss-20b
   -> New model found
   -> Tool support: False
@@ -1556,11 +1548,11 @@ Processing NousResearch/Hermes-4-70B
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing AQ-MedAI/Diver-Retriever-4B
+Processing Marvis-AI/marvis-tts-250m-v0.1
+Processing apple/FastVLM-1.5B
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing Marvis-AI/marvis-tts-250m-v0.1
 Processing stepfun-ai/Step-Audio-2-mini
   -> New model found
   -> Tool support: False
@@ -1575,6 +1567,7 @@ Processing Nikity/lille-130m-instruct
   -> No update needed
 Processing RaphaelLiu/Pusa-Wan2.2-V1
 Processing wikeeyang/Magic-Wan-Image-v1.0
+Processing facebook/map-anything
 Processing inclusionAI/Ling-mini-base-2.0-5T
 Processing inclusionAI/Ling-mini-base-2.0-10T
 Processing inclusionAI/Ling-mini-base-2.0-20T
@@ -1591,7 +1584,6 @@ Processing nightmedia/Qwen3-Next-80B-A3B-Instruct-mxfp4-mlx
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing ostris/qwen_image_detail_slider
 Processing ProsusAI/finbert
 Processing google/vit-base-patch16-224
 Processing hfl/chinese-roberta-wwm-ext-large
@@ -1605,6 +1597,10 @@ Processing WarriorMama777/OrangeMixs
 Processing lj1995/VoiceConversionWebUI
 Processing laion/CLIP-ViT-bigG-14-laion2B-39B-b160k
 Processing m-a-p/MERT-v1-330M
+Processing meta-llama/Llama-2-7b
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
 Processing h94/IP-Adapter
 Processing BAAI/bge-small-en-v1.5
 Processing IDEA-Research/grounding-dino-base
@@ -1627,6 +1623,7 @@ Processing microsoft/Phi-3-mini-4k-instruct
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing mistralai/Mistral-7B-v0.3
+Processing tianweiy/DMD2
 Processing nomic-ai/nomic-embed-vision-v1.5
 Processing FunAudioLLM/SenseVoiceSmall
 Processing mistralai/Mistral-Nemo-Instruct-2407
@@ -1653,17 +1650,13 @@ Processing meta-llama/Llama-3.2-11B-Vision-Instruct
 Processing jasperai/Flux.1-dev-Controlnet-Upscaler
 Processing genmo/mochi-1-preview
 Processing DavidAU/Gemma-The-Writer-N-Restless-Quill-10B-Uncensored-GGUF
-  -> Downloads changed: 17860 -> 17676
-  -> Tool support: False
-  -> Found 22 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing Qwen/Qwen2.5-Coder-32B-Instruct
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing litagin/anime-whisper
 Processing lldacing/flash-attention-windows-wheel
-Processing tabularisai/multilingual-sentiment-analysis
 Processing nlpai-lab/KURE-v1
 Processing stabilityai/stable-point-aware-3d
 Processing Konnect1221/The-Inception-Presets-Methception-LLamaception-Qwenception
@@ -1676,10 +1669,7 @@ Processing humain-ai/ALLaM-7B-Instruct-preview
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing ValueFX9507/Tifa-DeepsexV2-7b-MGRPO-GGUF-F16
-  -> Downloads changed: 4883 -> 5076
-  -> Tool support: False
-  -> Found 6 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing Wan-AI/Wan2.1-T2V-1.3B
 Processing Comfy-Org/Wan_2.1_ComfyUI_repackaged
 Processing mlabonne/gemma-3-27b-it-abliterated-GGUF
@@ -1740,6 +1730,7 @@ Processing Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing cmeka/SeedVR2-GGUF
 Processing unsloth/Qwen3-30B-A3B-Thinking-2507-GGUF
   -> New model found
   -> Tool support: True
@@ -1814,10 +1805,6 @@ Processing OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing apple/FastVLM-1.5B
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
 Processing openbmb/MiniCPM-V-4_5-AWQ
   -> New model found
   -> Tool support: False
@@ -1841,7 +1828,6 @@ Processing scb10x/typhoon-asr-realtime
 Processing dorni/UniVerse-1-Base
 Processing sentence-transformers/embeddinggemma-300m-medical
 Processing facebook/map-anything-apache
-Processing facebook/map-anything
 Processing befox/Magic-Wan-Image-v1.0-GGUF
 Processing unsloth/ERNIE-4.5-21B-A3B-Thinking
   -> New model found
@@ -1908,10 +1894,6 @@ Processing dreamlike-art/dreamlike-photoreal-2.0
 Processing Kamtera/persian-tts-female-vits
 Processing intfloat/multilingual-e5-base
 Processing monster-labs/control_v1p_sd15_qrcode_monster
-Processing meta-llama/Llama-2-7b
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
 Processing guoyww/animatediff
 Processing foduucom/stockmarket-pattern-detection-yolov8
 Processing BAAI/bge-large-zh-v1.5
@@ -1919,27 +1901,23 @@ Processing HuggingFaceH4/zephyr-7b-beta
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing stabilityai/sd-turbo
 Processing mistralai/Mixtral-8x7B-v0.1
 Processing google/siglip-so400m-patch14-384
 Processing InstantX/InstantID
 Processing google/gemma-2b-it
-  -> Downloads changed: 274690 -> 269167
-  -> Tool support: False
-  -> Found 1 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing google/gemma-7b-it
-  -> Downloads changed: 133370 -> 207812
-  -> Tool support: False
-  -> Found 1 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing RunDiffusion/Juggernaut-XL-v9
+Processing MahmoodLab/UNI
+Processing LLM360/K2
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
 Processing google/timesfm-1.0-200m
 Processing MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF
-  -> Downloads changed: 133406 -> 125031
-  -> Tool support: False
-  -> Found 16 text models and 0 mmproj models
-  -> Updated existing entry
-Processing tianweiy/DMD2
+  -> No update needed
 Processing Sao10K/L3-8B-Stheno-v3.2
   -> New model found
   -> Tool support: False
@@ -1993,13 +1971,14 @@ Processing meta-llama/Llama-3.2-11B-Vision
   -> No valid model GGUF files found, skipping
 Processing OnomaAIResearch/Illustrious-xl-early-release-v0
 Processing bartowski/Llama-3.2-3B-Instruct-GGUF
-  -> Downloads changed: 239590 -> 231379
-  -> Tool support: False
-  -> Found 18 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Filtering out blacklisted developer: UmeAiRT/ComfyUI-Auto_installer
 Processing deepdml/faster-whisper-large-v3-turbo-ct2
 Processing CohereLabs/aya-expanse-8b
+  -> New model found
+  -> Tool support: False
+  -> No valid model GGUF files found, skipping
+Processing CohereLabs/aya-expanse-32b
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
@@ -2008,10 +1987,7 @@ Processing marcelbinz/Llama-3.1-Centaur-70B
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing DavidAU/L3.2-Rogue-Creative-Instruct-Uncensored-Abliterated-7B-GGUF
-  -> Downloads changed: 11872 -> 12726
-  -> Tool support: False
-  -> Found 14 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing HuggingFaceTB/SmolLM2-135M
   -> New model found
   -> Tool support: False
@@ -2040,10 +2016,7 @@ Processing livekit/turn-detector
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing DavidAU/Llama-3.2-8X3B-MOE-Dark-Champion-Instruct-uncensored-abliterated-18.4B-GGUF
-  -> Downloads changed: 60774 -> 60582
-  -> Tool support: False
-  -> Found 14 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing huihui-ai/Llama-3.3-70B-Instruct-abliterated
   -> New model found
   -> Tool support: False
@@ -2054,10 +2027,7 @@ Processing deepseek-ai/DeepSeek-R1-Distill-Llama-8B
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF
-  -> Downloads changed: 829 -> 860
-  -> Tool support: False
-  -> Found 1 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing Qwen/Qwen2.5-14B-Instruct-1M
   -> New model found
   -> Tool support: False
@@ -2070,6 +2040,7 @@ Processing Qwen/Qwen2.5-VL-72B-Instruct
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
+Processing vidore/colqwen2.5-v0.2
 Processing Zyphra/Zonos-v0.1-transformer
 Processing HuggingFaceTB/SmolVLM2-2.2B-Instruct
   -> New model found
@@ -2093,10 +2064,7 @@ Processing maitrix-org/Voila-chat
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing reedmayhew/claude-3.7-sonnet-reasoning-gemma3-12B
-  -> Downloads changed: 8998 -> 9114
-  -> Tool support: False
-  -> Found 1 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing neo4j/text-to-cypher-Gemma-3-4B-Instruct-2025.04.0
   -> New model found
   -> Tool support: False
@@ -2326,7 +2294,6 @@ Processing trillionlabs/Tri-7B
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing cmeka/SeedVR2-GGUF
 Processing internlm/Intern-S1
   -> New model found
   -> Tool support: False
@@ -2449,6 +2416,7 @@ Processing DavidAU/Openai_gpt-oss-120b-NEO-Imatrix-GGUF
   -> Found multi-part GGUF: OpenAI-120B-NEO-MXFP4_MOE-00003-of-00004.gguf
   -> Found multi-part GGUF: OpenAI-120B-NEO-MXFP4_MOE-00004-of-00004.gguf
   -> Repository contains multi-part GGUF files, skipping entire repo
+Processing hynt/ZipVoice-Vietnamese-2500h
 Processing baichuan-inc/Baichuan-M2-32B
   -> New model found
   -> Tool support: False
@@ -2771,11 +2739,7 @@ Processing onecat-ai/OneCAT-3B
 Processing TheDrummer/Behemoth-ReduX-123B-v1
 Processing calcuis/vibevoice-gguf
 Processing TheDrummer/Cydonia-ReduX-22B-v1-GGUF
-  -> New model found
-  -> Tool support: True
-  -> Found 6 text models and 0 mmproj models
-  -> Generated new description
-  -> Added new entry
+  -> No update needed
 Processing Testament200156/medgemma3-thinking
   -> No update needed
 Processing hkust-nlp/WebExplorer-8B
@@ -2804,6 +2768,7 @@ Processing bartowski/TheDrummer_Valkyrie-49B-v2-GGUF
   -> Found multi-part GGUF: TheDrummer_Valkyrie-49B-v2-bf16/TheDrummer_Valkyrie-49B-v2-bf16-00002-of-00003.gguf
   -> Found multi-part GGUF: TheDrummer_Valkyrie-49B-v2-bf16/TheDrummer_Valkyrie-49B-v2-bf16-00003-of-00003.gguf
   -> Repository contains multi-part GGUF files, skipping entire repo
+Processing OPPOer/Qwen-Image-Pruning
 Processing bartowski/bralynn_pydevmini1-GGUF
   -> No update needed
 Processing Writer/palmyra-mini-thinking-b-GGUF
@@ -2821,11 +2786,7 @@ Processing Infinigence/Megrez2-3x7B-A3B
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing mradermacher/CodeV-R1-Qwen-7B-i1-GGUF
-  -> New model found
-  -> Tool support: True
-  -> Found 25 text models and 0 mmproj models
-  -> Generated new description
-  -> Added new entry
+  -> No update needed
 Processing DevQuasar/Qwen.Qwen3-Next-80B-A3B-Instruct-FP8-Dynamic
   -> New model found
   -> Tool support: False
@@ -2833,21 +2794,13 @@ Processing DevQuasar/Qwen.Qwen3-Next-80B-A3B-Instruct-FP8-Dynamic
 Processing QuantFactory/Muse-12B-GGUF
   -> No update needed
 Processing neuralcrew/neutrino-instruct
-  -> New model found
-  -> Tool support: False
-  -> Found 1 text models and 0 mmproj models
-  -> Generated new description
-  -> Added new entry
+  -> No update needed
 Processing Intel/Qwen3-Next-80B-A3B-Thinking-int4-AutoRound
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing qualifire-oss/mcp-tool-use-quality-ranger-0.6b-GGUF
-  -> New model found
-  -> Tool support: True
-  -> Found 19 text models and 0 mmproj models
-  -> Generated new description
-  -> Added new entry
+  -> No update needed
 Processing Aname-Tommy/melbandroformer7stems
 Processing AiArtLab/wan16x_vae
 Processing prithivMLmods/Qwen2-VL-2B-Abliterated-Caption-it
@@ -2908,6 +2861,7 @@ Processing sshleifer/distilbart-cnn-6-6
 Processing michiyasunaga/BioLinkBERT-large
 Processing ctheodoris/Geneformer
 Processing VietAI/vit5-base
+Processing cardiffnlp/twitter-roberta-base-sentiment-latest
 Processing microsoft/resnet-50
 Processing audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim
 Processing microsoft/BiomedNLP-KRISSBERT-PubMed-UMLS-EL
@@ -2951,6 +2905,7 @@ Processing mosaicml/mpt-7b
   -> No valid model GGUF files found, skipping
 Processing UFNLP/gatortron-base
 Processing facebook/musicgen-medium
+Processing seanghay/uvr_models
 Processing zhihan1996/DNABERT-2-117M
 Processing intfloat/multilingual-e5-small
 Processing stabilityai/stable-diffusion-xl-refiner-1.0
@@ -2986,7 +2941,7 @@ Processing KBlueLeaf/kohaku-xl-beta5
 Filtering out blacklisted developer: TheBloke/deepseek-coder-6.7B-instruct-GGUF
 Processing dima806/vehicle_10_types_image_detection
 Processing Linaqruf/anime-detailer-xl-lora
-Processing stabilityai/sd-turbo
+Processing stabilityai/sdxl-turbo
 Processing SG161222/Realistic_Vision_V6.0_B1_noVAE
 Processing WhereIsAI/UAE-Large-V1
 Filtering out blacklisted developer: TheBloke/dolphin-2.6-mistral-7B-GGUF
@@ -3025,7 +2980,6 @@ Processing xai-org/grok-1
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing MahmoodLab/UNI
 Processing distil-whisper/distil-large-v3-ggml
 Processing google/codegemma-7b
   -> New model found
@@ -3037,10 +2991,6 @@ Processing ArmurAI/Pentest_AI
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing LLM360/K2
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
 Processing ByteDance/Hyper-SD
 Processing protectai/deberta-v3-base-prompt-injection-v2
 Processing microsoft/Phi-3-mini-128k-instruct
@@ -3048,10 +2998,7 @@ Processing microsoft/Phi-3-mini-128k-instruct
   -> Tool support: False
   -> No valid model GGUF files found, skipping
 Processing microsoft/Phi-3-mini-4k-instruct-gguf
-  -> Downloads changed: 30977 -> 30402
-  -> Tool support: False
-  -> Found 2 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing myshell-ai/OpenVoiceV2
 Processing aaditya/Llama3-OpenBioLLM-70B
   -> New model found
@@ -3063,10 +3010,7 @@ Processing NousResearch/Hermes-2-Pro-Llama-3-8B
   -> No valid model GGUF files found, skipping
 Processing guozinan/PuLID
 Processing bartowski/35b-beta-long-GGUF
-  -> Downloads changed: 865 -> 871
-  -> Tool support: False
-  -> Found 22 text models and 0 mmproj models
-  -> Updated existing entry
+  -> No update needed
 Processing cyberdelia/CyberRealisticPony
 Processing mlabonne/NeuralDaredevil-8B-abliterated
   -> New model found
@@ -3243,10 +3187,6 @@ Processing nvidia/Llama-3.1-Nemotron-70B-Instruct-HF
   -> No valid model GGUF files found, skipping
 Processing aixonlab/FLUX.1-dev-LoRA-Cinematic-Octane
 Processing stabilityai/stable-diffusion-3.5-large-turbo
-Processing CohereLabs/aya-expanse-32b
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
 Processing dangvansam/viet-tts
 Processing sentence-transformers/static-retrieval-mrl-en-v1
 Processing ibm-research/biomed.sm.mv-te-84m
@@ -3256,670 +3196,657 @@ Processing facebook/MobileLLM-125M
   -> New model found
   -> Tool support: False
   -> No valid model GGUF files found, skipping
-Processing repleeka/eng-tagin-nmt
-Processing HuggingFaceTB/SmolLM2-135M-Instruct
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
-Processing HuggingFaceTB/SmolLM2-1.7B-Instruct
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
-Processing Etched/oasis-500m
-Processing tablegpt/TableGPT2-7B
-Processing arnir0/Tiny-LLM
-  -> New model found
-  -> Tool support: False
-  -> No valid model GGUF files found, skipping
-Processed 24 models from page 1
+Processed 4 models from page 1
 Reached end of available models.
 
 === PASS 2: Processing existing models not found in API ===
-Processing existing model not in API: LiquidAI/LFM2-VL-1.6B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: electroglyph/gemma-3-4b-it-unslop-GRPO
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/NuMarkdown-8B-Thinking-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Gemma-R1-27B-v3-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: defog/sqlcoder-7b-2
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Gemma-3-R1-4B-v1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/nvidia_NVIDIA-Nemotron-Nano-12B-v2-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/GLM-4.1V-9B-Thinking-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/Menlo_Lucy-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/gemma-3n-E4B-it-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: dahara1/gemma-3-270m_mitsuki_gguf
-  -> No missing keys, skipping
-Processing existing model not in API: osmosis-ai/Osmosis-Apply-1.7B
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: samunder12/llama-3.1-8b-roleplay-vi-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: ValueFX9507/Tifa-DeepsexV3-14b-GGUF-Q6
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/NousResearch_Hermes-4-14B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: lmstudio-community/DeepSeek-Coder-V2-Lite-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Orenguteng/Llama-3-8B-Lexi-Uncensored-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Vikhrmodels/QVikhr-3-4B-Instruction-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: gabriellarson/Hunyuan-4B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Qwen2.5-Omni-7B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/gemma-3-1b-it-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: prithivMLmods/II-Search-4B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Sweaterdog/GRaPE-Mini-Beta
-  -> No missing keys, skipping
-Processing existing model not in API: Lewdiculous/L3-8B-Stheno-v3.3-32K-GGUF-IQ-Imatrix
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Phi-4-reasoning-plus-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: alpha-ai/Medical-Diagnosis-COT-Gemma3-270M
-  -> No missing keys, skipping
-Processing existing model not in API: google/gemma-3-4b-it-qat-q4_0-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: janhq/Jan-v1-edge-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: Menlo/Lucy-128k-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: DavidAU/Llama-3.2-8X4B-MOE-V2-Dark-Champion-Instruct-uncensored-abliterated-21B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: IndexTeam/Index-1.9B-Chat-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: QuantFactory/LLaMAX3-8B-Alpaca-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: NousResearch/Hermes-3-Llama-3.1-8B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: supernovaburn/Llama3-8b-chinese-Uncensored-v0.1-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mistralai/Devstral-Small-2507_gguf
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/nvidia_OpenReasoning-Nemotron-1.5B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/openai_gpt-oss-20b-GGUF-MXFP4-Experimental
-  -> No missing keys, skipping
-Processing existing model not in API: SaisExperiments/Voxtral-3B-But-4B-Text-Only-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/NuMarkdown-8B-Thinking-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/starcoder2-15b-instruct-v0.1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: samunder12/llama-3.1-8b-roleplay-BSNL-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: QuantFactory/instinct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Qwen3-Jan-Nano-128k-6B-Brainstorm20x-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Qwen3-8B-128K-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: katanemo/Arch-Router-1.5B.gguf
-  -> No missing keys, skipping
-Processing existing model not in API: stabilityai/stable-code-3b
-  -> No missing keys, skipping
-Processing existing model not in API: openbmb/MiniCPM-V-4-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: Chun121/qwen3-4B-rpg-roleplay
-  -> No missing keys, skipping
-Processing existing model not in API: isaiahbjork/orpheus-3b-0.1-ft-Q4_K_M-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: SciPhi/Triplex
-  -> No missing keys, skipping
-Processing existing model not in API: backyardai/Llama-3-Soliloquy-8B-v2-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/Phi-3.5-mini-instruct_Uncensored-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/google_gemma-3n-E2B-it-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/Qwen_Qwen3-4B-Thinking-2507-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/gemma-2-9b-it-abliterated-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: sugoitoolkit/Sugoi-14B-Ultra-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Magistral-Small-2507-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Qwen/Qwen2-7B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/mistralai_Magistral-Small-2506-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/DeepSeek-R1-Distill-Qwen-7B-Uncensored-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: DavidAU/Openai_gpt-oss-20b-CODER-NEO-CODE-DI-MATRIX-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/EuroLLM-9B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/MN-12B-Lyra-v4-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/DeepHat-V1-7B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Qwen/Qwen2.5-1.5B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/gemma-3-12b-it-qat-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: UniverseTBD/astrollama.gguf
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: concedo/llama-joycaption-beta-one-hf-llava-mmproj-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/tencent_Hunyuan-1.8B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: ivoras/bernie0.1
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Qwen3-4B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: OuteAI/OuteTTS-1.0-0.6B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: ubergarm/Qwen3-30B-A3B-Thinking-2507-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: internlm/Intern-S1-mini-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Qwen2.5-7B-Instruct-Uncensored-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: QuantStack/InternVL3_5-GPT-OSS-20B-A4B-Preview-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: tastypear/CausalLM-14B-DPO-alpha-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/OpenGVLab_InternVL3_5-14B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: yarikdevcom/Seed-OSS-36B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/gemma-2-2b-it-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: huihui-ai/Huihui-gpt-oss-20b-BF16-abliterated
-  -> No missing keys, skipping
-Processing existing model not in API: QuantFactory/NVIDIA-Nemotron-Nano-9B-v2-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Cydonia-24B-v4-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: yukiarimo/yuna-ai-v4
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/mistralai_Mistral-Small-3.2-24B-Instruct-2506-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: fdtn-ai/Foundation-Sec-8B-Instruct-Q8_0-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Mixtral-4x3B-v1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: MaziyarPanahi/Phi-3.5-mini-instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Phi-4-mini-reasoning-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: DevQuasar/HuggingFaceTB.SmolLM2-1.7B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: kurakurai/Luth-LFM2-700M-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/google_gemma-3n-E4B-it-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: oblivious/ruGPT-3.5-13B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: kurakurai/Luth-0.6B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: kurakurai/Luth-1.7B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: MaziyarPanahi/Llama-3.2-1B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: SicariusSicariiStuff/Impish_Nemo_12B_GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: DavidAU/L3-8B-Stheno-v3.3-32K-Ultra-NEO-V1-IMATRIX-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: gabriellarson/UIGEN-X-4B-0729-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: lmstudio-community/InternVL3_5-30B-A3B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: QuantFactory/NSFW_DPO_Noromaid-7b-Mistral-7B-Instruct-v0.1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: dphn/Dolphin3.0-Llama3.1-8B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: remyxai/SpaceThinker-Qwen2.5VL-3B
-  -> No missing keys, skipping
-Processing existing model not in API: RefalMachine/RuadaptQwen3-4B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: DavidAU/Llama-3.2-8X3B-GATED-MOE-NEO-Reasoning-Dark-Champion-uncensored-18.4B-IMAT-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/google_gemma-3-270m-it-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: ngxson/Home-Cook-Mistral-Small-Omni-24B-2507-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/Llama-3.2-3B-Instruct-uncensored-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: calcuis/fastvlm-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: samunder12/llama-3.1-8b-roleplay-jio-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: Lewdiculous/L3-8B-Stheno-v3.2-GGUF-IQ-Imatrix
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Qwen3-1.7B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Intel/gpt-oss-20b-gguf-q4ks-AutoRound
-  -> No missing keys, skipping
-Processing existing model not in API: Vikhrmodels/QVikhr-3-8B-Instruction-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: lmstudio-community/Qwen3-30B-A3B-Instruct-2507-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: PowerInfer/SmallThinker-4BA0.6B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Hunyuan-MT-7B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/MN-12B-Mag-Mell-R1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: ubergarm/Hunyuan-A13B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: t-tech/T-pro-it-2.0-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/dolphin-2.9.1-yi-1.5-34b-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/gpt-oss-20b-uncensored-bf16-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Big-Tiger-Gemma-27B-v1-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Lewdiculous/CaptainErisNebula-12B-Chimera-v1.1-GGUF-IQ-Imatrix
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/TheDrummer_Gemma-3-R1-12B-v1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: lmstudio-community/gemma-3n-E4B-it-text-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: jukofyork/Kimi-K2-Instruct-DRAFT-0.6B-v2.0-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/tencent_Hunyuan-7B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Seed-Coder-8B-Reasoning-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: lmstudio-community/gemma-3n-E2B-it-text-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: q1776/survival-uncensored-gemma-270m
-  -> No missing keys, skipping
-Processing existing model not in API: Epiculous/Violet_Twilight-v0.2-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Lewdiculous/Kunoichi-DPO-v2-7B-GGUF-Imatrix
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: gabriellarson/MindLink-32B-0801-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/Qwen2.5-14B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/baidu_ERNIE-4.5-0.3B-PT-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: DavidAU/Llama-3.2-4X3B-MOE-Hell-California-Uncensored-10B-GGUF
+Processing existing model not in API: mradermacher/Qwen3-32B-Uncensored-GGUF
   -> No missing keys, skipping
 Processing existing model not in API: Intel/Qwen3-Coder-30B-A3B-Instruct-gguf-q2ks-mixed-AutoRound
   -> No missing keys, skipping
-Processing existing model not in API: gabriellarson/WEBGEN-4B-Preview-GGUF
+Processing existing model not in API: unsloth/Qwen3-4B-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: bartowski/nvidia_OpenReasoning-Nemotron-7B-GGUF
+Processing existing model not in API: lmstudio-community/gemma-3n-E2B-it-text-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/google_gemma-3-270m-it-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: ubergarm/Qwen3-30B-A3B-Thinking-2507-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/google_gemma-3n-E2B-it-GGUF
   -> No missing keys, skipping
 Processing existing model not in API: google/gemma-3-12b-it-qat-q4_0-gguf
   -> No missing keys, skipping
-Processing existing model not in API: bartowski/Aurore-Reveil_Koto-Small-7B-IT-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Doctor-Shotgun/MS3.2-24B-Magnum-Diamond-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/Qwen2.5-14B_Uncensored_Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Misaka27260/Qwen2.5-VL-7B-Instruct-abliterated-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: DavidAU/Qwen3-Zero-Coder-Reasoning-0.8B-NEO-EX-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: CrucibleLab-TG/M3.2-24B-Loki-V1.3-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Valkyrie-49B-v2-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: kurakurai/Luth-LFM2-1.2B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Menlo/Jan-nano-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Baichuan-M2-32B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: samunder12/llama-3.1-8b-roleplay-airtel-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/medgemma-4b-it-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: ggml-org/SmolLM3-3B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Combatti/gpt-oss-20b-uncensored
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/gemma-3-270m-it-qat-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: gabriellarson/gpt-oss-120b-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/TheDrummer_Cydonia-24B-v4-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Qwen/Qwen2.5-Coder-3B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Ttimofeyka/MistralRP-Noromaid-NSFW-Mistral-7B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Gemma-3-R1-12B-v1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: gabriellarson/Hermes-4-14B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: ggml-org/Qwen2.5-Omni-3B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/CrucibleLab_M3.2-24B-Loki-V1.3-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/gemma-3-12b-it-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/RimTalk-Mini-v1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mistralai/Devstral-Small-2505_gguf
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Gemma-R1-4B-v3-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: taide/TAIDE-LX-7B-Chat-4bit
-  -> No missing keys, skipping
-Processing existing model not in API: LatitudeGames/Wayfarer-2-12B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/openai_gpt-oss-120b-GGUF-MXFP4-Experimental
-  -> No missing keys, skipping
-Processing existing model not in API: mlabonne/gemma-3-27b-it-abliterated-v2-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/OpenGVLab_InternVL3_5-8B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: brittlewis12/Kunoichi-DPO-v2-7B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/huihui-ai_Huihui-gemma-3n-E4B-it-abliterated-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Sweaterdog/GRaPE-Mini-Beta-Thinking
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/OpenGVLab_InternVL3_5-4B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: prithivMLmods/Pyxidis-Manim-CodeGen-1.7B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: google/gemma-3-1b-it-qat-q4_0-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/huihui-ai_Huihui-gpt-oss-20b-BF16-abliterated-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/ERNIE-4.5-0.3B-PT-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/MN-Violet-Lotus-12B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: second-state/FinGPT-MT-Llama-3-8B-LoRA-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: gabriellarson/Huihui-gpt-oss-20b-BF16-abliterated-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/XBai-o4-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: MLP-KTLim/llama-3-Korean-Bllossom-8B-gguf-Q4_K_M
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/Qwen2.5-Coder-32B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Qwen3-0.6B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Cydonia-24B-v4.1-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Skywork/Skywork-R1V3-38B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Intel/Qwen3-30B-A3B-Instruct-2507-gguf-q2ks-mixed-AutoRound
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Devstral-Small-2507-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: microsoft/phi-4-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: ertghiu256/Qwen3-4b-tcomanr-merge
-  -> No missing keys, skipping
-Processing existing model not in API: MaziyarPanahi/Phi-4-mini-instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-FP32-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: SicariusSicariiStuff/Impish_Nemo_12B_ARM
-  -> No missing keys, skipping
-Processing existing model not in API: ggml-org/SmolVLM-500M-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: prithivMLmods/Qwen3-4B-Valiant-Polaris-f32-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: ggml-org/gpt-oss-20b-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/mistralai_Voxtral-Small-24B-2507-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: SakuraLLM/Sakura-GalTransl-7B-v3.7
-  -> No missing keys, skipping
-Processing existing model not in API: microsoft/bitnet-b1.58-2B-4T-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: DavidAU/Llama-3.2-9B-Uncensored-Brainstorm-Alpha-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/silly-v0.2-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: openbmb/MiniCPM4.1-8B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Joseph717171/Jinx-gpt-OSS-20B-MXFP4-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: ArliAI/Mistral-Nemo-12B-ArliAI-RPMax-v1.1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: tastypear/CausalLM-7B-DPO-alpha-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/openai_gpt-oss-20b-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Skyfall-31B-v4-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: varma007ut/Indian_Legal_Assitant
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/UI-TARS-1.5-7B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/XortronCriminalComputingConfig-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: google/gemma-3-27b-it-qat-q4_0-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: ddh0/GLM-4.5-Air-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: wsbagnsv1/VibeVoice-1.5B-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: BasedBase/Qwen3-Coder-30B-A3B-Instruct-Distill
-  -> No missing keys, skipping
-Processing existing model not in API: QuantFactory/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: PowerInfer/SmallThinker-21BA3B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: arcee-ai/AFM-4.5B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/NemoMix-Unleashed-12B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/KAT-V1-40B-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Qwen3-30B-A3B-Mixture-2507-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/mistralai_Magistral-Small-2507-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: DavidAU/Mistral-MOE-4X7B-Dark-MultiVerse-Uncensored-Enhanced32-24B-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Qwen2.5-Coder-7B-Instruct-128K-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: kurakurai/Luth-LFM2-350M-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mistralai/Magistral-Small-2506_gguf
-  -> No missing keys, skipping
-Processing existing model not in API: BasedBase/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Cydonia-24B-v4.1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: DavidAU/L3-Grand-Story-Darkness-MOE-4X8-24.9B-e32-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Huihui-Qwen3-4B-Thinking-2507-abliterated-GGUF
+Processing existing model not in API: mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF
   -> No missing keys, skipping
 Processing existing model not in API: ertghiu256/qwen3-1.7b-mixture-of-thought
   -> No missing keys, skipping
-Processing existing model not in API: GetSoloTech/GPT-OSS-Code-Reasoning-20B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Gemma-3-R1-27B-v1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Cydonia-R1-24B-v4-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Menlo/Jan-nano-128k-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: LiquidAI/LFM2-350M-ENJP-MT-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: samunder12/llama-3.1-8b-Rp-tadashinu-gguf
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Jan-nano-128k-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: LiquidAI/LFM2-350M-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/llama4-dolphin-8B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/gemma-3n-E2B-it-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mlabonne/gemma-3-12b-it-abliterated-v2-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/DrakIdol-Roleplayer-1.0-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Qwen/Qwen3-30B-A3B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/aquif-3-moe-17b-a2.8b-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/PocketDoc_Dans-PersonalityEngine-V1.3.0-24b-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: QuantFactory/Qwen3-4B-v0.4-deepresearch-no-think-4-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Lewdiculous/Layris_9B-GGUF-IQ-Imatrix
-  -> No missing keys, skipping
-Processing existing model not in API: ValueFX9507/Tifa-DeepsexV2-7b-MGRPO-GGUF-Q8
-  -> No missing keys, skipping
-Processing existing model not in API: MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: sugoitoolkit/Sugoi-32B-Ultra-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: unsloth/Magistral-Small-2506-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/POLARIS-Project_Polaris-4B-Preview-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v2-i1-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Heralax/MythoMakiseMerged-13b
-  -> No missing keys, skipping
-Processing existing model not in API: osmosis-ai/osmosis-mcp-4b
-  -> No missing keys, skipping
-Processing existing model not in API: LGAI-EXAONE/EXAONE-4.0-1.2B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/Dream-org_Dream-v0-Instruct-7B-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: tiiuae/Falcon-H1-7B-Instruct-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Intel/Qwen3-Coder-30B-A3B-Instruct-gguf-q4km-AutoRound
-  -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Big-Tiger-Gemma-27B-v3-GGUF
+Processing existing model not in API: MaziyarPanahi/Phi-4-mini-instruct-GGUF
   -> No missing keys, skipping
 Processing existing model not in API: bartowski/mistralai_Voxtral-Mini-3B-2507-GGUF
   -> No missing keys, skipping
+Processing existing model not in API: unsloth/Qwen2.5-Omni-7B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/POLARIS-Project_Polaris-4B-Preview-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: LatitudeGames/Wayfarer-2-12B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/Llama-3.2-8X4B-MOE-V2-Dark-Champion-Instruct-uncensored-abliterated-21B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Gemma-3-R1-27B-v1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: calcuis/fastvlm-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: lmstudio-community/gemma-3n-E4B-it-text-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Intel/gpt-oss-20b-gguf-q4ks-AutoRound
+  -> No missing keys, skipping
+Processing existing model not in API: sugoitoolkit/Sugoi-14B-Ultra-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/TheDrummer_Cydonia-24B-v4-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: microsoft/bitnet-b1.58-2B-4T-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: alpha-ai/Medical-Diagnosis-COT-Gemma3-270M
+  -> No missing keys, skipping
 Processing existing model not in API: winninghealth/WiNGPT-Babel-2-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: TomBombadyl/Qwen2.5-Coder-7B-Instruct-Omni1.1
+Processing existing model not in API: Ttimofeyka/MistralRP-Noromaid-NSFW-Mistral-7B-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: LiquidAI/LFM2-VL-450M-GGUF
+Processing existing model not in API: SaisExperiments/Voxtral-3B-But-4B-Text-Only-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: bartowski/OpenGVLab_InternVL3_5-1B-GGUF
+Processing existing model not in API: bartowski/starcoder2-15b-instruct-v0.1-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: TheDrummer/Gemmasutra-Mini-2B-v1-GGUF
+Processing existing model not in API: unsloth/Qwen3-8B-128K-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: prithivMLmods/MedScholar-1.5B-f32-GGUF
+Processing existing model not in API: openbmb/MiniCPM4.1-8B-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: gabriellarson/Hunyuan-7B-Instruct-GGUF
+Processing existing model not in API: QuantFactory/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: unsloth/Nanonets-OCR-s-GGUF
+Processing existing model not in API: MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: unsloth/gemma-3-270m-it-GGUF
+Processing existing model not in API: unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: QuantFactory/Lily-Cybersecurity-7B-v0.2-GGUF
+Processing existing model not in API: Qwen/Qwen2-7B-Instruct-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Discord-Micae-Hermes-3-3B-i1-GGUF
+Processing existing model not in API: bartowski/huihui-ai_Huihui-gemma-3n-E4B-it-abliterated-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF
+Processing existing model not in API: unsloth/Phi-4-mini-reasoning-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: mradermacher/CabraMistral-v3-7b-32k-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: bartowski/Ministral-8B-Instruct-2410-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: ParrotRouter/Qwen3-4B-Instruct-2507-20250808-233922-0-Q8_0-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: mradermacher/mn-12b-rp-without-dumb-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: NikolayKozloff/MiniCPM4.1-8B-Q8_0-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Qwen/Qwen3-32B-GGUF
+Processing existing model not in API: bartowski/OpenGVLab_InternVL3_5-4B-GGUF
   -> No missing keys, skipping
 Processing existing model not in API: mradermacher/Cydonia-v4-MS3.2-Magnum-Diamond-24B-i1-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: unsloth/SmolLM3-3B-128K-GGUF
+Processing existing model not in API: lmstudio-community/Qwen3-30B-A3B-Instruct-2507-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: unsloth/ERNIE-4.5-21B-A3B-PT-GGUF
+Processing existing model not in API: TomBombadyl/Qwen2.5-Coder-7B-Instruct-Omni1.1
   -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Huihui-gpt-oss-20b-BF16-abliterated-i1-GGUF
+Processing existing model not in API: janhq/Jan-v1-edge-gguf
   -> No missing keys, skipping
-Processing existing model not in API: DavidAU/Openai_gpt-oss-20b-NEO-GGUF
+Processing existing model not in API: Menlo/Jan-nano-gguf
   -> No missing keys, skipping
-Processing existing model not in API: DavidAU/OpenAi-GPT-oss-20b-MODERATE-uncensored-NEO-Imatrix-gguf
+Processing existing model not in API: bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: samunder12/llama-3.1-8b-OneLastStory-gguf
+Processing existing model not in API: mradermacher/Qwen3-Jan-Nano-128k-6B-Brainstorm20x-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: dphn/dolphin-2.9.3-mistral-nemo-12b-gguf
+Processing existing model not in API: TheDrummer/RimTalk-Mini-v1-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: Menlo/Lucy-gguf
+Processing existing model not in API: concedo/llama-joycaption-beta-one-hf-llava-mmproj-gguf
   -> No missing keys, skipping
-Processing existing model not in API: NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF
-  -> No missing keys, skipping
-Processing existing model not in API: Cactus-Compute/Gemma3-270m-Instruct-GGUF
+Processing existing model not in API: unsloth/gemma-3n-E2B-it-GGUF
   -> No missing keys, skipping
 Processing existing model not in API: gabriellarson/Hunyuan-1.8B-Instruct-GGUF
   -> No missing keys, skipping
+Processing existing model not in API: gabriellarson/Hunyuan-4B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/gemma-3-12b-it-qat-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Menlo/Lucy-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: mistralai/Devstral-Small-2507_gguf
+  -> No missing keys, skipping
+Processing existing model not in API: MLP-KTLim/llama-3-Korean-Bllossom-8B-gguf-Q4_K_M
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/CabraMistral-v3-7b-32k-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Qwen/Qwen3-32B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: dphn/Dolphin3.0-Llama3.1-8B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/Devstral-Small-2507-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/dolphin-2.9.1-yi-1.5-34b-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/mn-12b-rp-without-dumb-GGUF
+  -> No missing keys, skipping
 Processing existing model not in API: bartowski/Mistral-Small-22B-ArliAI-RPMax-v1.1-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: Hack337/ChatGPT-5-Q8_0-GGUF
+Processing existing model not in API: bartowski/openai_gpt-oss-120b-GGUF-MXFP4-Experimental
   -> No missing keys, skipping
-Processing existing model not in API: mradermacher/Qwen3-32B-Uncensored-GGUF
+Processing existing model not in API: bartowski/NemoMix-Unleashed-12B-GGUF
   -> No missing keys, skipping
-Processing existing model not in API: prithivMLmods/Qwen3-4B-2507-abliterated-GGUF
+Processing existing model not in API: SakuraLLM/Sakura-GalTransl-7B-v3.7
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/medgemma-4b-it-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/OpenAi-GPT-oss-20b-MODERATE-uncensored-NEO-Imatrix-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Cydonia-24B-v4.1-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: backyardai/Llama-3-Soliloquy-8B-v2-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/NuMarkdown-8B-Thinking-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: tastypear/CausalLM-14B-DPO-alpha-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/Aurore-Reveil_Koto-Small-7B-IT-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/MN-12B-Lyra-v4-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: dphn/dolphin-2.9.3-mistral-nemo-12b-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: gabriellarson/Llama-3_3-Nemotron-Super-49B-v1_5-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/GLM-4.1V-9B-Thinking-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/DeepSeek-R1-Distill-Qwen-7B-Uncensored-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/L3-8B-Stheno-v3.3-32K-Ultra-NEO-V1-IMATRIX-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: kurakurai/Luth-0.6B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/llama4-dolphin-8B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: ParrotRouter/Qwen3-4B-Instruct-2507-20250808-233922-0-Q8_0-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Cydonia-R1-24B-v4-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/XortronCriminalComputingConfig-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: samunder12/llama-3.1-8b-roleplay-BSNL-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Huihui-gpt-oss-20b-BF16-abliterated-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/Phi-4-reasoning-plus-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: electroglyph/gemma-3-4b-it-unslop-GRPO
+  -> No missing keys, skipping
+Processing existing model not in API: sugoitoolkit/Sugoi-32B-Ultra-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/NuMarkdown-8B-Thinking-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: internlm/Intern-S1-mini-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Heralax/MythoMakiseMerged-13b
+  -> No missing keys, skipping
+Processing existing model not in API: Lewdiculous/L3-8B-Stheno-v3.3-32K-GGUF-IQ-Imatrix
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/gemma-3-1b-it-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: osmosis-ai/Osmosis-Apply-1.7B
+  -> No missing keys, skipping
+Processing existing model not in API: mlabonne/gemma-3-27b-it-abliterated-v2-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Gemma-3-R1-12B-v1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Menlo/Jan-nano-128k-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: LiquidAI/LFM2-VL-1.6B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mistralai/Devstral-Small-2505_gguf
+  -> No missing keys, skipping
+Processing existing model not in API: kurakurai/Luth-LFM2-1.2B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: OuteAI/OuteTTS-1.0-0.6B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: remyxai/SpaceThinker-Qwen2.5VL-3B
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/gemma-3-270m-it-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/gemma-3-270m-it-qat-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/TheDrummer_Gemma-3-R1-12B-v1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: google/gemma-3-1b-it-qat-q4_0-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Skyfall-31B-v4-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: NousResearch/Hermes-3-Llama-3.1-8B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Intel/Qwen3-Coder-30B-A3B-Instruct-gguf-q4km-AutoRound
+  -> No missing keys, skipping
+Processing existing model not in API: DevQuasar/HuggingFaceTB.SmolLM2-1.7B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Misaka27260/Qwen2.5-VL-7B-Instruct-abliterated-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Lewdiculous/Kunoichi-DPO-v2-7B-GGUF-Imatrix
+  -> No missing keys, skipping
+Processing existing model not in API: ivoras/bernie0.1
+  -> No missing keys, skipping
+Processing existing model not in API: UniverseTBD/astrollama.gguf
+  -> No missing keys, skipping
+Processing existing model not in API: NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: LiquidAI/LFM2-350M-ENJP-MT-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/Magistral-Small-2507-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Big-Tiger-Gemma-27B-v3-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: wsbagnsv1/VibeVoice-1.5B-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/Qwen2.5-14B_Uncensored_Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/Seed-Coder-8B-Reasoning-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Cydonia-24B-v4-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/SmolLM3-3B-128K-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: google/gemma-3-27b-it-qat-q4_0-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: SicariusSicariiStuff/Impish_Nemo_12B_GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: SciPhi/Triplex
+  -> No missing keys, skipping
+Processing existing model not in API: NikolayKozloff/MiniCPM4.1-8B-Q8_0-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: gabriellarson/Hunyuan-7B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: lmstudio-community/InternVL3_5-30B-A3B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Skywork/Skywork-R1V3-38B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: yukiarimo/yuna-ai-v4
+  -> No missing keys, skipping
+Processing existing model not in API: ggml-org/SmolLM3-3B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: stabilityai/stable-code-3b
+  -> No missing keys, skipping
+Processing existing model not in API: t-tech/T-pro-it-2.0-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Baichuan-M2-32B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/mistralai_Magistral-Small-2506-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/silly-v0.2-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/Qwen3-1.7B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/DeepHat-V1-7B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: LGAI-EXAONE/EXAONE-4.0-1.2B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: openbmb/MiniCPM-V-4-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Sweaterdog/GRaPE-Mini-Beta
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Hunyuan-MT-7B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: ValueFX9507/Tifa-DeepsexV2-7b-MGRPO-GGUF-Q8
+  -> No missing keys, skipping
+Processing existing model not in API: yarikdevcom/Seed-OSS-36B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: gabriellarson/Hermes-4-14B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: kurakurai/Luth-LFM2-700M-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/ERNIE-4.5-21B-A3B-PT-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/mistralai_Voxtral-Small-24B-2507-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Vikhrmodels/QVikhr-3-8B-Instruction-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/L3-Grand-Story-Darkness-MOE-4X8-24.9B-e32-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: LiquidAI/LFM2-350M-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: huihui-ai/Huihui-gpt-oss-20b-BF16-abliterated
+  -> No missing keys, skipping
+Processing existing model not in API: ddh0/GLM-4.5-Air-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: jukofyork/Kimi-K2-Instruct-DRAFT-0.6B-v2.0-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/OpenGVLab_InternVL3_5-8B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/Magistral-Small-2506-GGUF
   -> No missing keys, skipping
 Processing existing model not in API: nisten/Biggie-SmoLlm-0.15B-Base
   -> No missing keys, skipping
+Processing existing model not in API: QuantFactory/NVIDIA-Nemotron-Nano-9B-v2-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/Llama-3.2-8X3B-GATED-MOE-NEO-Reasoning-Dark-Champion-uncensored-18.4B-IMAT-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/NousResearch_Hermes-4-14B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/Menlo_Lucy-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/OpenGVLab_InternVL3_5-14B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Doctor-Shotgun/MS3.2-24B-Magnum-Diamond-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/Openai_gpt-oss-20b-NEO-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/Qwen2.5-Coder-7B-Instruct-128K-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Qwen/Qwen3-30B-A3B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/Dream-org_Dream-v0-Instruct-7B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: gabriellarson/WEBGEN-4B-Preview-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: QuantFactory/instinct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Orenguteng/Llama-3-8B-Lexi-Uncensored-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/gemma-3n-E4B-it-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: ggml-org/Qwen2.5-Omni-3B-GGUF
+  -> No missing keys, skipping
 Processing existing model not in API: wsbagnsv1/VibeVoice-Large-pt-gguf
   -> No missing keys, skipping
+Processing existing model not in API: bartowski/OpenGVLab_InternVL3_5-1B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: LiquidAI/LFM2-VL-450M-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: fdtn-ai/Foundation-Sec-8B-Instruct-Q8_0-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: QuantFactory/LLaMAX3-8B-Alpaca-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mistralai/Magistral-Small-2506_gguf
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/huihui-ai_Huihui-gpt-oss-20b-BF16-abliterated-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: samunder12/llama-3.1-8b-roleplay-airtel-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: defog/sqlcoder-7b-2
+  -> No missing keys, skipping
+Processing existing model not in API: prithivMLmods/Qwen3-4B-Valiant-Polaris-f32-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: gabriellarson/MindLink-32B-0801-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Intel/Qwen3-30B-A3B-Instruct-2507-gguf-q2ks-mixed-AutoRound
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/gpt-oss-20b-uncensored-bf16-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: isaiahbjork/orpheus-3b-0.1-ft-Q4_K_M-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/aquif-3-moe-17b-a2.8b-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/tencent_Hunyuan-1.8B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/Qwen3-Zero-Coder-Reasoning-0.8B-NEO-EX-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: lmstudio-community/DeepSeek-Coder-V2-Lite-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: QuantFactory/Lily-Cybersecurity-7B-v0.2-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/EuroLLM-9B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: q1776/survival-uncensored-gemma-270m
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/ERNIE-4.5-0.3B-PT-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: RefalMachine/RuadaptQwen3-4B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Lewdiculous/Layris_9B-GGUF-IQ-Imatrix
+  -> No missing keys, skipping
+Processing existing model not in API: mlabonne/gemma-3-12b-it-abliterated-v2-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/Llama-3.2-9B-Uncensored-Brainstorm-Alpha-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: ArliAI/Mistral-Nemo-12B-ArliAI-RPMax-v1.1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/nvidia_OpenReasoning-Nemotron-7B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/mistralai_Mistral-Small-3.2-24B-Instruct-2506-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/MN-12B-Mag-Mell-R1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Chun121/qwen3-4B-rpg-roleplay
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/gemma-2-9b-it-abliterated-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/MN-Violet-Lotus-12B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: gabriellarson/gpt-oss-120b-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill-FP32-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Qwen/Qwen2.5-1.5B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Discord-Micae-Hermes-3-3B-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: supernovaburn/Llama3-8b-chinese-Uncensored-v0.1-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/Openai_gpt-oss-20b-CODER-NEO-CODE-DI-MATRIX-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/XBai-o4-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: MaziyarPanahi/Llama-3.2-1B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Cydonia-24B-v4.1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/nvidia_OpenReasoning-Nemotron-1.5B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/Llama-3.2-4X3B-MOE-Hell-California-Uncensored-10B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: ggml-org/gpt-oss-20b-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: second-state/FinGPT-MT-Llama-3-8B-LoRA-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: ubergarm/Hunyuan-A13B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: samunder12/llama-3.1-8b-Rp-tadashinu-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/google_gemma-3n-E4B-it-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: MaziyarPanahi/Phi-3.5-mini-instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Gemma-R1-27B-v3-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/CrucibleLab_M3.2-24B-Loki-V1.3-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/tencent_Hunyuan-7B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: tastypear/CausalLM-7B-DPO-alpha-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Gemma-3-R1-4B-v1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: samunder12/llama-3.1-8b-roleplay-vi-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/Qwen3-0.6B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/gemma-3-12b-it-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Valkyrie-49B-v2-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: ValueFX9507/Tifa-DeepsexV3-14b-GGUF-Q6
+  -> No missing keys, skipping
+Processing existing model not in API: Lewdiculous/CaptainErisNebula-12B-Chimera-v1.1-GGUF-IQ-Imatrix
+  -> No missing keys, skipping
+Processing existing model not in API: PowerInfer/SmallThinker-21BA3B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Combatti/gpt-oss-20b-uncensored
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/Llama-3.2-3B-Instruct-uncensored-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: taide/TAIDE-LX-7B-Chat-4bit
+  -> No missing keys, skipping
+Processing existing model not in API: prithivMLmods/II-Search-4B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: SicariusSicariiStuff/Impish_Nemo_12B_ARM
+  -> No missing keys, skipping
+Processing existing model not in API: QuantFactory/NSFW_DPO_Noromaid-7b-Mistral-7B-Instruct-v0.1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Epiculous/Violet_Twilight-v0.2-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Joseph717171/Jinx-gpt-OSS-20B-MXFP4-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: ertghiu256/Qwen3-4b-tcomanr-merge
+  -> No missing keys, skipping
+Processing existing model not in API: varma007ut/Indian_Legal_Assitant
+  -> No missing keys, skipping
+Processing existing model not in API: Qwen/Qwen2.5-Coder-3B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: ggml-org/SmolVLM-500M-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: arcee-ai/AFM-4.5B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Lewdiculous/L3-8B-Stheno-v3.2-GGUF-IQ-Imatrix
+  -> No missing keys, skipping
+Processing existing model not in API: kurakurai/Luth-LFM2-350M-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: prithivMLmods/Pyxidis-Manim-CodeGen-1.7B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/Nanonets-OCR-s-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/PocketDoc_Dans-PersonalityEngine-V1.3.0-24b-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: unsloth/Jan-nano-128k-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: gabriellarson/Huihui-gpt-oss-20b-BF16-abliterated-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Qwen2.5-7B-Instruct-Uncensored-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Hack337/ChatGPT-5-Q8_0-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: prithivMLmods/Qwen3-4B-2507-abliterated-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: dahara1/gemma-3-270m_mitsuki_gguf
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: microsoft/phi-4-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Gemma-R1-4B-v3-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/mistralai_Magistral-Small-2507-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Qwen3-30B-A3B-Mixture-2507-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: oblivious/ruGPT-3.5-13B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: BasedBase/Qwen3-Coder-30B-A3B-Instruct-Distill
+  -> No missing keys, skipping
+Processing existing model not in API: google/gemma-3-4b-it-qat-q4_0-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: ngxson/Home-Cook-Mistral-Small-Omni-24B-2507-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: CrucibleLab-TG/M3.2-24B-Loki-V1.3-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: gabriellarson/UIGEN-X-4B-0729-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/Qwen2.5-Coder-32B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/Mistral-MOE-4X7B-Dark-MultiVerse-Uncensored-Enhanced32-24B-gguf
+  -> No missing keys, skipping
 Processing existing model not in API: second-state/MiniCPM-V-4_5-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: QuantFactory/Qwen3-4B-v0.4-deepresearch-no-think-4-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: BasedBase/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill
+  -> No missing keys, skipping
+Processing existing model not in API: prithivMLmods/MedScholar-1.5B-f32-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: QuantStack/InternVL3_5-GPT-OSS-20B-A4B-Preview-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: Vikhrmodels/QVikhr-3-4B-Instruction-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: samunder12/llama-3.1-8b-roleplay-jio-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/nvidia_NVIDIA-Nemotron-Nano-12B-v2-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: osmosis-ai/osmosis-mcp-4b
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v2-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/openai_gpt-oss-20b-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Huihui-Qwen3-4B-Thinking-2507-abliterated-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Cactus-Compute/Gemma3-270m-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/UI-TARS-1.5-7B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/Ministral-8B-Instruct-2410-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Gemmasutra-Mini-2B-v1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Menlo/Lucy-128k-gguf
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/gemma-2-2b-it-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: TheDrummer/Mixtral-4x3B-v1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: katanemo/Arch-Router-1.5B.gguf
+  -> No missing keys, skipping
+Processing existing model not in API: PowerInfer/SmallThinker-4BA0.6B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/KAT-V1-40B-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: IndexTeam/Index-1.9B-Chat-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: tiiuae/Falcon-H1-7B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/Qwen_Qwen3-4B-Thinking-2507-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: Sweaterdog/GRaPE-Mini-Beta-Thinking
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/DrakIdol-Roleplayer-1.0-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/Qwen2.5-14B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: GetSoloTech/GPT-OSS-Code-Reasoning-20B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: brittlewis12/Kunoichi-DPO-v2-7B-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/openai_gpt-oss-20b-GGUF-MXFP4-Experimental
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/Phi-3.5-mini-instruct_Uncensored-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: bartowski/baidu_ERNIE-4.5-0.3B-PT-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: kurakurai/Luth-1.7B-Instruct-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: mradermacher/Big-Tiger-Gemma-27B-v1-i1-GGUF
+  -> No missing keys, skipping
+Processing existing model not in API: samunder12/llama-3.1-8b-OneLastStory-gguf
   -> No missing keys, skipping
 
 === PASS 3: Processing pinned models not found elsewhere ===
 Pinned model janhq/Jan-v1-2509-gguf already in catalog
 Pinned model janhq/Jan-v1-4B-GGUF already in catalog
 Pinned model ggml-org/gpt-oss-20b-GGUF already in catalog
+Pinned model bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF already in catalog
+Pinned model unsloth/ERNIE-4.5-21B-A3B-PT-GGUF already in catalog
 
 === FINAL CLEANUP: Removing duplicates and multipart files ===
 Duplicate model 'gpt-oss-20b-GGUF' found in 2 repos:
@@ -3940,4 +3867,4 @@ Cleanup summary:
   - Removed 4 duplicate models
   - Final catalog size: 375 models
 
-Updated or Added 24 models; catalog total now 375
+Updated or Added 4 models; catalog total now 375
