@@ -87,6 +87,299 @@
     "description": "The GPT OSS 120B GGUF model can be run using `llama-server` with the command `llama-server -hf ggml-org/gpt-oss-20b-GGUF -c 0 -fa --jinja --reasoning-format none` and"
   },
   {
+    "model_name": "ERNIE-4.5-21B-A3B-PT-GGUF",
+    "developer": "unsloth",
+    "downloads": 3604,
+    "createdAt": "2025-07-18T01:00:17Z",
+    "tools": false,
+    "num_quants": 27,
+    "quants": [
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-BF16",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-BF16.gguf",
+        "file_size": "40.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-IQ4_NL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-IQ4_NL.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-IQ4_XS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-IQ4_XS.gguf",
+        "file_size": "10.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q2_K",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q2_K.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q2_K_L",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q2_K_L.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q3_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q3_K_M.gguf",
+        "file_size": "9.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q3_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q3_K_S.gguf",
+        "file_size": "8.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_0.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_1",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_1.gguf",
+        "file_size": "12.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_K_M.gguf",
+        "file_size": "12.3 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_K_S.gguf",
+        "file_size": "11.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q5_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q5_K_M.gguf",
+        "file_size": "14.4 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q5_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q5_K_S.gguf",
+        "file_size": "14.0 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q6_K",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q6_K.gguf",
+        "file_size": "16.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q8_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q8_0.gguf",
+        "file_size": "21.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ1_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ1_M.gguf",
+        "file_size": "6.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ1_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ1_S.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ2_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ2_M.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ2_XXS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ2_XXS.gguf",
+        "file_size": "7.2 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ3_XXS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ3_XXS.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q2_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q2_K_XL.gguf",
+        "file_size": "8.0 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q3_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q3_K_XL.gguf",
+        "file_size": "9.3 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q4_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q4_K_XL.gguf",
+        "file_size": "11.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q5_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q5_K_XL.gguf",
+        "file_size": "14.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q6_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q6_K_XL.gguf",
+        "file_size": "17.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q8_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q8_K_XL.gguf",
+        "file_size": "24.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-TQ1_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-TQ1_0.gguf",
+        "file_size": "6.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/README.md",
+    "description": "ERNIE-4.5-21B-A3B-PT is a large-scale text generation model with 21B parameters and 3B activated parameters per token, trained using advanced multimodal MoE techniques and optimized for high-performance inference on various hardware platforms under the Apache 2",
+    "mmproj_models": [],
+    "num_mmproj": 0
+  },
+  {
+    "model_name": "baidu_ERNIE-4.5-21B-A3B-PT-GGUF",
+    "developer": "bartowski",
+    "downloads": 2082,
+    "createdAt": "2025-06-30T03:51:30Z",
+    "tools": false,
+    "num_quants": 26,
+    "quants": [
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ2_M",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ2_M.gguf",
+        "file_size": "6.7 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ2_S",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ2_S.gguf",
+        "file_size": "5.9 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ2_XS",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ2_XS.gguf",
+        "file_size": "5.9 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ3_M",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ3_M.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ3_XS",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ3_XS.gguf",
+        "file_size": "8.7 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ3_XXS",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ3_XXS.gguf",
+        "file_size": "8.4 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ4_NL",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ4_NL.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ4_XS",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ4_XS.gguf",
+        "file_size": "11.1 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q2_K",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q2_K.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q2_K_L",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q2_K_L.gguf",
+        "file_size": "7.6 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_L",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_L.gguf",
+        "file_size": "9.9 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_M",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_M.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_S",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_S.gguf",
+        "file_size": "9.2 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_XL",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_XL.gguf",
+        "file_size": "10.0 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q4_0",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q4_0.gguf",
+        "file_size": "11.9 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q4_1",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q4_1.gguf",
+        "file_size": "12.9 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_L",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_L.gguf",
+        "file_size": "12.6 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_M",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_M.gguf",
+        "file_size": "12.6 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_S",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_S.gguf",
+        "file_size": "12.1 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_L",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_L.gguf",
+        "file_size": "14.7 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_M",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_M.gguf",
+        "file_size": "14.7 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_S",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_S.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q6_K",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q6_K.gguf",
+        "file_size": "16.8 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q6_K_L",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q6_K_L.gguf",
+        "file_size": "16.9 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q8_0",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q8_0.gguf",
+        "file_size": "21.6 GB"
+      },
+      {
+        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-bf16",
+        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-bf16.gguf",
+        "file_size": "40.7 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/README.md",
+    "description": "This is a quantized version of the ERNIE-4.5-21B-A3B-PT model by baidu, optimized for text generation using llama.cpp with various quantization types including Q6_K_L, Q5_K_M, IQ4_XS, etc., recommended",
+    "mmproj_models": [],
+    "num_mmproj": 0
+  },
+  {
     "model_name": "Jan-nano-128k-gguf",
     "developer": "Menlo",
     "downloads": 14142,
@@ -18991,155 +19284,6 @@
     "num_mmproj": 0
   },
   {
-    "model_name": "ERNIE-4.5-21B-A3B-PT-GGUF",
-    "developer": "unsloth",
-    "downloads": 3604,
-    "createdAt": "2025-07-18T01:00:17Z",
-    "tools": false,
-    "num_quants": 27,
-    "quants": [
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-BF16",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-BF16.gguf",
-        "file_size": "40.7 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-IQ4_NL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-IQ4_NL.gguf",
-        "file_size": "11.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-IQ4_XS",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-IQ4_XS.gguf",
-        "file_size": "10.9 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q2_K",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q2_K.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q2_K_L",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q2_K_L.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q3_K_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q3_K_M.gguf",
-        "file_size": "9.7 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q3_K_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q3_K_S.gguf",
-        "file_size": "8.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_0",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_0.gguf",
-        "file_size": "11.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_1",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_1.gguf",
-        "file_size": "12.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_K_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_K_M.gguf",
-        "file_size": "12.3 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_K_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_K_S.gguf",
-        "file_size": "11.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q5_K_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q5_K_M.gguf",
-        "file_size": "14.4 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q5_K_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q5_K_S.gguf",
-        "file_size": "14.0 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q6_K",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q6_K.gguf",
-        "file_size": "16.7 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q8_0",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q8_0.gguf",
-        "file_size": "21.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ1_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ1_M.gguf",
-        "file_size": "6.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ1_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ1_S.gguf",
-        "file_size": "6.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ2_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ2_M.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ2_XXS",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ2_XXS.gguf",
-        "file_size": "7.2 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ3_XXS",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ3_XXS.gguf",
-        "file_size": "8.9 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q2_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q2_K_XL.gguf",
-        "file_size": "8.0 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q3_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q3_K_XL.gguf",
-        "file_size": "9.3 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q4_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q4_K_XL.gguf",
-        "file_size": "11.9 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q5_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q5_K_XL.gguf",
-        "file_size": "14.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q6_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q6_K_XL.gguf",
-        "file_size": "17.9 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q8_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q8_K_XL.gguf",
-        "file_size": "24.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-TQ1_0",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-TQ1_0.gguf",
-        "file_size": "6.1 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/README.md",
-    "description": "ERNIE-4.5-21B-A3B-PT is a large-scale text generation model with 21B parameters and 3B activated parameters per token, trained using advanced multimodal MoE techniques and optimized for high-performance inference on various hardware platforms under the Apache 2",
-    "mmproj_models": [],
-    "num_mmproj": 0
-  },
-  {
     "model_name": "tencent_Hunyuan-1.8B-Instruct-GGUF",
     "developer": "bartowski",
     "downloads": 3418,
@@ -22884,150 +23028,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/alpha-ai/Medical-Diagnosis-COT-Gemma3-270M/resolve/main/README.md",
     "description": "This model is a fine-tuned Gemma-3 270M for medical question answering with explicit chain-of-thought (CoT) reasoning, producing `</think>...</think>` blocks followed by final answers for research and internal use, but not for clinical decisions."
-  },
-  {
-    "model_name": "baidu_ERNIE-4.5-21B-A3B-PT-GGUF",
-    "developer": "bartowski",
-    "downloads": 2082,
-    "createdAt": "2025-06-30T03:51:30Z",
-    "tools": false,
-    "num_quants": 26,
-    "quants": [
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ2_M",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ2_M.gguf",
-        "file_size": "6.7 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ2_S",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ2_S.gguf",
-        "file_size": "5.9 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ2_XS",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ2_XS.gguf",
-        "file_size": "5.9 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ3_M",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ3_M.gguf",
-        "file_size": "9.6 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ3_XS",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ3_XS.gguf",
-        "file_size": "8.7 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ3_XXS",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ3_XXS.gguf",
-        "file_size": "8.4 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ4_NL",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ4_NL.gguf",
-        "file_size": "11.7 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-IQ4_XS",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-IQ4_XS.gguf",
-        "file_size": "11.1 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q2_K",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q2_K.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q2_K_L",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q2_K_L.gguf",
-        "file_size": "7.6 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_L",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_L.gguf",
-        "file_size": "9.9 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_M",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_M.gguf",
-        "file_size": "9.6 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_S",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_S.gguf",
-        "file_size": "9.2 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_XL",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q3_K_XL.gguf",
-        "file_size": "10.0 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q4_0",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q4_0.gguf",
-        "file_size": "11.9 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q4_1",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q4_1.gguf",
-        "file_size": "12.9 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_L",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_L.gguf",
-        "file_size": "12.6 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_M",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_M.gguf",
-        "file_size": "12.6 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_S",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q4_K_S.gguf",
-        "file_size": "12.1 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_L",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_L.gguf",
-        "file_size": "14.7 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_M",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_M.gguf",
-        "file_size": "14.7 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_S",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q5_K_S.gguf",
-        "file_size": "14.2 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q6_K",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q6_K.gguf",
-        "file_size": "16.8 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q6_K_L",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q6_K_L.gguf",
-        "file_size": "16.9 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-Q8_0",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-Q8_0.gguf",
-        "file_size": "21.6 GB"
-      },
-      {
-        "model_id": "baidu_ERNIE-4.5-21B-A3B-PT-bf16",
-        "path": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/baidu_ERNIE-4.5-21B-A3B-PT-bf16.gguf",
-        "file_size": "40.7 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/README.md",
-    "description": "This is a quantized version of the ERNIE-4.5-21B-A3B-PT model by baidu, optimized for text generation using llama.cpp with various quantization types including Q6_K_L, Q5_K_M, IQ4_XS, etc., recommended",
-    "mmproj_models": [],
-    "num_mmproj": 0
   },
   {
     "model_name": "Sugoi-14B-Ultra-GGUF",
