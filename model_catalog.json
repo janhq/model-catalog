@@ -68,6 +68,25 @@
     "description": "Jan-v1 is an advanced agentic language model in the Jan Family, built for reasoning, problem-solving, and seamless integration with the Jan App."
   },
   {
+    "model_name": "gpt-oss-20b-GGUF",
+    "developer": "ggml-org",
+    "downloads": 136257,
+    "createdAt": "2025-08-02T10:45:18.000Z",
+    "tools": true,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "gpt-oss-20b-mxfp4",
+        "path": "https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-mxfp4.gguf",
+        "file_size": "11.3 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/README.md",
+    "description": "The GPT OSS 120B GGUF model can be run using `llama-server` with the command `llama-server -hf ggml-org/gpt-oss-20b-GGUF -c 0 -fa --jinja --reasoning-format none` and"
+  },
+  {
     "model_name": "ERNIE-4.5-21B-A3B-Thinking-GGUF",
     "developer": "unsloth",
     "downloads": 27505,
@@ -364,25 +383,6 @@
     "description": "ERNIE-4.5-21B-A3B-PT is a large-scale text generation model with 21B parameters and 3B activated parameters per token, trained using advanced multimodal MoE techniques and optimized for high-performance inference on various hardware platforms under the Apache 2",
     "mmproj_models": [],
     "num_mmproj": 0
-  },
-  {
-    "model_name": "gpt-oss-20b-GGUF",
-    "developer": "ggml-org",
-    "downloads": 136257,
-    "createdAt": "2025-08-02T10:45:18.000Z",
-    "tools": true,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "gpt-oss-20b-mxfp4",
-        "path": "https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-mxfp4.gguf",
-        "file_size": "11.3 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/README.md",
-    "description": "The GPT OSS 120B GGUF model can be run using `llama-server` with the command `llama-server -hf ggml-org/gpt-oss-20b-GGUF -c 0 -fa --jinja --reasoning-format none` and"
   },
   {
     "model_name": "Jan-nano-128k-gguf",
@@ -7521,7 +7521,7 @@
   {
     "model_name": "gemma-3-27b-it-qat-q4_0-gguf",
     "developer": "google",
-    "downloads": 18774,
+    "downloads": 18781,
     "createdAt": "2025-03-20T22:44:27.000Z",
     "tools": false,
     "num_quants": 1,
@@ -11749,7 +11749,7 @@
     "downloads": 9397,
     "createdAt": "2025-08-31T08:41:52.000Z",
     "tools": true,
-    "num_quants": 5,
+    "num_quants": 4,
     "quants": [
       {
         "model_id": "GGUF/ggml-model-Q4_K_M",
@@ -11770,15 +11770,16 @@
         "model_id": "GGUF/ggml-model-f16",
         "path": "https://huggingface.co/huihui-ai/Huihui-MiniCPM-V-4_5-abliterated/resolve/main/GGUF/ggml-model-f16.gguf",
         "file_size": "15.3 GB"
-      },
+      }
+    ],
+    "num_mmproj": 1,
+    "mmproj_models": [
       {
         "model_id": "GGUF/mmproj-model-f16",
         "path": "https://huggingface.co/huihui-ai/Huihui-MiniCPM-V-4_5-abliterated/resolve/main/GGUF/mmproj-model-f16.gguf",
         "file_size": "1.0 GB"
       }
     ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
     "readme": "https://huggingface.co/huihui-ai/Huihui-MiniCPM-V-4_5-abliterated/resolve/main/README.md",
     "description": "This is an uncensored, multi-language, vision-based model derived from MiniCPM-V-4_5, capable of processing images and text without safety filtering, suitable for research and controlled environments."
   },
@@ -14268,6 +14269,140 @@
     "description": "Various llama.cpp imatrix quantizations of the Hermes‑4‑14B model with download links, usage instructions, and recommended selections."
   },
   {
+    "model_name": "Wayfarer-2-12B-GGUF",
+    "developer": "LatitudeGames",
+    "downloads": 6157,
+    "createdAt": "2025-08-27T19:21:18.000Z",
+    "tools": false,
+    "num_quants": 24,
+    "quants": [
+      {
+        "model_id": "Wayfarer-2-12B-IQ1_M",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ1_M.gguf",
+        "file_size": "3.0 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ1_S",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ1_S.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ2_M",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ2_M.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ2_S",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ2_S.gguf",
+        "file_size": "3.9 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ2_XS",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ2_XS.gguf",
+        "file_size": "3.6 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ2_XXS",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ2_XXS.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ3_M",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ3_M.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ3_S",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ3_S.gguf",
+        "file_size": "5.2 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ3_XS",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ3_XS.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ3_XXS",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ3_XXS.gguf",
+        "file_size": "4.6 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ4_NL",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ4_NL.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-IQ4_XS",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ4_XS.gguf",
+        "file_size": "6.3 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q2_K",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q2_K.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q2_K_S",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q2_K_S.gguf",
+        "file_size": "4.2 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q3_K_L",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q3_K_L.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q3_K_M",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q3_K_M.gguf",
+        "file_size": "5.7 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q3_K_S",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q3_K_S.gguf",
+        "file_size": "5.2 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q4_K_M",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q4_K_M.gguf",
+        "file_size": "7.0 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q4_K_S",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q4_K_S.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q5_K_M",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q5_K_M.gguf",
+        "file_size": "8.1 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q5_K_S",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q5_K_S.gguf",
+        "file_size": "7.9 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q6_K",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q6_K.gguf",
+        "file_size": "9.4 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-Q8_0",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q8_0.gguf",
+        "file_size": "12.1 GB"
+      },
+      {
+        "model_id": "Wayfarer-2-12B-bf16",
+        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-bf16.gguf",
+        "file_size": "22.8 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/README.md",
+    "description": "Quantized GGUF weights for Wayfarer‑2‑12B with VRAM usage guidance."
+  },
+  {
     "model_name": "Qwen3-4B-2507-abliterated-GGUF",
     "developer": "prithivMLmods",
     "downloads": 6117,
@@ -15103,140 +15238,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/TheDrummer/Skyfall-31B-v4-GGUF/resolve/main/README.md",
     "description": "Skyfall 31B v4 is an efficient and creative upscaled version of Mistral Small 3.2 2507, offering enhanced versatility and performance."
-  },
-  {
-    "model_name": "Wayfarer-2-12B-GGUF",
-    "developer": "LatitudeGames",
-    "downloads": 5414,
-    "createdAt": "2025-08-27T19:21:18.000Z",
-    "tools": false,
-    "num_quants": 24,
-    "quants": [
-      {
-        "model_id": "Wayfarer-2-12B-IQ1_M",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ1_M.gguf",
-        "file_size": "3.0 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ1_S",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ1_S.gguf",
-        "file_size": "2.8 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ2_M",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ2_M.gguf",
-        "file_size": "4.1 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ2_S",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ2_S.gguf",
-        "file_size": "3.9 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ2_XS",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ2_XS.gguf",
-        "file_size": "3.6 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ2_XXS",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ2_XXS.gguf",
-        "file_size": "3.3 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ3_M",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ3_M.gguf",
-        "file_size": "5.3 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ3_S",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ3_S.gguf",
-        "file_size": "5.2 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ3_XS",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ3_XS.gguf",
-        "file_size": "4.9 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ3_XXS",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ3_XXS.gguf",
-        "file_size": "4.6 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ4_NL",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ4_NL.gguf",
-        "file_size": "6.6 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-IQ4_XS",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-IQ4_XS.gguf",
-        "file_size": "6.3 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q2_K",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q2_K.gguf",
-        "file_size": "4.5 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q2_K_S",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q2_K_S.gguf",
-        "file_size": "4.2 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q3_K_L",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q3_K_L.gguf",
-        "file_size": "6.1 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q3_K_M",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q3_K_M.gguf",
-        "file_size": "5.7 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q3_K_S",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q3_K_S.gguf",
-        "file_size": "5.2 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q4_K_M",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q4_K_M.gguf",
-        "file_size": "7.0 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q4_K_S",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q4_K_S.gguf",
-        "file_size": "6.6 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q5_K_M",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q5_K_M.gguf",
-        "file_size": "8.1 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q5_K_S",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q5_K_S.gguf",
-        "file_size": "7.9 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q6_K",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q6_K.gguf",
-        "file_size": "9.4 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-Q8_0",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-Q8_0.gguf",
-        "file_size": "12.1 GB"
-      },
-      {
-        "model_id": "Wayfarer-2-12B-bf16",
-        "path": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/Wayfarer-2-12B-bf16.gguf",
-        "file_size": "22.8 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF/resolve/main/README.md",
-    "description": "Quantized GGUF weights for Wayfarer‑2‑12B with VRAM usage guidance."
   },
   {
     "model_name": "EXAONE-4.0-1.2B-GGUF",
@@ -19119,6 +19120,30 @@
     "num_mmproj": 0
   },
   {
+    "model_name": "VibeVoice-Large-pt-gguf",
+    "developer": "wsbagnsv1",
+    "downloads": 3666,
+    "createdAt": "2025-08-30T17:30:38.000Z",
+    "tools": true,
+    "num_quants": 2,
+    "quants": [
+      {
+        "model_id": "VibeVoice-Large-pt-bf16",
+        "path": "https://huggingface.co/wsbagnsv1/VibeVoice-Large-pt-gguf/resolve/main/VibeVoice-Large-pt-bf16.gguf",
+        "file_size": "17.4 GB"
+      },
+      {
+        "model_id": "VibeVoice-Large-pt-q8_0",
+        "path": "https://huggingface.co/wsbagnsv1/VibeVoice-Large-pt-gguf/resolve/main/VibeVoice-Large-pt-q8_0.gguf",
+        "file_size": "9.4 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/wsbagnsv1/VibeVoice-Large-pt-gguf/resolve/main/README.md",
+    "description": "This model is highly experimental with no current inference support and may undergo changes in the future."
+  },
+  {
     "model_name": "Hunyuan-7B-Instruct-GGUF",
     "developer": "gabriellarson",
     "downloads": 3660,
@@ -20426,30 +20451,6 @@
     "description": "This is a quantized version of the Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v2 model, optimized for various GGUF quantization types with different trade-offs between size, speed, and quality."
   },
   {
-    "model_name": "VibeVoice-Large-pt-gguf",
-    "developer": "wsbagnsv1",
-    "downloads": 3056,
-    "createdAt": "2025-08-30T17:30:38.000Z",
-    "tools": true,
-    "num_quants": 2,
-    "quants": [
-      {
-        "model_id": "VibeVoice-Large-pt-bf16",
-        "path": "https://huggingface.co/wsbagnsv1/VibeVoice-Large-pt-gguf/resolve/main/VibeVoice-Large-pt-bf16.gguf",
-        "file_size": "17.4 GB"
-      },
-      {
-        "model_id": "VibeVoice-Large-pt-q8_0",
-        "path": "https://huggingface.co/wsbagnsv1/VibeVoice-Large-pt-gguf/resolve/main/VibeVoice-Large-pt-q8_0.gguf",
-        "file_size": "9.4 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/wsbagnsv1/VibeVoice-Large-pt-gguf/resolve/main/README.md",
-    "description": "This model is highly experimental with no current inference support and may undergo changes in the future."
-  },
-  {
     "model_name": "Magistral-Small-2506_gguf",
     "developer": "mistralai",
     "downloads": 3039,
@@ -20981,6 +20982,155 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/TheDrummer/Gemma-R1-4B-v3-GGUF/resolve/main/README.md",
     "description": "Gemma R1 4B v3 is a reasoning-tuned version of the Google Gemma-3-4B model that offers enhanced capabilities and a more unique, less positive personality, with vision support available through GGUF format."
+  },
+  {
+    "model_name": "TheDrummer_Cydonia-ReduX-22B-v1-GGUF",
+    "developer": "bartowski",
+    "downloads": 2750,
+    "createdAt": "2025-09-17T14:41:00.000Z",
+    "tools": true,
+    "num_quants": 27,
+    "quants": [
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-IQ2_M",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-IQ2_M.gguf",
+        "file_size": "7.1 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-IQ2_S",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-IQ2_S.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-IQ2_XS",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-IQ2_XS.gguf",
+        "file_size": "6.2 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-IQ3_M",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-IQ3_M.gguf",
+        "file_size": "9.4 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-IQ3_XS",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-IQ3_XS.gguf",
+        "file_size": "8.5 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-IQ3_XXS",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-IQ3_XXS.gguf",
+        "file_size": "8.0 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-IQ4_NL",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-IQ4_NL.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-IQ4_XS",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-IQ4_XS.gguf",
+        "file_size": "11.1 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q2_K",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q2_K.gguf",
+        "file_size": "7.7 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q2_K_L",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q2_K_L.gguf",
+        "file_size": "7.9 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q3_K_L",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q3_K_L.gguf",
+        "file_size": "10.9 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q3_K_M",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q3_K_M.gguf",
+        "file_size": "10.0 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q3_K_S",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q3_K_S.gguf",
+        "file_size": "9.0 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q3_K_XL",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q3_K_XL.gguf",
+        "file_size": "11.1 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q4_0",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q4_0.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q4_1",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q4_1.gguf",
+        "file_size": "13.0 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q4_K_L",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q4_K_L.gguf",
+        "file_size": "12.6 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q4_K_M",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q4_K_M.gguf",
+        "file_size": "12.4 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q4_K_S",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q4_K_S.gguf",
+        "file_size": "11.8 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q5_K_L",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q5_K_L.gguf",
+        "file_size": "14.8 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q5_K_M",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q5_K_M.gguf",
+        "file_size": "14.6 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q5_K_S",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q5_K_S.gguf",
+        "file_size": "14.3 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q6_K",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q6_K.gguf",
+        "file_size": "17.0 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q6_K_L",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q6_K_L.gguf",
+        "file_size": "17.1 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-Q8_0",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-Q8_0.gguf",
+        "file_size": "22.0 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-bf16",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-bf16.gguf",
+        "file_size": "41.4 GB"
+      },
+      {
+        "model_id": "TheDrummer_Cydonia-ReduX-22B-v1-imatrix",
+        "path": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/TheDrummer_Cydonia-ReduX-22B-v1-imatrix.gguf",
+        "file_size": "11.4 MB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/bartowski/TheDrummer_Cydonia-ReduX-22B-v1-GGUF/resolve/main/README.md",
+    "description": "Quantized GGUF versions of TheDrummer /Cydonia‑ReduX‑22B‑v1 for llama.cpp, offering many size‑/quality options."
   },
   {
     "model_name": "fastvlm-gguf",
@@ -24632,6 +24782,75 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/README.md",
     "description": "This is a GGUF-quantized vision model for image captioning and text generation, offering various quantization options for different trade-offs between speed, size, and quality."
+  },
+  {
+    "model_name": "Arisu-12B-GGUF",
+    "developer": "mradermacher",
+    "downloads": 1780,
+    "createdAt": "2025-09-14T05:33:41.000Z",
+    "tools": false,
+    "num_quants": 11,
+    "quants": [
+      {
+        "model_id": "Arisu-12B.IQ4_XS",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.IQ4_XS.gguf",
+        "file_size": "6.3 GB"
+      },
+      {
+        "model_id": "Arisu-12B.Q2_K",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.Q2_K.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "Arisu-12B.Q3_K_L",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.Q3_K_L.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "Arisu-12B.Q3_K_M",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.Q3_K_M.gguf",
+        "file_size": "5.7 GB"
+      },
+      {
+        "model_id": "Arisu-12B.Q3_K_S",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.Q3_K_S.gguf",
+        "file_size": "5.2 GB"
+      },
+      {
+        "model_id": "Arisu-12B.Q4_K_M",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.Q4_K_M.gguf",
+        "file_size": "7.0 GB"
+      },
+      {
+        "model_id": "Arisu-12B.Q4_K_S",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.Q4_K_S.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "Arisu-12B.Q5_K_M",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.Q5_K_M.gguf",
+        "file_size": "8.1 GB"
+      },
+      {
+        "model_id": "Arisu-12B.Q5_K_S",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.Q5_K_S.gguf",
+        "file_size": "7.9 GB"
+      },
+      {
+        "model_id": "Arisu-12B.Q6_K",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.Q6_K.gguf",
+        "file_size": "9.4 GB"
+      },
+      {
+        "model_id": "Arisu-12B.Q8_0",
+        "path": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/Arisu-12B.Q8_0.gguf",
+        "file_size": "12.1 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/mradermacher/Arisu-12B-GGUF/resolve/main/README.md",
+    "description": "Provides multiple GGUF quantizations of the Arisu‑12B model with download links, sizes, and usage recommendations."
   },
   {
     "model_name": "T-pro-it-2.0-GGUF",
