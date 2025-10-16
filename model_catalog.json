@@ -1111,25 +1111,6 @@
     "description": "This model is a specialized uncensored/abliterated GPT-oss 20B MOE variant with 128k context support, offering enhanced performance for creative, code generation, and problem-solving tasks, but requires specific prompts and settings to generate graphic, explicit, or unconventional content effectively"
   },
   {
-    "model_name": "gemma-2b",
-    "developer": "google",
-    "downloads": 192204,
-    "createdAt": "2024-02-08T08:11:26.000Z",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "gemma-2b",
-        "path": "https://huggingface.co/google/gemma-2b/resolve/main/gemma-2b.gguf",
-        "file_size": "9.3 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/google/gemma-2b/resolve/main/README.md",
-    "description": "The Gemma 2B model is a lightweight, open-source text-to-text large language model from Google, trained on diverse data including web text, code, and mathematics, with support for fine-tuning, multi-GPU training, and various precision optimizations, and evaluated on multiple benchmarks for performance and"
-  },
-  {
     "model_name": "gemma-7b-it",
     "developer": "google",
     "downloads": 184253,
@@ -1147,6 +1128,25 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/google/gemma-7b-it/resolve/main/README.md",
     "description": "The Gemma 7B instruct model is a lightweight, open-source text-to-text large language model from Google, trained on diverse data including web text, code, and math, and suitable for various text generation tasks with support for fine-tuning, GPU acceleration, and ethical safety measures."
+  },
+  {
+    "model_name": "gemma-2b",
+    "developer": "google",
+    "downloads": 183796,
+    "createdAt": "2024-02-08T08:11:26.000Z",
+    "tools": false,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "gemma-2b",
+        "path": "https://huggingface.co/google/gemma-2b/resolve/main/gemma-2b.gguf",
+        "file_size": "9.3 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/google/gemma-2b/resolve/main/README.md",
+    "description": "The Gemma 2B model is a lightweight, open-source text-to-text large language model from Google, trained on diverse data including web text, code, and mathematics, with support for fine-tuning, multi-GPU training, and various precision optimizations, and evaluated on multiple benchmarks for performance and"
   },
   {
     "model_name": "Phi-4-mini-instruct-GGUF",
@@ -1840,7 +1840,7 @@
   {
     "model_name": "Mistral-7B-Instruct-v0.3-GGUF",
     "developer": "MaziyarPanahi",
-    "downloads": 98912,
+    "downloads": 106151,
     "createdAt": "2024-05-22T17:27:45.000Z",
     "tools": false,
     "num_quants": 16,
@@ -2198,25 +2198,6 @@
     ],
     "readme": "https://huggingface.co/google/gemma-3-12b-it-qat-q4_0-gguf/resolve/main/README.md",
     "description": "The Gemma 3 model is a lightweight, open-source, instruction-tuned, multimodal model with 128K context window and multilingual support, trained on diverse data including text, code, math, and images, and evaluated on various benchmarks for reasoning, STEM, code, and"
-  },
-  {
-    "model_name": "sqlcoder-7b-2",
-    "developer": "defog",
-    "downloads": 78675,
-    "createdAt": "2024-02-05T14:36:51.000Z",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "sqlcoder-7b-q5_k_m",
-        "path": "https://huggingface.co/defog/sqlcoder-7b-2/resolve/main/sqlcoder-7b-q5_k_m.gguf",
-        "file_size": "4.5 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/defog/sqlcoder-7b-2/resolve/main/README.md",
-    "description": "The SQLCoder-7B-2 model is a large language model capable of generating SQL queries from natural language questions, developed by Defog, Inc., based on CodeLlama-7B, and licensed under CC-by-SA-4.0."
   },
   {
     "model_name": "gemma-3-27b-it-abliterated-GGUF",
@@ -4750,6 +4731,25 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/README.md",
     "description": "This is a quantized version of the Cydonia-24B-v4.1 model using llama.cpp's imatrix method, offering various quantization types for different performance and quality trade-offs."
+  },
+  {
+    "model_name": "sqlcoder-7b-2",
+    "developer": "defog",
+    "downloads": 34675,
+    "createdAt": "2024-02-05T14:36:51.000Z",
+    "tools": false,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "sqlcoder-7b-q5_k_m",
+        "path": "https://huggingface.co/defog/sqlcoder-7b-2/resolve/main/sqlcoder-7b-q5_k_m.gguf",
+        "file_size": "4.5 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/defog/sqlcoder-7b-2/resolve/main/README.md",
+    "description": "The SQLCoder-7B-2 model is a large language model capable of generating SQL queries from natural language questions, developed by Defog, Inc., based on CodeLlama-7B, and licensed under CC-by-SA-4.0."
   },
   {
     "model_name": "Qwen3-4B-GGUF",
@@ -15095,6 +15095,50 @@
     "description": "A 4B-parameter Qwen3 model with dual-mode reasoning (thinking for complex tasks, non-thinking for general dialogue) supporting 100+ languages."
   },
   {
+    "model_name": "LFM2-2.6B-GGUF",
+    "developer": "LiquidAI",
+    "downloads": 7403,
+    "createdAt": "2025-09-23T15:50:28.000Z",
+    "tools": true,
+    "num_quants": 6,
+    "quants": [
+      {
+        "model_id": "LFM2-2.6B-F16",
+        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-F16.gguf",
+        "file_size": "4.8 GB"
+      },
+      {
+        "model_id": "LFM2-2.6B-Q4_0",
+        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-Q4_0.gguf",
+        "file_size": "1.4 GB"
+      },
+      {
+        "model_id": "LFM2-2.6B-Q4_K_M",
+        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-Q4_K_M.gguf",
+        "file_size": "1.5 GB"
+      },
+      {
+        "model_id": "LFM2-2.6B-Q5_K_M",
+        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-Q5_K_M.gguf",
+        "file_size": "1.7 GB"
+      },
+      {
+        "model_id": "LFM2-2.6B-Q6_K",
+        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-Q6_K.gguf",
+        "file_size": "2.0 GB"
+      },
+      {
+        "model_id": "LFM2-2.6B-Q8_0",
+        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-Q8_0.gguf",
+        "file_size": "2.5 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/README.md",
+    "description": "Liquid AI's LFM2-2.6B-GGUF is a text-generation model optimized for efficient edge deployment with speed and memory efficiency."
+  },
+  {
     "model_name": "Mistral-MOE-4X7B-Dark-MultiVerse-Uncensored-Enhanced32-24B-gguf",
     "developer": "DavidAU",
     "downloads": 7306,
@@ -15429,50 +15473,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/SicariusSicariiStuff/Impish_Nemo_12B_GGUF/resolve/main/README.md",
     "description": "This is a Hugging Face model repository for the Impish_Nemo_12B base model and the UBW_Tapestries dataset, licensed under Apache 2.0, quantized by SicariusSicariiStuff."
-  },
-  {
-    "model_name": "LFM2-2.6B-GGUF",
-    "developer": "LiquidAI",
-    "downloads": 7100,
-    "createdAt": "2025-09-23T15:50:28.000Z",
-    "tools": true,
-    "num_quants": 6,
-    "quants": [
-      {
-        "model_id": "LFM2-2.6B-F16",
-        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-F16.gguf",
-        "file_size": "4.8 GB"
-      },
-      {
-        "model_id": "LFM2-2.6B-Q4_0",
-        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-Q4_0.gguf",
-        "file_size": "1.4 GB"
-      },
-      {
-        "model_id": "LFM2-2.6B-Q4_K_M",
-        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-Q4_K_M.gguf",
-        "file_size": "1.5 GB"
-      },
-      {
-        "model_id": "LFM2-2.6B-Q5_K_M",
-        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-Q5_K_M.gguf",
-        "file_size": "1.7 GB"
-      },
-      {
-        "model_id": "LFM2-2.6B-Q6_K",
-        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-Q6_K.gguf",
-        "file_size": "2.0 GB"
-      },
-      {
-        "model_id": "LFM2-2.6B-Q8_0",
-        "path": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/LFM2-2.6B-Q8_0.gguf",
-        "file_size": "2.5 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/main/README.md",
-    "description": "Liquid AI's LFM2-2.6B-GGUF is a text-generation model optimized for efficient edge deployment with speed and memory efficiency."
   },
   {
     "model_name": "dolphin-2.9.3-mistral-nemo-12b-gguf",
@@ -25740,6 +25740,60 @@
     "description": "This model is a specialized GPT-oss-20B MOE (Mixture of Experts) variant with 128k context, 24 experts, and supports code generation, reasoning, and chat, offering high performance with quants like IQ4_NL and MXFP4"
   },
   {
+    "model_name": "phi-4-GGUF",
+    "developer": "unsloth",
+    "downloads": 2709,
+    "createdAt": "2025-01-08T22:57:04.000Z",
+    "tools": false,
+    "num_quants": 8,
+    "quants": [
+      {
+        "model_id": "phi-4-F16",
+        "path": "https://huggingface.co/unsloth/phi-4-GGUF/resolve/main/phi-4-F16.gguf",
+        "file_size": "27.3 GB"
+      },
+      {
+        "model_id": "phi-4-Q2_K",
+        "path": "https://huggingface.co/unsloth/phi-4-GGUF/resolve/main/phi-4-Q2_K.gguf",
+        "file_size": "5.2 GB"
+      },
+      {
+        "model_id": "phi-4-Q2_K_L",
+        "path": "https://huggingface.co/unsloth/phi-4-GGUF/resolve/main/phi-4-Q2_K_L.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "phi-4-Q3_K_M",
+        "path": "https://huggingface.co/unsloth/phi-4-GGUF/resolve/main/phi-4-Q3_K_M.gguf",
+        "file_size": "6.7 GB"
+      },
+      {
+        "model_id": "phi-4-Q4_K_M",
+        "path": "https://huggingface.co/unsloth/phi-4-GGUF/resolve/main/phi-4-Q4_K_M.gguf",
+        "file_size": "8.3 GB"
+      },
+      {
+        "model_id": "phi-4-Q5_K_M",
+        "path": "https://huggingface.co/unsloth/phi-4-GGUF/resolve/main/phi-4-Q5_K_M.gguf",
+        "file_size": "9.7 GB"
+      },
+      {
+        "model_id": "phi-4-Q6_K",
+        "path": "https://huggingface.co/unsloth/phi-4-GGUF/resolve/main/phi-4-Q6_K.gguf",
+        "file_size": "11.2 GB"
+      },
+      {
+        "model_id": "phi-4-Q8_0",
+        "path": "https://huggingface.co/unsloth/phi-4-GGUF/resolve/main/phi-4-Q8_0.gguf",
+        "file_size": "14.5 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/unsloth/phi-4-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
     "model_name": "nvidia_OpenReasoning-Nemotron-7B-GGUF",
     "developer": "bartowski",
     "downloads": 2706,
@@ -26773,6 +26827,50 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/hungng/Llama-3.2-uncensored-erotica/resolve/main/README.md",
     "description": "Apache 2.0-licensed finetuned Llama-3.2-3B-Instruct model trained 2x faster using Unsloth."
+  },
+  {
+    "model_name": "Magidonia-24B-v4.2.0-GGUF",
+    "developer": "TheDrummer",
+    "downloads": 2532,
+    "createdAt": "2025-10-06T05:33:45.000Z",
+    "tools": true,
+    "num_quants": 6,
+    "quants": [
+      {
+        "model_id": "Cydonia-24B-v4s-Q2_K",
+        "path": "https://huggingface.co/TheDrummer/Magidonia-24B-v4.2.0-GGUF/resolve/main/Cydonia-24B-v4s-Q2_K.gguf",
+        "file_size": "8.3 GB"
+      },
+      {
+        "model_id": "Cydonia-24B-v4s-Q3_K_M",
+        "path": "https://huggingface.co/TheDrummer/Magidonia-24B-v4.2.0-GGUF/resolve/main/Cydonia-24B-v4s-Q3_K_M.gguf",
+        "file_size": "10.7 GB"
+      },
+      {
+        "model_id": "Cydonia-24B-v4s-Q4_K_M",
+        "path": "https://huggingface.co/TheDrummer/Magidonia-24B-v4.2.0-GGUF/resolve/main/Cydonia-24B-v4s-Q4_K_M.gguf",
+        "file_size": "13.3 GB"
+      },
+      {
+        "model_id": "Cydonia-24B-v4s-Q5_K_M",
+        "path": "https://huggingface.co/TheDrummer/Magidonia-24B-v4.2.0-GGUF/resolve/main/Cydonia-24B-v4s-Q5_K_M.gguf",
+        "file_size": "15.6 GB"
+      },
+      {
+        "model_id": "Cydonia-24B-v4s-Q6_K",
+        "path": "https://huggingface.co/TheDrummer/Magidonia-24B-v4.2.0-GGUF/resolve/main/Cydonia-24B-v4s-Q6_K.gguf",
+        "file_size": "18.0 GB"
+      },
+      {
+        "model_id": "Cydonia-24B-v4s-Q8_0",
+        "path": "https://huggingface.co/TheDrummer/Magidonia-24B-v4.2.0-GGUF/resolve/main/Cydonia-24B-v4s-Q8_0.gguf",
+        "file_size": "23.3 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": null,
+    "description": ""
   },
   {
     "model_name": "mistralai_Voxtral-Mini-3B-2507-GGUF",
@@ -29192,6 +29290,75 @@
     "description": "This repository provides the 0.5B Qwen2.5-Coder model, a code-specific large language model that offers improved code generation, reasoning, and fixing capabilities, and is optimized for faster performance and lower memory usage with Unsloth.",
     "mmproj_models": [],
     "num_mmproj": 0
+  },
+  {
+    "model_name": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF",
+    "developer": "DevQuasar",
+    "downloads": 1960,
+    "createdAt": "2025-09-08T17:20:02.000Z",
+    "tools": false,
+    "num_quants": 11,
+    "quants": [
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q2_K",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q2_K.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q3_K_L",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q3_K_L.gguf",
+        "file_size": "3.8 GB"
+      },
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q3_K_M",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q3_K_M.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q3_K_S",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q3_K_S.gguf",
+        "file_size": "3.2 GB"
+      },
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q4_K_M",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q4_K_M.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q4_K_S",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q4_K_S.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q5_K_M",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q5_K_M.gguf",
+        "file_size": "5.0 GB"
+      },
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q5_K_S",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q5_K_S.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q6_K",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q6_K.gguf",
+        "file_size": "5.7 GB"
+      },
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q8_0",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.Q8_0.gguf",
+        "file_size": "7.4 GB"
+      },
+      {
+        "model_id": "huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.f16",
+        "path": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated.f16.gguf",
+        "file_size": "14.0 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/DevQuasar/huihui-ai.Huihui-Hunyuan-MT-7B-abliterated-GGUF/resolve/main/README.md",
+    "description": ""
   },
   {
     "model_name": "Gemma-R1-27B-v3-GGUF",
@@ -35837,6 +36004,40 @@
     "description": "Provides multiple GGUF quantizations of the Discord‑Hermes‑3‑8B model for efficient inference."
   },
   {
+    "model_name": "MamayLM-Gemma-3-12B-IT-v1.0-GGUF",
+    "developer": "INSAIT-Institute",
+    "downloads": 710,
+    "createdAt": "2025-09-03T10:05:45.000Z",
+    "tools": false,
+    "num_quants": 4,
+    "quants": [
+      {
+        "model_id": "MamayLM-Gemma-3-12B-IT-v1.0.Q4_K_M",
+        "path": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF/resolve/main/MamayLM-Gemma-3-12B-IT-v1.0.Q4_K_M.gguf",
+        "file_size": "6.8 GB"
+      },
+      {
+        "model_id": "MamayLM-Gemma-3-12B-IT-v1.0.Q4_K_S",
+        "path": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF/resolve/main/MamayLM-Gemma-3-12B-IT-v1.0.Q4_K_S.gguf",
+        "file_size": "6.5 GB"
+      },
+      {
+        "model_id": "MamayLM-Gemma-3-12B-IT-v1.0.Q5_K_S",
+        "path": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF/resolve/main/MamayLM-Gemma-3-12B-IT-v1.0.Q5_K_S.gguf",
+        "file_size": "7.7 GB"
+      },
+      {
+        "model_id": "MamayLM-Gemma-3-12B-IT-v1.0.Q8_0",
+        "path": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF/resolve/main/MamayLM-Gemma-3-12B-IT-v1.0.Q8_0.gguf",
+        "file_size": "11.7 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF/resolve/main/README.md",
+    "description": "Ukrainian and English Gemma-3-12B-IT GGUF model."
+  },
+  {
     "model_name": "DrakIdol-Roleplayer-1.0-GGUF",
     "developer": "mradermacher",
     "downloads": 702,
@@ -36057,40 +36258,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-14B-abliterated-GGUF/resolve/main/README.md",
     "description": ""
-  },
-  {
-    "model_name": "MamayLM-Gemma-3-12B-IT-v1.0-GGUF",
-    "developer": "INSAIT-Institute",
-    "downloads": 646,
-    "createdAt": "2025-09-03T10:05:45.000Z",
-    "tools": false,
-    "num_quants": 4,
-    "quants": [
-      {
-        "model_id": "MamayLM-Gemma-3-12B-IT-v1.0.Q4_K_M",
-        "path": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF/resolve/main/MamayLM-Gemma-3-12B-IT-v1.0.Q4_K_M.gguf",
-        "file_size": "6.8 GB"
-      },
-      {
-        "model_id": "MamayLM-Gemma-3-12B-IT-v1.0.Q4_K_S",
-        "path": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF/resolve/main/MamayLM-Gemma-3-12B-IT-v1.0.Q4_K_S.gguf",
-        "file_size": "6.5 GB"
-      },
-      {
-        "model_id": "MamayLM-Gemma-3-12B-IT-v1.0.Q5_K_S",
-        "path": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF/resolve/main/MamayLM-Gemma-3-12B-IT-v1.0.Q5_K_S.gguf",
-        "file_size": "7.7 GB"
-      },
-      {
-        "model_id": "MamayLM-Gemma-3-12B-IT-v1.0.Q8_0",
-        "path": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF/resolve/main/MamayLM-Gemma-3-12B-IT-v1.0.Q8_0.gguf",
-        "file_size": "11.7 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF/resolve/main/README.md",
-    "description": "Ukrainian and English Gemma-3-12B-IT GGUF model."
   },
   {
     "model_name": "Josiefied-Qwen3-8B-abliterated-v1-i1-GGUF",
@@ -39595,6 +39762,25 @@
     "description": "Quantized GGUF variants (Q2_K to Q8_0, IQ4_XS) of YOYO-AI's Qwen3-30B-A3B-CoderThinking-YOYO-linear model."
   },
   {
+    "model_name": "BlackSheep-AFM-4.5B-Q8_0-GGUF",
+    "developer": "TroyDoesAI",
+    "downloads": 188,
+    "createdAt": "2025-10-09T23:33:23.000Z",
+    "tools": false,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "BlackSheep-MermaidThinker-4.5B_Q8",
+        "path": "https://huggingface.co/TroyDoesAI/BlackSheep-AFM-4.5B-Q8_0-GGUF/resolve/main/BlackSheep-MermaidThinker-4.5B_Q8.gguf",
+        "file_size": "4.6 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": null,
+    "description": ""
+  },
+  {
     "model_name": "Layris_9B-GGUF-IQ-Imatrix",
     "developer": "Lewdiculous",
     "downloads": 187,
@@ -40155,6 +40341,85 @@
     "num_mmproj": 0
   },
   {
+    "model_name": "gemma-2-finance-Q4_K_M-GGUF",
+    "developer": "kyungbae",
+    "downloads": 0,
+    "createdAt": "2024-10-02T03:35:07.000Z",
+    "tools": false,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "gemma-2-finance-q4_k_m",
+        "path": "https://huggingface.co/kyungbae/gemma-2-finance-Q4_K_M-GGUF/resolve/main/gemma-2-finance-q4_k_m.gguf",
+        "file_size": "1.6 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/kyungbae/gemma-2-finance-Q4_K_M-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
+    "model_name": "Qwen3-VL-4B-Instruct-GGUF",
+    "developer": "NexaAI",
+    "downloads": 0,
+    "createdAt": "2025-10-14T05:00:28.000Z",
+    "tools": false,
+    "num_quants": 6,
+    "quants": [
+      {
+        "model_id": "Qwen3-VL-4B-Instruct.F16",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-4B-Instruct-GGUF/resolve/main/Qwen3-VL-4B-Instruct.F16.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "Qwen3-VL-4B-Instruct.Q4_0",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-4B-Instruct-GGUF/resolve/main/Qwen3-VL-4B-Instruct.Q4_0.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "Qwen3-VL-4B-Instruct.Q4_K",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-4B-Instruct-GGUF/resolve/main/Qwen3-VL-4B-Instruct.Q4_K.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "Qwen3-VL-4B-Instruct.Q5_K",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-4B-Instruct-GGUF/resolve/main/Qwen3-VL-4B-Instruct.Q5_K.gguf",
+        "file_size": "2.6 GB"
+      },
+      {
+        "model_id": "Qwen3-VL-4B-Instruct.Q6_K",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-4B-Instruct-GGUF/resolve/main/Qwen3-VL-4B-Instruct.Q6_K.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "Qwen3-VL-4B-Instruct.Q8_0",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-4B-Instruct-GGUF/resolve/main/Qwen3-VL-4B-Instruct.Q8_0.gguf",
+        "file_size": "4.0 GB"
+      }
+    ],
+    "num_mmproj": 3,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj.F16",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-4B-Instruct-GGUF/resolve/main/mmproj.F16.gguf",
+        "file_size": "797.5 MB"
+      },
+      {
+        "model_id": "mmproj.F32",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-4B-Instruct-GGUF/resolve/main/mmproj.F32.gguf",
+        "file_size": "1.5 GB"
+      },
+      {
+        "model_id": "mmproj.Q8_0",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-4B-Instruct-GGUF/resolve/main/mmproj.Q8_0.gguf",
+        "file_size": "428.5 MB"
+      }
+    ],
+    "readme": "https://huggingface.co/NexaAI/Qwen3-VL-4B-Instruct-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
     "model_name": "Qwen3-VL-8B-Instruct-GGUF",
     "developer": "NexaAI",
     "downloads": 0,
@@ -40207,6 +40472,51 @@
       }
     ],
     "readme": "https://huggingface.co/NexaAI/Qwen3-VL-8B-Instruct-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
+    "model_name": "Qwen3-VL-8B-Thinking-GGUF",
+    "developer": "NexaAI",
+    "downloads": 0,
+    "createdAt": "2025-10-14T05:28:39.000Z",
+    "tools": false,
+    "num_quants": 4,
+    "quants": [
+      {
+        "model_id": "Qwen3-VL-8B-Thinking.Q4_0",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-8B-Thinking-GGUF/resolve/main/Qwen3-VL-8B-Thinking.Q4_0.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "Qwen3-VL-8B-Thinking.Q4_K",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-8B-Thinking-GGUF/resolve/main/Qwen3-VL-8B-Thinking.Q4_K.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "Qwen3-VL-8B-Thinking.Q5_K",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-8B-Thinking-GGUF/resolve/main/Qwen3-VL-8B-Thinking.Q5_K.gguf",
+        "file_size": "5.2 GB"
+      },
+      {
+        "model_id": "Qwen3-VL-8B-Thinking.Q6_K",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-8B-Thinking-GGUF/resolve/main/Qwen3-VL-8B-Thinking.Q6_K.gguf",
+        "file_size": "6.3 GB"
+      }
+    ],
+    "num_mmproj": 2,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj.F16",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-8B-Thinking-GGUF/resolve/main/mmproj.F16.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "mmproj.F32",
+        "path": "https://huggingface.co/NexaAI/Qwen3-VL-8B-Thinking-GGUF/resolve/main/mmproj.F32.gguf",
+        "file_size": "2.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/NexaAI/Qwen3-VL-8B-Thinking-GGUF/resolve/main/README.md",
     "description": ""
   }
 ]
