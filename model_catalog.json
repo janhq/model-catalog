@@ -5178,7 +5178,7 @@
     "downloads": 42285,
     "createdAt": "2025-10-16T08:39:12.000Z",
     "tools": true,
-    "num_quants": 4,
+    "num_quants": 3,
     "quants": [
       {
         "model_id": "GGUF/ggml-model-Q4_K_M",
@@ -5194,15 +5194,16 @@
         "model_id": "GGUF/ggml-model-q8_0",
         "path": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/GGUF/ggml-model-q8_0.gguf",
         "file_size": "8.1 GB"
-      },
+      }
+    ],
+    "num_mmproj": 1,
+    "mmproj_models": [
       {
         "model_id": "GGUF/mmproj-model-f16",
         "path": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/GGUF/mmproj-model-f16.gguf",
         "file_size": "1.1 GB"
       }
     ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
     "readme": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated/resolve/main/README.md",
     "description": "Uncensored Qwen3-VL-8B-Instruct model with no refusal to describe images."
   },
