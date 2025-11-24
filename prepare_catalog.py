@@ -26,7 +26,19 @@ BLACKLISTED_DEVELOPERS = {
     "UmeAiRT",
 }
 
-PINNED_MODELS = ["janhq/Jan-v2-VL-low-gguf", "janhq/Jan-v2-VL-med-gguf", "janhq/Jan-v2-VL-high-gguf", "unsloth/Olmo-3-7B-Instruct-GGUF", "unsloth/Olmo-3-7B-Think-GGUF", "unsloth/Olmo-3-32B-Think-GGUF", "janhq/Jan-v1-2509-gguf", "janhq/Jan-v1-4B-GGUF", "unsloth/ERNIE-4.5-21B-A3B-PT-GGUF", "unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF", "ggml-org/gpt-oss-20b-GGUF"]
+PINNED_MODELS = [
+    "janhq/Jan-v2-VL-low-gguf",
+    "janhq/Jan-v2-VL-med-gguf",
+    "janhq/Jan-v2-VL-high-gguf",
+    "unsloth/Olmo-3-7B-Instruct-GGUF",
+    "unsloth/Olmo-3-7B-Think-GGUF",
+    "unsloth/Olmo-3-32B-Think-GGUF",
+    "janhq/Jan-v1-2509-gguf",
+    "janhq/Jan-v1-4B-GGUF",
+    "unsloth/ERNIE-4.5-21B-A3B-PT-GGUF",
+    "unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF",
+    "ggml-org/gpt-oss-20b-GGUF",
+]
 
 client = openai.OpenAI(
     base_url=os.getenv("BASE_URL"),
@@ -105,6 +117,7 @@ def process_model_details(repo_id, detail=None, existing_entry=None):
 
     downloads = detail.get("downloads", 0)
     createdAt = detail.get("createdAt")
+    is_gated = bool(detail.get("gated", False))
 
     # Check for tool support in chat template
     supports_tools = False
@@ -163,7 +176,10 @@ def process_model_details(repo_id, detail=None, existing_entry=None):
                     }
                 )
             # Check if it's a regular text generation model (not embedding/ocr/speech/reranker)
-            elif all(x not in name for x in ("embedding", "ocr", "speech", "reranker", "encoder", "clip")):
+            elif all(
+                x not in name
+                for x in ("embedding", "ocr", "speech", "reranker", "encoder", "clip")
+            ):
                 quants.append(
                     {
                         "model_id": raw.rsplit(".gguf", 1)[0],
@@ -212,6 +228,7 @@ def process_model_details(repo_id, detail=None, existing_entry=None):
         "downloads": downloads,
         "createdAt": createdAt,
         "tools": supports_tools,
+        "isGated": is_gated,
         "num_quants": len(quants),
         "quants": quants,
         "num_mmproj": len(mmproj_models),
@@ -470,6 +487,7 @@ def get_gguf_model_catalog():
                 "downloads",
                 "createdAt",
                 "tools",
+                "isGated",
                 "num_quants",
                 "quants",
                 "readme",
@@ -568,6 +586,7 @@ def get_gguf_model_catalog():
             "downloads",
             "createdAt",
             "tools",
+            "isGated",
             "num_quants",
             "quants",
             "readme",
@@ -750,6 +769,9 @@ def get_gguf_model_catalog():
                 "downloads": downloads,
                 "createdAt": createdAt,
                 "tools": supports_tools,
+                "isGated": bool(
+                    detail.get("gated", existing_entry.get("isGated", False))
+                ),
                 "num_quants": (
                     len(quants) if quants else existing_entry.get("num_quants", 0)
                 ),
