@@ -1,0 +1,84 @@
+name: Update Model Catalog
+
+on:
+  schedule:
+    # Run every day at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Allow manual triggering
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-22-04
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_SERVICE_ACCOUNT }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Set up GitHub CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install gh -y
+
+      - name: Set date variables
+        id: date
+        run: |
+          echo "today=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
+          echo "today_with_time=$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
+          echo "today_readable=$(date +'%d-%m-%Y')" >> $GITHUB_OUTPUT
+          echo "datetime=$(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+          echo "datetime_short=$(date +'%d-%m-%Y %H:%M')" >> $GITHUB_OUTPUT
+
+      - name: Run model catalog update script
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          BASE_URL: ${{ secrets.BASE_URL }}
+        run: |
+          python prepare_catalog.py | tee script_output.log
+        timeout-minutes: 90
+
+      - name: Extract summary from script output
+        id: extract-summary
+        run: |
+          SUMMARY_LINE=$(tail -n 1 script_output.log)
+          NEW_MODELS=$(echo "$SUMMARY_LINE" | grep -oP 'Added \K[0-9]+')
+          TOTAL_MODELS=$(echo "$SUMMARY_LINE" | grep -oP 'total now \K[0-9]+')
+          echo "new_models=$NEW_MODELS" >> $GITHUB_OUTPUT
+          echo "total_models=$TOTAL_MODELS" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          base: main
+          token: ${{ secrets.PAT_SERVICE_ACCOUNT }}
+          branch: update-model-catalog-${{ steps.date.outputs.today_with_time }}
+          commit-message: "🤖 Auto-update model catalog - ${{ steps.date.outputs.datetime }}"
+          title: "🤖 Auto-update Model Catalog - ${{ steps.date.outputs.datetime_short }}"
+          reviewers: Minh141120
+          body: |
+            ## 🤖 Automated Model Catalog Update
+
+            ### **Date:** ${{ steps.date.outputs.datetime_short }}
+
+            ### Summary
+
+            - **New models added:** ${{ steps.extract-summary.outputs.new_models }}
+            - **Total models in catalog:** ${{ steps.extract-summary.outputs.total_models }} 
+          

@@ -1,0 +1,43 @@
+name: Create Draft Release
+on:
+  push:
+    tags: ["v[0-9]+.[0-9]+.[0-9]+"]
+jobs:
+    create-draft-release:
+      runs-on: ubuntu-latest
+      if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+      permissions:
+        contents: write
+      outputs:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        version: ${{ steps.get_version.outputs.version }}
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Extract tag name without v prefix
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV && echo "version=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+        env:
+          GITHUB_REF: ${{ github.ref }}
+      
+      - name: Create Draft Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          name: "${{ env.VERSION }}"
+          draft: true
+          prerelease: false
+      
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1.0.1
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+            upload_url: ${{ steps.create_release.outputs.upload_url }}
+            asset_path: ./model_catalog.json
+            asset_name: model_catalog-${{ steps.get_version.outputs.version }}.json
+            asset_content_type: application/json
