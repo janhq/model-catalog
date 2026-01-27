@@ -27,7 +27,7 @@ BLACKLISTED_DEVELOPERS = {
     "ReadyArt"
 }
 
-PINNED_MODELS = ["janhq/Jan-v3-4B-base-instruct-gguf", "janhq/Jan-v2-VL-low-gguf", "janhq/Jan-v2-VL-med-gguf", "janhq/Jan-v2-VL-high-gguf", "unsloth/Olmo-3-7B-Instruct-GGUF", "unsloth/Olmo-3-7B-Think-GGUF", "unsloth/Olmo-3-32B-Think-GGUF", "janhq/Jan-v1-2509-gguf", "janhq/Jan-v1-4B-GGUF", "unsloth/ERNIE-4.5-21B-A3B-PT-GGUF", "unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF", "ggml-org/gpt-oss-20b-GGUF"]
+PINNED_MODELS = ["janhq/Jan-v3-4B-base-instruct-gguf", "janhq/Jan-v2-VL-med-gguf", "janhq/Jan-v2-VL-high-gguf", "unsloth/Olmo-3-7B-Instruct-GGUF", "unsloth/Olmo-3-7B-Think-GGUF", "unsloth/Olmo-3-32B-Think-GGUF"]
 
 client = openai.OpenAI(
     base_url=os.getenv("BASE_URL"),
