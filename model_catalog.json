@@ -90,40 +90,6 @@
     "description": "Jan-v2-VL is an 8B-parameter multimodal agent model optimized for stable long-horizon task execution in real software environments."
   },
   {
-    "model_name": "Jan-v1-4B-GGUF",
-    "developer": "janhq",
-    "downloads": 86716,
-    "createdAt": "2025-08-11T06:21:13.000Z",
-    "tools": true,
-    "num_quants": 4,
-    "quants": [
-      {
-        "model_id": "Jan-v1-4B-Q4_K_M",
-        "path": "https://huggingface.co/janhq/Jan-v1-4B-GGUF/resolve/main/Jan-v1-4B-Q4_K_M.gguf",
-        "file_size": "2.3 GB"
-      },
-      {
-        "model_id": "Jan-v1-4B-Q5_K_M",
-        "path": "https://huggingface.co/janhq/Jan-v1-4B-GGUF/resolve/main/Jan-v1-4B-Q5_K_M.gguf",
-        "file_size": "2.7 GB"
-      },
-      {
-        "model_id": "Jan-v1-4B-Q6_K",
-        "path": "https://huggingface.co/janhq/Jan-v1-4B-GGUF/resolve/main/Jan-v1-4B-Q6_K.gguf",
-        "file_size": "3.1 GB"
-      },
-      {
-        "model_id": "Jan-v1-4B-Q8_0",
-        "path": "https://huggingface.co/janhq/Jan-v1-4B-GGUF/resolve/main/Jan-v1-4B-Q8_0.gguf",
-        "file_size": "4.0 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/janhq/Jan-v1-4B-GGUF/resolve/main/README.md",
-    "description": "Jan-v1 is an advanced agentic language model built on the Qwen3-4B-thinking model, optimized for complex problem-solving and integration with the Jan App."
-  },
-  {
     "model_name": "Jan-v2-VL-high-gguf",
     "developer": "janhq",
     "downloads": 54723,
@@ -214,130 +180,6 @@
     "description": "Multimodal agent for stable long-horizon task execution in software environments."
   },
   {
-    "model_name": "Jan-v1-2509-gguf",
-    "developer": "janhq",
-    "downloads": 13596,
-    "createdAt": "2025-09-09T03:24:24.000Z",
-    "tools": true,
-    "num_quants": 4,
-    "quants": [
-      {
-        "model_id": "Jan-v1-2509-Q4_K_M",
-        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q4_K_M.gguf",
-        "file_size": "2.3 GB"
-      },
-      {
-        "model_id": "Jan-v1-2509-Q5_K_M",
-        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q5_K_M.gguf",
-        "file_size": "2.7 GB"
-      },
-      {
-        "model_id": "Jan-v1-2509-Q6_K",
-        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q6_K.gguf",
-        "file_size": "3.1 GB"
-      },
-      {
-        "model_id": "Jan-v1-2509-Q8_0",
-        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q8_0.gguf",
-        "file_size": "4.0 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/README.md",
-    "description": "Jan-v1 is an advanced agentic language model in the Jan Family, built for reasoning, problem-solving, and seamless integration with the Jan App."
-  },
-  {
-    "model_name": "Jan-v2-VL-low-gguf",
-    "developer": "janhq",
-    "downloads": 6638,
-    "createdAt": "2025-11-06T11:13:06.000Z",
-    "tools": true,
-    "num_quants": 14,
-    "quants": [
-      {
-        "model_id": "Jan-v2-VL-low-Q3_K_L",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q3_K_L.gguf",
-        "file_size": "4.1 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q3_K_M",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q3_K_M.gguf",
-        "file_size": "3.8 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q3_K_S",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q3_K_S.gguf",
-        "file_size": "3.5 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q4_0",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q4_0.gguf",
-        "file_size": "4.4 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q4_1",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q4_1.gguf",
-        "file_size": "4.9 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q4_K_M",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q4_K_M.gguf",
-        "file_size": "4.7 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q4_K_S",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q4_K_S.gguf",
-        "file_size": "4.5 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q5_0",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q5_0.gguf",
-        "file_size": "5.3 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q5_1",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q5_1.gguf",
-        "file_size": "5.8 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q5_K_M",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q5_K_M.gguf",
-        "file_size": "5.4 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q5_K_S",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q5_K_S.gguf",
-        "file_size": "5.3 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q6_K",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q6_K.gguf",
-        "file_size": "6.3 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low-Q8_0",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q8_0.gguf",
-        "file_size": "8.1 GB"
-      },
-      {
-        "model_id": "Jan-v2-VL-low",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low.gguf",
-        "file_size": "15.3 GB"
-      }
-    ],
-    "num_mmproj": 1,
-    "mmproj_models": [
-      {
-        "model_id": "mmproj-Jan-v2-VL-low",
-        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/mmproj-Jan-v2-VL-low.gguf",
-        "file_size": "1.1 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/README.md",
-    "description": "Jan-v2-VL: 8B multimodal model for stable long-horizon software automation."
-  },
-  {
     "model_name": "Jan-v3-4B-base-instruct-gguf",
     "developer": "janhq",
     "downloads": 21,
@@ -425,174 +267,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/janhq/Jan-v3-4B-base-instruct-gguf/resolve/main/README.md",
     "description": ""
-  },
-  {
-    "model_name": "gpt-oss-20b-GGUF",
-    "developer": "ggml-org",
-    "downloads": 41528,
-    "createdAt": "2025-08-02T10:45:18.000Z",
-    "tools": true,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "gpt-oss-20b-mxfp4",
-        "path": "https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-mxfp4.gguf",
-        "file_size": "11.3 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/README.md",
-    "description": "The GPT OSS 120B GGUF model can be run using `llama-server` with the command `llama-server -hf ggml-org/gpt-oss-20b-GGUF -c 0 -fa --jinja --reasoning-format none` and"
-  },
-  {
-    "model_name": "ERNIE-4.5-21B-A3B-Thinking-GGUF",
-    "developer": "unsloth",
-    "downloads": 9683,
-    "createdAt": "2025-09-10T11:01:33.000Z",
-    "tools": true,
-    "num_quants": 27,
-    "quants": [
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-BF16",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-BF16.gguf",
-        "file_size": "40.7 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ4_NL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ4_NL.gguf",
-        "file_size": "11.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ4_XS",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ4_XS.gguf",
-        "file_size": "11.0 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q2_K",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q2_K.gguf",
-        "file_size": "7.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q2_K_L",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q2_K_L.gguf",
-        "file_size": "7.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q3_K_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q3_K_M.gguf",
-        "file_size": "9.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q3_K_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q3_K_S.gguf",
-        "file_size": "9.0 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_0",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_0.gguf",
-        "file_size": "11.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_1",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_1.gguf",
-        "file_size": "12.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_K_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_K_M.gguf",
-        "file_size": "12.4 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_K_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_K_S.gguf",
-        "file_size": "11.7 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q5_K_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q5_K_M.gguf",
-        "file_size": "14.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q5_K_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q5_K_S.gguf",
-        "file_size": "14.1 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q6_K",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q6_K.gguf",
-        "file_size": "16.7 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q8_0",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q8_0.gguf",
-        "file_size": "21.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-IQ1_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-IQ1_M.gguf",
-        "file_size": "6.7 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-IQ1_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-IQ1_S.gguf",
-        "file_size": "6.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-IQ2_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-IQ2_M.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-IQ2_XXS",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-IQ2_XXS.gguf",
-        "file_size": "7.2 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-IQ3_XXS",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-IQ3_XXS.gguf",
-        "file_size": "8.9 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q2_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q2_K_XL.gguf",
-        "file_size": "7.7 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q3_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q3_K_XL.gguf",
-        "file_size": "9.9 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL.gguf",
-        "file_size": "12.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q5_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q5_K_XL.gguf",
-        "file_size": "14.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q6_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q6_K_XL.gguf",
-        "file_size": "17.9 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q8_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q8_K_XL.gguf",
-        "file_size": "24.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-TQ1_0",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-TQ1_0.gguf",
-        "file_size": "6.1 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/README.md",
-    "description": "ERNIE‑4.5‑21B‑A3B‑Thinking is a 21 B‑parameter MoE text model with 128 K context, enhanced reasoning and tool‑calling, usable via FastDeploy, vLLM or Transformers."
   },
   {
     "model_name": "Olmo-3-7B-Think-GGUF",
@@ -883,153 +557,38 @@
     "description": "Olmo 3 7B Instruct is a 7B parameter language model for instruction following and reasoning."
   },
   {
-    "model_name": "ERNIE-4.5-21B-A3B-PT-GGUF",
-    "developer": "unsloth",
-    "downloads": 3604,
-    "createdAt": "2025-07-18T01:00:17Z",
-    "tools": false,
-    "num_quants": 27,
+    "model_name": "Jan-v1-4B-GGUF",
+    "developer": "janhq",
+    "downloads": 86716,
+    "createdAt": "2025-08-11T06:21:13.000Z",
+    "tools": true,
+    "num_quants": 4,
     "quants": [
       {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-BF16",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-BF16.gguf",
-        "file_size": "40.7 GB"
+        "model_id": "Jan-v1-4B-Q4_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v1-4B-GGUF/resolve/main/Jan-v1-4B-Q4_K_M.gguf",
+        "file_size": "2.3 GB"
       },
       {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-IQ4_NL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-IQ4_NL.gguf",
-        "file_size": "11.5 GB"
+        "model_id": "Jan-v1-4B-Q5_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v1-4B-GGUF/resolve/main/Jan-v1-4B-Q5_K_M.gguf",
+        "file_size": "2.7 GB"
       },
       {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-IQ4_XS",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-IQ4_XS.gguf",
-        "file_size": "10.9 GB"
+        "model_id": "Jan-v1-4B-Q6_K",
+        "path": "https://huggingface.co/janhq/Jan-v1-4B-GGUF/resolve/main/Jan-v1-4B-Q6_K.gguf",
+        "file_size": "3.1 GB"
       },
       {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q2_K",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q2_K.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q2_K_L",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q2_K_L.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q3_K_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q3_K_M.gguf",
-        "file_size": "9.7 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q3_K_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q3_K_S.gguf",
-        "file_size": "8.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_0",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_0.gguf",
-        "file_size": "11.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_1",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_1.gguf",
-        "file_size": "12.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_K_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_K_M.gguf",
-        "file_size": "12.3 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_K_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_K_S.gguf",
-        "file_size": "11.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q5_K_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q5_K_M.gguf",
-        "file_size": "14.4 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q5_K_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q5_K_S.gguf",
-        "file_size": "14.0 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q6_K",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q6_K.gguf",
-        "file_size": "16.7 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-Q8_0",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q8_0.gguf",
-        "file_size": "21.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ1_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ1_M.gguf",
-        "file_size": "6.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ1_S",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ1_S.gguf",
-        "file_size": "6.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ2_M",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ2_M.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ2_XXS",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ2_XXS.gguf",
-        "file_size": "7.2 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ3_XXS",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ3_XXS.gguf",
-        "file_size": "8.9 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q2_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q2_K_XL.gguf",
-        "file_size": "8.0 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q3_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q3_K_XL.gguf",
-        "file_size": "9.3 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q4_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q4_K_XL.gguf",
-        "file_size": "11.9 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q5_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q5_K_XL.gguf",
-        "file_size": "14.6 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q6_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q6_K_XL.gguf",
-        "file_size": "17.9 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q8_K_XL",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q8_K_XL.gguf",
-        "file_size": "24.8 GB"
-      },
-      {
-        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-TQ1_0",
-        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-TQ1_0.gguf",
-        "file_size": "6.1 GB"
+        "model_id": "Jan-v1-4B-Q8_0",
+        "path": "https://huggingface.co/janhq/Jan-v1-4B-GGUF/resolve/main/Jan-v1-4B-Q8_0.gguf",
+        "file_size": "4.0 GB"
       }
     ],
-    "readme": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/README.md",
-    "description": "ERNIE-4.5-21B-A3B-PT is a large-scale text generation model with 21B parameters and 3B activated parameters per token, trained using advanced multimodal MoE techniques and optimized for high-performance inference on various hardware platforms under the Apache 2",
+    "num_mmproj": 0,
     "mmproj_models": [],
-    "num_mmproj": 0
+    "readme": "https://huggingface.co/janhq/Jan-v1-4B-GGUF/resolve/main/README.md",
+    "description": "Jan-v1 is an advanced agentic language model built on the Qwen3-4B-thinking model, optimized for complex problem-solving and integration with the Jan App."
   },
   {
     "model_name": "Jan-nano-128k-gguf",
@@ -1114,6 +673,40 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/Menlo/Jan-nano-128k-gguf/resolve/main/README.md",
     "description": "Jan-Nano-128k is a compact language model with a native 128k context window, designed for deep research tasks by enabling comprehensive analysis of long documents and complex conversations without performance loss."
+  },
+  {
+    "model_name": "Jan-v1-2509-gguf",
+    "developer": "janhq",
+    "downloads": 13596,
+    "createdAt": "2025-09-09T03:24:24.000Z",
+    "tools": true,
+    "num_quants": 4,
+    "quants": [
+      {
+        "model_id": "Jan-v1-2509-Q4_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q4_K_M.gguf",
+        "file_size": "2.3 GB"
+      },
+      {
+        "model_id": "Jan-v1-2509-Q5_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q5_K_M.gguf",
+        "file_size": "2.7 GB"
+      },
+      {
+        "model_id": "Jan-v1-2509-Q6_K",
+        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q6_K.gguf",
+        "file_size": "3.1 GB"
+      },
+      {
+        "model_id": "Jan-v1-2509-Q8_0",
+        "path": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/Jan-v1-2509-Q8_0.gguf",
+        "file_size": "4.0 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/janhq/Jan-v1-2509-gguf/resolve/main/README.md",
+    "description": "Jan-v1 is an advanced agentic language model in the Jan Family, built for reasoning, problem-solving, and seamless integration with the Jan App."
   },
   {
     "model_name": "Lucy-128k-gguf",
@@ -1277,6 +870,96 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/Menlo/Jan-nano-gguf/resolve/main/README.md",
     "description": "Jan Nano is a compact, quantized version of the Qwen3 architecture, optimized for efficient text generation in local or embedded environments with enhanced tool use and research capabilities."
+  },
+  {
+    "model_name": "Jan-v2-VL-low-gguf",
+    "developer": "janhq",
+    "downloads": 6638,
+    "createdAt": "2025-11-06T11:13:06.000Z",
+    "tools": true,
+    "num_quants": 14,
+    "quants": [
+      {
+        "model_id": "Jan-v2-VL-low-Q3_K_L",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q3_K_L.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q3_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q3_K_M.gguf",
+        "file_size": "3.8 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q3_K_S",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q3_K_S.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q4_0",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q4_0.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q4_1",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q4_1.gguf",
+        "file_size": "4.9 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q4_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q4_K_M.gguf",
+        "file_size": "4.7 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q4_K_S",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q4_K_S.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q5_0",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q5_0.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q5_1",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q5_1.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q5_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q5_K_M.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q5_K_S",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q5_K_S.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q6_K",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q6_K.gguf",
+        "file_size": "6.3 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low-Q8_0",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low-Q8_0.gguf",
+        "file_size": "8.1 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-low",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/Jan-v2-VL-low.gguf",
+        "file_size": "15.3 GB"
+      }
+    ],
+    "num_mmproj": 1,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-Jan-v2-VL-low",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/mmproj-Jan-v2-VL-low.gguf",
+        "file_size": "1.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/janhq/Jan-v2-VL-low-gguf/resolve/main/README.md",
+    "description": "Jan-v2-VL: 8B multimodal model for stable long-horizon software automation."
   },
   {
     "model_name": "Jan-v1-edge-gguf",
@@ -2489,6 +2172,100 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/bartowski/openai_gpt-oss-20b-GGUF/resolve/main/README.md",
     "description": "This is a quantized version of the OpenAI GPT-oss-20b model, optimized for various inference speeds and resource constraints using llama.cpp with imatrix calibration."
+  },
+  {
+    "model_name": "gpt-oss-20b-GGUF",
+    "developer": "unsloth",
+    "downloads": 132245,
+    "createdAt": "2025-08-05T17:12:17.000Z",
+    "tools": true,
+    "num_quants": 16,
+    "quants": [
+      {
+        "model_id": "gpt-oss-20b-F16",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-F16.gguf",
+        "file_size": "12.8 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q2_K",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q2_K.gguf",
+        "file_size": "10.7 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q2_K_L",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q2_K_L.gguf",
+        "file_size": "11.0 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q3_K_M",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q3_K_M.gguf",
+        "file_size": "10.7 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q3_K_S",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q3_K_S.gguf",
+        "file_size": "10.7 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q4_0",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q4_0.gguf",
+        "file_size": "10.7 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q4_1",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q4_1.gguf",
+        "file_size": "10.8 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q4_K_M",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q4_K_M.gguf",
+        "file_size": "10.8 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q4_K_S",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q4_K_S.gguf",
+        "file_size": "10.8 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q5_K_M",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q5_K_M.gguf",
+        "file_size": "10.9 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q5_K_S",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q5_K_S.gguf",
+        "file_size": "10.9 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q6_K",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q6_K.gguf",
+        "file_size": "11.2 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-Q8_0",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-Q8_0.gguf",
+        "file_size": "11.3 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-UD-Q4_K_XL",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-UD-Q4_K_XL.gguf",
+        "file_size": "11.1 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-UD-Q6_K_XL",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-UD-Q6_K_XL.gguf",
+        "file_size": "11.2 GB"
+      },
+      {
+        "model_id": "gpt-oss-20b-UD-Q8_K_XL",
+        "path": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-UD-Q8_K_XL.gguf",
+        "file_size": "12.3 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/README.md",
+    "description": ""
   },
   {
     "model_name": "gemma-2-2b-it-GGUF",
@@ -19581,6 +19358,155 @@
     ],
     "readme": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated/resolve/main/README.md",
     "description": "Uncensored Qwen3-VL-4B-Instruct model bypassing safety filters."
+  },
+  {
+    "model_name": "ERNIE-4.5-21B-A3B-Thinking-GGUF",
+    "developer": "unsloth",
+    "downloads": 9683,
+    "createdAt": "2025-09-10T11:01:33.000Z",
+    "tools": true,
+    "num_quants": 27,
+    "quants": [
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-BF16",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-BF16.gguf",
+        "file_size": "40.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ4_NL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ4_NL.gguf",
+        "file_size": "11.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-IQ4_XS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-IQ4_XS.gguf",
+        "file_size": "11.0 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q2_K",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q2_K.gguf",
+        "file_size": "7.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q2_K_L",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q2_K_L.gguf",
+        "file_size": "7.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q3_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q3_K_M.gguf",
+        "file_size": "9.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q3_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q3_K_S.gguf",
+        "file_size": "9.0 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_0.gguf",
+        "file_size": "11.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_1",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_1.gguf",
+        "file_size": "12.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_K_M.gguf",
+        "file_size": "12.4 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q4_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q4_K_S.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q5_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q5_K_M.gguf",
+        "file_size": "14.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q5_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q5_K_S.gguf",
+        "file_size": "14.1 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q6_K",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q6_K.gguf",
+        "file_size": "16.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-Q8_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-Q8_0.gguf",
+        "file_size": "21.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-IQ1_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-IQ1_M.gguf",
+        "file_size": "6.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-IQ1_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-IQ1_S.gguf",
+        "file_size": "6.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-IQ2_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-IQ2_M.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-IQ2_XXS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-IQ2_XXS.gguf",
+        "file_size": "7.2 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-IQ3_XXS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-IQ3_XXS.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q2_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q2_K_XL.gguf",
+        "file_size": "7.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q3_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q3_K_XL.gguf",
+        "file_size": "9.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL.gguf",
+        "file_size": "12.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q5_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q5_K_XL.gguf",
+        "file_size": "14.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q6_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q6_K_XL.gguf",
+        "file_size": "17.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-Q8_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q8_K_XL.gguf",
+        "file_size": "24.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-Thinking-UD-TQ1_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-TQ1_0.gguf",
+        "file_size": "6.1 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/README.md",
+    "description": "ERNIE‑4.5‑21B‑A3B‑Thinking is a 21 B‑parameter MoE text model with 128 K context, enhanced reasoning and tool‑calling, usable via FastDeploy, vLLM or Transformers."
   },
   {
     "model_name": "huihui-ai_Huihui-gemma-3n-E4B-it-abliterated-GGUF",
@@ -37315,6 +37241,155 @@
     ],
     "readme": "https://huggingface.co/bartowski/Menlo_Lucy-GGUF/resolve/main/README.md",
     "description": "This is a quantized version of the Lucy model by Menlo, optimized for various quantization types and suitable for use with llama.cpp or LM Studio.",
+    "mmproj_models": [],
+    "num_mmproj": 0
+  },
+  {
+    "model_name": "ERNIE-4.5-21B-A3B-PT-GGUF",
+    "developer": "unsloth",
+    "downloads": 3604,
+    "createdAt": "2025-07-18T01:00:17Z",
+    "tools": false,
+    "num_quants": 27,
+    "quants": [
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-BF16",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-BF16.gguf",
+        "file_size": "40.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-IQ4_NL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-IQ4_NL.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-IQ4_XS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-IQ4_XS.gguf",
+        "file_size": "10.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q2_K",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q2_K.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q2_K_L",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q2_K_L.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q3_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q3_K_M.gguf",
+        "file_size": "9.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q3_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q3_K_S.gguf",
+        "file_size": "8.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_0.gguf",
+        "file_size": "11.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_1",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_1.gguf",
+        "file_size": "12.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_K_M.gguf",
+        "file_size": "12.3 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q4_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q4_K_S.gguf",
+        "file_size": "11.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q5_K_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q5_K_M.gguf",
+        "file_size": "14.4 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q5_K_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q5_K_S.gguf",
+        "file_size": "14.0 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q6_K",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q6_K.gguf",
+        "file_size": "16.7 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-Q8_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-Q8_0.gguf",
+        "file_size": "21.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ1_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ1_M.gguf",
+        "file_size": "6.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ1_S",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ1_S.gguf",
+        "file_size": "6.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ2_M",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ2_M.gguf",
+        "file_size": "7.5 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ2_XXS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ2_XXS.gguf",
+        "file_size": "7.2 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-IQ3_XXS",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-IQ3_XXS.gguf",
+        "file_size": "8.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q2_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q2_K_XL.gguf",
+        "file_size": "8.0 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q3_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q3_K_XL.gguf",
+        "file_size": "9.3 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q4_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q4_K_XL.gguf",
+        "file_size": "11.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q5_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q5_K_XL.gguf",
+        "file_size": "14.6 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q6_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q6_K_XL.gguf",
+        "file_size": "17.9 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-Q8_K_XL",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-Q8_K_XL.gguf",
+        "file_size": "24.8 GB"
+      },
+      {
+        "model_id": "ERNIE-4.5-21B-A3B-PT-UD-TQ1_0",
+        "path": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/ERNIE-4.5-21B-A3B-PT-UD-TQ1_0.gguf",
+        "file_size": "6.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-PT-GGUF/resolve/main/README.md",
+    "description": "ERNIE-4.5-21B-A3B-PT is a large-scale text generation model with 21B parameters and 3B activated parameters per token, trained using advanced multimodal MoE techniques and optimized for high-performance inference on various hardware platforms under the Apache 2",
     "mmproj_models": [],
     "num_mmproj": 0
   },
