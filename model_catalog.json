@@ -70140,6 +70140,25 @@
     "description": "GGUF‑converted MiniCPM4.1‑8B text‑generation model ready for use with llama.cpp (CLI or server)."
   },
   {
+    "model_name": "Murasaki-8B-v0.1-GGUF",
+    "developer": "Murasaki-Project",
+    "downloads": 99,
+    "createdAt": "2026-01-24T08:08:02.000Z",
+    "tools": true,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "Murasaki-8B-v0.1-Q4_K_M",
+        "path": "https://huggingface.co/Murasaki-Project/Murasaki-8B-v0.1-GGUF/resolve/main/Murasaki-8B-v0.1-Q4_K_M.gguf",
+        "file_size": "4.7 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/Murasaki-Project/Murasaki-8B-v0.1-GGUF/resolve/main/README.md",
+    "description": ""
+  },
+  {
     "model_name": "aquif-3.5-Max-1205-MXFP4_MOE-GGUF",
     "developer": "noctrex",
     "downloads": 97,
@@ -70948,5 +70967,35 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/prithivMLmods/Qwen3-VisionCaption-2B-GUFF/resolve/main/README.md",
     "description": "Uncensored image captioning model Qwen3-VisionCaption-2B with multilingual OCR and 256K context in GGUF."
+  },
+  {
+    "model_name": "Youtu-VL-4B-Instruct-GGUF",
+    "developer": "tencent",
+    "downloads": 0,
+    "createdAt": "2026-01-23T09:05:10.000Z",
+    "tools": false,
+    "num_quants": 2,
+    "quants": [
+      {
+        "model_id": "Youtu-VL-4B-Instruct-F16",
+        "path": "https://huggingface.co/tencent/Youtu-VL-4B-Instruct-GGUF/resolve/main/Youtu-VL-4B-Instruct-F16.gguf",
+        "file_size": "9.1 GB"
+      },
+      {
+        "model_id": "Youtu-VL-4B-Instruct-Q8_0",
+        "path": "https://huggingface.co/tencent/Youtu-VL-4B-Instruct-GGUF/resolve/main/Youtu-VL-4B-Instruct-Q8_0.gguf",
+        "file_size": "4.9 GB"
+      }
+    ],
+    "num_mmproj": 1,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-Youtu-VL-4b-Instruct-BF16",
+        "path": "https://huggingface.co/tencent/Youtu-VL-4B-Instruct-GGUF/resolve/main/mmproj-Youtu-VL-4b-Instruct-BF16.gguf",
+        "file_size": "852.0 MB"
+      }
+    ],
+    "readme": "https://huggingface.co/tencent/Youtu-VL-4B-Instruct-GGUF/resolve/main/README.md",
+    "description": ""
   }
 ]
