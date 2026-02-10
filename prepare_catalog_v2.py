@@ -66,7 +66,7 @@ HEADERS = {"Authorization": f"Bearer {HF_TOKEN}"} if HF_TOKEN else {}
 
 def summarize_readme_one_liner(text: str) -> str:
     resp = client.chat.completions.create(
-        model="jan/jan-v2-30b-instruct",
+        model="jan/jan-4b-instruct-dev",
         messages=[
             {
                 "role": "system",
