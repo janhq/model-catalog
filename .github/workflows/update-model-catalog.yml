@@ -11,9 +11,12 @@ env:
   PYTHON_VERSION: '3.11'
 
 jobs:
-  update-catalog:
-    runs-on: ubuntu-22-04
-    
+  # Job 1: Update V1 catalog (GGUF only)
+  update-v1:
+    runs-on: ubuntu-22.04
+    outputs:
+      new_models: ${{ steps.extract-summary.outputs.new_models }}
+      total_models: ${{ steps.extract-summary.outputs.total_models }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -31,21 +34,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Set up GitHub CLI
-        run: |
-          sudo apt-get update
-          sudo apt-get install gh -y
-
-      - name: Set date variables
-        id: date
-        run: |
-          echo "today=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
-          echo "today_with_time=$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
-          echo "today_readable=$(date +'%d-%m-%Y')" >> $GITHUB_OUTPUT
-          echo "datetime=$(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
-          echo "datetime_short=$(date +'%d-%m-%Y %H:%M')" >> $GITHUB_OUTPUT
-
-      - name: Run model catalog update script
+      - name: Run model catalog V1 update script
         env:
           API_KEY: ${{ secrets.API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
@@ -58,10 +47,100 @@ jobs:
         id: extract-summary
         run: |
           SUMMARY_LINE=$(tail -n 1 script_output.log)
-          NEW_MODELS=$(echo "$SUMMARY_LINE" | grep -oP 'Added \K[0-9]+')
-          TOTAL_MODELS=$(echo "$SUMMARY_LINE" | grep -oP 'total now \K[0-9]+')
+          NEW_MODELS=$(echo "$SUMMARY_LINE" | grep -oP 'Added \K[0-9]+' || echo "0")
+          TOTAL_MODELS=$(echo "$SUMMARY_LINE" | grep -oP 'total now \K[0-9]+' || echo "0")
           echo "new_models=$NEW_MODELS" >> $GITHUB_OUTPUT
           echo "total_models=$TOTAL_MODELS" >> $GITHUB_OUTPUT
+
+      - name: Upload V1 catalog artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-v1
+          path: |
+            model_catalog.json
+            script_output.log
+
+  # Job 2: Update V2 catalog (GGUF + MLX) - runs in parallel
+  update-v2:
+    runs-on: ubuntu-22.04
+    outputs:
+      total_v2: ${{ steps.extract-summary.outputs.total_v2 }}
+      gguf_v2: ${{ steps.extract-summary.outputs.gguf_v2 }}
+      mlx_v2: ${{ steps.extract-summary.outputs.mlx_v2 }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_SERVICE_ACCOUNT }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run model catalog V2 update script
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          BASE_URL: ${{ secrets.BASE_URL }}
+        run: |
+          python prepare_catalog_v2.py | tee script_output_v2.log
+        timeout-minutes: 90
+
+      - name: Extract summary from script output
+        id: extract-summary
+        run: |
+          SUMMARY_LINE_V2=$(tail -n 1 script_output_v2.log)
+          TOTAL_V2=$(echo "$SUMMARY_LINE_V2" | grep -oP 'total now \K[0-9]+' || echo "0")
+          GGUF_V2=$(echo "$SUMMARY_LINE_V2" | grep -oP 'GGUF: \K[0-9]+' || echo "0")
+          MLX_V2=$(echo "$SUMMARY_LINE_V2" | grep -oP 'MLX: \K[0-9]+' || echo "0")
+          echo "total_v2=$TOTAL_V2" >> $GITHUB_OUTPUT
+          echo "gguf_v2=$GGUF_V2" >> $GITHUB_OUTPUT
+          echo "mlx_v2=$MLX_V2" >> $GITHUB_OUTPUT
+
+      - name: Upload V2 catalog artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-v2
+          path: |
+            model_catalog_v2.json
+            script_output_v2.log
+
+  # Job 3: Create PR after both jobs complete
+  create-pr:
+    runs-on: ubuntu-22.04
+    needs: [update-v1, update-v2]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_SERVICE_ACCOUNT }}
+          fetch-depth: 0
+
+      - name: Download V1 catalog artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: catalog-v1
+
+      - name: Download V2 catalog artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: catalog-v2
+
+      - name: Set date variables
+        id: date
+        run: |
+          echo "today=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
+          echo "today_with_time=$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
+          echo "today_readable=$(date +'%d-%m-%Y')" >> $GITHUB_OUTPUT
+          echo "datetime=$(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+          echo "datetime_short=$(date +'%d-%m-%Y %H:%M')" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
@@ -77,8 +156,13 @@ jobs:
 
             ### **Date:** ${{ steps.date.outputs.datetime_short }}
 
-            ### Summary
+            ### V1 Summary (model_catalog.json - GGUF only)
 
-            - **New models added:** ${{ steps.extract-summary.outputs.new_models }}
-            - **Total models in catalog:** ${{ steps.extract-summary.outputs.total_models }} 
-          
+            - **New models added:** ${{ needs.update-v1.outputs.new_models }}
+            - **Total models:** ${{ needs.update-v1.outputs.total_models }}
+
+            ### V2 Summary (model_catalog_v2.json - GGUF + MLX)
+
+            - **Total models:** ${{ needs.update-v2.outputs.total_v2 }}
+            - **GGUF models:** ${{ needs.update-v2.outputs.gguf_v2 }}
+            - **MLX models:** ${{ needs.update-v2.outputs.mlx_v2 }}
