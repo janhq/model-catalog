@@ -31,7 +31,7 @@ jobs:
           draft: true
           prerelease: false
       
-      - name: Upload Release Asset
+      - name: Upload Release Asset V1
         uses: actions/upload-release-asset@v1.0.1
         if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
         env:
@@ -40,4 +40,15 @@ jobs:
             upload_url: ${{ steps.create_release.outputs.upload_url }}
             asset_path: ./model_catalog.json
             asset_name: model_catalog-${{ steps.get_version.outputs.version }}.json
+            asset_content_type: application/json
+
+      - name: Upload Release Asset V2
+        uses: actions/upload-release-asset@v1.0.1
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+            upload_url: ${{ steps.create_release.outputs.upload_url }}
+            asset_path: ./model_catalog_v2.json
+            asset_name: model_catalog_v2-${{ steps.get_version.outputs.version }}.json
             asset_content_type: application/json
