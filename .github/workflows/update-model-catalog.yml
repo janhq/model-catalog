@@ -13,7 +13,7 @@ env:
 jobs:
   # Job 1: Update V1 catalog (GGUF only)
   update-v1:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-22-04
     outputs:
       new_models: ${{ steps.extract-summary.outputs.new_models }}
       total_models: ${{ steps.extract-summary.outputs.total_models }}
