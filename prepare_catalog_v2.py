@@ -51,7 +51,16 @@ PINNED_GGUF_MODELS = [
 ]
 
 PINNED_MLX_MODELS = [
-    "mlx-community/Jan-v3-4B-base-instruct-4bit"
+    "mlx-community/Jan-v3-4B-base-instruct-4bit",
+    "janhq/Jan-v2-VL-high-4bit-mlx",
+    "janhq/Jan-v2-VL-high-8bit-mlx",
+    "janhq/Jan-v2-VL-high-bf16-mlx",
+    "janhq/Jan-v2-VL-med-4bit-mlx",
+    "janhq/Jan-v2-VL-med-8bit-mlx",
+    "janhq/Jan-v2-VL-med-bf16-mlx",
+    "janhq/Jan-v2-VL-low-4bit-mlx",
+    "janhq/Jan-v2-VL-low-8bit-mlx",
+    "janhq/Jan-v2-VL-low-bf16-mlx"
 ]
 
 ALL_PINNED_MODELS = PINNED_GGUF_MODELS + PINNED_MLX_MODELS
