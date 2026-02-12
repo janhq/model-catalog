@@ -463,7 +463,7 @@ def fetch_mlx_models(existing_map: dict) -> list:
         print(f"Fetching models from author: {author}")
         params = {
             "author": author,
-            "limit": 500,
+            "limit": 100,
             "sort": "downloads",
             "direction": -1,
         }
