@@ -47,6 +47,7 @@ PINNED_GGUF_MODELS = [
     "unsloth/Olmo-3-7B-Instruct-GGUF",
     "unsloth/Olmo-3-7B-Think-GGUF",
     "unsloth/Olmo-3-32B-Think-GGUF",
+    "Menlo/Jan-nano-128k-gguf"
 ]
 
 PINNED_MLX_MODELS = [
