@@ -1,4 +1,4 @@
-Loaded 184 existing entries from model_catalog_v2.json
+Loaded 173 existing entries from model_catalog_v2.json
 
 === Fetching GGUF models from HuggingFace API ===
 Fetching page 1...
@@ -41,13 +41,13 @@ Processing GGUF: unsloth/Kimi-K2.5-GGUF
 Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4
 Processing GGUF: lovedheart/Qwen3-Coder-Next-REAP-48B-A3B-GGUF
   -> Repository contains multi-part GGUF files, skipping
-Processing GGUF: google/medgemma-1.5-4b-it
 Processing GGUF: unsloth/GLM-5-GGUF
   -> Repository contains multi-part GGUF files, skipping
+Processing GGUF: google/medgemma-1.5-4b-it
+Processing GGUF: inclusionAI/LLaDA2.1-flash
 Processing GGUF: zai-org/GLM-5-FP8
 Processing GGUF: Qwen/Qwen3-0.6B
 Processing GGUF: meituan-longcat/LongCat-Flash-Lite
-Processing GGUF: inclusionAI/LLaDA2.1-flash
 Processing GGUF: ACE-Step/acestep-5Hz-lm-4B
 Processing GGUF: nvidia/Kimi-K2.5-NVFP4
 Processing GGUF: LGAI-EXAONE/EXAONE-4.0-1.2B
@@ -68,11 +68,11 @@ Processing GGUF: unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF
   -> Repository contains multi-part GGUF files, skipping
 Processing GGUF: trillionlabs/gWorld-32B
 Processing GGUF: huihui-ai/Huihui-Qwen3-Coder-Next-abliterated
+Processing GGUF: Qwen/Qwen2.5-7B-Instruct
 Processing GGUF: meta-llama/Llama-3.2-3B-Instruct
 Processing GGUF: google/gemma-3n-E4B-it-litert-lm
 Processing GGUF: ubergarm/Step-3.5-Flash-GGUF
   -> Repository contains multi-part GGUF files, skipping
-Processing GGUF: Qwen/Qwen2.5-7B-Instruct
 Processing GGUF: numind/NuMarkdown-8B-Thinking
 Processing GGUF: unsloth/gpt-oss-20b-GGUF
   -> Failed to summarize README: Request timed out.
@@ -125,13 +125,14 @@ Processing GGUF: unsloth/MiniMax-M2.1-GGUF
   -> Repository contains multi-part GGUF files, skipping
 Processing GGUF: unsloth/Qwen3-Coder-Next
 Processing GGUF: GadflyII/Qwen3-Coder-Next-NVFP4
+Processing GGUF: Aratako/MioTTS-2.6B
 Processing GGUF: Qwen/Qwen3-32B
 Processing GGUF: Qwen/Qwen3-Embedding-0.6B
 Processing GGUF: dphn/Dolphin-Mistral-24B-Venice-Edition
 Processing GGUF: rednote-hilab/dots.ocr
 Processing GGUF: microsoft/VibeVoice-1.5B
 Processing GGUF: cyankiwi/Qwen3-Coder-Next-AWQ-4bit
-Processing GGUF: Aratako/MioTTS-2.6B
+Processing GGUF: google/gemma-3-1b-it
 Processing GGUF: google/medgemma-27b-it
 Processing GGUF: Qwen/Qwen3-30B-A3B-Instruct-2507
 Processing GGUF: Qwen/Qwen3-VL-4B-Instruct
@@ -142,7 +143,6 @@ Processing GGUF: lovedheart/Qwen3-Coder-Next-REAP-40B-A3B-GGUF
   -> Repository contains multi-part GGUF files, skipping
 Processing GGUF: unsloth/GLM-5
 Processing GGUF: Qwen/Qwen2.5-1.5B-Instruct
-Processing GGUF: google/gemma-3-1b-it
 Processing GGUF: inference-net/Schematron-8B
 Processing GGUF: Qwen/Qwen3-Next-80B-A3B-Instruct
 Processing GGUF: huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated
@@ -158,6 +158,9 @@ Processing GGUF: google/gemma-2b-it
   -> Added with 1 quants
 Processing GGUF: dphn/Dolphin3.0-Llama3.1-8B
 Processing GGUF: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+Processing GGUF: Qwen/Qwen3-4B-GGUF
+  -> Failed to summarize README: Request timed out.
+  -> Added with 5 quants
 Processing GGUF: LiquidAI/LFM2-350M
 Processing GGUF: moonshotai/Kimi-Linear-48B-A3B-Instruct
 Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8
@@ -188,6 +191,7 @@ Processing GGUF: tencent/HunyuanImage-3.0
 Processing GGUF: maya-research/maya1
 Processing GGUF: neuphonic/neutts-nano
 Processing GGUF: deepseek-ai/DeepSeek-V3.2-Speciale
+Processing GGUF: ArliAI/gpt-oss-120b-Derestricted
 Processing GGUF: ServiceNow-AI/Apriel-1.6-15b-Thinker
 Processing GGUF: XiaomiMiMo/MiMo-V2-Flash
 Processing GGUF: tiiuae/Falcon-H1-Tiny-R-90M
@@ -226,7 +230,6 @@ Processing GGUF: Qwen/Qwen3-VL-32B-Instruct
 Processing GGUF: MiniMaxAI/MiniMax-M2
 Processing GGUF: inclusionAI/LLaDA2.0-flash
 Processing GGUF: nvidia/Nemotron-Orchestrator-8B
-Processing GGUF: ArliAI/gpt-oss-120b-Derestricted
 Processing GGUF: tencent/HY-MT1.5-1.8B
 Processing GGUF: DarkArtsForge/Asmodeus-24B-v1
 Processing GGUF: miromind-ai/MiroThinker-v1.5-30B
@@ -235,6 +238,8 @@ Processing GGUF: openbmb/AgentCPM-Explore
 Processing GGUF: tiiuae/Falcon-H1-Tiny-90M-Instruct
 Processing GGUF: Naphula/Goetia-24B-v1.3
 Processing GGUF: NeuroSenko/Qwen3-Coder-Next-exl3
+Processing GGUF: ubergarm/Kimi-K2.5-GGUF
+  -> Repository contains multi-part GGUF files, skipping
 Processing GGUF: bartowski/stepfun-ai_Step-3.5-Flash-GGUF
   -> Repository contains multi-part GGUF files, skipping
 Processing GGUF: vikhyatk/moondream2
@@ -275,8 +280,6 @@ Processing GGUF: mlx-community/Step-3.5-Flash-4bit
 Processing GGUF: togethercomputer/Aurora-Spec-Qwen3-Coder-Next-FP8
 Processing GGUF: DavidAU/OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored
 Processing GGUF: Aratako/MioTTS-1.7B
-Processing GGUF: ubergarm/Kimi-K2.5-GGUF
-  -> Repository contains multi-part GGUF files, skipping
 Processing GGUF: yanolja/YanoljaNEXT-EEVE-Rosetta-7B-2602
 Processing GGUF: openai-community/gpt2
 Processing GGUF: Salesforce/blip-image-captioning-large
@@ -407,6 +410,7 @@ Processing GGUF: AesSedai/Step-3.5-Flash-GGUF
   -> Repository contains multi-part GGUF files, skipping
 Processing GGUF: DavidAU/OpenAI-gpt-oss-20B-GPT5.1-5.2-DISTILL-Heretic-Uncensored-MXFP4
 Processing GGUF: WokeAI/Tankie-NB-3B-SFT-v1
+Processing GGUF: inferencerlabs/GLM-5-MLX-4.8bit
 Processing GGUF: openai-community/gpt2-large
 Processing GGUF: microsoft/trocr-large-handwritten
 Processing GGUF: meta-llama/Llama-2-7b-hf
@@ -452,10 +456,7 @@ Processing GGUF: huihui-ai/DeepSeek-V3-abliterated
 Processing GGUF: unsloth/gemma-3-27b-it-GGUF
   -> Repository contains multi-part GGUF files, skipping
 Processing GGUF: canopylabs/orpheus-3b-0.1-ft
-Processing GGUF: meta-llama/Llama-4-Maverick-17B-128E-Instruct
-Processing GGUF: unsloth/Llama-4-Scout-17B-16E-Instruct-GGUF
-  -> Repository contains multi-part GGUF files, skipping
-Processed 13 GGUF models from page 1
+Processed 14 GGUF models from page 1
 Reached end of available models.
 
 === Processing pinned GGUF models ===
@@ -478,100 +479,30 @@ Total GGUF models: 95
 
 === Fetching MLX models from HuggingFace API ===
 Found 100 MLX models
-Processing MLX: sentence-transformers/all-MiniLM-L6-v2
-  -> Added with 1 safetensors files
-Processing MLX: google-bert/bert-base-uncased
-  -> Added with 1 safetensors files
 Processing MLX: google/electra-base-discriminator
-Processing MLX: timm/mobilenetv3_small_100.lamb_in1k
-  -> Added with 1 safetensors files
-Processing MLX: sentence-transformers/all-mpnet-base-v2
-  -> Added with 1 safetensors files
-Processing MLX: FacebookAI/roberta-large
-  -> Added with 1 safetensors files
-Processing MLX: FacebookAI/xlm-roberta-base
-  -> Added with 1 safetensors files
-Processing MLX: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
-  -> Added with 1 safetensors files
-Processing MLX: laion/clap-htsat-fused
-  -> Added with 1 safetensors files
 Processing MLX: openai/clip-vit-base-patch32
 Processing MLX: pyannote/wespeaker-voxceleb-resnet34-LM
-Processing MLX: colbert-ir/colbertv2.0
-  -> Added with 1 safetensors files
 Processing MLX: pyannote/segmentation-3.0
 Processing MLX: BAAI/bge-m3
 Processing MLX: pyannote/speaker-diarization-3.1
 Processing MLX: Bingsu/adetailer
-Processing MLX: FacebookAI/roberta-base
-  -> Added with 1 safetensors files
-Processing MLX: openai/clip-vit-large-patch14
-  -> Added with 1 safetensors files
-Processing MLX: openai-community/gpt2
-  -> Added with 1 safetensors files
-Processing MLX: cross-encoder/ms-marco-MiniLM-L6-v2
-  -> Added with 1 safetensors files
 Processing MLX: facebook/contriever
 Processing MLX: coqui/XTTS-v2
-Processing MLX: distilbert/distilbert-base-uncased
-  -> Added with 1 safetensors files
-Processing MLX: openai/whisper-large-v3
-  -> Added with 3 safetensors files
 Processing MLX: hexgrad/Kokoro-82M
-Processing MLX: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
-  -> Added with 1 safetensors files
-Processing MLX: FacebookAI/xlm-roberta-large
-  -> Added with 1 safetensors files
 Processing MLX: jinaai/jina-embeddings-v3
   -> Failed to summarize README: Request timed out.
   -> Added with 1 safetensors files
 Processing MLX: cardiffnlp/twitter-roberta-base-sentiment-latest
-Processing MLX: timm/resnet50.a1_in1k
-  -> Added with 1 safetensors files
-Processing MLX: BAAI/bge-small-en-v1.5
-  -> Added with 1 safetensors files
-Processing MLX: BAAI/bge-large-en-v1.5
-  -> Added with 1 safetensors files
-Processing MLX: sentence-transformers/multi-qa-mpnet-base-dot-v1
-  -> Added with 1 safetensors files
-Processing MLX: timm/mobilenetv3_large_100.ra_in1k
-  -> Added with 1 safetensors files
-Processing MLX: google-bert/bert-base-multilingual-uncased
-  -> Added with 1 safetensors files
 Processing MLX: jonatasgrosman/wav2vec2-large-xlsr-53-russian
 Processing MLX: facebook/opt-125m
-Processing MLX: distilbert/distilbert-base-uncased-finetuned-sst-2-english
-  -> Added with 1 safetensors files
-Processing MLX: sentence-transformers/LaBSE
-  -> Added with 2 safetensors files
 Processing MLX: autogluon/chronos-2
   -> Failed to summarize README: Request timed out.
   -> Added with 1 safetensors files
-Processing MLX: BAAI/bge-base-en-v1.5
-  -> Added with 1 safetensors files
-Processing MLX: google/vit-base-patch16-224
-  -> Added with 1 safetensors files
 Processing MLX: openai/clip-vit-large-patch14-336
-Processing MLX: intfloat/multilingual-e5-large
-  -> Added with 1 safetensors files
 Processing MLX: emilyalsentzer/Bio_ClinicalBERT
 Processing MLX: facebook/esmfold_v1
-Processing MLX: facebook/bart-large-mnli
-  -> Added with 1 safetensors files
-Processing MLX: sentence-transformers/all-MiniLM-L12-v2
-  -> Added with 1 safetensors files
 Processing MLX: argmaxinc/whisperkit-coreml
-Processing MLX: sentence-transformers/paraphrase-MiniLM-L6-v2
-  -> Added with 1 safetensors files
 Processing MLX: ProsusAI/finbert
-Processing MLX: google-bert/bert-base-multilingual-cased
-  -> Added with 1 safetensors files
-Processing MLX: facebook/w2v-bert-2.0
-  -> Added with 1 safetensors files
-Processing MLX: facebook/bart-large-cnn
-  -> Added with 1 safetensors files
-Processing MLX: google-t5/t5-small
-  -> Added with 1 safetensors files
 Processing MLX: jonatasgrosman/wav2vec2-large-xlsr-53-portuguese
 Processing MLX: openai/clip-vit-base-patch16
 
