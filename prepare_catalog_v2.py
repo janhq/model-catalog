@@ -452,70 +452,77 @@ def fetch_gguf_models(existing_map: dict) -> list:
 def fetch_mlx_models(existing_map: dict) -> list:
     """Fetch MLX models from HuggingFace."""
     mlx_models = []
+    processed_repos = set()
     
     print("\n=== Fetching MLX models from HuggingFace API ===")
     
-    params = {
-        "library": "mlx",
-        "limit": 100,
-        "sort": "downloads",
-        "direction": -1,
-    }
+    # Fetch from mlx-community author
+    mlx_authors = ["mlx-community"]
     
-    try:
-        resp = requests.get(
-            f"{HF_BASE_API_URL}/models",
-            params=params,
-            timeout=REQUEST_TIMEOUT,
-            headers=HEADERS,
-        )
-        resp.raise_for_status()
-        summaries = resp.json()
+    for author in mlx_authors:
+        print(f"Fetching models from author: {author}")
+        params = {
+            "author": author,
+            "limit": 500,
+            "sort": "downloads",
+            "direction": -1,
+        }
         
-        print(f"Found {len(summaries)} MLX models")
-        
-        for summary in summaries:
-            repo_id = summary.get("id")
-            if not repo_id:
-                continue
+        try:
+            resp = requests.get(
+                f"{HF_BASE_API_URL}/models",
+                params=params,
+                timeout=REQUEST_TIMEOUT,
+                headers=HEADERS,
+            )
+            resp.raise_for_status()
+            summaries = resp.json()
             
-            developer = repo_id.split("/")[0]
-            model_name = repo_id.split("/")[-1]
+            print(f"Found {len(summaries)} models from {author}")
             
-            if developer in BLACKLISTED_DEVELOPERS:
-                continue
-            
-            entry_key = f"{developer}/{model_name}"
-            existing_entry = existing_map.get(entry_key)
-            
-            # Skip if existing entry is up to date
-            downloads = summary.get("downloads", 0)
-            if existing_entry and existing_entry.get("library_name") == "mlx":
-                if existing_entry.get("downloads") == downloads and existing_entry.get("description"):
-                    mlx_models.append(existing_entry)
+            for summary in summaries:
+                repo_id = summary.get("id")
+                if not repo_id or repo_id in processed_repos:
                     continue
-            
-            print(f"Processing MLX: {repo_id}")
-            
-            time.sleep(REQUEST_DELAY)
-            try:
-                r = requests.get(
-                    f"{HF_BASE_API_URL}/models/{repo_id}?blobs=true",
-                    timeout=REQUEST_TIMEOUT,
-                    headers=HEADERS,
-                )
-                r.raise_for_status()
-                detail = r.json()
                 
-                entry = process_mlx_model(repo_id, detail, existing_entry)
-                if entry:
-                    mlx_models.append(entry)
-                    print(f"  -> Added with {entry['num_safetensors']} safetensors files")
-            except Exception as e:
-                print(f"  -> Failed: {e}")
+                processed_repos.add(repo_id)
+                developer = repo_id.split("/")[0]
+                model_name = repo_id.split("/")[-1]
                 
-    except Exception as e:
-        print(f"Failed to fetch MLX models: {e}")
+                if developer in BLACKLISTED_DEVELOPERS:
+                    continue
+                
+                entry_key = f"{developer}/{model_name}"
+                existing_entry = existing_map.get(entry_key)
+                
+                # Skip if existing entry is up to date
+                downloads = summary.get("downloads", 0)
+                if existing_entry and existing_entry.get("library_name") == "mlx":
+                    if existing_entry.get("downloads") == downloads and existing_entry.get("description"):
+                        mlx_models.append(existing_entry)
+                        continue
+                
+                print(f"Processing MLX: {repo_id}")
+                
+                time.sleep(REQUEST_DELAY)
+                try:
+                    r = requests.get(
+                        f"{HF_BASE_API_URL}/models/{repo_id}?blobs=true",
+                        timeout=REQUEST_TIMEOUT,
+                        headers=HEADERS,
+                    )
+                    r.raise_for_status()
+                    detail = r.json()
+                    
+                    entry = process_mlx_model(repo_id, detail, existing_entry)
+                    if entry:
+                        mlx_models.append(entry)
+                        print(f"  -> Added with {entry['num_safetensors']} safetensors files")
+                except Exception as e:
+                    print(f"  -> Failed: {e}")
+                    
+        except Exception as e:
+            print(f"Failed to fetch MLX models from {author}: {e}")
     
     # Process pinned MLX models
     print("\n=== Processing pinned MLX models ===")
