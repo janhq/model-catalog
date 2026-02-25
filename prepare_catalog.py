@@ -31,6 +31,7 @@ PINNED_MODELS = [
     "janhq/Jan-v3-4B-base-instruct-gguf", 
     "janhq/Jan-v2-VL-med-gguf", 
     "janhq/Jan-v2-VL-high-gguf", 
+    "janhq/Qwen3.5-35B-A3B-GGUF",
     "unsloth/Olmo-3-7B-Instruct-GGUF", 
     "unsloth/Olmo-3-7B-Think-GGUF", 
     "unsloth/Olmo-3-32B-Think-GGUF",
@@ -48,7 +49,7 @@ HEADERS = {"Authorization": f"Bearer {HF_TOKEN}"} if HF_TOKEN else {}
 
 def summarize_readme_one_liner(text: str) -> str:
     resp = client.chat.completions.create(
-        model="MiniMaxAI/MiniMax-M2.1",
+        model="MiniMaxAI/MiniMax-M2.5",
         messages=[
             {
                 "role": "system",
