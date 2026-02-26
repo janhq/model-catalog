@@ -353,6 +353,101 @@
     "description": "Jan-Nano-128k is a compact language model with a native 128k context window, designed for deep research tasks by enabling comprehensive analysis of long documents and complex conversations without performance loss."
   },
   {
+    "model_name": "Qwen3.5-35B-A3B-GGUF",
+    "developer": "janhq",
+    "downloads": 0,
+    "createdAt": "2026-02-25T07:21:54.000Z",
+    "tools": true,
+    "num_quants": 13,
+    "quants": [
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q2_K",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q2_K.gguf",
+        "file_size": "12.0 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q2_K_L",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q2_K_L.gguf",
+        "file_size": "12.1 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q3_K_M",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q3_K_M.gguf",
+        "file_size": "15.6 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q3_K_S",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q3_K_S.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q4_0",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q4_0.gguf",
+        "file_size": "18.5 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q4_1",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q4_1.gguf",
+        "file_size": "20.4 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q4_K_S",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q4_K_S.gguf",
+        "file_size": "18.6 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q5_K_M",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q5_K_M.gguf",
+        "file_size": "23.1 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q5_K_S",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q5_K_S.gguf",
+        "file_size": "22.4 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q6_K",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q6_K.gguf",
+        "file_size": "26.6 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-Q8_0",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q8_0.gguf",
+        "file_size": "34.4 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-UD-IQ2_M",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-UD-IQ2_M.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "Qwen3.5-35B-A3B-UD-IQ2_XXS",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-UD-IQ2_XXS.gguf",
+        "file_size": "11.2 GB"
+      }
+    ],
+    "num_mmproj": 3,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-BF16",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/mmproj-BF16.gguf",
+        "file_size": "861.0 MB"
+      },
+      {
+        "model_id": "mmproj-F16",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/mmproj-F16.gguf",
+        "file_size": "857.6 MB"
+      },
+      {
+        "model_id": "mmproj-F32",
+        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/mmproj-F32.gguf",
+        "file_size": "1.7 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/README.md",
+    "description": "Qwen3.5-35B-A3B is a 35B-parameter MoE vision-language model with 3B activated experts, supporting up to 1M context length and 201 languages."
+  },
+  {
     "model_name": "Olmo-3-7B-Think-GGUF",
     "developer": "unsloth",
     "downloads": 4536,
@@ -1073,101 +1168,6 @@
     "description": "Lucy is a 1.7B mobile-optimized model for agentic web search and lightweight browsing, built on Qwen3-1.7B with machine-generated task vectors for efficient performance on CPU-only devices.",
     "mmproj_models": [],
     "num_mmproj": 0
-  },
-  {
-    "model_name": "Qwen3.5-35B-A3B-GGUF",
-    "developer": "janhq",
-    "downloads": 0,
-    "createdAt": "2026-02-25T07:21:54.000Z",
-    "tools": true,
-    "num_quants": 13,
-    "quants": [
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q2_K",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q2_K.gguf",
-        "file_size": "12.0 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q2_K_L",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q2_K_L.gguf",
-        "file_size": "12.1 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q3_K_M",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q3_K_M.gguf",
-        "file_size": "15.6 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q3_K_S",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q3_K_S.gguf",
-        "file_size": "14.2 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q4_0",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q4_0.gguf",
-        "file_size": "18.5 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q4_1",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q4_1.gguf",
-        "file_size": "20.4 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q4_K_S",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q4_K_S.gguf",
-        "file_size": "18.6 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q5_K_M",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q5_K_M.gguf",
-        "file_size": "23.1 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q5_K_S",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q5_K_S.gguf",
-        "file_size": "22.4 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q6_K",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q6_K.gguf",
-        "file_size": "26.6 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-Q8_0",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q8_0.gguf",
-        "file_size": "34.4 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-UD-IQ2_M",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-UD-IQ2_M.gguf",
-        "file_size": "11.7 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-UD-IQ2_XXS",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-UD-IQ2_XXS.gguf",
-        "file_size": "11.2 GB"
-      }
-    ],
-    "num_mmproj": 3,
-    "mmproj_models": [
-      {
-        "model_id": "mmproj-BF16",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/mmproj-BF16.gguf",
-        "file_size": "861.0 MB"
-      },
-      {
-        "model_id": "mmproj-F16",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/mmproj-F16.gguf",
-        "file_size": "857.6 MB"
-      },
-      {
-        "model_id": "mmproj-F32",
-        "path": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/mmproj-F32.gguf",
-        "file_size": "1.7 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/janhq/Qwen3.5-35B-A3B-GGUF/resolve/main/README.md",
-    "description": "Qwen3.5-35B-A3B is a 35B-parameter MoE vision-language model with 3B activated experts, supporting up to 1M context length and 201 languages."
   },
   {
     "model_name": "Llama-3.2-1B-Instruct-Q8_0-GGUF",
