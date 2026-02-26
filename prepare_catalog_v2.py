@@ -44,7 +44,7 @@ PINNED_GGUF_MODELS = [
     "janhq/Jan-v3-4B-base-instruct-gguf",
     "janhq/Jan-v2-VL-med-gguf",
     "janhq/Jan-v2-VL-high-gguf",
-    "unsloth/Qwen3.5-35B-A3B-GGUF",
+    "janhq/Qwen3.5-35B-A3B-GGUF",
     "unsloth/Olmo-3-7B-Instruct-GGUF",
     "unsloth/Olmo-3-7B-Think-GGUF",
     "unsloth/Olmo-3-32B-Think-GGUF",
