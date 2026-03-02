@@ -28,6 +28,7 @@ BLACKLISTED_DEVELOPERS = {
 }
 
 PINNED_MODELS = [
+    "janhq/Jan-code-4b-gguf",
     "janhq/Jan-v3-4B-base-instruct-gguf", 
     "janhq/Jan-v2-VL-med-gguf", 
     "janhq/Jan-v2-VL-high-gguf", 
