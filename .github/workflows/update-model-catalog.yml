@@ -62,7 +62,7 @@ jobs:
 
   # Job 2: Update V2 catalog (GGUF + MLX) - runs in parallel
   update-v2:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24-04-docker
     outputs:
       total_v2: ${{ steps.extract-summary.outputs.total_v2 }}
       gguf_v2: ${{ steps.extract-summary.outputs.gguf_v2 }}
