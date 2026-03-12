@@ -32,7 +32,7 @@ PINNED_MODELS = [
     "janhq/Jan-v3-4B-base-instruct-gguf", 
     "janhq/Jan-v2-VL-med-gguf", 
     "janhq/Jan-v2-VL-high-gguf", 
-    "janhq/Qwen3.5-35B-A3B-GGUF",
+    "unsloth/Qwen3.5-35B-A3B-GGUF",
     "unsloth/Olmo-3-7B-Instruct-GGUF", 
     "unsloth/Olmo-3-7B-Think-GGUF", 
     "unsloth/Olmo-3-32B-Think-GGUF",
@@ -130,32 +130,13 @@ def process_model_details(repo_id, detail=None, existing_entry=None):
             supports_tools = True
     print(f"  -> Tool support: {supports_tools}")
 
-    # Normalize and collect GGUF files + README, separating text models from mmproj
+    # Collect GGUF files + README, separating text models from mmproj
+    # Skip multipart files individually instead of skipping the whole repo
     quants = []
     mmproj_models = []
     readme_url = None
     readme_text = None
-    has_multipart_gguf = False
 
-    # First pass: check for any multi-part GGUF files
-    for sib in detail.get("siblings", []):
-        raw = sib.get("rfilename")
-        if not raw:
-            continue
-        name = raw.lower()
-
-        if name.endswith(".gguf"):
-            # Check if ANY GGUF file is multi-part (regardless of type)
-            if is_multipart_gguf(raw):
-                print(f"  -> Found multi-part GGUF: {raw}")
-                has_multipart_gguf = True
-
-    # If ANY multi-part GGUF file is found, skip this entire repository
-    if has_multipart_gguf:
-        print(f"  -> Repository contains multi-part GGUF files, skipping entire repo")
-        return None
-
-    # Second pass: collect valid GGUF files, separating text models from mmproj
     for sib in detail.get("siblings", []):
         raw = sib.get("rfilename")
         if not raw:
@@ -164,6 +145,11 @@ def process_model_details(repo_id, detail=None, existing_entry=None):
         url = f"https://huggingface.co/{repo_id}/resolve/main/{raw}"
 
         if name.endswith(".gguf"):
+            # Skip multipart files individually
+            if is_multipart_gguf(raw):
+                print(f"  -> Skipping multi-part file: {raw}")
+                continue
+
             # Check if it's an mmproj model
             if is_mmproj_file(name):
                 mmproj_models.append(
@@ -246,11 +232,11 @@ def process_model_details(repo_id, detail=None, existing_entry=None):
 def remove_duplicates_and_multipart(catalog_data):
     """
     Remove duplicate models (keeping the one with higher downloads)
-    and exclude repositories that contain ANY multi-part GGUF files.
+    and filter out any remaining multi-part GGUF files from individual entries.
     """
-    # First, remove repositories that contain ANY multi-part GGUF files
+    # First, filter out any remaining multipart files from entries
     filtered_catalog = []
-    removed_multipart_repos = 0
+    removed_empty_repos = 0
 
     for entry in catalog_data:
         quants = entry.get("quants", [])
@@ -261,40 +247,40 @@ def remove_duplicates_and_multipart(catalog_data):
         if not quants and not mmproj_models:
             # No quants or mmproj at all, remove
             print(f"Removing repository with no GGUF files: {developer}/{model_name}")
-            removed_multipart_repos += 1
+            removed_empty_repos += 1
             continue
 
-        # Check if ANY quant is a multi-part file
-        has_multipart = False
-        multipart_files = []
-
+        # Filter out any multipart files from quants
+        clean_quants = []
         for quant in quants:
             quant_path = quant.get("path", "")
             filename = quant_path.split("/")[-1] if quant_path else ""
-
             if is_multipart_gguf(filename):
-                has_multipart = True
-                multipart_files.append(filename)
+                print(f"  -> Filtering out multi-part quant: {filename}")
+            else:
+                clean_quants.append(quant)
 
-        # Also check mmproj models for multipart (though less common)
+        # Filter out any multipart files from mmproj
+        clean_mmproj = []
         for mmproj in mmproj_models:
             mmproj_path = mmproj.get("path", "")
             filename = mmproj_path.split("/")[-1] if mmproj_path else ""
-
             if is_multipart_gguf(filename):
-                has_multipart = True
-                multipart_files.append(filename)
+                print(f"  -> Filtering out multi-part mmproj: {filename}")
+            else:
+                clean_mmproj.append(mmproj)
 
-        if has_multipart:
-            # ANY multi-part file found, remove entire repository
-            print(
-                f"Removing repository with multi-part GGUF files: {developer}/{model_name}"
-            )
-            print(f"  -> Multi-part files found: {', '.join(multipart_files)}")
-            removed_multipart_repos += 1
+        # Update entry with filtered files
+        entry["quants"] = clean_quants
+        entry["num_quants"] = len(clean_quants)
+        entry["mmproj_models"] = clean_mmproj
+        entry["num_mmproj"] = len(clean_mmproj)
+
+        if not clean_quants and not clean_mmproj:
+            print(f"Removing repository with no valid GGUF files after filtering: {developer}/{model_name}")
+            removed_empty_repos += 1
             continue
 
-        # Repository is clean, keep it
         filtered_catalog.append(entry)
 
     # Now group models by model name (regardless of developer) for duplicate removal
@@ -345,7 +331,7 @@ def remove_duplicates_and_multipart(catalog_data):
 
     print(f"\nCleanup summary:")
     print(
-        f"  - Removed {removed_multipart_repos} repositories containing multi-part GGUF files"
+        f"  - Removed {removed_empty_repos} repositories with no valid GGUF files"
     )
     print(f"  - Removed {removed_duplicates} duplicate models")
     print(f"  - Final catalog size: {len(final_entries)} models")
@@ -640,38 +626,13 @@ def get_gguf_model_catalog():
 
         print(f"  -> Tool support: {supports_tools}")
 
-        # Collect GGUF files from API or keep existing (but check for multipart and separate mmproj)
+        # Collect GGUF files from API or keep existing
+        # Skip multipart files individually instead of skipping the whole repo
         quants = []
         mmproj_models = []
         readme_url = existing_entry.get("readme")
 
         if detail.get("siblings"):
-            has_multipart_gguf = False
-
-            # First pass: check for ANY multi-part GGUF files
-            for sib in detail.get("siblings", []):
-                raw = sib.get("rfilename")
-                if not raw:
-                    continue
-                name = raw.lower()
-
-                if name.endswith(".gguf"):
-                    # Check if ANY GGUF file is multi-part (regardless of type)
-                    if is_multipart_gguf(raw):
-                        print(f"  -> Found multi-part GGUF: {raw}")
-                        has_multipart_gguf = True
-                        break
-
-            # If ANY multi-part GGUF file is found, remove this repository
-            if has_multipart_gguf:
-                print(
-                    f"  -> Repository contains multi-part GGUF files, removing from catalog"
-                )
-                if entry_key in existing_map:
-                    del existing_map[entry_key]
-                continue
-
-            # Second pass: collect valid GGUF files, separating text models from mmproj
             for sib in detail.get("siblings", []):
                 raw = sib.get("rfilename")
                 if not raw:
@@ -680,6 +641,11 @@ def get_gguf_model_catalog():
                 url = f"https://huggingface.co/{repo_id}/resolve/main/{raw}"
 
                 if name.endswith(".gguf"):
+                    # Skip multipart files individually
+                    if is_multipart_gguf(raw):
+                        print(f"  -> Skipping multi-part file: {raw}")
+                        continue
+
                     # Check if it's an mmproj model
                     if is_mmproj_file(name):
                         mmproj_models.append(
@@ -694,7 +660,7 @@ def get_gguf_model_catalog():
                     # Check if it's a regular text generation model
                     elif all(
                         x not in name
-                        for x in ("embedding", "ocr", "speech", "reranker")
+                        for x in ("embedding", "ocr", "speech", "reranker", "encoder", "clip")
                     ):
                         quants.append(
                             {
@@ -708,44 +674,25 @@ def get_gguf_model_catalog():
                 elif name == "readme.md":
                     readme_url = url
         else:
-            # Check existing quants and mmproj for multi-part files and separate them properly
+            # Filter multipart from existing quants/mmproj
             existing_quants = existing_entry.get("quants", [])
             existing_mmproj = existing_entry.get("mmproj_models", [])
-            has_multipart_gguf = False
 
-            # Check existing quants for multipart
             for quant in existing_quants:
                 quant_path = quant.get("path", "")
                 filename = quant_path.split("/")[-1] if quant_path else ""
                 if is_multipart_gguf(filename):
-                    has_multipart_gguf = True
-                    print(f"  -> Found multi-part GGUF in existing quants: {filename}")
-                    break
+                    print(f"  -> Filtering out multi-part quant: {filename}")
+                else:
+                    quants.append(quant)
 
-            # Check existing mmproj for multipart
-            if not has_multipart_gguf:
-                for mmproj in existing_mmproj:
-                    mmproj_path = mmproj.get("path", "")
-                    filename = mmproj_path.split("/")[-1] if mmproj_path else ""
-                    if is_multipart_gguf(filename):
-                        has_multipart_gguf = True
-                        print(
-                            f"  -> Found multi-part GGUF in existing mmproj: {filename}"
-                        )
-                        break
-
-            # If any existing file is multipart, remove this repository
-            if has_multipart_gguf:
-                print(
-                    f"  -> Existing repository contains multi-part GGUF files, removing from catalog"
-                )
-                if entry_key in existing_map:
-                    del existing_map[entry_key]
-                continue
-            else:
-                # Keep existing files since none are multipart
-                quants = existing_quants
-                mmproj_models = existing_mmproj
+            for mmproj in existing_mmproj:
+                mmproj_path = mmproj.get("path", "")
+                filename = mmproj_path.split("/")[-1] if mmproj_path else ""
+                if is_multipart_gguf(filename):
+                    print(f"  -> Filtering out multi-part mmproj: {filename}")
+                else:
+                    mmproj_models.append(mmproj)
 
         # Use existing description
         description = existing_entry.get("description", "")
@@ -823,7 +770,7 @@ def get_gguf_model_catalog():
             print(f"Pinned model {pinned_repo_id} already in catalog")
 
     # Convert to list and apply final duplicate removal and multipart filtering
-    print("\n=== FINAL CLEANUP: Removing duplicates and multipart files ===")
+    print("\n=== FINAL CLEANUP: Removing duplicates and filtering multipart files ===")
     preliminary_catalog = list(existing_map.values())
     final_catalog = remove_duplicates_and_multipart(preliminary_catalog)
 
