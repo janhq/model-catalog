@@ -45,7 +45,7 @@ PINNED_GGUF_MODELS = [
     "janhq/Jan-v3-4B-base-instruct-gguf",
     "janhq/Jan-v2-VL-med-gguf",
     "janhq/Jan-v2-VL-high-gguf",
-    "janhq/Qwen3.5-35B-A3B-GGUF",
+    "unsloth/Qwen3.5-35B-A3B-GGUF",
     "unsloth/Olmo-3-7B-Instruct-GGUF",
     "unsloth/Olmo-3-7B-Think-GGUF",
     "unsloth/Olmo-3-32B-Think-GGUF",
@@ -171,25 +171,11 @@ def process_gguf_model(repo_id: str, detail: dict, existing_entry: dict = None) 
         if chat_template and isinstance(chat_template, str) and "for tool" in chat_template:
             supports_tools = True
 
-    # Collect GGUF files
+    # Collect GGUF files (skip multipart individually instead of skipping the whole repo)
     quants = []
     mmproj_models = []
     readme_url = None
     readme_text = None
-    has_multipart_gguf = False
-
-    for sib in detail.get("siblings", []):
-        raw = sib.get("rfilename")
-        if not raw:
-            continue
-        name = raw.lower()
-
-        if name.endswith(".gguf") and is_multipart_gguf(raw):
-            has_multipart_gguf = True
-
-    if has_multipart_gguf:
-        print(f"  -> Repository contains multi-part GGUF files, skipping")
-        return None
 
     for sib in detail.get("siblings", []):
         raw = sib.get("rfilename")
@@ -199,6 +185,11 @@ def process_gguf_model(repo_id: str, detail: dict, existing_entry: dict = None) 
         url = f"https://huggingface.co/{repo_id}/resolve/main/{raw}"
 
         if name.endswith(".gguf"):
+            # Skip multipart files individually
+            if is_multipart_gguf(raw):
+                print(f"  -> Skipping multi-part file: {raw}")
+                continue
+
             if is_mmproj_file(name):
                 mmproj_models.append({
                     "model_id": raw.rsplit(".gguf", 1)[0],
