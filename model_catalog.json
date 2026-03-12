@@ -442,6 +442,100 @@
     "description": "Jan-Code-4B is a lightweight code-tuned model built on Jan-v3-4B-base-instruct for local coding tasks and agent workflows."
   },
   {
+    "model_name": "Jan-v2-VL-max-gguf",
+    "developer": "janhq",
+    "downloads": 0,
+    "createdAt": "2026-03-12T03:23:24.000Z",
+    "tools": true,
+    "num_quants": 16,
+    "quants": [
+      {
+        "model_id": "Jan-v2-VL-max-Q3_K_L",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q3_K_L.gguf",
+        "file_size": "14.8 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q3_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q3_K_M.gguf",
+        "file_size": "13.7 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q3_K_S",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q3_K_S.gguf",
+        "file_size": "12.4 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q4_0",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q4_0.gguf",
+        "file_size": "16.1 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q4_1",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q4_1.gguf",
+        "file_size": "17.9 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q4_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q4_K_M.gguf",
+        "file_size": "17.3 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q4_K_S",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q4_K_S.gguf",
+        "file_size": "16.3 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q4_K_XL",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q4_K_XL.gguf",
+        "file_size": "19.6 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q5_0",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q5_0.gguf",
+        "file_size": "19.6 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q5_1",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q5_1.gguf",
+        "file_size": "21.4 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q5_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q5_K_M.gguf",
+        "file_size": "20.2 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q5_K_S",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q5_K_S.gguf",
+        "file_size": "19.6 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q6_K",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q6_K.gguf",
+        "file_size": "23.4 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q8_0",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q8_0.gguf",
+        "file_size": "30.3 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-mmproj",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-mmproj.gguf",
+        "file_size": "1.0 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max.gguf",
+        "file_size": "56.9 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/README.md",
+    "description": "Jan-v2-VL-max is a 30B-parameter vision-language model optimized for long-horizon agentic tasks like UI control and automation, built on Qwen3-VL-30B-A3B-Thinking with LoRA-based RLVR for stable multi-step execution."
+  },
+  {
     "model_name": "Qwen3.5-35B-A3B-GGUF",
     "developer": "unsloth",
     "downloads": 1295827,
@@ -54243,21 +54337,22 @@
     "downloads": 2946,
     "createdAt": "2026-02-28T09:34:36.000Z",
     "tools": true,
-    "num_quants": 2,
+    "num_quants": 1,
     "quants": [
       {
         "model_id": "Dynamic/Qwen3.5-122B-A10B-PRISM-LITE-Dynamic",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-122B-A10B-PRISM-LITE-GGUF/resolve/main/Dynamic/Qwen3.5-122B-A10B-PRISM-LITE-Dynamic.gguf",
         "file_size": "57.7 GB"
-      },
+      }
+    ],
+    "num_mmproj": 1,
+    "mmproj_models": [
       {
         "model_id": "Dynamic/mmproj-Qwen3.5-122B-A10B-PRISM-LITE",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-122B-A10B-PRISM-LITE-GGUF/resolve/main/Dynamic/mmproj-Qwen3.5-122B-A10B-PRISM-LITE.gguf",
         "file_size": "870.0 MB"
       }
     ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
     "readme": "https://huggingface.co/Ex0bit/Qwen3.5-122B-A10B-PRISM-LITE-GGUF/resolve/main/README.md",
     "description": "A GGUF-quantized 122B-parameter multimodal MoE language model with reduced over-refusal, using custom PRISM Dynamic quantization for efficient inference."
   },
