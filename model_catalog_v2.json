@@ -712,6 +712,101 @@
     "description": "MLX conversion of Jan-v2-VL-med, an 8B vision-language model for agentic automation and UI control tasks."
   },
   {
+    "model_name": "Jan-v2-VL-max-gguf",
+    "developer": "janhq",
+    "downloads": 0,
+    "createdAt": "2026-03-12T03:23:24.000Z",
+    "library_name": "gguf",
+    "tools": true,
+    "num_quants": 16,
+    "quants": [
+      {
+        "model_id": "Jan-v2-VL-max-Q3_K_L",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q3_K_L.gguf",
+        "file_size": "14.8 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q3_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q3_K_M.gguf",
+        "file_size": "13.7 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q3_K_S",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q3_K_S.gguf",
+        "file_size": "12.4 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q4_0",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q4_0.gguf",
+        "file_size": "16.1 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q4_1",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q4_1.gguf",
+        "file_size": "17.9 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q4_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q4_K_M.gguf",
+        "file_size": "17.3 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q4_K_S",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q4_K_S.gguf",
+        "file_size": "16.3 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q4_K_XL",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q4_K_XL.gguf",
+        "file_size": "19.6 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q5_0",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q5_0.gguf",
+        "file_size": "19.6 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q5_1",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q5_1.gguf",
+        "file_size": "21.4 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q5_K_M",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q5_K_M.gguf",
+        "file_size": "20.2 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q5_K_S",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q5_K_S.gguf",
+        "file_size": "19.6 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q6_K",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q6_K.gguf",
+        "file_size": "23.4 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-Q8_0",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-Q8_0.gguf",
+        "file_size": "30.3 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max-mmproj",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max-mmproj.gguf",
+        "file_size": "1.0 GB"
+      },
+      {
+        "model_id": "Jan-v2-VL-max",
+        "path": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/Jan-v2-VL-max.gguf",
+        "file_size": "56.9 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/janhq/Jan-v2-VL-max-gguf/resolve/main/README.md",
+    "description": "A 30B vision-language model for long-horizon agentic tasks with low error accumulation, based on Qwen3-VL-30B-A3B-Thinking."
+  },
+  {
     "model_name": "Qwen3.5-35B-A3B-GGUF",
     "developer": "unsloth",
     "downloads": 1295827,
@@ -1285,7 +1380,7 @@
     "num_mmproj": 0,
     "mmproj_models": [],
     "readme": "https://huggingface.co/unsloth/Olmo-3-32B-Think-GGUF/resolve/main/README.md",
-    "description": ""
+    "description": "A 32B parameter open language model with chain-of-thought reasoning capabilities developed by Allen AI."
   },
   {
     "model_name": "Kimi-K2.5",
@@ -12806,7 +12901,7 @@
       }
     ],
     "readme": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/README.md",
-    "description": ""
+    "description": "Qwen3.5-122B-A10B is a 122B-parameter MoE vision-language model with 10B activated experts, supporting 262K context length and multimodal reasoning."
   },
   {
     "model_name": "gpt-oss-20b-GGUF",
@@ -19823,66 +19918,6 @@
     "description": "GGUF quantizations of a decensored Qwen3.5-27B model with significantly reduced content restrictions (3% vs 94% refusals)."
   },
   {
-    "model_name": "Qwen3.5-35B-A3B-heretic-v1-GGUF",
-    "developer": "llmfan46",
-    "downloads": 16364,
-    "createdAt": "2026-02-27T11:36:24.000Z",
-    "library_name": "gguf",
-    "tools": true,
-    "num_quants": 9,
-    "quants": [
-      {
-        "model_id": "Qwen3.5-35B-A3B-heretic-BF16",
-        "path": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF/resolve/main/Qwen3.5-35B-A3B-heretic-BF16.gguf",
-        "file_size": "64.6 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-heretic-Q4_K_M",
-        "path": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF/resolve/main/Qwen3.5-35B-A3B-heretic-Q4_K_M.gguf",
-        "file_size": "19.7 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-heretic-Q4_K_S",
-        "path": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF/resolve/main/Qwen3.5-35B-A3B-heretic-Q4_K_S.gguf",
-        "file_size": "18.5 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-heretic-Q5_K_M",
-        "path": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF/resolve/main/Qwen3.5-35B-A3B-heretic-Q5_K_M.gguf",
-        "file_size": "23.1 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-heretic-Q5_K_S",
-        "path": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF/resolve/main/Qwen3.5-35B-A3B-heretic-Q5_K_S.gguf",
-        "file_size": "22.3 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-heretic-Q6_K",
-        "path": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF/resolve/main/Qwen3.5-35B-A3B-heretic-Q6_K.gguf",
-        "file_size": "26.6 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-heretic-Q8_0",
-        "path": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF/resolve/main/Qwen3.5-35B-A3B-heretic-Q8_0.gguf",
-        "file_size": "34.4 GB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-mmproj-BF16",
-        "path": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF/resolve/main/Qwen3.5-35B-A3B-mmproj-BF16.gguf",
-        "file_size": "861.0 MB"
-      },
-      {
-        "model_id": "Qwen3.5-35B-A3B-mmproj-F32",
-        "path": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF/resolve/main/Qwen3.5-35B-A3B-mmproj-F32.gguf",
-        "file_size": "1.7 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/llmfan46/Qwen3.5-35B-A3B-heretic-v1-GGUF/resolve/main/README.md",
-    "description": "Decensored Qwen3.5-35B-A3B model in GGUF format, created via abliteration to reduce content restrictions."
-  },
-  {
     "model_name": "gemma-3-12b-it-qat-GGUF",
     "developer": "unsloth",
     "downloads": 16270,
@@ -20396,7 +20431,7 @@
     "num_mmproj": 0,
     "mmproj_models": [],
     "readme": "https://huggingface.co/AIImageStudio/Qwen3.5-9b-heretic-v2-GGUF/resolve/main/README.md",
-    "description": ""
+    "description": "Quantized versions of the Qwen3.5-9B-heretic-v2 language model with instructions to disable thinking via llama.cpp parameters."
   },
   {
     "model_name": "DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF",
@@ -22240,7 +22275,7 @@
       }
     ],
     "readme": "https://huggingface.co/noctrex/PaddleOCR-VL-1.5-GGUF/resolve/main/README.md",
-    "description": ""
+    "description": "This model provides quantized versions of PaddleOCR-VL-1.5 for image-to-text tasks, with F32 mmproj recommended for best quality when using llama.cpp."
   },
   {
     "model_name": "Huihui-Qwen3.5-4B-abliterated",
@@ -22750,7 +22785,7 @@
     "num_mmproj": 0,
     "mmproj_models": [],
     "readme": "https://huggingface.co/TeichAI/Qwen3-4B-Thinking-2507-GPT-5.1-Codex-Max-Distill-GGUF/resolve/main/README.md",
-    "description": ""
+    "description": "I don't have the ability to access external URLs or Hugging Face datasets directly. Could you please provide the README.md content or a link to the dataset page that I can summarize?"
   },
   {
     "model_name": "MiniMax-M2.5-PRISM-PRO",
