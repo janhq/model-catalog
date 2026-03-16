@@ -1,4 +1,4 @@
-Loaded 263 existing entries from model_catalog_v2.json
+Loaded 280 existing entries from model_catalog_v2.json
 
 === Fetching GGUF models from HuggingFace API ===
 Fetching page 1...
@@ -6,48 +6,42 @@ Processing GGUF: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled
 Processing GGUF: Qwen/Qwen3.5-9B
 Processing GGUF: HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive
   -> Added with 4 quants
+Processing GGUF: Tesslate/OmniCoder-9B
 Processing GGUF: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16
 Processing GGUF: HumeAI/tada-1b
-Processing GGUF: Tesslate/OmniCoder-9B
 Processing GGUF: HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
   -> Added with 9 quants
 Processing GGUF: LocoreMind/LocoTrainer-4B
-Processing GGUF: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8
 Processing GGUF: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4
+Processing GGUF: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8
 Processing GGUF: HumeAI/tada-3b-ml
 Processing GGUF: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  -> Added with 7 quants
+  -> Added with 6 quants
+Processing GGUF: zai-org/GLM-OCR
 Processing GGUF: Qwen/Qwen3.5-35B-A3B
-Processing GGUF: unsloth/Qwen3.5-9B-GGUF
-  -> Added with 22 quants
-Processing GGUF: sarvamai/sarvam-105b
+Processing GGUF: Tesslate/OmniCoder-9B-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 13 quants
 Processing GGUF: unsloth/Qwen3.5-35B-A3B-GGUF
   -> Skipping multi-part file: BF16/Qwen3.5-35B-A3B-BF16-00001-of-00002.gguf
   -> Skipping multi-part file: BF16/Qwen3.5-35B-A3B-BF16-00002-of-00002.gguf
   -> Added with 23 quants
-Processing GGUF: crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5
+Processing GGUF: Crownelius/Crow-9B-HERETIC
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 5 quants
+Processing GGUF: RekaAI/reka-edge-2603
+Processing GGUF: unsloth/Qwen3.5-9B-GGUF
+  -> Added with 22 quants
 Processing GGUF: HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive
   -> Added with 9 quants
-Processing GGUF: Qwen/Qwen3.5-4B
 Processing GGUF: MiniMaxAI/MiniMax-M2.5
 Processing GGUF: Qwen/Qwen3.5-27B
-Processing GGUF: RekaAI/reka-edge-2603
-Processing GGUF: Tesslate/OmniCoder-9B-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 13 quants
 Processing GGUF: Qwen/Qwen3.5-397B-A17B
-Processing GGUF: HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive
-  -> Added with 4 quants
-Processing GGUF: Qwen/Qwen3.5-0.8B
+Processing GGUF: sarvamai/sarvam-105b
 Processing GGUF: zai-org/GLM-5
-Processing GGUF: Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  -> Added with 11 quants
+Processing GGUF: Qwen/Qwen3.5-4B
+Processing GGUF: Qwen/Qwen3.5-0.8B
 Processing GGUF: miromind-ai/MiroThinker-1.7
-Processing GGUF: sarvamai/sarvam-30b
-Processing GGUF: miromind-ai/MiroThinker-1.7-mini
-Processing GGUF: Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  -> Added with 11 quants
 Processing GGUF: unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
   -> Skipping multi-part file: BF16/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-00001-of-00005.gguf
   -> Skipping multi-part file: BF16/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-00002-of-00005.gguf
@@ -126,55 +120,42 @@ Processing GGUF: unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
   -> Skipping multi-part file: UD-Q8_K_XL/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q8_K_XL-00002-of-00004.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q8_K_XL-00003-of-00004.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q8_K_XL-00004-of-00004.gguf
-Processing GGUF: tencent/Penguin-VL-8B
+Processing GGUF: miromind-ai/MiroThinker-1.7-mini
+Processing GGUF: HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive
+  -> Added with 4 quants
+Processing GGUF: Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  -> Added with 10 quants
 Processing GGUF: huihui-ai/Huihui-Qwen3.5-9B-abliterated
-Processing GGUF: microsoft/Phi-4-reasoning-vision-15B
+Processing GGUF: Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  -> Added with 10 quants
+Processing GGUF: sarvamai/sarvam-30b
+Processing GGUF: Nanbeige/Nanbeige4.1-3B
 Processing GGUF: unsloth/Qwen3.5-27B-GGUF
   -> Skipping multi-part file: BF16/Qwen3.5-27B-BF16-00001-of-00002.gguf
   -> Skipping multi-part file: BF16/Qwen3.5-27B-BF16-00002-of-00002.gguf
   -> Added with 21 quants
-Processing GGUF: zai-org/GLM-OCR
-Processing GGUF: Nanbeige/Nanbeige4.1-3B
-Processing GGUF: moonshotai/Kimi-K2.5
-Processing GGUF: Qwen/Qwen3-Coder-Next
+Processing GGUF: huihui-ai/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated
 Processing GGUF: microsoft/bitnet-b1.58-2B-4T
-Processing GGUF: Qwen/Qwen3.5-2B
+Processing GGUF: tencent/Penguin-VL-8B
+Processing GGUF: Qwen/Qwen3-Coder-Next
+Processing GGUF: moonshotai/Kimi-K2.5
+Processing GGUF: microsoft/Phi-4-reasoning-vision-15B
 Processing GGUF: z-lab/Qwen3.5-9B-PARO
+Processing GGUF: Qwen/Qwen3.5-2B
 Processing GGUF: google/translategemma-4b-it
 Processing GGUF: unsloth/Qwen3.5-4B-GGUF
   -> Added with 22 quants
-Processing GGUF: meta-llama/Llama-3.1-8B-Instruct
 Processing GGUF: bharatgenai/Param2-17B-A2.4B-Thinking
-Processing GGUF: TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
-  -> Added with 13 quants
+Processing GGUF: meta-llama/Llama-3.1-8B-Instruct
+Processing GGUF: Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled
 Processing GGUF: openai/gpt-oss-120b
+Processing GGUF: deepseek-ai/DeepSeek-V3.2
 Processing GGUF: Qwen/Qwen3.5-122B-A10B
 Processing GGUF: huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated
-Processing GGUF: Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  -> Added with 11 quants
 Processing GGUF: 1Covenant/Covenant-72B
-Processing GGUF: openai/gpt-oss-20b
-Processing GGUF: Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled
-Processing GGUF: PaddlePaddle/PaddleOCR-VL-1.5
+Processing GGUF: TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  -> Added with 13 quants
 Processing GGUF: stepfun-ai/Step-3.5-Flash
-Processing GGUF: salakash/Minimalism
-Processing GGUF: AudioVisual-Caption/ASID-Captioner-3B
-Processing GGUF: deepseek-ai/DeepSeek-V3.2
-Processing GGUF: bartowski/Qwen_Qwen3.5-9B-GGUF
-  -> Added with 26 quants
-Processing GGUF: tencent/Penguin-VL-2B
-Processing GGUF: mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
-  -> Added with 24 quants
-Processing GGUF: Jackrong/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled
-Processing GGUF: meta-llama/Llama-3.2-1B
-Processing GGUF: DavidAU/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
-  -> Added with 12 quants
-Processing GGUF: Qwen/Qwen2.5-7B-Instruct
-Processing GGUF: Qwen/Qwen3-Embedding-0.6B
-Processing GGUF: zai-org/GLM-4.7-Flash
-Processing GGUF: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16
-Processing GGUF: DavidAU/Qwen3.5-40B-Claude-4.5-Opus-High-Reasoning-Thinking
-Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
 Processing GGUF: unsloth/Qwen3-Coder-Next-GGUF
   -> Skipping multi-part file: BF16/Qwen3-Coder-Next-BF16-00001-of-00004.gguf
   -> Skipping multi-part file: BF16/Qwen3-Coder-Next-BF16-00002-of-00004.gguf
@@ -214,11 +195,22 @@ Processing GGUF: unsloth/Qwen3-Coder-Next-GGUF
   -> Skipping multi-part file: UD-Q8_K_XL/Qwen3-Coder-Next-UD-Q8_K_XL-00002-of-00003.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/Qwen3-Coder-Next-UD-Q8_K_XL-00003-of-00003.gguf
   -> Added with 26 quants
+Processing GGUF: openai/gpt-oss-20b
+Processing GGUF: salakash/Minimalism
+Processing GGUF: Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  -> Added with 10 quants
+Processing GGUF: DavidAU/Qwen3.5-40B-Claude-4.5-Opus-High-Reasoning-Thinking
+Processing GGUF: meta-llama/Llama-3.2-1B
+Processing GGUF: AudioVisual-Caption/ASID-Captioner-3B
+Processing GGUF: Jackrong/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled
+Processing GGUF: Qwen/Qwen2.5-7B-Instruct
+Processing GGUF: PaddlePaddle/PaddleOCR-VL-1.5
+Processing GGUF: bartowski/Qwen_Qwen3.5-9B-GGUF
+  -> Added with 26 quants
 Processing GGUF: nvidia/Qwen3-Nemotron-235B-A22B-GenRM-2603
-Processing GGUF: huihui-ai/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated
-Processing GGUF: crownelius/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5
-  -> Added with 4 quants
-Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED
+Processing GGUF: mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
+  -> Added with 24 quants
+Processing GGUF: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16
 Processing GGUF: huihui-ai/Huihui-Qwen3.5-122B-A10B-abliterated-GGUF
   -> Skipping multi-part file: Q4_K-GGUF/Q4_K-GGUF-00001-of-00008.gguf
   -> Skipping multi-part file: Q4_K-GGUF/Q4_K-GGUF-00002-of-00008.gguf
@@ -229,59 +221,61 @@ Processing GGUF: huihui-ai/Huihui-Qwen3.5-122B-A10B-abliterated-GGUF
   -> Skipping multi-part file: Q4_K-GGUF/Q4_K-GGUF-00007-of-00008.gguf
   -> Skipping multi-part file: Q4_K-GGUF/Q4_K-GGUF-00008-of-00008.gguf
   -> Added with 0 quants
-Processing GGUF: mradermacher/OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored-i1-GGUF
-  -> Added with 24 quants
-Processing GGUF: LocoreMind/LocoOperator-4B
-Processing GGUF: unsloth/Qwen3.5-0.8B-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 22 quants
-Processing GGUF: Trina-QwQ/Trama
-  -> Added with 1 quants
+Processing GGUF: DavidAU/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+  -> Added with 12 quants
+Processing GGUF: tencent/Penguin-VL-2B
+Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF
+  -> Added with 11 quants
 Processing GGUF: meta-llama/Llama-3.2-3B-Instruct
+Processing GGUF: zai-org/GLM-4.7-Flash
+Processing GGUF: zai-org/GLM-5-FP8
+Processing GGUF: unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4
 Processing GGUF: lightonai/LightOnOCR-2-1B
 Processing GGUF: BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4
   -> Added with 10 quants
-Processing GGUF: zai-org/GLM-5-FP8
-Processing GGUF: huihui-ai/Huihui-Qwen3.5-27B-abliterated
-Processing GGUF: unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4
-Processing GGUF: huihui-ai/Huihui-Qwen3.5-4B-abliterated
-  -> Added with 0 quants
+Processing GGUF: LocoreMind/LocoOperator-4B
+Processing GGUF: Trina-QwQ/Trama
+  -> Added with 1 quants
 Processing GGUF: deepseek-ai/DeepSeek-R1
+Processing GGUF: Qwen/Qwen3-Embedding-0.6B
+Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
 Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8
-Processing GGUF: allenai/Olmo-Hybrid-7B
-Processing GGUF: LiquidAI/LFM2-24B-A2B
+Processing GGUF: huihui-ai/Huihui-Qwen3.5-27B-abliterated
+Processing GGUF: unsloth/Qwen3.5-0.8B-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 22 quants
+Processing GGUF: Crownelius/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 4 quants
+Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED
+Processing GGUF: mradermacher/OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored-i1-GGUF
+  -> Added with 24 quants
 Processing GGUF: bartowski/Qwen_Qwen3.5-35B-A3B-GGUF
   -> Skipping multi-part file: Qwen_Qwen3.5-35B-A3B-bf16/Qwen_Qwen3.5-35B-A3B-bf16-00001-of-00002.gguf
   -> Skipping multi-part file: Qwen_Qwen3.5-35B-A3B-bf16/Qwen_Qwen3.5-35B-A3B-bf16-00002-of-00002.gguf
   -> Added with 28 quants
-Processing GGUF: HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive
-  -> Added with 4 quants
-Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF
-  -> Added with 11 quants
-Processing GGUF: Qwen/Qwen3-VL-8B-Instruct
-Processing GGUF: CohereLabs/tiny-aya-global
-Processing GGUF: unsloth/Qwen3.5-2B-GGUF
-  -> Added with 22 quants
-Processing GGUF: lukey03/Qwen3.5-9B-abliterated
-Processing GGUF: UnipatAI/UniScientist-30B-A3B
-Processing GGUF: vikhyatk/moondream2
 Processing GGUF: meta-llama/Meta-Llama-3-8B-Instruct
 Processing GGUF: meta-llama/Llama-3.1-8B
-Processing GGUF: Qwen/Qwen3-Embedding-8B
+Processing GGUF: meta-llama/Llama-3.3-70B-Instruct
 Processing GGUF: unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF
   -> Skipping multi-part file: BF16/Qwen3-Coder-30B-A3B-Instruct-BF16-00001-of-00002.gguf
   -> Skipping multi-part file: BF16/Qwen3-Coder-30B-A3B-Instruct-BF16-00002-of-00002.gguf
   -> Added with 26 quants
-Processing GGUF: DavidAU/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
-  -> Added with 18 quants
+Processing GGUF: Qwen/Qwen3-VL-8B-Instruct
+Processing GGUF: unsloth/GLM-4.7-Flash-GGUF
+  -> Skipping multi-part file: BF16/GLM-4.7-Flash-BF16-00001-of-00002.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-Flash-BF16-00002-of-00002.gguf
+  -> Added with 27 quants
+Processing GGUF: google/gemma-3-4b-it
 Processing GGUF: XiaomiMiMo/MiMo-V2-Flash
-Processing GGUF: google/translategemma-27b-it
-Processing GGUF: deepseek-ai/DeepSeek-OCR-2
 Processing GGUF: eousphoros/kappa-20b-131k
-Processing GGUF: stepfun-ai/Step-3.5-Flash-Base
-Processing GGUF: Qwen/Qwen3.5-35B-A3B-GPTQ-Int4
-Processing GGUF: p-e-w/gpt-oss-20b-heretic-ara-v3
+Processing GGUF: Sehyo/Qwen3.5-122B-A10B-NVFP4
+Processing GGUF: llmfan46/Qwen3.5-35B-A3B-heretic-v2-GGUF
+  -> Added with 10 quants
+Processing GGUF: UnipatAI/UniScientist-30B-A3B
 Processing GGUF: z-lab/Qwen3.5-4B-PARO
+Processing GGUF: HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive
+  -> Added with 4 quants
 Processing GGUF: AesSedai/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
   -> Skipping multi-part file: IQ3_S/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-IQ3_S-00001-of-00003.gguf
   -> Skipping multi-part file: IQ3_S/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-IQ3_S-00002-of-00003.gguf
@@ -297,12 +291,13 @@ Processing GGUF: AesSedai/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
   -> Skipping multi-part file: Q5_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-Q5_K_M-00003-of-00003.gguf
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 2 quants
-Processing GGUF: meta-llama/Llama-3.3-70B-Instruct
-Processing GGUF: google/gemma-3-4b-it
+Processing GGUF: vikhyatk/moondream2
 Processing GGUF: Qwen/Qwen3-0.6B
-Processing GGUF: TheDrummer/Magidonia-24B-v4.3-GGUF
-  -> Added with 6 quants
+Processing GGUF: google/translategemma-27b-it
 Processing GGUF: LH-Tech-AI/Apex-1-Instruct-350M
+Processing GGUF: 1Covenant/Covenant-72B-Chat
+Processing GGUF: CohereLabs/tiny-aya-global
+Processing GGUF: trillionlabs/Tri-21B-Think
 Processing GGUF: unsloth/Qwen3.5-122B-A10B-GGUF
   -> Skipping multi-part file: BF16/Qwen3.5-122B-A10B-BF16-00001-of-00005.gguf
   -> Skipping multi-part file: BF16/Qwen3.5-122B-A10B-BF16-00002-of-00005.gguf
@@ -363,45 +358,49 @@ Processing GGUF: unsloth/Qwen3.5-122B-A10B-GGUF
   -> Skipping multi-part file: UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00004-of-00005.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00005-of-00005.gguf
   -> Added with 7 quants
-Processing GGUF: Sehyo/Qwen3.5-122B-A10B-NVFP4
 Processing GGUF: Qwen/Qwen3.5-35B-A3B-FP8
 Processing GGUF: QuantTrio/Qwen3.5-27B-AWQ
+Processing GGUF: Kbenkhaled/Qwen3.5-27B-NVFP4
+Processing GGUF: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+Processing GGUF: LCO-Embedding/LCO-Embedding-Omni-7B
+Processing GGUF: TheDrummer/Magidonia-24B-v4.3-GGUF
+  -> Added with 6 quants
+Processing GGUF: Qwen/Qwen3-VL-Embedding-2B
+Processing GGUF: google/medgemma-1.5-4b-it
+Processing GGUF: deepseek-ai/DeepSeek-OCR-2
+Processing GGUF: nvidia/Qwen3.5-397B-A17B-NVFP4
+Processing GGUF: nvidia/Nemotron-Terminal-8B
+Processing GGUF: LiquidAI/LFM2-24B-A2B
+Processing GGUF: AesSedai/Qwen3.5-35B-A3B-GGUF
+  -> Skipping multi-part file: IQ3_S/Qwen3.5-35B-A3B-IQ3_S-00001-of-00002.gguf
+  -> Skipping multi-part file: IQ3_S/Qwen3.5-35B-A3B-IQ3_S-00002-of-00002.gguf
+  -> Skipping multi-part file: IQ4_XS/Qwen3.5-35B-A3B-IQ4_XS-00001-of-00002.gguf
+  -> Skipping multi-part file: IQ4_XS/Qwen3.5-35B-A3B-IQ4_XS-00002-of-00002.gguf
+  -> Skipping multi-part file: Q4_K_M/Qwen3.5-35B-A3B-Q4_K_M-00001-of-00002.gguf
+  -> Skipping multi-part file: Q4_K_M/Qwen3.5-35B-A3B-Q4_K_M-00002-of-00002.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3.5-35B-A3B-Q5_K_M-00001-of-00002.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3.5-35B-A3B-Q5_K_M-00002-of-00002.gguf
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 1 quants
 Processing GGUF: mradermacher/Qwen3.5-27B-heretic-GGUF
   -> Added with 13 quants
-Processing GGUF: Kbenkhaled/Qwen3.5-27B-NVFP4
-Processing GGUF: llmfan46/Qwen3.5-35B-A3B-heretic-v2-GGUF
-  -> Added with 10 quants
+Processing GGUF: mradermacher/Huihui-Qwen3.5-35B-A3B-abliterated-i1-GGUF
+  -> Added with 24 quants
+Processing GGUF: unsloth/Qwen3.5-2B-GGUF
+  -> Added with 22 quants
+Processing GGUF: Qwen/Qwen3.5-35B-A3B-GPTQ-Int4
+Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT
 Processing GGUF: llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v1
-Processing GGUF: meta-llama/Meta-Llama-3-8B
-Processing GGUF: meta-llama/Llama-4-Scout-17B-16E-Instruct
-Processing GGUF: moondream/moondream3-preview
-Processing GGUF: ZJU-AI4H/Hulu-Med-7B
-Processing GGUF: google/medgemma-1.5-4b-it
-Processing GGUF: unsloth/GLM-4.7-Flash-GGUF
-  -> Skipping multi-part file: BF16/GLM-4.7-Flash-BF16-00001-of-00002.gguf
-  -> Skipping multi-part file: BF16/GLM-4.7-Flash-BF16-00002-of-00002.gguf
-  -> Added with 27 quants
-Processing GGUF: 1Covenant/Covenant-72B-Chat
-Processing GGUF: mlx-community/Qwen3.5-27B-4bit
-Processing GGUF: janhq/Jan-code-4b-gguf
-  -> Added with 15 quants
-Processing GGUF: Qwen/Qwen2.5-0.5B-Instruct
-Processing GGUF: Qwen/Qwen2.5-1.5B-Instruct
-Processing GGUF: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
-Processing GGUF: Qwen/Qwen2.5-VL-7B-Instruct
+Processing GGUF: Zero-Point-AI/MARTHA-27B-QWEN-OMNI
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 2 quants
 Processing GGUF: google/gemma-3-27b-it
-Processing GGUF: Qwen/Qwen3-Coder-30B-A3B-Instruct
-Processing GGUF: unsloth/gpt-oss-20b-GGUF
-  -> Added with 16 quants
+Processing GGUF: google/gemma-3-1b-it
+Processing GGUF: meta-llama/Llama-4-Scout-17B-16E-Instruct
+Processing GGUF: Qwen/Qwen3-Embedding-8B
 Processing GGUF: microsoft/VibeVoice-1.5B
-Processing GGUF: LCO-Embedding/LCO-Embedding-Omni-7B
-Processing GGUF: p-e-w/gemma-3-12b-it-heretic
-Processing GGUF: TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF
-  -> Added with 8 quants
-Processing GGUF: MiniMaxAI/MiniMax-M2.1
-Processing GGUF: Qwen/Qwen3-VL-Embedding-2B
-Processing GGUF: Andycurrent/Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF
-  -> Added with 8 quants
+Processing GGUF: moonshotai/Kimi-K2-Instruct-0905
+Processing GGUF: moondream/moondream3-preview
 Processing GGUF: unsloth/MiniMax-M2.5-GGUF
   -> Skipping multi-part file: BF16/MiniMax-M2.5-BF16-00001-of-00010.gguf
   -> Skipping multi-part file: BF16/MiniMax-M2.5-BF16-00002-of-00010.gguf
@@ -519,108 +518,127 @@ Processing GGUF: unsloth/MiniMax-M2.5-GGUF
   -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M2.5-UD-Q8_K_XL-00006-of-00007.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M2.5-UD-Q8_K_XL-00007-of-00007.gguf
   -> Added with 1 quants
-Processing GGUF: nvidia/Nemotron-Terminal-8B
-Processing GGUF: trillionlabs/Tri-21B-Think
-Processing GGUF: txn545/Qwen3.5-122B-A10B-NVFP4
-Processing GGUF: AesSedai/Qwen3.5-35B-A3B-GGUF
-  -> Skipping multi-part file: IQ3_S/Qwen3.5-35B-A3B-IQ3_S-00001-of-00002.gguf
-  -> Skipping multi-part file: IQ3_S/Qwen3.5-35B-A3B-IQ3_S-00002-of-00002.gguf
-  -> Skipping multi-part file: IQ4_XS/Qwen3.5-35B-A3B-IQ4_XS-00001-of-00002.gguf
-  -> Skipping multi-part file: IQ4_XS/Qwen3.5-35B-A3B-IQ4_XS-00002-of-00002.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-35B-A3B-Q4_K_M-00001-of-00002.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-35B-A3B-Q4_K_M-00002-of-00002.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3.5-35B-A3B-Q5_K_M-00001-of-00002.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3.5-35B-A3B-Q5_K_M-00002-of-00002.gguf
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 1 quants
-Processing GGUF: coder3101/Qwen3.5-27B-heretic
 Processing GGUF: Qwen/Qwen3.5-122B-A10B-FP8
-Processing GGUF: llmfan46/Qwen3.5-27B-heretic-v2
-Processing GGUF: Qwen/Qwen3.5-2B-Base
+Processing GGUF: janhq/Jan-code-4b-gguf
+  -> Added with 15 quants
+Processing GGUF: lukey03/Qwen3.5-9B-abliterated
+Processing GGUF: DreamFast/gemma-3-12b-it-heretic-v2
+  -> Added with 8 quants
+Processing GGUF: Jackrong/Qwen3.5-9B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 11 quants
+Processing GGUF: LEONW24/Qwen3.5-9B-Uncensored
+  -> Added with 1 quants
+Processing GGUF: openvla/openvla-7b
+Processing GGUF: Qwen/Qwen2.5-1.5B-Instruct
+Processing GGUF: ibm-granite/granite-docling-258M
+Processing GGUF: Qwen/Qwen3-Coder-30B-A3B-Instruct
+Processing GGUF: unsloth/gpt-oss-20b-GGUF
+  -> Added with 16 quants
+Processing GGUF: DavidAU/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf
+  -> Added with 18 quants
+Processing GGUF: google/functiongemma-270m-it
+Processing GGUF: perplexity-ai/browsesafe
+Processing GGUF: p-e-w/gemma-3-12b-it-heretic
+Processing GGUF: MiniMaxAI/MiniMax-M2.1
+Processing GGUF: tencent/HY-MT1.5-1.8B
+Processing GGUF: LiquidAI/LFM2.5-1.2B-Instruct
+Processing GGUF: LiquidAI/LFM2.5-1.2B-Thinking
+Processing GGUF: arcee-ai/Trinity-Large-Preview
+Processing GGUF: allenai/Olmo-Hybrid-7B
+Processing GGUF: Andycurrent/Gemma-3-4B-VL-it-Gemini-Pro-Heretic-Uncensored-Thinking_GGUF
+  -> Added with 8 quants
+Processing GGUF: mlx-community/Qwen3.5-27B-4bit
+Processing GGUF: txn545/Qwen3.5-122B-A10B-NVFP4
 Processing GGUF: TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill-GGUF
   -> Skipping multi-part file: Qwen3.5-27b-Opus-4.6-Distill-BF16-00001-of-00002.gguf
   -> Skipping multi-part file: Qwen3.5-27b-Opus-4.6-Distill-BF16-00002-of-00002.gguf
   -> Added with 11 quants
-Processing GGUF: llmfan46/Qwen3.5-9B-ultra-heretic-GGUF
-  -> Added with 9 quants
-Processing GGUF: Zero-Point-AI/MARTHA-27B-QWEN-OMNI
+Processing GGUF: z-lab/Qwen3.5-35B-A3B-DFlash
+Processing GGUF: Qwen/Qwen3.5-27B-GPTQ-Int4
+Processing GGUF: mradermacher/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
+  -> Added with 14 quants
+Processing GGUF: litert-community/Qwen3.5-2B-LiteRT
+Processing GGUF: unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-FP8
+Processing GGUF: prithivMLmods/Gliese-Qwen3.5-9B-Abliterated-Caption
+  -> Added with 8 quants
+Processing GGUF: nvidia/Kimi-K2.5-Thinking-Eagle3
+Processing GGUF: ggml-org/Nemotron-3-Super-120B-GGUF
+  -> Added with 1 quants
+Processing GGUF: Zero-Point-AI/MARTHA-9B
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 2 quants
-Processing GGUF: DreamFast/gemma-3-12b-it-heretic-v2
-  -> Added with 8 quants
+  -> Added with 5 quants
 Processing GGUF: meta-llama/Llama-2-7b-chat-hf
-Processing GGUF: google/gemma-3-1b-it
+Processing GGUF: meta-llama/Meta-Llama-3-8B
+Processing GGUF: dnhkng/RYS-XLarge
+Processing GGUF: Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2
+Processing GGUF: Qwen/Qwen2-VL-2B-Instruct
+Processing GGUF: Qwen/Qwen2.5-0.5B-Instruct
+Processing GGUF: Qwen/Qwen2.5-VL-7B-Instruct
+Processing GGUF: microsoft/bitnet-b1.58-2B-4T-gguf
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 1 quants
 Processing GGUF: Qwen/Qwen3-8B
-Processing GGUF: ibm-granite/granite-docling-258M
-Processing GGUF: dphn/Dolphin-Mistral-24B-Venice-Edition
-Processing GGUF: perplexity-ai/browsesafe
-Processing GGUF: ZJU-AI4H/Hulu-Med-4B
-Processing GGUF: nvidia/Cosmos-Reason2-8B
+Processing GGUF: darkc0de/XortronCriminalComputingConfig
+Processing GGUF: Qwen/Qwen3-VL-2B-Instruct
+Processing GGUF: deepseek-ai/DeepSeek-V3.2-Speciale
+Processing GGUF: unsloth/Ministral-3-14B-Instruct-2512-GGUF
+  -> Added with 26 quants
 Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4
-Processing GGUF: tencent/HY-MT1.5-1.8B
-Processing GGUF: LiquidAI/LFM2.5-1.2B-Instruct
-Processing GGUF: arcee-ai/Trinity-Large-Preview
-Processing GGUF: BennyDaBall/Qwen3-4b-Z-Image-Turbo-AbliteratedV1
+Processing GGUF: mradermacher/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-i1-GGUF
+  -> Added with 25 quants
+Processing GGUF: Girinath11/recursive-language-model-198m
+Processing GGUF: DreamFast/gemma-3-12b-it-heretic
   -> Added with 8 quants
+Processing GGUF: stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00001-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00002-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00003-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00004-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00005-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00006-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00007-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00008-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00009-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00010-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00011-of-00012.gguf
+  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00012-of-00012.gguf
+Processing GGUF: Qwen/Qwen3-Coder-Next-FP8
+Processing GGUF: ggml-org/GLM-OCR-GGUF
+  -> Added with 0 quants
+Processing GGUF: Qwen/Qwen3.5-397B-A17B-FP8
 Processing GGUF: bartowski/Qwen_Qwen3.5-27B-GGUF
   -> Skipping multi-part file: Qwen_Qwen3.5-27B-bf16/Qwen_Qwen3.5-27B-bf16-00001-of-00002.gguf
   -> Skipping multi-part file: Qwen_Qwen3.5-27B-bf16/Qwen_Qwen3.5-27B-bf16-00002-of-00002.gguf
   -> Added with 27 quants
-Processing GGUF: mlx-community/Qwen3.5-4B-OptiQ-4bit
-Processing GGUF: Jackrong/Qwen3.5-0.8B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  -> Added with 11 quants
-Processing GGUF: litert-community/Qwen3.5-2B-LiteRT
-Processing GGUF: ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout
-Processing GGUF: HeshamHaroon/Fasih-2B
-Processing GGUF: prithivMLmods/Gliese-Qwen3.5-9B-Abliterated-Caption
-  -> Added with 8 quants
-Processing GGUF: LEONW24/Qwen3.5-9B-Uncensored
-  -> Added with 1 quants
-Processing GGUF: nvidia/Kimi-K2.5-Thinking-Eagle3
-Processing GGUF: ggml-org/Nemotron-3-Super-120B-GGUF
-  -> Added with 1 quants
-Processing GGUF: openvla/openvla-7b
-Processing GGUF: dnhkng/RYS-XLarge
-Processing GGUF: Qwen/Qwen2-VL-2B-Instruct
-Processing GGUF: DeepHat/DeepHat-V1-7B
-Processing GGUF: sarvamai/sarvam-translate
-Processing GGUF: Qwen/Qwen3-VL-2B-Instruct
-Processing GGUF: microsoft/Fara-7B
-Processing GGUF: DavidAU/OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf
-  -> Added with 17 quants
-Processing GGUF: Girinath11/recursive-language-model-198m
-Processing GGUF: LiquidAI/LFM2.5-1.2B-Thinking
-Processing GGUF: unsloth/GLM-4.7-Flash-REAP-23B-A3B-GGUF
-  -> Added with 27 quants
-Processing GGUF: Qwen/Qwen3-Coder-Next-FP8
-Processing GGUF: nvidia/Qwen3.5-397B-A17B-NVFP4
-Processing GGUF: LiquidAI/LFM2-24B-A2B-GGUF
-  -> Added with 7 quants
-Processing GGUF: Qwen/Qwen3.5-397B-A17B-FP8
-Processing GGUF: mlx-community/Qwen3.5-35B-A3B-4bit
+Processing GGUF: coder3101/Qwen3.5-27B-heretic
 Processing GGUF: embedl/Cosmos-Reason2-2B-W4A16-Edge2-FlashHead
-Processing GGUF: Qwen/Qwen3.5-9B-Base
-Processing GGUF: Qwen/Qwen3.5-4B-Base
-Processing GGUF: mradermacher/Huihui-Qwen3.5-35B-A3B-abliterated-i1-GGUF
-  -> Added with 24 quants
+Processing GGUF: LightningRodLabs/foresight-32B
+Processing GGUF: llmfan46/Qwen3.5-27B-heretic-v2
+Processing GGUF: Qwen/Qwen3.5-2B-Base
 Processing GGUF: Qwen/Qwen3.5-0.8B-Base
 Processing GGUF: janhq/Jan-code-4b
-Processing GGUF: z-lab/Qwen3.5-35B-A3B-DFlash
+Processing GGUF: stepfun-ai/Step-3.5-Flash-Base
 Processing GGUF: Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled
-Processing GGUF: Qwen/Qwen3.5-27B-GPTQ-Int4
-Processing GGUF: mradermacher/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5-GGUF
-  -> Added with 14 quants
+Processing GGUF: llmfan46/Qwen3.5-9B-ultra-heretic-GGUF
+  -> Added with 9 quants
+Processing GGUF: Jackrong/Qwen3.5-0.8B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  -> Added with 11 quants
+Processing GGUF: z-lab/Qwen3.5-9B-DFlash
+Processing GGUF: litert-community/Qwen3.5-0.8B-LiteRT
 Processing GGUF: mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 13 quants
-Processing GGUF: unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-FP8
 Processing GGUF: voidful/Qwen3.5-27B-gemini-3.1-opus-4.6-reasoning
 Processing GGUF: aoxo/sarvam-30b-uncensored
-Processing GGUF: Jackrong/MLX-Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-8bit
-Processing GGUF: coder3101/Qwen3.5-122B-A10B-heretic-v2
-Processing GGUF: Jackrong/Qwen3.5-9B-Gemini-3.1-Pro-Reasoning-Distill-GGUF
+Processing GGUF: huihui-ai/Huihui-Qwen3.5-4B-abliterated
+  -> Added with 0 quants
+Processing GGUF: mradermacher/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 11 quants
+  -> Added with 24 quants
+Processing GGUF: LH-Tech-AI/Apex-1.5-Instruct-350M
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 1 quants
 Processing GGUF: lmstudio-community/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
   -> Skipping multi-part file: NVIDIA-Nemotron-3-Super-120B-A12B-Q4_K_M-00001-of-00003.gguf
   -> Skipping multi-part file: NVIDIA-Nemotron-3-Super-120B-A12B-Q4_K_M-00002-of-00003.gguf
@@ -632,23 +650,27 @@ Processing GGUF: lmstudio-community/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF
   -> Skipping multi-part file: NVIDIA-Nemotron-3-Super-120B-A12B-Q8_0-00002-of-00004.gguf
   -> Skipping multi-part file: NVIDIA-Nemotron-3-Super-120B-A12B-Q8_0-00003-of-00004.gguf
   -> Skipping multi-part file: NVIDIA-Nemotron-3-Super-120B-A12B-Q8_0-00004-of-00004.gguf
+Processing GGUF: mradermacher/Qwen3.5-122B-A10B-heretic-v2-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 13 quants
+Processing GGUF: dinerburger/Qwen3-Coder-Next-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 2 quants
+Processing GGUF: NoesisLab/Arcade-3B
 Processing GGUF: openai-community/gpt2
-Processing GGUF: meta-llama/Llama-2-7b-hf
-Processing GGUF: microsoft/phi-2
 Processing GGUF: TinyLlama/TinyLlama-1.1B-Chat-v1.0
 Processing GGUF: deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct
 Processing GGUF: microsoft/Florence-2-large
-Processing GGUF: meta-llama/Llama-Guard-3-8B
 Processing GGUF: Qwen/Qwen2.5-3B-Instruct
-Processing GGUF: HuggingFaceTB/SmolLM2-135M-Instruct
+Processing GGUF: meta-llama/Llama-3.2-1B-Instruct
+Processing GGUF: DavidAU/Llama-3.2-8X3B-MOE-Dark-Champion-Instruct-uncensored-abliterated-18.4B-GGUF
+  -> Added with 14 quants
 Processing GGUF: google/gemma-3-12b-it
 Processing GGUF: litert-community/Gemma3-1B-IT
-Processing GGUF: microsoft/bitnet-b1.58-2B-4T-gguf
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 1 quants
-Processing GGUF: Qwen/Qwen3-4B
-Processing GGUF: numind/NuExtract-2.0-2B
-Processing GGUF: Qwen/Qwen3-Embedding-0.6B-GGUF
+Processing GGUF: fancyfeast/llama-joycaption-beta-one-hf-llava
+Processing GGUF: sarvamai/sarvam-translate
+Processing GGUF: dphn/Dolphin-Mistral-24B-Venice-Edition
+Processing GGUF: Qwen/Qwen3-Coder-480B-A35B-Instruct
 Processing GGUF: unsloth/gpt-oss-120b-GGUF
   -> Skipping multi-part file: Q2_K/gpt-oss-120b-Q2_K-00001-of-00002.gguf
   -> Skipping multi-part file: Q2_K/gpt-oss-120b-Q2_K-00002-of-00002.gguf
@@ -681,78 +703,27 @@ Processing GGUF: unsloth/gpt-oss-120b-GGUF
   -> Skipping multi-part file: UD-Q8_K_XL/gpt-oss-120b-UD-Q8_K_XL-00001-of-00002.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/gpt-oss-120b-UD-Q8_K_XL-00002-of-00002.gguf
   -> Added with 1 quants
-Processing GGUF: moonshotai/Kimi-K2-Instruct-0905
 Processing GGUF: Alibaba-NLP/Tongyi-DeepResearch-30B-A3B
-Processing GGUF: deepseek-ai/DeepSeek-V3.2-Speciale
-Processing GGUF: unsloth/Qwen3-Next-80B-A3B-Instruct-GGUF
-  -> Skipping multi-part file: BF16/Qwen3-Next-80B-A3B-Instruct-BF16-00001-of-00004.gguf
-  -> Skipping multi-part file: BF16/Qwen3-Next-80B-A3B-Instruct-BF16-00002-of-00004.gguf
-  -> Skipping multi-part file: BF16/Qwen3-Next-80B-A3B-Instruct-BF16-00003-of-00004.gguf
-  -> Skipping multi-part file: BF16/Qwen3-Next-80B-A3B-Instruct-BF16-00004-of-00004.gguf
-  -> Skipping multi-part file: Q4_1/Qwen3-Next-80B-A3B-Instruct-Q4_1-00001-of-00002.gguf
-  -> Skipping multi-part file: Q4_1/Qwen3-Next-80B-A3B-Instruct-Q4_1-00002-of-00002.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3-Next-80B-A3B-Instruct-Q5_K_M-00001-of-00002.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3-Next-80B-A3B-Instruct-Q5_K_M-00002-of-00002.gguf
-  -> Skipping multi-part file: Q5_K_S/Qwen3-Next-80B-A3B-Instruct-Q5_K_S-00001-of-00002.gguf
-  -> Skipping multi-part file: Q5_K_S/Qwen3-Next-80B-A3B-Instruct-Q5_K_S-00002-of-00002.gguf
-  -> Skipping multi-part file: Q6_K/Qwen3-Next-80B-A3B-Instruct-Q6_K-00001-of-00002.gguf
-  -> Skipping multi-part file: Q6_K/Qwen3-Next-80B-A3B-Instruct-Q6_K-00002-of-00002.gguf
-  -> Skipping multi-part file: Q8_0/Qwen3-Next-80B-A3B-Instruct-Q8_0-00001-of-00002.gguf
-  -> Skipping multi-part file: Q8_0/Qwen3-Next-80B-A3B-Instruct-Q8_0-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q5_K_XL-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q5_K_XL-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q6_K_XL-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q6_K_XL-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q8_K_XL-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q8_K_XL-00002-of-00002.gguf
-  -> Added with 17 quants
-Processing GGUF: unsloth/Ministral-3-14B-Instruct-2512-GGUF
-  -> Added with 26 quants
+Processing GGUF: datalab-to/chandra
+Processing GGUF: p-e-w/gpt-oss-20b-heretic
+Processing GGUF: zai-org/GLM-4.6V
+Processing GGUF: TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF
+  -> Added with 8 quants
+Processing GGUF: nvidia/Cosmos-Reason2-8B
 Processing GGUF: unsloth/Nemotron-3-Nano-30B-A3B-GGUF
   -> Skipping multi-part file: BF16/Nemotron-3-Nano-30B-A3B-BF16-00001-of-00002.gguf
   -> Skipping multi-part file: BF16/Nemotron-3-Nano-30B-A3B-BF16-00002-of-00002.gguf
   -> Added with 22 quants
-Processing GGUF: mradermacher/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-i1-GGUF
-  -> Added with 25 quants
 Processing GGUF: LiquidAI/LFM2.5-VL-1.6B
-Processing GGUF: mradermacher/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC-GGUF
-  -> Added with 11 quants
-Processing GGUF: DreamFast/gemma-3-12b-it-heretic
-  -> Added with 8 quants
-Processing GGUF: HauhauCS/GPT-OSS-20B-Uncensored-HauhauCS-Aggressive
-  -> Added with 1 quants
-Processing GGUF: stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00001-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00002-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00003-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00004-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00005-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00006-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00007-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00008-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00009-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00010-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00011-of-00012.gguf
-  -> Skipping multi-part file: step3p5_flash_Q4_K_S-00012-of-00012.gguf
-Processing GGUF: Intel/Qwen3-Coder-Next-int4-AutoRound
+Processing GGUF: bakrianoo/arabic-legal-documents-ocr-1.0
+Processing GGUF: unsloth/GLM-4.7-Flash-REAP-23B-A3B-GGUF
+  -> Added with 27 quants
 Processing GGUF: jinaai/jina-embeddings-v5-text-small-text-matching
   -> Added with 14 quants
-Processing GGUF: Ex0bit/MiniMax-M2.5-PRISM-PRO
-  -> Added with 7 quants
-Processing GGUF: ggml-org/GLM-OCR-GGUF
-  -> Added with 0 quants
-Processing GGUF: skyblanket/GLM-5-abliterated
+Processing GGUF: nvidia/Nemotron-Terminal-32B
 Processing GGUF: darkc0de/XORTRON.CriminalComputing.LARGE.2026.3
-Processing GGUF: mlx-community/Qwen3.5-35B-A3B-8bit
+Processing GGUF: mlx-community/Qwen3.5-35B-A3B-4bit
 Processing GGUF: cyankiwi/MiniMax-M2.5-REAP-139B-A10B-AWQ-4bit
-Processing GGUF: QuantTrio/Qwen3.5-122B-A10B-AWQ
-Processing GGUF: mradermacher/Qwen3.5-35B-A3B-heretic-GGUF
-  -> Added with 11 quants
-Processing GGUF: LightningRodLabs/foresight-32B
-Processing GGUF: bartowski/Qwen_Qwen3.5-4B-GGUF
-  -> Added with 25 quants
-Processing GGUF: mradermacher/Huihui-Qwen3.5-27B-abliterated-GGUF
-  -> Added with 13 quants
 Processing GGUF: TeichAI/Qwen3.5-27B-Claude-Opus-4.6-Distill
 Processing GGUF: eousphoros/kappa-20b-131k-GGUF-Q8_0
   -> Skipping multi-part file: persona_kappa_20b_Q8_0.gguf-00001-of-00005.gguf
@@ -785,52 +756,80 @@ Processing GGUF: huihui-ai/Huihui-Qwen3.5-397B-A17B-abliterated-GGUF
   -> Skipping multi-part file: Q3_K-GGUF/Q3_K-GGUF-00021-of-00021.gguf
   -> Added with 0 quants
 Processing GGUF: KORMo-VL/KORMo-VL
-Processing GGUF: wangzhang/Qwen3.5-122B-A10B-abliterated-v2
+Processing GGUF: wangzhang/Qwen3.5-122B-A10B-abliterated
 Processing GGUF: lmstudio-community/Qwen3.5-9B-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 3 quants
 Processing GGUF: lukey03/Qwen3.5-9B-abliterated-GGUF
   -> Added with 3 quants
-Processing GGUF: Flagstone8878/Qwen3.5-18B-REAP-A3B-Coding-GGUF
-  -> Added with 10 quants
-Processing GGUF: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-i1-GGUF
-  -> Added with 25 quants
-Processing GGUF: coder3101/Qwen3.5-122B-A10B-heretic
+Processing GGUF: Vortex5/Crimson-Constellation-12B
+Processing GGUF: p-e-w/gpt-oss-20b-heretic-ara-v3
 Processing GGUF: mlx-community/Qwen3.5-9B-OptiQ-4bit
-Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT
-Processing GGUF: litert-community/Qwen3.5-0.8B-LiteRT
-Processing GGUF: voidful/Qwen3.5-9B-gemini-3.1-opus-4.6-reasoning
-Processing GGUF: mradermacher/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-i1-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 24 quants
+Processing GGUF: ytu-ce-cosmos/Turkish-Gemma-4b-T1-Scout
+Processing GGUF: Jackrong/MLX-Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-8bit
+Processing GGUF: coder3101/Qwen3.5-122B-A10B-heretic-v2
 Processing GGUF: mradermacher/Qwen-3.5-27B-Derestricted-GGUF
   -> Added with 13 quants
-Processing GGUF: mradermacher/Qwen3.5-122B-A10B-heretic-v2-GGUF
+Processing GGUF: Goekdeniz-Guelmez/Josiefied-Qwen3.5-0.8B-gabliterated-v1
+Processing GGUF: mradermacher/Qwen3.5-9B-Claude-4.6-OS-HERETIC-UNCENSORED-INSTRUCT-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 13 quants
+  -> Added with 14 quants
+Processing GGUF: mradermacher/Huihui-Qwen3.5-9B-abliterated-i1-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 25 quants
+Processing GGUF: mconcat/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-NVFP4
+Processing GGUF: llmfan46/Qwen3.5-27B-heretic-v3
+Processing GGUF: Shrijanagain/SKT_OMNI_SUPREME
 Processing GGUF: Intel/Step-3.5-Flash-int4-mixed-AutoRound
 Processing GGUF: DLLM-Agent/openPangu-7B-Diffusion-DeepDiver
-Processing GGUF: Zero-Point-AI/MARTHA-9B
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 5 quants
 Processing GGUF: Zero-Point-AI/MARTHA-0.8B
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 4 quants
 Processing GGUF: Zero-Point-AI/MARTHA-4B
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 4 quants
+Processing GGUF: Zero-Point-AI/MARTHA-27B
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 4 quants
+Processing GGUF: bartowski/Tesslate_OmniCoder-9B-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 26 quants
 Processing GGUF: z-lab/Qwen3.5-27B-PARO
+Processing GGUF: distilbert/distilgpt2
 Processing GGUF: succinctly/text2image-prompt-generator
 Processing GGUF: meta-llama/Llama-2-7b
+Processing GGUF: meta-llama/Llama-2-7b-hf
+Processing GGUF: microsoft/phi-2
 Processing GGUF: google/gemma-7b
   -> Added with 1 quants
-Processing GGUF: dphn/dolphin-2.9-llama3-8b
-Processing GGUF: google/paligemma-3b-pt-224
+Processing GGUF: microsoft/Phi-3-mini-4k-instruct
 Processing GGUF: bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF
   -> Skipping multi-part file: DeepSeek-Coder-V2-Lite-Instruct-f32.gguf/DeepSeek-Coder-V2-Lite-Instruct-f32-00001-of-00002.gguf
   -> Skipping multi-part file: DeepSeek-Coder-V2-Lite-Instruct-f32.gguf/DeepSeek-Coder-V2-Lite-Instruct-f32-00002-of-00002.gguf
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 21 quants
+Processing GGUF: meta-llama/Llama-Guard-3-8B
+Processing GGUF: HF1BitLLM/Llama3-8B-1.58-100B-tokens
+Processing GGUF: Qwen/Qwen2.5-14B-Instruct
+Processing GGUF: Qwen/Qwen2.5-7B-Instruct-GGUF
+  -> Skipping multi-part file: qwen2.5-7b-instruct-fp16-00001-of-00004.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-fp16-00002-of-00004.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-fp16-00003-of-00004.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-fp16-00004-of-00004.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q4_0-00001-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q4_0-00002-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q5_0-00001-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q5_0-00002-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q5_k_m-00001-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q5_k_m-00002-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q6_k-00001-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q6_k-00002-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q8_0-00001-of-00003.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q8_0-00002-of-00003.gguf
+  -> Skipping multi-part file: qwen2.5-7b-instruct-q8_0-00003-of-00003.gguf
+  -> Added with 2 quants
 Processing GGUF: Qwen/Qwen2.5-Coder-7B-Instruct-GGUF
   -> Skipping multi-part file: qwen2.5-coder-7b-instruct-fp16-00001-of-00004.gguf
   -> Skipping multi-part file: qwen2.5-coder-7b-instruct-fp16-00002-of-00004.gguf
@@ -850,89 +849,86 @@ Processing GGUF: Qwen/Qwen2.5-Coder-7B-Instruct-GGUF
   -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q8_0-00002-of-00003.gguf
   -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q8_0-00003-of-00003.gguf
   -> Added with 8 quants
-Processing GGUF: meta-llama/Llama-3.2-1B-Instruct
 Processing GGUF: huihui-ai/Qwen2.5-72B-Instruct-abliterated
-Processing GGUF: DavidAU/Llama-3.2-8X3B-MOE-Dark-Champion-Instruct-uncensored-abliterated-18.4B-GGUF
-  -> Added with 14 quants
+Processing GGUF: Qwen/Qwen2.5-Coder-3B-Instruct-GGUF
+  -> Added with 9 quants
 Processing GGUF: microsoft/phi-4
 Processing GGUF: DavidAU/Mistral-MOE-4X7B-Dark-MultiVerse-Uncensored-Enhanced32-24B-gguf
   -> Added with 19 quants
 Processing GGUF: dphn/Dolphin3.0-Llama3.1-8B
-Processing GGUF: Steelskull/L3.3-MS-Nevoria-70b
-Processing GGUF: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
 Processing GGUF: AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 quants
 Processing GGUF: microsoft/Phi-4-mini-instruct
-Processing GGUF: unsloth/Phi-4-mini-instruct-GGUF
-  -> Added with 8 quants
-Processing GGUF: unsloth/gemma-3-4b-it-GGUF
-  -> Added with 26 quants
-Processing GGUF: google/gemma-3-12b-it-qat-q4_0-unquantized
-Processing GGUF: darkc0de/XortronCriminalComputingConfig
+Processing GGUF: mlabonne/gemma-3-27b-it-abliterated
+Processing GGUF: DeepHat/DeepHat-V1-7B
+Processing GGUF: Qwen/Qwen3-4B
+Processing GGUF: Qwen/Qwen3-8B-GGUF
+  -> Added with 5 quants
+Processing GGUF: unsloth/Seed-Coder-8B-Instruct-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 25 quants
+Processing GGUF: google/medgemma-27b-text-it
 Processing GGUF: deepseek-ai/DeepSeek-R1-0528
 Processing GGUF: mlabonne/gemma-3-12b-it-abliterated-v2-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 6 quants
 Processing GGUF: Qwen/Qwen3-Reranker-0.6B
-Processing GGUF: Qwen/Qwen3-Embedding-4B
-Processing GGUF: google/gemma-3n-E4B-it-litert-lm
+Processing GGUF: Qwen/Qwen3-Embedding-0.6B-GGUF
 Processing GGUF: google/gemma-3n-E2B-it
 Processing GGUF: unsloth/gemma-3n-E4B-it-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 24 quants
-Processing GGUF: HuggingFaceTB/SmolLM3-3B
-Processing GGUF: cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit
 Processing GGUF: NVFP4/Qwen3-Coder-30B-A3B-Instruct-FP4
+Processing GGUF: google/gemma-3-270m
 Processing GGUF: bartowski/openai_gpt-oss-20b-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 29 quants
 Processing GGUF: ytu-ce-cosmos/Turkish-Gemma-9b-T1
-Processing GGUF: google/functiongemma-270m-it
-Processing GGUF: maya-research/maya1
-Processing GGUF: datalab-to/chandra
+Processing GGUF: tencent/HunyuanImage-3.0
+Processing GGUF: LiquidAI/LFM2-8B-A1B
+Processing GGUF: PaddlePaddle/PaddleOCR-VL
 Processing GGUF: kenpath/svara-tts-v1
+Processing GGUF: microsoft/Fara-7B
 Processing GGUF: moonshotai/Kimi-K2-Thinking
-Processing GGUF: p-e-w/gpt-oss-20b-heretic
+Processing GGUF: DavidAU/OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf
+  -> Added with 17 quants
+Processing GGUF: unsloth/Qwen3-Next-80B-A3B-Instruct-GGUF
+  -> Skipping multi-part file: BF16/Qwen3-Next-80B-A3B-Instruct-BF16-00001-of-00004.gguf
+  -> Skipping multi-part file: BF16/Qwen3-Next-80B-A3B-Instruct-BF16-00002-of-00004.gguf
+  -> Skipping multi-part file: BF16/Qwen3-Next-80B-A3B-Instruct-BF16-00003-of-00004.gguf
+  -> Skipping multi-part file: BF16/Qwen3-Next-80B-A3B-Instruct-BF16-00004-of-00004.gguf
+  -> Skipping multi-part file: Q4_1/Qwen3-Next-80B-A3B-Instruct-Q4_1-00001-of-00002.gguf
+  -> Skipping multi-part file: Q4_1/Qwen3-Next-80B-A3B-Instruct-Q4_1-00002-of-00002.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3-Next-80B-A3B-Instruct-Q5_K_M-00001-of-00002.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3-Next-80B-A3B-Instruct-Q5_K_M-00002-of-00002.gguf
+  -> Skipping multi-part file: Q5_K_S/Qwen3-Next-80B-A3B-Instruct-Q5_K_S-00001-of-00002.gguf
+  -> Skipping multi-part file: Q5_K_S/Qwen3-Next-80B-A3B-Instruct-Q5_K_S-00002-of-00002.gguf
+  -> Skipping multi-part file: Q6_K/Qwen3-Next-80B-A3B-Instruct-Q6_K-00001-of-00002.gguf
+  -> Skipping multi-part file: Q6_K/Qwen3-Next-80B-A3B-Instruct-Q6_K-00002-of-00002.gguf
+  -> Skipping multi-part file: Q8_0/Qwen3-Next-80B-A3B-Instruct-Q8_0-00001-of-00002.gguf
+  -> Skipping multi-part file: Q8_0/Qwen3-Next-80B-A3B-Instruct-Q8_0-00002-of-00002.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q5_K_XL-00001-of-00002.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q5_K_XL-00002-of-00002.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q6_K_XL-00001-of-00002.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q6_K_XL-00002-of-00002.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q8_K_XL-00001-of-00002.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/Qwen3-Next-80B-A3B-Instruct-UD-Q8_K_XL-00002-of-00002.gguf
+  -> Added with 17 quants
 Processing GGUF: ArliAI/GLM-4.6-Derestricted-v3
-Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16
 Processing GGUF: nvidia/Cosmos-Reason2-2B
-Processing GGUF: TeichAI/Qwen3-4B-Thinking-2507-GPT-5.1-Codex-Max-Distill-GGUF
-  -> Added with 12 quants
+Processing GGUF: zai-org/GLM-4.7
 Processing GGUF: FutureLivingLab/iFlow-ROME
 Processing GGUF: Qwen/Qwen3-VL-Embedding-8B
-Processing GGUF: bakrianoo/arabic-legal-documents-ocr-1.0
+Processing GGUF: mradermacher/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC-GGUF
+  -> Added with 11 quants
+Processing GGUF: google/translategemma-12b-it
 Processing GGUF: Cordux/flux2-klein-4B-uncensored-text-encoder
   -> Added with 1 quants
+Processing GGUF: BennyDaBall/Qwen3-4b-Z-Image-Turbo-AbliteratedV1
+  -> Added with 8 quants
 Processing GGUF: nvidia/Kimi-K2.5-NVFP4
-Processing GGUF: Qwen/Qwen3-Coder-Next-GGUF
-  -> Skipping multi-part file: Qwen3-Coder-Next-F16/Qwen3-Coder-Next-00001-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-F16/Qwen3-Coder-Next-00002-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-F16/Qwen3-Coder-Next-00003-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-F16/Qwen3-Coder-Next-00004-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q4_K_M/Qwen3-Coder-Next-Q4_K_M-00001-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q4_K_M/Qwen3-Coder-Next-Q4_K_M-00002-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q4_K_M/Qwen3-Coder-Next-Q4_K_M-00003-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q4_K_M/Qwen3-Coder-Next-Q4_K_M-00004-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_0/Qwen3-Coder-Next-Q5_0-00001-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_0/Qwen3-Coder-Next-Q5_0-00002-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_0/Qwen3-Coder-Next-Q5_0-00003-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_0/Qwen3-Coder-Next-Q5_0-00004-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_K_M/Qwen3-Coder-Next-Q5_K_M-00001-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_K_M/Qwen3-Coder-Next-Q5_K_M-00002-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_K_M/Qwen3-Coder-Next-Q5_K_M-00003-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_K_M/Qwen3-Coder-Next-Q5_K_M-00004-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00001-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00002-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00003-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00004-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00001-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00002-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00003-of-00004.gguf
-  -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00004-of-00004.gguf
-Processing GGUF: GadflyII/Qwen3-Coder-Next-NVFP4
-Processing GGUF: AngelSlim/HY-1.8B-2Bit-GGUF
-  -> Added with 3 quants
+Processing GGUF: Intel/Qwen3-Coder-Next-int4-AutoRound
 Processing GGUF: unsloth/GLM-5-GGUF
   -> Skipping multi-part file: BF16/GLM-5-BF16-00001-of-00033.gguf
   -> Skipping multi-part file: BF16/GLM-5-BF16-00002-of-00033.gguf
@@ -1231,156 +1227,251 @@ Processing GGUF: unsloth/GLM-5-GGUF
   -> Skipping multi-part file: UD-Q8_K_XL/GLM-5-UD-Q8_K_XL-00018-of-00019.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/GLM-5-UD-Q8_K_XL-00019-of-00019.gguf
   -> Added with 1 quants
-Processing GGUF: mratsim/MiniMax-M2.5-BF16-INT4-AWQ
-Processing GGUF: mratsim/MiniMax-M2.5-FP8-INT4-AWQ
-Processing GGUF: nvidia/Nemotron-Terminal-32B
-Processing GGUF: guidelabs/steerling-8b
-Processing GGUF: Qwen/Qwen3.5-35B-A3B-Base
-Processing GGUF: cyankiwi/Qwen3.5-27B-AWQ-BF16-INT4
-Processing GGUF: ValiantLabs/Qwen3.5-27B-Esper3.1
-Processing GGUF: Qwen/Qwen3.5-27B-FP8
-Processing GGUF: saricles/MiniMax-M2.5-REAP-172B-A10B-NVFP4-GB10
-Processing GGUF: llmfan46/Qwen3.5-27B-heretic-v2-GGUF
-  -> Added with 9 quants
-Processing GGUF: mradermacher/Qwen3.5-27B-heretic-v2-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 13 quants
-Processing GGUF: cyankiwi/Qwen3.5-9B-AWQ-4bit
-Processing GGUF: jwest33/qwen3.5-9b-null-space-abliterated-GGUF
-  -> Added with 3 quants
-Processing GGUF: Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled
-Processing GGUF: Qwen/Qwen3.5-122B-A10B-GPTQ-Int4
-Processing GGUF: mradermacher/Crow-4B-Opus-4.6-Distill-Heretic_Qwen3.5-i1-GGUF
-  -> Added with 25 quants
-Processing GGUF: Vortex5/Crimson-Constellation-12B
-Processing GGUF: ValiantLabs/Qwen3.5-27B-Guardpoint
-Processing GGUF: Aisho67/Qwen3.5-4b-Opus-4.6-Reasoning-Distilled-v1-GGUF
+Processing GGUF: Ex0bit/MiniMax-M2.5-PRISM-PRO
+  -> Added with 7 quants
+Processing GGUF: nvidia/music-flamingo-think-2601-hf
+Processing GGUF: AesSedai/Qwen3.5-397B-A17B-GGUF
+  -> Skipping multi-part file: IQ2_XS/Qwen3.5-397B-A17B-IQ2_XS-00001-of-00004.gguf
+  -> Skipping multi-part file: IQ2_XS/Qwen3.5-397B-A17B-IQ2_XS-00002-of-00004.gguf
+  -> Skipping multi-part file: IQ2_XS/Qwen3.5-397B-A17B-IQ2_XS-00003-of-00004.gguf
+  -> Skipping multi-part file: IQ2_XS/Qwen3.5-397B-A17B-IQ2_XS-00004-of-00004.gguf
+  -> Skipping multi-part file: IQ3_S/Qwen3.5-397B-A17B-IQ3_S-00001-of-00004.gguf
+  -> Skipping multi-part file: IQ3_S/Qwen3.5-397B-A17B-IQ3_S-00002-of-00004.gguf
+  -> Skipping multi-part file: IQ3_S/Qwen3.5-397B-A17B-IQ3_S-00003-of-00004.gguf
+  -> Skipping multi-part file: IQ3_S/Qwen3.5-397B-A17B-IQ3_S-00004-of-00004.gguf
+  -> Skipping multi-part file: IQ4_XS/Qwen3.5-397B-A17B-IQ4_XS-00001-of-00005.gguf
+  -> Skipping multi-part file: IQ4_XS/Qwen3.5-397B-A17B-IQ4_XS-00002-of-00005.gguf
+  -> Skipping multi-part file: IQ4_XS/Qwen3.5-397B-A17B-IQ4_XS-00003-of-00005.gguf
+  -> Skipping multi-part file: IQ4_XS/Qwen3.5-397B-A17B-IQ4_XS-00004-of-00005.gguf
+  -> Skipping multi-part file: IQ4_XS/Qwen3.5-397B-A17B-IQ4_XS-00005-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00001-of-00007.gguf
+  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00002-of-00007.gguf
+  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00003-of-00007.gguf
+  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00004-of-00007.gguf
+  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00005-of-00007.gguf
+  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00006-of-00007.gguf
+  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00007-of-00007.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00001-of-00008.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00002-of-00008.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00003-of-00008.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00004-of-00008.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00005-of-00008.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00006-of-00008.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00007-of-00008.gguf
+  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00008-of-00008.gguf
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 quants
-Processing GGUF: z-lab/Qwen3.5-9B-DFlash
-Processing GGUF: IggyLux/MN-VelvetCafe-RP-12B
+Processing GGUF: mratsim/MiniMax-M2.5-FP8-INT4-AWQ
+Processing GGUF: LiquidAI/LFM2-24B-A2B-GGUF
+  -> Added with 7 quants
+Processing GGUF: skyblanket/GLM-5-abliterated
+Processing GGUF: mlx-community/Qwen3.5-35B-A3B-8bit
+Processing GGUF: mradermacher/Qwen3.5-35B-A3B-heretic-GGUF
+  -> Added with 11 quants
+Processing GGUF: PaddlePaddle/PaddleOCR-VL-1.5-GGUF
+Processing GGUF: Qwen/Qwen3.5-4B-Base
+Processing GGUF: bartowski/Qwen_Qwen3.5-4B-GGUF
+  -> Added with 25 quants
+Processing GGUF: mradermacher/Huihui-Qwen3.5-27B-abliterated-GGUF
+  -> Added with 13 quants
+Processing GGUF: XCurOS/XCurOS-0.1-8B-Instruct
+Processing GGUF: Shrijanagain/SKT_ST_X_0
+Processing GGUF: DavidAU/Qwen3.5-27B-HERETIC-Polaris-Advanced-Thinking-Alpha-uncensored
+Processing GGUF: cyankiwi/Qwen3.5-9B-AWQ-4bit
+Processing GGUF: Qwen/Qwen3.5-122B-A10B-GPTQ-Int4
+Processing GGUF: jwest33/qwen3.5-4b-gabliterated-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 2 quants
+Processing GGUF: Flagstone8878/Qwen3.5-18B-REAP-A3B-Coding-GGUF
+  -> Added with 10 quants
+Processing GGUF: sandeshrajx/Qwen3.5-24B-A3B-REAP-0.32-GGUF
+  -> Added with 5 quants
+Processing GGUF: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-i1-GGUF
+  -> Added with 25 quants
+Processing GGUF: mlx-community/Qwen3.5-4B-OptiQ-4bit
+Processing GGUF: coder3101/Qwen3.5-122B-A10B-heretic
+Processing GGUF: z-lab/Qwen3.5-4B-DFlash
+Processing GGUF: DavidAU/Qwen3.5-27B-Claude-4.6-OS-INSTRUCT
+Processing GGUF: voidful/Qwen3.5-9B-gemini-3.1-opus-4.6-reasoning
 Processing GGUF: Jackrong/MLX-Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-6bit
+Processing GGUF: Jackrong/MLX-Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-8bit
 Processing GGUF: mradermacher/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 11 quants
-Processing GGUF: juiceb0xc0de/bella-bartender-8b-llama3.1
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 9 quants
+Processing GGUF: Lambent/Zora-9B-v0
 Processing GGUF: eddy1111111/qwen3.5_opus
   -> Added with 1 quants
-Processing GGUF: Goekdeniz-Guelmez/Josiefied-Qwen3.5-0.8B-gabliterated-v1
-Processing GGUF: mradermacher/Huihui-Qwen3.5-9B-abliterated-i1-GGUF
+Processing GGUF: Vaultkeeper/ouroboros-next
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 25 quants
+  -> Added with 1 quants
+Processing GGUF: MIL-UT/Med-Asagi-14B-reasoning_beta
+Processing GGUF: huihui-ai/Huihui-Qwen3.5-9B-abliterated-mlx-4bit
+Processing GGUF: mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 14 quants
+Processing GGUF: mradermacher/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 13 quants
 Processing GGUF: DreamFast/qwen3-4b-heretic
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 16 quants
 Processing GGUF: the-clanker-lover/steelman-14b-ada
 Processing GGUF: principled-intelligence/Qwen3.5-0.8B-text-only
-Processing GGUF: Shrijanagain/SKT_OMNI_SUPREME
-Processing GGUF: 0xA50C1A1/Darkmere-14B-v0.1
-Processing GGUF: Dxniz/NaNovel-27B
-Processing GGUF: dinerburger/Qwen3-Coder-Next-GGUF
+Processing GGUF: bartowski/nvidia_Nemotron-3-Super-120B-A12B-GGUF
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ2_M/nvidia_Nemotron-3-Super-120B-A12B-IQ2_M-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ2_M/nvidia_Nemotron-3-Super-120B-A12B-IQ2_M-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ2_S/nvidia_Nemotron-3-Super-120B-A12B-IQ2_S-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ2_S/nvidia_Nemotron-3-Super-120B-A12B-IQ2_S-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ2_XS/nvidia_Nemotron-3-Super-120B-A12B-IQ2_XS-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ2_XS/nvidia_Nemotron-3-Super-120B-A12B-IQ2_XS-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ2_XXS/nvidia_Nemotron-3-Super-120B-A12B-IQ2_XXS-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ2_XXS/nvidia_Nemotron-3-Super-120B-A12B-IQ2_XXS-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ3_M/nvidia_Nemotron-3-Super-120B-A12B-IQ3_M-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ3_M/nvidia_Nemotron-3-Super-120B-A12B-IQ3_M-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ3_XS/nvidia_Nemotron-3-Super-120B-A12B-IQ3_XS-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ3_XS/nvidia_Nemotron-3-Super-120B-A12B-IQ3_XS-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ3_XXS/nvidia_Nemotron-3-Super-120B-A12B-IQ3_XXS-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ3_XXS/nvidia_Nemotron-3-Super-120B-A12B-IQ3_XXS-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ4_NL/nvidia_Nemotron-3-Super-120B-A12B-IQ4_NL-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ4_NL/nvidia_Nemotron-3-Super-120B-A12B-IQ4_NL-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ4_XS/nvidia_Nemotron-3-Super-120B-A12B-IQ4_XS-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-IQ4_XS/nvidia_Nemotron-3-Super-120B-A12B-IQ4_XS-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q2_K/nvidia_Nemotron-3-Super-120B-A12B-Q2_K-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q2_K/nvidia_Nemotron-3-Super-120B-A12B-Q2_K-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q2_K_L/nvidia_Nemotron-3-Super-120B-A12B-Q2_K_L-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q2_K_L/nvidia_Nemotron-3-Super-120B-A12B-Q2_K_L-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q3_K_L/nvidia_Nemotron-3-Super-120B-A12B-Q3_K_L-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q3_K_L/nvidia_Nemotron-3-Super-120B-A12B-Q3_K_L-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q3_K_M/nvidia_Nemotron-3-Super-120B-A12B-Q3_K_M-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q3_K_M/nvidia_Nemotron-3-Super-120B-A12B-Q3_K_M-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q3_K_S/nvidia_Nemotron-3-Super-120B-A12B-Q3_K_S-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q3_K_S/nvidia_Nemotron-3-Super-120B-A12B-Q3_K_S-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q3_K_XL/nvidia_Nemotron-3-Super-120B-A12B-Q3_K_XL-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q3_K_XL/nvidia_Nemotron-3-Super-120B-A12B-Q3_K_XL-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_0/nvidia_Nemotron-3-Super-120B-A12B-Q4_0-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_0/nvidia_Nemotron-3-Super-120B-A12B-Q4_0-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_1/nvidia_Nemotron-3-Super-120B-A12B-Q4_1-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_1/nvidia_Nemotron-3-Super-120B-A12B-Q4_1-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_K_L/nvidia_Nemotron-3-Super-120B-A12B-Q4_K_L-00001-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_K_L/nvidia_Nemotron-3-Super-120B-A12B-Q4_K_L-00002-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_K_L/nvidia_Nemotron-3-Super-120B-A12B-Q4_K_L-00003-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_K_M/nvidia_Nemotron-3-Super-120B-A12B-Q4_K_M-00001-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_K_M/nvidia_Nemotron-3-Super-120B-A12B-Q4_K_M-00002-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_K_M/nvidia_Nemotron-3-Super-120B-A12B-Q4_K_M-00003-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_K_S/nvidia_Nemotron-3-Super-120B-A12B-Q4_K_S-00001-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q4_K_S/nvidia_Nemotron-3-Super-120B-A12B-Q4_K_S-00002-of-00002.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q5_K_L/nvidia_Nemotron-3-Super-120B-A12B-Q5_K_L-00001-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q5_K_L/nvidia_Nemotron-3-Super-120B-A12B-Q5_K_L-00002-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q5_K_L/nvidia_Nemotron-3-Super-120B-A12B-Q5_K_L-00003-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q5_K_M/nvidia_Nemotron-3-Super-120B-A12B-Q5_K_M-00001-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q5_K_M/nvidia_Nemotron-3-Super-120B-A12B-Q5_K_M-00002-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q5_K_M/nvidia_Nemotron-3-Super-120B-A12B-Q5_K_M-00003-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q5_K_S/nvidia_Nemotron-3-Super-120B-A12B-Q5_K_S-00001-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q5_K_S/nvidia_Nemotron-3-Super-120B-A12B-Q5_K_S-00002-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q5_K_S/nvidia_Nemotron-3-Super-120B-A12B-Q5_K_S-00003-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q6_K/nvidia_Nemotron-3-Super-120B-A12B-Q6_K-00001-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q6_K/nvidia_Nemotron-3-Super-120B-A12B-Q6_K-00002-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q6_K/nvidia_Nemotron-3-Super-120B-A12B-Q6_K-00003-of-00003.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q8_0/nvidia_Nemotron-3-Super-120B-A12B-Q8_0-00001-of-00004.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q8_0/nvidia_Nemotron-3-Super-120B-A12B-Q8_0-00002-of-00004.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q8_0/nvidia_Nemotron-3-Super-120B-A12B-Q8_0-00003-of-00004.gguf
+  -> Skipping multi-part file: nvidia_Nemotron-3-Super-120B-A12B-Q8_0/nvidia_Nemotron-3-Super-120B-A12B-Q8_0-00004-of-00004.gguf
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 2 quants
+  -> Added with 3 quants
+Processing GGUF: 0xA50C1A1/Darkmere-14B-v0.1
+Processing GGUF: DavidAU/Qwen3.5-13B-GLM-4.7-Flash-DeepSeek-Polaris-Grande-Deep-Thinking
+Processing GGUF: inferencerlabs/NVIDIA-Nemotron-3-Super-120B-A12B-MLX-4.5bit
+Processing GGUF: CYX1998/Meissa-4B
+Processing GGUF: Dxniz/NaNovel-27B
 Processing GGUF: Zero-Point-AI/MARTHA-2B
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 4 quants
-Processing GGUF: Zero-Point-AI/MARTHA-27B
+Processing GGUF: MerlinSafety/HybridIntelligence-0.5B
+Processing GGUF: davanstrien/dots.ocr-1.5
+Processing GGUF: Sepolian/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated-Q4_K_M
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 4 quants
+  -> Added with 1 quants
+Processing GGUF: huihui-ai/Huihui-Qwen3.5-4B-Claude-4.6-Opus-abliterated
 Processing GGUF: openai-community/gpt2-xl
-Processing GGUF: microsoft/BioGPT-Large
+Processing GGUF: Salesforce/blip-image-captioning-large
+Processing GGUF: google/pix2struct-base
 Processing GGUF: bigcode/starcoder
 Processing GGUF: mistralai/Mistral-7B-v0.1
-Processing GGUF: microsoft/Phi-3-mini-4k-instruct
+Processing GGUF: epfl-llm/meditron-7b
+Processing GGUF: llava-hf/llava-1.5-7b-hf
+Processing GGUF: dphn/dolphin-2.9-llama3-8b
 Processing GGUF: NousResearch/Hermes-2-Pro-Llama-3-8B
-Processing GGUF: Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2
-Processing GGUF: HF1BitLLM/Llama3-8B-1.58-100B-tokens
-Processing GGUF: Qwen/Qwen2.5-14B-Instruct
-Processing GGUF: Qwen/Qwen2.5-32B-Instruct
-Processing GGUF: Qwen/Qwen2.5-7B-Instruct-GGUF
-  -> Skipping multi-part file: qwen2.5-7b-instruct-fp16-00001-of-00004.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-fp16-00002-of-00004.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-fp16-00003-of-00004.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-fp16-00004-of-00004.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q4_0-00001-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q4_0-00002-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q5_0-00001-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q5_0-00002-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q5_k_m-00001-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q5_k_m-00002-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q6_k-00001-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q6_k-00002-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q8_0-00001-of-00003.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q8_0-00002-of-00003.gguf
-  -> Skipping multi-part file: qwen2.5-7b-instruct-q8_0-00003-of-00003.gguf
-  -> Added with 2 quants
-Processing GGUF: meta-llama/Llama-3.2-11B-Vision-Instruct
+Processing GGUF: HuggingFaceTB/SmolLM-135M
+Processing GGUF: meta-llama/Llama-3.1-70B-Instruct
+Processing GGUF: Qwen/Qwen2.5-0.5B
+Processing GGUF: Qwen/Qwen2.5-0.5B-Instruct-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 9 quants
+Processing GGUF: meta-llama/Llama-3.2-11B-Vision
 Processing GGUF: bartowski/Llama-3.2-3B-Instruct-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 18 quants
 Processing GGUF: ggml-org/Qwen2.5-Coder-1.5B-Q8_0-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 quants
-Processing GGUF: HuggingFaceTB/SmolLM2-1.7B-Instruct
-Processing GGUF: Qwen/Qwen2.5-Coder-3B-Instruct-GGUF
-  -> Added with 9 quants
+Processing GGUF: HuggingFaceTB/SmolLM2-135M-Instruct
 Processing GGUF: itlwas/Qwen2.5-Coder-7B-Q4_K_M-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 quants
+Processing GGUF: Steelskull/L3.3-MS-Nevoria-70b
+Processing GGUF: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+Processing GGUF: deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
 Processing GGUF: Qwen/Qwen2.5-VL-3B-Instruct
-Processing GGUF: allenai/OLMoE-1B-7B-0125-Instruct
-Processing GGUF: unsloth/gemma-3-1b-it-GGUF
+Processing GGUF: unsloth/gemma-3-27b-it-GGUF
+  -> Skipping multi-part file: BF16/gemma-3-27b-it-BF16-00001-of-00002.gguf
+  -> Skipping multi-part file: BF16/gemma-3-27b-it-BF16-00002-of-00002.gguf
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 26 quants
-Processing GGUF: mlabonne/gemma-3-27b-it-abliterated
-Processing GGUF: mlabonne/gemma-3-27b-it-abliterated-GGUF
-  -> Added with 6 quants
-Processing GGUF: google/gemma-3-27b-it-qat-q4_0-gguf
+  -> Added with 25 quants
+Processing GGUF: google/gemma-3-12b-it-qat-q4_0-gguf
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 quants
 Processing GGUF: meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
-Processing GGUF: unsloth/gemma-3-12b-it-qat-GGUF
-  -> Added with 26 quants
-Processing GGUF: Qwen/Qwen3-14B
-Processing GGUF: meta-llama/Llama-Prompt-Guard-2-86M
-Processing GGUF: Qwen/Qwen3-8B-GGUF
+Processing GGUF: google/gemma-3-12b-it-qat-q4_0-unquantized
+Processing GGUF: ByteDance-Seed/UI-TARS-1.5-7B
+Processing GGUF: Qwen/Qwen3-30B-A3B
+Processing GGUF: Qwen/Qwen3-0.6B-Base
+Processing GGUF: Qwen/Qwen3-4B-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 5 quants
+Processing GGUF: lmstudio-community/Qwen2.5-VL-7B-Instruct-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 4 quants
 Processing GGUF: bartowski/cognitivecomputations_Dolphin-Mistral-24B-Venice-Edition-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 27 quants
 Processing GGUF: unsloth/Qwen2.5-VL-7B-Instruct-GGUF
   -> Added with 26 quants
-Processing GGUF: unsloth/Seed-Coder-8B-Instruct-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 25 quants
-Processing GGUF: google/medgemma-27b-text-it
-Processing GGUF: sarvamai/sarvam-m
-Processing GGUF: google/gemma-3n-E2B-it-litert-lm
+Processing GGUF: google/medgemma-4b-it
+Processing GGUF: numind/NuExtract-2.0-2B
+Processing GGUF: Qwen/Qwen3-Embedding-4B
+Processing GGUF: google/gemma-3n-E4B-it-litert-lm
+Processing GGUF: HuggingFaceTB/SmolLM3-3B
+Processing GGUF: moonshotai/Kimi-K2-Instruct
 Processing GGUF: Qwen/Qwen3-235B-A22B-Instruct-2507
-Processing GGUF: Qwen/Qwen3-Coder-480B-A35B-Instruct
 Processing GGUF: Qwen/Qwen3-30B-A3B-Instruct-2507
+Processing GGUF: google/gemma-3-270m-it
 Processing GGUF: ggml-org/gpt-oss-20b-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 quants
-Processing GGUF: mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF
-  -> Added with 24 quants
 Processing GGUF: Qwen/Qwen3-4B-Instruct-2507
 Processing GGUF: NousResearch/Hermes-4-405B
 Processing GGUF: LiquidAI/LFM2-VL-1.6B
 Processing GGUF: NousResearch/Hermes-4-70B
 Processing GGUF: ByteDance-Seed/Seed-OSS-36B-Instruct
-Processing GGUF: openbmb/MiniCPM-V-4_5
-Processing GGUF: tencent/HunyuanImage-3.0
 Processing GGUF: deepseek-ai/DeepSeek-V3.2-Exp
-Processing GGUF: LiquidAI/LFM2-8B-A1B
-Processing GGUF: FlareRebellion/WeirdCompound-v1.7-24b
+Processing GGUF: allenai/olmOCR-2-7B-1025
+Processing GGUF: ZJU-AI4H/Hulu-Med-7B
 Processing GGUF: deepseek-ai/DeepSeek-OCR
 Processing GGUF: huihui-ai/Huihui-Qwen3-VL-32B-Thinking-abliterated
 Processing GGUF: LCO-Embedding/LCO-Embedding-Omni-3B
-Processing GGUF: p-e-w/Qwen3-4B-Instruct-2507-heretic
+Processing GGUF: unsloth/Qwen3-VL-8B-Instruct-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 26 quants
 Processing GGUF: TeichAI/Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-GGUF
   -> Skipping multi-part file: Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-bf16-00001-of-00002.gguf
   -> Skipping multi-part file: Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-bf16-00002-of-00002.gguf
@@ -1394,9 +1485,8 @@ Processing GGUF: mradermacher/gemma-3-12b-it-heretic-GGUF
   -> Added with 13 quants
 Processing GGUF: deepseek-ai/DeepSeek-Math-V2
 Processing GGUF: ServiceNow-AI/Apriel-1.6-15b-Thinker
-Processing GGUF: unsloth/GLM-4.6V-Flash-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 26 quants
+Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16
+Processing GGUF: p-e-w/gemma-3-12b-it-heretic-v2
 Processing GGUF: allenai/Olmo-3.1-32B-Think
 Processing GGUF: BennyDaBall/qwen3-4b-Z-Image-Engineer
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
@@ -1405,103 +1495,148 @@ Processing GGUF: t-tech/T-pro-it-2.1
 Processing GGUF: Ex0bit/Elbaz-NVIDIA-Nemotron-3-Nano-30B-A3B-PRISM
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 4 quants
-Processing GGUF: zai-org/GLM-4.7
-Processing GGUF: tencent/HY-MT1.5-1.8B-GGUF
-  -> Added with 3 quants
-Processing GGUF: nvidia/music-flamingo-2601-hf
-Processing GGUF: LiquidAI/LFM2.5-1.2B-Instruct-GGUF
-  -> Added with 7 quants
-Processing GGUF: voyageai/voyage-4-nano
-Processing GGUF: TheDrummer/Anubis-70B-v1.2
-Processing GGUF: google/translategemma-12b-it
-Processing GGUF: unsloth/GLM-4.7-REAP-218B-A32B-GGUF
-  -> Skipping multi-part file: BF16/GLM-4.7-REAP-218B-A32B-BF16-00001-of-00009.gguf
-  -> Skipping multi-part file: BF16/GLM-4.7-REAP-218B-A32B-BF16-00002-of-00009.gguf
-  -> Skipping multi-part file: BF16/GLM-4.7-REAP-218B-A32B-BF16-00003-of-00009.gguf
-  -> Skipping multi-part file: BF16/GLM-4.7-REAP-218B-A32B-BF16-00004-of-00009.gguf
-  -> Skipping multi-part file: BF16/GLM-4.7-REAP-218B-A32B-BF16-00005-of-00009.gguf
-  -> Skipping multi-part file: BF16/GLM-4.7-REAP-218B-A32B-BF16-00006-of-00009.gguf
-  -> Skipping multi-part file: BF16/GLM-4.7-REAP-218B-A32B-BF16-00007-of-00009.gguf
-  -> Skipping multi-part file: BF16/GLM-4.7-REAP-218B-A32B-BF16-00008-of-00009.gguf
-  -> Skipping multi-part file: BF16/GLM-4.7-REAP-218B-A32B-BF16-00009-of-00009.gguf
-  -> Skipping multi-part file: IQ4_NL/GLM-4.7-REAP-218B-A32B-IQ4_NL-00001-of-00003.gguf
-  -> Skipping multi-part file: IQ4_NL/GLM-4.7-REAP-218B-A32B-IQ4_NL-00002-of-00003.gguf
-  -> Skipping multi-part file: IQ4_NL/GLM-4.7-REAP-218B-A32B-IQ4_NL-00003-of-00003.gguf
-  -> Skipping multi-part file: IQ4_XS/GLM-4.7-REAP-218B-A32B-IQ4_XS-00001-of-00003.gguf
-  -> Skipping multi-part file: IQ4_XS/GLM-4.7-REAP-218B-A32B-IQ4_XS-00002-of-00003.gguf
-  -> Skipping multi-part file: IQ4_XS/GLM-4.7-REAP-218B-A32B-IQ4_XS-00003-of-00003.gguf
-  -> Skipping multi-part file: Q2_K/GLM-4.7-REAP-218B-A32B-Q2_K-00001-of-00002.gguf
-  -> Skipping multi-part file: Q2_K/GLM-4.7-REAP-218B-A32B-Q2_K-00002-of-00002.gguf
-  -> Skipping multi-part file: Q2_K_L/GLM-4.7-REAP-218B-A32B-Q2_K_L-00001-of-00002.gguf
-  -> Skipping multi-part file: Q2_K_L/GLM-4.7-REAP-218B-A32B-Q2_K_L-00002-of-00002.gguf
-  -> Skipping multi-part file: Q3_K_M/GLM-4.7-REAP-218B-A32B-Q3_K_M-00001-of-00003.gguf
-  -> Skipping multi-part file: Q3_K_M/GLM-4.7-REAP-218B-A32B-Q3_K_M-00002-of-00003.gguf
-  -> Skipping multi-part file: Q3_K_M/GLM-4.7-REAP-218B-A32B-Q3_K_M-00003-of-00003.gguf
-  -> Skipping multi-part file: Q3_K_S/GLM-4.7-REAP-218B-A32B-Q3_K_S-00001-of-00002.gguf
-  -> Skipping multi-part file: Q3_K_S/GLM-4.7-REAP-218B-A32B-Q3_K_S-00002-of-00002.gguf
-  -> Skipping multi-part file: Q4_0/GLM-4.7-REAP-218B-A32B-Q4_0-00001-of-00003.gguf
-  -> Skipping multi-part file: Q4_0/GLM-4.7-REAP-218B-A32B-Q4_0-00002-of-00003.gguf
-  -> Skipping multi-part file: Q4_0/GLM-4.7-REAP-218B-A32B-Q4_0-00003-of-00003.gguf
-  -> Skipping multi-part file: Q4_1/GLM-4.7-REAP-218B-A32B-Q4_1-00001-of-00003.gguf
-  -> Skipping multi-part file: Q4_1/GLM-4.7-REAP-218B-A32B-Q4_1-00002-of-00003.gguf
-  -> Skipping multi-part file: Q4_1/GLM-4.7-REAP-218B-A32B-Q4_1-00003-of-00003.gguf
-  -> Skipping multi-part file: Q4_K_M/GLM-4.7-REAP-218B-A32B-Q4_K_M-00001-of-00003.gguf
-  -> Skipping multi-part file: Q4_K_M/GLM-4.7-REAP-218B-A32B-Q4_K_M-00002-of-00003.gguf
-  -> Skipping multi-part file: Q4_K_M/GLM-4.7-REAP-218B-A32B-Q4_K_M-00003-of-00003.gguf
-  -> Skipping multi-part file: Q4_K_S/GLM-4.7-REAP-218B-A32B-Q4_K_S-00001-of-00003.gguf
-  -> Skipping multi-part file: Q4_K_S/GLM-4.7-REAP-218B-A32B-Q4_K_S-00002-of-00003.gguf
-  -> Skipping multi-part file: Q4_K_S/GLM-4.7-REAP-218B-A32B-Q4_K_S-00003-of-00003.gguf
-  -> Skipping multi-part file: Q5_K_M/GLM-4.7-REAP-218B-A32B-Q5_K_M-00001-of-00004.gguf
-  -> Skipping multi-part file: Q5_K_M/GLM-4.7-REAP-218B-A32B-Q5_K_M-00002-of-00004.gguf
-  -> Skipping multi-part file: Q5_K_M/GLM-4.7-REAP-218B-A32B-Q5_K_M-00003-of-00004.gguf
-  -> Skipping multi-part file: Q5_K_M/GLM-4.7-REAP-218B-A32B-Q5_K_M-00004-of-00004.gguf
-  -> Skipping multi-part file: Q5_K_S/GLM-4.7-REAP-218B-A32B-Q5_K_S-00001-of-00004.gguf
-  -> Skipping multi-part file: Q5_K_S/GLM-4.7-REAP-218B-A32B-Q5_K_S-00002-of-00004.gguf
-  -> Skipping multi-part file: Q5_K_S/GLM-4.7-REAP-218B-A32B-Q5_K_S-00003-of-00004.gguf
-  -> Skipping multi-part file: Q5_K_S/GLM-4.7-REAP-218B-A32B-Q5_K_S-00004-of-00004.gguf
-  -> Skipping multi-part file: Q6_K/GLM-4.7-REAP-218B-A32B-Q6_K-00001-of-00004.gguf
-  -> Skipping multi-part file: Q6_K/GLM-4.7-REAP-218B-A32B-Q6_K-00002-of-00004.gguf
-  -> Skipping multi-part file: Q6_K/GLM-4.7-REAP-218B-A32B-Q6_K-00003-of-00004.gguf
-  -> Skipping multi-part file: Q6_K/GLM-4.7-REAP-218B-A32B-Q6_K-00004-of-00004.gguf
-  -> Skipping multi-part file: Q8_0/GLM-4.7-REAP-218B-A32B-Q8_0-00001-of-00005.gguf
-  -> Skipping multi-part file: Q8_0/GLM-4.7-REAP-218B-A32B-Q8_0-00002-of-00005.gguf
-  -> Skipping multi-part file: Q8_0/GLM-4.7-REAP-218B-A32B-Q8_0-00003-of-00005.gguf
-  -> Skipping multi-part file: Q8_0/GLM-4.7-REAP-218B-A32B-Q8_0-00004-of-00005.gguf
-  -> Skipping multi-part file: Q8_0/GLM-4.7-REAP-218B-A32B-Q8_0-00005-of-00005.gguf
-  -> Skipping multi-part file: UD-IQ1_M/GLM-4.7-REAP-218B-A32B-UD-IQ1_M-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-IQ1_M/GLM-4.7-REAP-218B-A32B-UD-IQ1_M-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-IQ1_S/GLM-4.7-REAP-218B-A32B-UD-IQ1_S-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-IQ1_S/GLM-4.7-REAP-218B-A32B-UD-IQ1_S-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-IQ2_M/GLM-4.7-REAP-218B-A32B-UD-IQ2_M-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-IQ2_M/GLM-4.7-REAP-218B-A32B-UD-IQ2_M-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-IQ2_XXS/GLM-4.7-REAP-218B-A32B-UD-IQ2_XXS-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-IQ2_XXS/GLM-4.7-REAP-218B-A32B-UD-IQ2_XXS-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-IQ3_XXS/GLM-4.7-REAP-218B-A32B-UD-IQ3_XXS-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-IQ3_XXS/GLM-4.7-REAP-218B-A32B-UD-IQ3_XXS-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-Q2_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q2_K_XL-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-Q2_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q2_K_XL-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q3_K_XL-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q3_K_XL-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q4_K_XL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q4_K_XL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q4_K_XL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q5_K_XL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q5_K_XL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q5_K_XL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q5_K_XL-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q6_K_XL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q6_K_XL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q6_K_XL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q6_K_XL-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q8_K_XL-00001-of-00005.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q8_K_XL-00002-of-00005.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q8_K_XL-00003-of-00005.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q8_K_XL-00004-of-00005.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-REAP-218B-A32B-UD-Q8_K_XL-00005-of-00005.gguf
+Processing GGUF: unsloth/GLM-4.7-GGUF
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00001-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00002-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00003-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00004-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00005-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00006-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00007-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00008-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00009-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00010-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00011-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00012-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00013-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00014-of-00015.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-BF16-00015-of-00015.gguf
+  -> Skipping multi-part file: IQ4_NL/GLM-4.7-IQ4_NL-00001-of-00005.gguf
+  -> Skipping multi-part file: IQ4_NL/GLM-4.7-IQ4_NL-00002-of-00005.gguf
+  -> Skipping multi-part file: IQ4_NL/GLM-4.7-IQ4_NL-00003-of-00005.gguf
+  -> Skipping multi-part file: IQ4_NL/GLM-4.7-IQ4_NL-00004-of-00005.gguf
+  -> Skipping multi-part file: IQ4_NL/GLM-4.7-IQ4_NL-00005-of-00005.gguf
+  -> Skipping multi-part file: IQ4_XS/GLM-4.7-IQ4_XS-00001-of-00004.gguf
+  -> Skipping multi-part file: IQ4_XS/GLM-4.7-IQ4_XS-00002-of-00004.gguf
+  -> Skipping multi-part file: IQ4_XS/GLM-4.7-IQ4_XS-00003-of-00004.gguf
+  -> Skipping multi-part file: IQ4_XS/GLM-4.7-IQ4_XS-00004-of-00004.gguf
+  -> Skipping multi-part file: Q2_K/GLM-4.7-Q2_K-00001-of-00003.gguf
+  -> Skipping multi-part file: Q2_K/GLM-4.7-Q2_K-00002-of-00003.gguf
+  -> Skipping multi-part file: Q2_K/GLM-4.7-Q2_K-00003-of-00003.gguf
+  -> Skipping multi-part file: Q2_K_L/GLM-4.7-Q2_K_L-00001-of-00003.gguf
+  -> Skipping multi-part file: Q2_K_L/GLM-4.7-Q2_K_L-00002-of-00003.gguf
+  -> Skipping multi-part file: Q2_K_L/GLM-4.7-Q2_K_L-00003-of-00003.gguf
+  -> Skipping multi-part file: Q3_K_M/GLM-4.7-Q3_K_M-00001-of-00004.gguf
+  -> Skipping multi-part file: Q3_K_M/GLM-4.7-Q3_K_M-00002-of-00004.gguf
+  -> Skipping multi-part file: Q3_K_M/GLM-4.7-Q3_K_M-00003-of-00004.gguf
+  -> Skipping multi-part file: Q3_K_M/GLM-4.7-Q3_K_M-00004-of-00004.gguf
+  -> Skipping multi-part file: Q3_K_S/GLM-4.7-Q3_K_S-00001-of-00004.gguf
+  -> Skipping multi-part file: Q3_K_S/GLM-4.7-Q3_K_S-00002-of-00004.gguf
+  -> Skipping multi-part file: Q3_K_S/GLM-4.7-Q3_K_S-00003-of-00004.gguf
+  -> Skipping multi-part file: Q3_K_S/GLM-4.7-Q3_K_S-00004-of-00004.gguf
+  -> Skipping multi-part file: Q4_0/GLM-4.7-Q4_0-00001-of-00005.gguf
+  -> Skipping multi-part file: Q4_0/GLM-4.7-Q4_0-00002-of-00005.gguf
+  -> Skipping multi-part file: Q4_0/GLM-4.7-Q4_0-00003-of-00005.gguf
+  -> Skipping multi-part file: Q4_0/GLM-4.7-Q4_0-00004-of-00005.gguf
+  -> Skipping multi-part file: Q4_0/GLM-4.7-Q4_0-00005-of-00005.gguf
+  -> Skipping multi-part file: Q4_1/GLM-4.7-Q4_1-00001-of-00005.gguf
+  -> Skipping multi-part file: Q4_1/GLM-4.7-Q4_1-00002-of-00005.gguf
+  -> Skipping multi-part file: Q4_1/GLM-4.7-Q4_1-00003-of-00005.gguf
+  -> Skipping multi-part file: Q4_1/GLM-4.7-Q4_1-00004-of-00005.gguf
+  -> Skipping multi-part file: Q4_1/GLM-4.7-Q4_1-00005-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_M/GLM-4.7-Q4_K_M-00001-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_M/GLM-4.7-Q4_K_M-00002-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_M/GLM-4.7-Q4_K_M-00003-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_M/GLM-4.7-Q4_K_M-00004-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_M/GLM-4.7-Q4_K_M-00005-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_S/GLM-4.7-Q4_K_S-00001-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_S/GLM-4.7-Q4_K_S-00002-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_S/GLM-4.7-Q4_K_S-00003-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_S/GLM-4.7-Q4_K_S-00004-of-00005.gguf
+  -> Skipping multi-part file: Q4_K_S/GLM-4.7-Q4_K_S-00005-of-00005.gguf
+  -> Skipping multi-part file: Q5_K_M/GLM-4.7-Q5_K_M-00001-of-00006.gguf
+  -> Skipping multi-part file: Q5_K_M/GLM-4.7-Q5_K_M-00002-of-00006.gguf
+  -> Skipping multi-part file: Q5_K_M/GLM-4.7-Q5_K_M-00003-of-00006.gguf
+  -> Skipping multi-part file: Q5_K_M/GLM-4.7-Q5_K_M-00004-of-00006.gguf
+  -> Skipping multi-part file: Q5_K_M/GLM-4.7-Q5_K_M-00005-of-00006.gguf
+  -> Skipping multi-part file: Q5_K_M/GLM-4.7-Q5_K_M-00006-of-00006.gguf
+  -> Skipping multi-part file: Q5_K_S/GLM-4.7-Q5_K_S-00001-of-00005.gguf
+  -> Skipping multi-part file: Q5_K_S/GLM-4.7-Q5_K_S-00002-of-00005.gguf
+  -> Skipping multi-part file: Q5_K_S/GLM-4.7-Q5_K_S-00003-of-00005.gguf
+  -> Skipping multi-part file: Q5_K_S/GLM-4.7-Q5_K_S-00004-of-00005.gguf
+  -> Skipping multi-part file: Q5_K_S/GLM-4.7-Q5_K_S-00005-of-00005.gguf
+  -> Skipping multi-part file: Q6_K/GLM-4.7-Q6_K-00001-of-00006.gguf
+  -> Skipping multi-part file: Q6_K/GLM-4.7-Q6_K-00002-of-00006.gguf
+  -> Skipping multi-part file: Q6_K/GLM-4.7-Q6_K-00003-of-00006.gguf
+  -> Skipping multi-part file: Q6_K/GLM-4.7-Q6_K-00004-of-00006.gguf
+  -> Skipping multi-part file: Q6_K/GLM-4.7-Q6_K-00005-of-00006.gguf
+  -> Skipping multi-part file: Q6_K/GLM-4.7-Q6_K-00006-of-00006.gguf
+  -> Skipping multi-part file: Q8_0/GLM-4.7-Q8_0-00001-of-00008.gguf
+  -> Skipping multi-part file: Q8_0/GLM-4.7-Q8_0-00002-of-00008.gguf
+  -> Skipping multi-part file: Q8_0/GLM-4.7-Q8_0-00003-of-00008.gguf
+  -> Skipping multi-part file: Q8_0/GLM-4.7-Q8_0-00004-of-00008.gguf
+  -> Skipping multi-part file: Q8_0/GLM-4.7-Q8_0-00005-of-00008.gguf
+  -> Skipping multi-part file: Q8_0/GLM-4.7-Q8_0-00006-of-00008.gguf
+  -> Skipping multi-part file: Q8_0/GLM-4.7-Q8_0-00007-of-00008.gguf
+  -> Skipping multi-part file: Q8_0/GLM-4.7-Q8_0-00008-of-00008.gguf
+  -> Skipping multi-part file: UD-IQ1_M/GLM-4.7-UD-IQ1_M-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ1_M/GLM-4.7-UD-IQ1_M-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ1_M/GLM-4.7-UD-IQ1_M-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ1_S/GLM-4.7-UD-IQ1_S-00001-of-00002.gguf
+  -> Skipping multi-part file: UD-IQ1_S/GLM-4.7-UD-IQ1_S-00002-of-00002.gguf
+  -> Skipping multi-part file: UD-IQ2_M/GLM-4.7-UD-IQ2_M-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ2_M/GLM-4.7-UD-IQ2_M-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ2_M/GLM-4.7-UD-IQ2_M-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ2_XXS/GLM-4.7-UD-IQ2_XXS-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ2_XXS/GLM-4.7-UD-IQ2_XXS-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ2_XXS/GLM-4.7-UD-IQ2_XXS-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ3_XXS/GLM-4.7-UD-IQ3_XXS-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ3_XXS/GLM-4.7-UD-IQ3_XXS-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ3_XXS/GLM-4.7-UD-IQ3_XXS-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q2_K_XL/GLM-4.7-UD-Q2_K_XL-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-Q2_K_XL/GLM-4.7-UD-Q2_K_XL-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-Q2_K_XL/GLM-4.7-UD-Q2_K_XL-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q3_K_XL/GLM-4.7-UD-Q3_K_XL-00001-of-00004.gguf
+  -> Skipping multi-part file: UD-Q3_K_XL/GLM-4.7-UD-Q3_K_XL-00002-of-00004.gguf
+  -> Skipping multi-part file: UD-Q3_K_XL/GLM-4.7-UD-Q3_K_XL-00003-of-00004.gguf
+  -> Skipping multi-part file: UD-Q3_K_XL/GLM-4.7-UD-Q3_K_XL-00004-of-00004.gguf
+  -> Skipping multi-part file: UD-Q4_K_XL/GLM-4.7-UD-Q4_K_XL-00001-of-00005.gguf
+  -> Skipping multi-part file: UD-Q4_K_XL/GLM-4.7-UD-Q4_K_XL-00002-of-00005.gguf
+  -> Skipping multi-part file: UD-Q4_K_XL/GLM-4.7-UD-Q4_K_XL-00003-of-00005.gguf
+  -> Skipping multi-part file: UD-Q4_K_XL/GLM-4.7-UD-Q4_K_XL-00004-of-00005.gguf
+  -> Skipping multi-part file: UD-Q4_K_XL/GLM-4.7-UD-Q4_K_XL-00005-of-00005.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/GLM-4.7-UD-Q5_K_XL-00001-of-00006.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/GLM-4.7-UD-Q5_K_XL-00002-of-00006.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/GLM-4.7-UD-Q5_K_XL-00003-of-00006.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/GLM-4.7-UD-Q5_K_XL-00004-of-00006.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/GLM-4.7-UD-Q5_K_XL-00005-of-00006.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/GLM-4.7-UD-Q5_K_XL-00006-of-00006.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-UD-Q6_K_XL-00001-of-00007.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-UD-Q6_K_XL-00002-of-00007.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-UD-Q6_K_XL-00003-of-00007.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-UD-Q6_K_XL-00004-of-00007.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-UD-Q6_K_XL-00005-of-00007.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-UD-Q6_K_XL-00006-of-00007.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/GLM-4.7-UD-Q6_K_XL-00007-of-00007.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-UD-Q8_K_XL-00001-of-00009.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-UD-Q8_K_XL-00002-of-00009.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-UD-Q8_K_XL-00003-of-00009.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-UD-Q8_K_XL-00004-of-00009.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-UD-Q8_K_XL-00005-of-00009.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-UD-Q8_K_XL-00006-of-00009.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-UD-Q8_K_XL-00007-of-00009.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-UD-Q8_K_XL-00008-of-00009.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/GLM-4.7-UD-Q8_K_XL-00009-of-00009.gguf
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 quants
+Processing GGUF: nvidia/music-flamingo-2601-hf
+Processing GGUF: ByteDance-Seed/Stable-DiffCoder-8B-Instruct
 Processing GGUF: nvidia/Qwen3-Coder-480B-A35B-Instruct-NVFP4
+Processing GGUF: janhq/Jan-v3-4B-base-instruct-gguf
+  -> Added with 15 quants
 Processing GGUF: tencent/Youtu-VL-4B-Instruct
+Processing GGUF: HauhauCS/GPT-OSS-20B-Uncensored-HauhauCS-Aggressive
+  -> Added with 1 quants
 Processing GGUF: unsloth/Kimi-K2.5-GGUF
   -> Skipping multi-part file: BF16/Kimi-K2.5-BF16-00001-of-00046.gguf
   -> Skipping multi-part file: BF16/Kimi-K2.5-BF16-00002-of-00046.gguf
@@ -1867,7 +2002,51 @@ Processing GGUF: unsloth/Kimi-K2.5-GGUF
   -> Skipping multi-part file: UD-TQ1_0/Kimi-K2.5-UD-TQ1_0-00003-of-00005.gguf
   -> Skipping multi-part file: UD-TQ1_0/Kimi-K2.5-UD-TQ1_0-00004-of-00005.gguf
   -> Skipping multi-part file: UD-TQ1_0/Kimi-K2.5-UD-TQ1_0-00005-of-00005.gguf
-Processing GGUF: nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese
+Processing GGUF: Qwen/Qwen3-Coder-Next-GGUF
+  -> Skipping multi-part file: Qwen3-Coder-Next-F16/Qwen3-Coder-Next-00001-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-F16/Qwen3-Coder-Next-00002-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-F16/Qwen3-Coder-Next-00003-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-F16/Qwen3-Coder-Next-00004-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q4_K_M/Qwen3-Coder-Next-Q4_K_M-00001-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q4_K_M/Qwen3-Coder-Next-Q4_K_M-00002-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q4_K_M/Qwen3-Coder-Next-Q4_K_M-00003-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q4_K_M/Qwen3-Coder-Next-Q4_K_M-00004-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_0/Qwen3-Coder-Next-Q5_0-00001-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_0/Qwen3-Coder-Next-Q5_0-00002-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_0/Qwen3-Coder-Next-Q5_0-00003-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_0/Qwen3-Coder-Next-Q5_0-00004-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_K_M/Qwen3-Coder-Next-Q5_K_M-00001-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_K_M/Qwen3-Coder-Next-Q5_K_M-00002-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_K_M/Qwen3-Coder-Next-Q5_K_M-00003-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q5_K_M/Qwen3-Coder-Next-Q5_K_M-00004-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00001-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00002-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00003-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00004-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00001-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00002-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00003-of-00004.gguf
+  -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00004-of-00004.gguf
+Processing GGUF: GitMylo/nsfwvision-qwen3-vl-8b-v3-safetensors
+Processing GGUF: bartowski/Qwen_Qwen3-Coder-Next-GGUF
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q4_1/Qwen_Qwen3-Coder-Next-Q4_1-00001-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q4_1/Qwen_Qwen3-Coder-Next-Q4_1-00002-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q5_K_L/Qwen_Qwen3-Coder-Next-Q5_K_L-00001-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q5_K_L/Qwen_Qwen3-Coder-Next-Q5_K_L-00002-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q5_K_M/Qwen_Qwen3-Coder-Next-Q5_K_M-00001-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q5_K_M/Qwen_Qwen3-Coder-Next-Q5_K_M-00002-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q5_K_S/Qwen_Qwen3-Coder-Next-Q5_K_S-00001-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q5_K_S/Qwen_Qwen3-Coder-Next-Q5_K_S-00002-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q6_K/Qwen_Qwen3-Coder-Next-Q6_K-00001-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q6_K/Qwen_Qwen3-Coder-Next-Q6_K-00002-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q6_K_L/Qwen_Qwen3-Coder-Next-Q6_K_L-00001-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q6_K_L/Qwen_Qwen3-Coder-Next-Q6_K_L-00002-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q8_0/Qwen_Qwen3-Coder-Next-Q8_0-00001-of-00003.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q8_0/Qwen_Qwen3-Coder-Next-Q8_0-00002-of-00003.gguf
+  -> Skipping multi-part file: Qwen_Qwen3-Coder-Next-Q8_0/Qwen_Qwen3-Coder-Next-Q8_0-00003-of-00003.gguf
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 22 quants
+Processing GGUF: GadflyII/Qwen3-Coder-Next-NVFP4
 Processing GGUF: jinaai/jina-embeddings-v5-text-small-retrieval
   -> Added with 14 quants
 Processing GGUF: DavidAU/LFM2.5-1.2B-MEGABRAIN-Thinking-Claude-Polaris-Deepseek-GLM
@@ -1890,76 +2069,22 @@ Processing GGUF: ubergarm/Step-3.5-Flash-GGUF
   -> Skipping multi-part file: smol-IQ4_KSS/Step-3.5-Flash-smol-IQ4_KSS-00002-of-00004.gguf
   -> Skipping multi-part file: smol-IQ4_KSS/Step-3.5-Flash-smol-IQ4_KSS-00003-of-00004.gguf
   -> Skipping multi-part file: smol-IQ4_KSS/Step-3.5-Flash-smol-IQ4_KSS-00004-of-00004.gguf
+Processing GGUF: MuXodious/gpt-oss-20b-RichardErkhov-heresy
 Processing GGUF: DragonReed/MP3L
 Processing GGUF: mradermacher/Nanbeige4.1-3B-GGUF
   -> Added with 12 quants
-Processing GGUF: nineninesix/kani-tts-2-en
 Processing GGUF: tacos4me/Step-3.5-Flash-NVFP4
 Processing GGUF: MuXodious/gpt-oss-120b-tainted-heresy-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 2 quants
 Processing GGUF: HauhauCS/GPTOSS-120B-Uncensored-HauhauCS-Aggressive
   -> Added with 1 quants
-Processing GGUF: AesSedai/MiniMax-M2.5-GGUF
-  -> Skipping multi-part file: IQ3_S/MiniMax-M2.5-IQ3_S-00001-of-00003.gguf
-  -> Skipping multi-part file: IQ3_S/MiniMax-M2.5-IQ3_S-00002-of-00003.gguf
-  -> Skipping multi-part file: IQ3_S/MiniMax-M2.5-IQ3_S-00003-of-00003.gguf
-  -> Skipping multi-part file: IQ4_XS/MiniMax-M2.5-IQ4_XS-00001-of-00004.gguf
-  -> Skipping multi-part file: IQ4_XS/MiniMax-M2.5-IQ4_XS-00002-of-00004.gguf
-  -> Skipping multi-part file: IQ4_XS/MiniMax-M2.5-IQ4_XS-00003-of-00004.gguf
-  -> Skipping multi-part file: IQ4_XS/MiniMax-M2.5-IQ4_XS-00004-of-00004.gguf
-  -> Skipping multi-part file: Q4_K_M/MiniMax-M2.5-Q4_K_M-00001-of-00004.gguf
-  -> Skipping multi-part file: Q4_K_M/MiniMax-M2.5-Q4_K_M-00002-of-00004.gguf
-  -> Skipping multi-part file: Q4_K_M/MiniMax-M2.5-Q4_K_M-00003-of-00004.gguf
-  -> Skipping multi-part file: Q4_K_M/MiniMax-M2.5-Q4_K_M-00004-of-00004.gguf
-  -> Skipping multi-part file: Q5_K_M/MiniMax-M2.5-Q5_K_M-00001-of-00005.gguf
-  -> Skipping multi-part file: Q5_K_M/MiniMax-M2.5-Q5_K_M-00002-of-00005.gguf
-  -> Skipping multi-part file: Q5_K_M/MiniMax-M2.5-Q5_K_M-00003-of-00005.gguf
-  -> Skipping multi-part file: Q5_K_M/MiniMax-M2.5-Q5_K_M-00004-of-00005.gguf
-  -> Skipping multi-part file: Q5_K_M/MiniMax-M2.5-Q5_K_M-00005-of-00005.gguf
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 1 quants
-Processing GGUF: p-e-w/gpt-oss-20b-heretic-v3
 Processing GGUF: inclusionAI/Ling-2.5-1T
+Processing GGUF: prithivMLmods/Qwen3-VL-4B-Instruct-Unredacted-MAX
 Processing GGUF: prithivMLmods/Qwen3-VL-4B-Instruct-Unredacted-MAX-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 6 quants
-Processing GGUF: nvidia/music-flamingo-think-2601-hf
-Processing GGUF: AesSedai/Qwen3.5-397B-A17B-GGUF
-  -> Skipping multi-part file: IQ3_S/Qwen3.5-397B-A17B-IQ3_S-00001-of-00004.gguf
-  -> Skipping multi-part file: IQ3_S/Qwen3.5-397B-A17B-IQ3_S-00002-of-00004.gguf
-  -> Skipping multi-part file: IQ3_S/Qwen3.5-397B-A17B-IQ3_S-00003-of-00004.gguf
-  -> Skipping multi-part file: IQ3_S/Qwen3.5-397B-A17B-IQ3_S-00004-of-00004.gguf
-  -> Skipping multi-part file: IQ4_XS/Qwen3.5-397B-A17B-IQ4_XS-00001-of-00005.gguf
-  -> Skipping multi-part file: IQ4_XS/Qwen3.5-397B-A17B-IQ4_XS-00002-of-00005.gguf
-  -> Skipping multi-part file: IQ4_XS/Qwen3.5-397B-A17B-IQ4_XS-00003-of-00005.gguf
-  -> Skipping multi-part file: IQ4_XS/Qwen3.5-397B-A17B-IQ4_XS-00004-of-00005.gguf
-  -> Skipping multi-part file: IQ4_XS/Qwen3.5-397B-A17B-IQ4_XS-00005-of-00005.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00001-of-00006.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00001-of-00007.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00002-of-00006.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00002-of-00007.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00003-of-00006.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00003-of-00007.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00004-of-00006.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00004-of-00007.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00005-of-00006.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00005-of-00007.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00006-of-00006.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00006-of-00007.gguf
-  -> Skipping multi-part file: Q4_K_M/Qwen3.5-397B-A17B-Q4_K_M-00007-of-00007.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00001-of-00008.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00002-of-00008.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00003-of-00008.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00004-of-00008.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00005-of-00008.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00006-of-00008.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00007-of-00008.gguf
-  -> Skipping multi-part file: Q5_K_M/Qwen3.5-397B-A17B-Q5_K_M-00008-of-00008.gguf
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 1 quants
 Processing GGUF: kristaller486/dots.ocr-1.5
-Processing GGUF: Trendyol/Trendyol-LLM-Asure-12B
 Processing GGUF: noctrex/PaddleOCR-VL-1.5-GGUF
   -> Added with 0 quants
 Processing GGUF: ubergarm/Qwen3-Coder-Next-GGUF
@@ -1981,32 +2106,37 @@ Processing GGUF: AesSedai/Qwen3.5-122B-A10B-GGUF
   -> Skipping multi-part file: Q5_K_M/Qwen3.5-122B-A10B-Q5_K_M-00003-of-00003.gguf
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 quants
+Processing GGUF: cyankiwi/Qwen3.5-27B-AWQ-BF16-INT4
 Processing GGUF: darkc0de/GLM-4.7-Flash-heretic-1.2.0
-Processing GGUF: cyankiwi/Qwen3.5-35B-A3B-AWQ-4bit
+Processing GGUF: PicoKittens/PicoMistral-23M
+Processing GGUF: ValiantLabs/Qwen3.5-27B-Esper3.1
 Processing GGUF: cerebras/Step-3.5-Flash-REAP-121B-A11B
-Processing GGUF: PaddlePaddle/PaddleOCR-VL-1.5-GGUF
-Processing GGUF: Ex0bit/Qwen3.5-122B-A10B-PRISM-PRO-GGUF
-  -> Added with 2 quants
+Processing GGUF: Qwen/Qwen3.5-27B-FP8
+Processing GGUF: QuantTrio/Qwen3.5-122B-A10B-AWQ
+Processing GGUF: Qwen/Qwen3.5-9B-Base
+Processing GGUF: mradermacher/Huihui-Qwen3.5-35B-A3B-abliterated-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 13 quants
 Processing GGUF: nightmedia/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-qx64-hi-mlx
-Processing GGUF: NoesisLab/Kai-30B-Instruct
 Processing GGUF: inferencerlabs/Qwen3.5-27B-MLX-4.5bit
-Processing GGUF: Shrijanagain/SKT_ST_X_0
+Processing GGUF: llmfan46/Qwen3.5-27B-heretic-v2-GGUF
+  -> Added with 9 quants
 Processing GGUF: mradermacher/Qwen3.5-122B-A10B-heretic-GGUF
+  -> Added with 13 quants
+Processing GGUF: mradermacher/Qwen3.5-27B-heretic-v2-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 13 quants
 Processing GGUF: mradermacher/Qwen3.5-27B-heretic-v2-i1-GGUF
   -> Added with 24 quants
-Processing GGUF: onnx-community/Qwen3.5-0.8B-ONNX
-Processing GGUF: huihui-ai/Huihui-Qwen3.5-2B-abliterated
-Processing GGUF: mradermacher/Qwen3.5-9B-heretic-GGUF
-  -> Added with 12 quants
-Processing GGUF: jwest33/qwen3.5-4b-gabliterated
-Processing GGUF: jwest33/qwen3.5-4b-gabliterated-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 2 quants
+Processing GGUF: jwest33/qwen3.5-9b-null-space-abliterated-GGUF
+  -> Added with 3 quants
+Processing GGUF: Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled
+Processing GGUF: AxionML/Qwen3.5-27B-NVFP4
+Processing GGUF: llmfan46/Qwen3.5-9B-ultra-heretic
+Processing GGUF: XCurOS/XCurOS-0.1-8B-Instruct-GGUF
+  -> Added with 1 quants
 Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED
-Processing GGUF: sandeshrajx/Qwen3.5-24B-A3B-REAP-0.32-GGUF
-  -> Added with 5 quants
-Processing GGUF: mlx-community/Qwen3.5-0.8B-OptiQ-4bit
+Processing GGUF: trohrbaugh/Qwen3.5-397B-A17B-heretic
 Processing GGUF: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED-GGUF
   -> Added with 14 quants
 Processing GGUF: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-i1-GGUF
@@ -2020,51 +2150,48 @@ Processing GGUF: mradermacher/Qwen3.5-35B-A3B-heretic-v2-GGUF
   -> Added with 13 quants
 Processing GGUF: mradermacher/GLM-4.7-Flash-heretic-i1-GGUF
   -> Added with 24 quants
+Processing GGUF: ValiantLabs/Qwen3.5-27B-Guardpoint
 Processing GGUF: DavidAU/Qwen3.5-9B-Polaris-HighIQ-THINKING
+Processing GGUF: Aisho67/Qwen3.5-4b-Opus-4.6-Reasoning-Distilled-v1-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 1 quants
 Processing GGUF: mradermacher/qwen3.5-4b-gabliterated-i1-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 25 quants
 Processing GGUF: prithivMLmods/Qwen3.5-4B-Unredacted-MAX
-Processing GGUF: z-lab/Qwen3.5-4B-DFlash
-Processing GGUF: mradermacher/gpt-oss-20b-heretic-ara-v3-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 12 quants
-Processing GGUF: mradermacher/gpt-oss-20b-heretic-ara-v3-i1-GGUF
-  -> Added with 25 quants
-Processing GGUF: DavidAU/Qwen3.5-27B-Claude-4.6-OS-INSTRUCT
+Processing GGUF: prithivMLmods/Qwen3.5-9B-Unredacted-MAX
 Processing GGUF: apothic/Qwen3.5-9B-ultra-heretic-fp8
-Processing GGUF: abhinand/sarvam-30b-bf16
-Processing GGUF: KittyCat9Lives/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 7 quants
-Processing GGUF: Jackrong/MLX-Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-8bit
+Processing GGUF: Jackrong/MLX-Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-4bit
+Processing GGUF: IggyLux/MN-VelvetCafe-RP-12B
 Processing GGUF: mradermacher/Huihui-Qwen3.5-4B-abliterated-i1-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 25 quants
+Processing GGUF: mradermacher/Qwen3.5-27B-Writer-i1-GGUF
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 24 quants
 Processing GGUF: aifeifei798/Darkidol-Ballad-4B
+Processing GGUF: juiceb0xc0de/bella-bartender-8b-llama3.1
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 9 quants
 Processing GGUF: Murasaki-Project/Murasaki-APE-Aligner-2B
 Processing GGUF: Sumitc13/sarvam-30b-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 4 quants
+Processing GGUF: DavidAU/Qwen3.5-27B-Claude-4.6-OS-Auto-Variable-Heretic-Uncensored-Thinking
 Processing GGUF: litert-community/Qwen3.5-4B-LiteRT
 Processing GGUF: Abhiray/Qwen3.5-9B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 5 quants
-Processing GGUF: Vaultkeeper/ouroboros-next
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 1 quants
+Processing GGUF: Guilherme34/Firefly-V2Q-NonThinking-RP
 Processing GGUF: nota-ai/Solar-Open-100B-NotaMoEQuant-NVFP4
-Processing GGUF: mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 14 quants
 Processing GGUF: Jackrong/Qwen3.5-9B-Gemini-3.1-Pro-Reasoning-Distill
 Processing GGUF: llmfan46/gemma-3-12b-it-ultra-heretic-GGUF
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 12 quants
-Processing GGUF: mconcat/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-NVFP4
+Processing GGUF: atbender/Qwen3.5-REAP-20B-A3B
 Processing GGUF: lukealonso/Qwen3.5-397B-A17B-NVFP4
 Processing GGUF: IggyLux/MN-VelvetCafe-RP-12B-V2
-Processing GGUF: llmfan46/Qwen3.5-27B-heretic-v3
+Processing GGUF: aifeifei798/Darkidol-Ballad-27B
 Processing GGUF: zerofata/GLM-4.5-Iceblink-v3-106B-A12B-GGUF
   -> Skipping multi-part file: IQ4_XS-Q5_0/GLM-Air-v4-SFT-3-writing-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0-00001-of-00002.gguf
   -> Skipping multi-part file: IQ4_XS-Q5_0/GLM-Air-v4-SFT-3-writing-Q8_0-FFN-IQ4_XS-IQ4_XS-Q5_0-00002-of-00002.gguf
@@ -2074,97 +2201,14 @@ Processing GGUF: zerofata/GLM-4.5-Iceblink-v3-106B-A12B-GGUF
   -> Skipping multi-part file: Q6_K-Q8_0/GLM-Air-v4-SFT-3-writing-Q8_0-FFN-Q6_K-Q6_K-Q8_0-00001-of-00003.gguf
   -> Skipping multi-part file: Q6_K-Q8_0/GLM-Air-v4-SFT-3-writing-Q8_0-FFN-Q6_K-Q6_K-Q8_0-00002-of-00003.gguf
   -> Skipping multi-part file: Q6_K-Q8_0/GLM-Air-v4-SFT-3-writing-Q8_0-FFN-Q6_K-Q6_K-Q8_0-00003-of-00003.gguf
-Processing GGUF: mradermacher/Gliese-Qwen3.5-9B-Abliterated-Caption-i1-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 25 quants
-Processing GGUF: principled-intelligence/Qwen3.5-2B-text-only
-Processing GGUF: prithivMLmods/Gliese-Qwen3.5-4B-Abliterated-Caption
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 8 quants
-Processing GGUF: prithivMLmods/Gliese-Qwen3.5-2B-Abliterated-Caption
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 8 quants
-Processing GGUF: DevQuasar/nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16-GGUF
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.IQ1_M-00001-of-00003.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.IQ1_M-00002-of-00003.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.IQ1_M-00003-of-00003.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.IQ2_XS-00001-of-00004.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.IQ2_XS-00002-of-00004.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.IQ2_XS-00003-of-00004.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.IQ2_XS-00004-of-00004.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.MXFP4_MOE-00001-of-00005.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.MXFP4_MOE-00002-of-00005.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.MXFP4_MOE-00003-of-00005.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.MXFP4_MOE-00004-of-00005.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.MXFP4_MOE-00005-of-00005.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q2_K-00001-of-00004.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q2_K-00002-of-00004.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q2_K-00003-of-00004.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q2_K-00004-of-00004.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q3_K_M-00001-of-00005.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q3_K_M-00002-of-00005.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q3_K_M-00003-of-00005.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q3_K_M-00004-of-00005.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q3_K_M-00005-of-00005.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q4_K_M-00001-of-00006.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q4_K_M-00002-of-00006.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q4_K_M-00003-of-00006.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q4_K_M-00004-of-00006.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q4_K_M-00005-of-00006.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q4_K_M-00006-of-00006.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q5_K_M-00001-of-00007.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q5_K_M-00002-of-00007.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q5_K_M-00003-of-00007.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q5_K_M-00004-of-00007.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q5_K_M-00005-of-00007.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q5_K_M-00006-of-00007.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q5_K_M-00007-of-00007.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q6_K-00001-of-00008.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q6_K-00002-of-00008.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q6_K-00003-of-00008.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q6_K-00004-of-00008.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q6_K-00005-of-00008.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q6_K-00006-of-00008.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q6_K-00007-of-00008.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q6_K-00008-of-00008.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q8_0-00001-of-00009.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q8_0-00002-of-00009.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q8_0-00003-of-00009.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q8_0-00004-of-00009.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q8_0-00005-of-00009.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q8_0-00006-of-00009.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q8_0-00007-of-00009.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q8_0-00008-of-00009.gguf
-  -> Skipping multi-part file: nvidia.NVIDIA-Nemotron-3-Super-120B-A12B-BF16.Q8_0-00009-of-00009.gguf
-Processing GGUF: mradermacher/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 11 quants
-Processing GGUF: DavidAU/Qwen3.5-13B-GLM-4.7-Flash-DeepSeek-Polaris-Grande-Deep-Thinking
-Processing GGUF: inferencerlabs/NVIDIA-Nemotron-3-Super-120B-A12B-MLX-9bit
-Processing GGUF: inferencerlabs/NVIDIA-Nemotron-3-Super-120B-A12B-MLX-4.5bit
-Processing GGUF: CYX1998/Meissa-4B
-Processing GGUF: mradermacher/Qwen3.5-122B-A10B-heretic-v2-i1-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 24 quants
-Processing GGUF: the-clanker-lover/steelman-14b-ada-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 2 quants
-Processing GGUF: bartowski/Tesslate_OmniCoder-9B-GGUF
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
-  -> Added with 26 quants
-Processing GGUF: llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2
-Processing GGUF: distilbert/distilgpt2
-Processing GGUF: openai-community/gpt2-medium
-Processing GGUF: openai-community/openai-gpt
-Processed 176 GGUF models from page 1
+Processed 167 GGUF models from page 1
 Reached end of available models.
 
 === Processing pinned GGUF models ===
 Pinned model janhq/Jan-code-4b-gguf already in list
 Processing pinned GGUF: janhq/Jan-v2-VL-max-gguf
   -> Added pinned GGUF model
-Processing pinned GGUF: janhq/Jan-v3-4B-base-instruct-gguf
-  -> Added pinned GGUF model
+Pinned model janhq/Jan-v3-4B-base-instruct-gguf already in list
 Processing pinned GGUF: janhq/Jan-v2-VL-med-gguf
   -> Added pinned GGUF model
 Processing pinned GGUF: janhq/Jan-v2-VL-high-gguf
@@ -2181,7 +2225,7 @@ Processing pinned GGUF: unsloth/Olmo-3-32B-Think-GGUF
 Processing pinned GGUF: Menlo/Jan-nano-128k-gguf
   -> Added pinned GGUF model
 
-Total GGUF models: 184
+Total GGUF models: 175
 
 === Fetching MLX models from HuggingFace API ===
 Fetching models from author: mlx-community
@@ -2230,16 +2274,18 @@ Processing MLX: mlx-community/Meta-Llama-3.1-8B-Instruct-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3-30B-A3B-4bit
   -> Added with 4 safetensors files
+Processing MLX: mlx-community/Qwen3.5-27B-4bit
+  -> Added with 3 safetensors files
+Processing MLX: mlx-community/Qwen3-0.6B-8bit
+  -> Added with 1 safetensors files
 Processing MLX: mlx-community/Llama-3.3-70B-Instruct-4bit
   -> Added with 8 safetensors files
 Processing MLX: mlx-community/GLM-4.7-Flash-8bit
   -> Added with 7 safetensors files
-Processing MLX: mlx-community/Qwen3-0.6B-8bit
-  -> Added with 1 safetensors files
-Processing MLX: mlx-community/Qwen3.5-27B-4bit
-  -> Added with 3 safetensors files
 Processing MLX: mlx-community/gpt-oss-120b-MXFP4-Q8
   -> Added with 13 safetensors files
+Processing MLX: mlx-community/Qwen3.5-35B-A3B-4bit
+  -> Added with 4 safetensors files
 Processing MLX: mlx-community/GLM-4.7-Flash-4bit
   -> Added with 4 safetensors files
 Processing MLX: mlx-community/GLM-4.7-4bit
@@ -2252,34 +2298,32 @@ Processing MLX: mlx-community/Qwen3-235B-A22B-Instruct-2507-4bit
   -> Added with 26 safetensors files
 Processing MLX: mlx-community/Qwen3-Coder-480B-A35B-Instruct-8bit
   -> Added with 125 safetensors files
-Processing MLX: mlx-community/Qwen3.5-35B-A3B-4bit
-  -> Added with 4 safetensors files
 Processing MLX: mlx-community/GLM-4.5-Air-8bit
   -> Added with 23 safetensors files
 Processing MLX: mlx-community/Meta-Llama-3.1-8B-Instruct-8bit
   -> Added with 2 safetensors files
 Processing MLX: mlx-community/Qwen3-Next-80B-A3B-Instruct-4bit
   -> Added with 9 safetensors files
+Processing MLX: mlx-community/Qwen3-8B-4bit
+  -> Added with 1 safetensors files
 Processing MLX: mlx-community/Kimi-K2-Thinking
   -> Added with 182 safetensors files
 Processing MLX: mlx-community/Qwen3-Next-80B-A3B-Thinking-4bit
   -> Added with 9 safetensors files
-Processing MLX: mlx-community/Kimi-K2-Instruct-4bit
-  -> Added with 180 safetensors files
 Processing MLX: mlx-community/Llama-3.2-3B-Instruct-8bit
   -> Added with 1 safetensors files
+Processing MLX: mlx-community/Kimi-K2-Instruct-4bit
+  -> Added with 180 safetensors files
 Processing MLX: mlx-community/GLM-4.7-Flash-5bit
   -> Added with 4 safetensors files
-Processing MLX: mlx-community/Qwen3-8B-4bit
-  -> Added with 1 safetensors files
 Processing MLX: mlx-community/DeepSeek-V3.1-4bit
   -> Added with 88 safetensors files
-Processing MLX: mlx-community/MiniMax-M2.1-3bit
-  -> Added with 19 safetensors files
 Processing MLX: mlx-community/GLM-4.7-Flash-6bit
   -> Added with 5 safetensors files
 Processing MLX: mlx-community/Qwen3-Coder-480B-A35B-Instruct-4bit
   -> Added with 62 safetensors files
+Processing MLX: mlx-community/MiniMax-M2.1-3bit
+  -> Added with 19 safetensors files
 Processing MLX: mlx-community/Meta-Llama-3.1-8B-Instruct-bf16
   -> Added with 4 safetensors files
 Processing MLX: mlx-community/Qwen3-30B-A3B-8bit
@@ -2321,9 +2365,9 @@ Processing MLX: mlx-community/Qwen3.5-9B-4bit
 Processing MLX: mlx-community/Josiefied-Qwen3-8B-abliterated-v1-4bit
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 safetensors files
-Processing MLX: mlx-community/gemma-3n-E2B-it-lm-4bit
-  -> Added with 1 safetensors files
 Processing MLX: mlx-community/Ministral-3-3B-Instruct-2512-4bit
+  -> Added with 1 safetensors files
+Processing MLX: mlx-community/gemma-3n-E2B-it-lm-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen2.5-7B-Instruct-4bit
   -> Added with 1 safetensors files
@@ -2339,6 +2383,8 @@ Processing MLX: mlx-community/gemma-3n-E4B-it-lm-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3.5-122B-A10B-4bit
   -> Added with 14 safetensors files
+Processing MLX: mlx-community/Qwen3.5-27B-Claude-4.6-Opus-Distilled-MLX-4bit
+  -> Added with 3 safetensors files
 Processing MLX: mlx-community/Qwen3.5-397B-A17B-4bit
   -> Added with 46 safetensors files
 Processing MLX: mlx-community/deepseek-coder-33b-instruct-hf-4bit-mlx
@@ -2347,17 +2393,15 @@ Processing MLX: mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16
   -> Added with 2 safetensors files
 Processing MLX: mlx-community/Qwen2.5-1.5B-Instruct-4bit
   -> Added with 1 safetensors files
-Processing MLX: mlx-community/Qwen3.5-27B-Claude-4.6-Opus-Distilled-MLX-4bit
-  -> Added with 3 safetensors files
-Processing MLX: mlx-community/NVIDIA-Nemotron-3-Nano-30B-A3B-4bit
-  -> Added with 4 safetensors files
-Processing MLX: mlx-community/Qwen2.5-0.5B-Instruct-4bit
-  -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3.5-0.8B-MLX-4bit
   -> Added with 1 safetensors files
-Processing MLX: mlx-community/whisper-large-v3-mlx
+Processing MLX: mlx-community/NVIDIA-Nemotron-3-Nano-30B-A3B-4bit
+  -> Added with 4 safetensors files
 Processing MLX: mlx-community/Qwen3.5-9B-8bit
   -> Added with 2 safetensors files
+Processing MLX: mlx-community/Qwen2.5-0.5B-Instruct-4bit
+  -> Added with 1 safetensors files
+Processing MLX: mlx-community/whisper-large-v3-mlx
 Processing MLX: mlx-community/LFM2.5-VL-1.6B-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3.5-2B-4bit
@@ -2366,16 +2410,14 @@ Processing MLX: mlx-community/Qwen3-Embedding-0.6B-4bit-DWQ
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3.5-27B-heretic-8bit
   -> Added with 6 safetensors files
+Processing MLX: mlx-community/LFM2.5-1.2B-Instruct-4bit
+  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
+  -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3-TTS-12Hz-0.6B-Base-8bit
   -> Added with 2 safetensors files
 Processing MLX: mlx-community/gemma-3-1b-it-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen2-VL-2B-Instruct-4bit
-  -> Added with 1 safetensors files
-Processing MLX: mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit
-  -> Added with 2 safetensors files
-Processing MLX: mlx-community/LFM2.5-1.2B-Instruct-4bit
-  -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3.5-397B-A17B-nvfp4
   -> Added with 46 safetensors files
@@ -2384,6 +2426,8 @@ Processing MLX: mlx-community/Qwen3.5-9B-MLX-8bit
 Processing MLX: mlx-community/Qwen3.5-27B-8bit
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 6 safetensors files
+Processing MLX: mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit
+  -> Added with 2 safetensors files
 Processing MLX: mlx-community/Qwen3.5-0.8B-MLX-8bit
   -> Failed to summarize README: Error code: 404 - {'code': 'conv-not-found-001', 'error': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers', 'message': '[handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] failed to select provider model: model not found in accessible providers: [handler][NOT_FOUND][1c8f485c-78b0-4a79-9605-213e96c4ef7a] model not found in accessible providers'}
   -> Added with 1 safetensors files
@@ -2412,12 +2456,12 @@ Processing pinned MLX: janhq/Jan-v2-VL-low-bf16-mlx
 Total MLX models: 107
 
 === Removing duplicates ===
-After dedup: 280 models
+After dedup: 272 models
 
 === V2 Catalog Summary ===
-Total models: 280
-  - GGUF models: 173
+Total models: 272
+  - GGUF models: 165
   - MLX models: 107
 Written to: model_catalog_v2.json
 
-Updated catalog; total now 280 (GGUF: 173, MLX: 107)
+Updated catalog; total now 272 (GGUF: 165, MLX: 107)
