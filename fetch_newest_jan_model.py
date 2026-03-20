@@ -24,6 +24,7 @@ from catalog_helpers import (
 
 # --- Configuration ---
 LATEST_MODEL_NAME = "janhq/Jan-v3-4B-base-instruct-gguf"
+DISPLAY_NAME = "Jan V3"
 OUTPUT_FILE = "latest_jan_model.json"
 
 
@@ -56,6 +57,8 @@ def fetch_single_model(repo_id: str):
     if not entry:
         print("No valid model data found (no quants/safetensors files).")
         sys.exit(1)
+
+    entry["display_name"] = DISPLAY_NAME
 
     catalog = [entry]
 
