@@ -37,6 +37,7 @@ DESIRED_TAGS_GGUF = {"text-generation", "conversational", "llama", "image-text-t
 DESIRED_TAGS_MLX = {"text-generation", "conversational", "mlx"}
 
 PINNED_GGUF_MODELS = [
+    "janhq/Jan-v3.5-4B-gguf",
     "janhq/Jan-code-4b-gguf",
     "janhq/Jan-v2-VL-max-gguf",
     "janhq/Jan-v3-4B-base-instruct-gguf",

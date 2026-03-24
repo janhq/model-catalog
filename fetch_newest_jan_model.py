@@ -23,8 +23,8 @@ from catalog_helpers import (
 )
 
 # --- Configuration ---
-LATEST_MODEL_NAME = "janhq/Jan-v3-4B-base-instruct-gguf"
-DISPLAY_NAME = "Jan V3"
+LATEST_MODEL_NAME = "janhq/Jan-v3.5-4B-gguf"
+DISPLAY_NAME = "Jan V3.5"
 OUTPUT_FILE = "latest_jan_model.json"
 
 
