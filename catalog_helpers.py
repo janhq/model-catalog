@@ -43,7 +43,7 @@ def _get_client():
 
 def summarize_readme_one_liner(text: str) -> str:
     resp = _get_client().chat.completions.create(
-        model="MiniMaxAI/MiniMax-M2.5",
+        model="minimaxai/minimax-m2.7",
         messages=[
             {
                 "role": "system",

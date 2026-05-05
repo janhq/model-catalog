@@ -13,7 +13,7 @@ env:
 jobs:
   # Job 1: Update V1 catalog (GGUF only)
   update-v1:
-    runs-on: ubuntu-24-04-docker
+    runs-on: ubuntu-latest
     outputs:
       new_models: ${{ steps.extract-summary.outputs.new_models }}
       total_models: ${{ steps.extract-summary.outputs.total_models }}
@@ -62,7 +62,7 @@ jobs:
 
   # Job 2: Update V2 catalog (GGUF + MLX) - runs in parallel
   update-v2:
-    runs-on: ubuntu-24-04-docker
+    runs-on: ubuntu-latest
     outputs:
       total_v2: ${{ steps.extract-summary.outputs.total_v2 }}
       gguf_v2: ${{ steps.extract-summary.outputs.gguf_v2 }}
@@ -114,7 +114,7 @@ jobs:
 
   # Job 3: Create PR after both jobs complete
   create-pr:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     needs: [update-v1, update-v2]
     steps:
       - name: Checkout repository
