@@ -627,7 +627,7 @@
   {
     "model_name": "Qwen3.5-35B-A3B-GGUF",
     "developer": "unsloth",
-    "downloads": 946269,
+    "downloads": 777270,
     "createdAt": "2026-02-24T14:48:31.000Z",
     "tools": true,
     "num_quants": 23,
@@ -5098,7 +5098,7 @@
   {
     "model_name": "gemma-7b",
     "developer": "google",
-    "downloads": 212046,
+    "downloads": 211874,
     "createdAt": "2024-02-08T22:36:43.000Z",
     "tools": false,
     "num_quants": 1,
@@ -6401,71 +6401,6 @@
     "description": "Google's Gemma 4 dense instruction-tuned model, designed for general-purpose text generation and understanding."
   },
   {
-    "model_name": "Qwen3.5-122B-A10B-GGUF",
-    "developer": "unsloth",
-    "downloads": 168187,
-    "createdAt": "2026-02-24T14:49:45.000Z",
-    "tools": true,
-    "num_quants": 7,
-    "quants": [
-      {
-        "model_id": "Qwen3.5-122B-A10B-UD-IQ1_M",
-        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-IQ1_M.gguf",
-        "file_size": "31.9 GB"
-      },
-      {
-        "model_id": "Qwen3.5-122B-A10B-UD-IQ2_M",
-        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-IQ2_M.gguf",
-        "file_size": "36.5 GB"
-      },
-      {
-        "model_id": "Qwen3.5-122B-A10B-UD-IQ2_XXS",
-        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-IQ2_XXS.gguf",
-        "file_size": "34.1 GB"
-      },
-      {
-        "model_id": "Qwen3.5-122B-A10B-UD-IQ3_S",
-        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-IQ3_S.gguf",
-        "file_size": "43.4 GB"
-      },
-      {
-        "model_id": "Qwen3.5-122B-A10B-UD-IQ3_XXS",
-        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-IQ3_XXS.gguf",
-        "file_size": "41.7 GB"
-      },
-      {
-        "model_id": "Qwen3.5-122B-A10B-UD-Q2_K_XL",
-        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-Q2_K_XL.gguf",
-        "file_size": "39.0 GB"
-      },
-      {
-        "model_id": "imatrix_unsloth",
-        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/imatrix_unsloth.gguf",
-        "file_size": "342.3 MB"
-      }
-    ],
-    "num_mmproj": 3,
-    "mmproj_models": [
-      {
-        "model_id": "mmproj-BF16",
-        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-BF16.gguf",
-        "file_size": "870.0 MB"
-      },
-      {
-        "model_id": "mmproj-F16",
-        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-F16.gguf",
-        "file_size": "866.6 MB"
-      },
-      {
-        "model_id": "mmproj-F32",
-        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-F32.gguf",
-        "file_size": "1.7 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/README.md",
-    "description": "Alibaba's Qwen 3.5 122B mixture-of-experts model offering strong reasoning and instruction following."
-  },
-  {
     "model_name": "Qwen3-Coder-30B-A3B-Instruct-GGUF",
     "developer": "unsloth",
     "downloads": 166640,
@@ -6713,6 +6648,71 @@
     "description": "A compact 677M parameter multilingual embedding model optimized for information retrieval, distilled from larger models."
   },
   {
+    "model_name": "Qwen3.5-122B-A10B-GGUF",
+    "developer": "unsloth",
+    "downloads": 161641,
+    "createdAt": "2026-02-24T14:49:45.000Z",
+    "tools": true,
+    "num_quants": 7,
+    "quants": [
+      {
+        "model_id": "Qwen3.5-122B-A10B-UD-IQ1_M",
+        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-IQ1_M.gguf",
+        "file_size": "31.9 GB"
+      },
+      {
+        "model_id": "Qwen3.5-122B-A10B-UD-IQ2_M",
+        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-IQ2_M.gguf",
+        "file_size": "36.5 GB"
+      },
+      {
+        "model_id": "Qwen3.5-122B-A10B-UD-IQ2_XXS",
+        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-IQ2_XXS.gguf",
+        "file_size": "34.1 GB"
+      },
+      {
+        "model_id": "Qwen3.5-122B-A10B-UD-IQ3_S",
+        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-IQ3_S.gguf",
+        "file_size": "43.4 GB"
+      },
+      {
+        "model_id": "Qwen3.5-122B-A10B-UD-IQ3_XXS",
+        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-IQ3_XXS.gguf",
+        "file_size": "41.7 GB"
+      },
+      {
+        "model_id": "Qwen3.5-122B-A10B-UD-Q2_K_XL",
+        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Qwen3.5-122B-A10B-UD-Q2_K_XL.gguf",
+        "file_size": "39.0 GB"
+      },
+      {
+        "model_id": "imatrix_unsloth",
+        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/imatrix_unsloth.gguf",
+        "file_size": "342.3 MB"
+      }
+    ],
+    "num_mmproj": 3,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-BF16",
+        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-BF16.gguf",
+        "file_size": "870.0 MB"
+      },
+      {
+        "model_id": "mmproj-F16",
+        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-F16.gguf",
+        "file_size": "866.6 MB"
+      },
+      {
+        "model_id": "mmproj-F32",
+        "path": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-F32.gguf",
+        "file_size": "1.7 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/README.md",
+    "description": "Alibaba's Qwen 3.5 122B mixture-of-experts model offering strong reasoning and instruction following."
+  },
+  {
     "model_name": "Mistral-7B-Instruct-v0.3-GGUF",
     "developer": "MaziyarPanahi",
     "downloads": 158257,
@@ -6812,21 +6812,22 @@
     "downloads": 157648,
     "createdAt": "2026-05-03T00:33:24.000Z",
     "tools": true,
-    "num_quants": 2,
+    "num_quants": 1,
     "quants": [
-      {
-        "model_id": "prompt_enhancer/mmproj-BF16",
-        "path": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/mmproj-BF16.gguf",
-        "file_size": "879.0 MB"
-      },
       {
         "model_id": "prompt_enhancer/sulphur_prompt_enhancer_model-q8_0",
         "path": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/sulphur_prompt_enhancer_model-q8_0.gguf",
         "file_size": "8.9 GB"
       }
     ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
+    "num_mmproj": 1,
+    "mmproj_models": [
+      {
+        "model_id": "prompt_enhancer/mmproj-BF16",
+        "path": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/mmproj-BF16.gguf",
+        "file_size": "879.0 MB"
+      }
+    ],
     "readme": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/README.md",
     "description": "An uncensored video generation model based on LTX 2.3 supporting text-to-video and image-to-video generation with an optional prompt enhancer."
   },
@@ -12072,7 +12073,7 @@
   {
     "model_name": "Qwen2.5-7B-Instruct-GGUF",
     "developer": "bartowski",
-    "downloads": 72796,
+    "downloads": 72947,
     "createdAt": "2024-09-16T14:13:33.000Z",
     "tools": true,
     "num_quants": 24,
@@ -13253,9 +13254,28 @@
     "description": "Quantized GGUF versions of Qwen3.5-122B-A10B-heretic, an uncensored/abliterated vision language model, with various IQ and Q quantization options ranging from 24.9GB to 100.4GB."
   },
   {
+    "model_name": "MiniMax-M2.5-GGUF",
+    "developer": "unsloth",
+    "downloads": 60244,
+    "createdAt": "2026-02-14T00:57:38.000Z",
+    "tools": true,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "MiniMax-M2.5-UD-TQ1_0",
+        "path": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF/resolve/main/MiniMax-M2.5-UD-TQ1_0.gguf",
+        "file_size": "51.9 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF/resolve/main/README.md",
+    "description": "MiniMax-M2.5 is a state-of-the-art AI model for coding and agentic tasks, achieving top benchmark scores (80.2% SWE-Bench Verified) at just $1/hour with 100 tokens/sec throughput."
+  },
+  {
     "model_name": "Qwen2.5-Coder-14B-Instruct-GGUF",
     "developer": "Qwen",
-    "downloads": 60794,
+    "downloads": 59437,
     "createdAt": "2024-11-09T12:45:52.000Z",
     "tools": true,
     "num_quants": 9,
@@ -13310,25 +13330,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/resolve/main/README.md",
     "description": "A 14B parameter instruction-tuned code-specific LLM in GGUF format, optimized for code generation, reasoning, and fixing with long-context support up to 128K tokens."
-  },
-  {
-    "model_name": "MiniMax-M2.5-GGUF",
-    "developer": "unsloth",
-    "downloads": 60244,
-    "createdAt": "2026-02-14T00:57:38.000Z",
-    "tools": true,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "MiniMax-M2.5-UD-TQ1_0",
-        "path": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF/resolve/main/MiniMax-M2.5-UD-TQ1_0.gguf",
-        "file_size": "51.9 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF/resolve/main/README.md",
-    "description": "MiniMax-M2.5 is a state-of-the-art AI model for coding and agentic tasks, achieving top benchmark scores (80.2% SWE-Bench Verified) at just $1/hour with 100 tokens/sec throughput."
   },
   {
     "model_name": "Qwen3-VL-8B-Thinking-1M-GGUF",
@@ -13544,71 +13545,6 @@
     "description": "This repo provides the GGUF format for the Phi-3-Mini-4K-Instruct model, a 3.8B parameter, lightweight, state-of-the-art open model trained on high-quality and reasoning dense data, suitable for commercial and research use in English with chat format prompts."
   },
   {
-    "model_name": "gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF",
-    "developer": "TeichAI",
-    "downloads": 57805,
-    "createdAt": "2026-04-10T19:15:40.000Z",
-    "tools": true,
-    "num_quants": 8,
-    "quants": [
-      {
-        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.bf16",
-        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.bf16.gguf",
-        "file_size": "47.0 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.iq4_nl",
-        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.iq4_nl.gguf",
-        "file_size": "13.6 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q3_k_m",
-        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q3_k_m.gguf",
-        "file_size": "12.4 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q3_k_s",
-        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q3_k_s.gguf",
-        "file_size": "11.4 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q4_k_m",
-        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q4_k_m.gguf",
-        "file_size": "15.6 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q5_k_m",
-        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q5_k_m.gguf",
-        "file_size": "17.8 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q6_k",
-        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q6_k.gguf",
-        "file_size": "21.1 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q8_0",
-        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q8_0.gguf",
-        "file_size": "25.0 GB"
-      }
-    ],
-    "num_mmproj": 2,
-    "mmproj_models": [
-      {
-        "model_id": "mmproj-BF16",
-        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/mmproj-BF16.gguf",
-        "file_size": "1.1 GB"
-      },
-      {
-        "model_id": "mmproj-F16",
-        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/mmproj-F16.gguf",
-        "file_size": "1.1 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/README.md",
-    "description": "26B Gemma 4 model fine-tuned with Claude Opus 4.6 reasoning data for enhanced reasoning, coding, and research capabilities."
-  },
-  {
     "model_name": "Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
     "developer": "TeichAI",
     "downloads": 57781,
@@ -13805,6 +13741,131 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/unsloth/Qwen3-1.7B-GGUF/resolve/main/README.md",
     "description": "Qwen3-1.7B is a large language model developed by Alibaba Cloud, offering advanced reasoning, instruction-following, and multilingual capabilities with seamless switching between thinking and non-thinking modes for optimal performance."
+  },
+  {
+    "model_name": "Huihui-gemma-4-26B-A4B-it-abliterated-GGUF",
+    "developer": "groxaxo",
+    "downloads": 56425,
+    "createdAt": "2026-04-11T09:47:56.000Z",
+    "tools": true,
+    "num_quants": 19,
+    "quants": [
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-IQ2_M",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-IQ2_M.gguf",
+        "file_size": "9.3 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-IQ2_XXS",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-IQ2_XXS.gguf",
+        "file_size": "9.2 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-IQ3_S",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-IQ3_S.gguf",
+        "file_size": "10.4 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-IQ3_XXS",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-IQ3_XXS.gguf",
+        "file_size": "10.4 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-IQ4_NL",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-IQ4_NL.gguf",
+        "file_size": "12.5 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-IQ4_XS",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-IQ4_XS.gguf",
+        "file_size": "12.5 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q2_K_XL",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q2_K_XL.gguf",
+        "file_size": "9.8 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q3_K_M",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q3_K_M.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q3_K_S",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q3_K_S.gguf",
+        "file_size": "11.7 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q3_K_XL",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q3_K_XL.gguf",
+        "file_size": "12.0 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q4_K_M",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+        "file_size": "15.7 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q4_K_S",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q4_K_S.gguf",
+        "file_size": "15.3 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q4_K_XL",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q4_K_XL.gguf",
+        "file_size": "15.9 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q5_K_M",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q5_K_M.gguf",
+        "file_size": "19.7 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q5_K_S",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q5_K_S.gguf",
+        "file_size": "17.5 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q5_K_XL",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q5_K_XL.gguf",
+        "file_size": "19.8 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q6_K",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q6_K.gguf",
+        "file_size": "21.3 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q6_K_XL",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q6_K_XL.gguf",
+        "file_size": "21.7 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-UD-Q8_K_XL",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q8_K_XL.gguf",
+        "file_size": "26.0 GB"
+      }
+    ],
+    "num_mmproj": 3,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-BF16",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/mmproj-BF16.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "mmproj-F16",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/mmproj-F16.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "mmproj-F32",
+        "path": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/mmproj-F32.gguf",
+        "file_size": "2.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/groxaxo/Huihui-gemma-4-26B-A4B-it-abliterated-GGUF/resolve/main/README.md",
+    "description": "GGUF quantizations of Huihui Gemma 4 26B for efficient local image-text-to-text inference with llama.cpp."
   },
   {
     "model_name": "Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
@@ -14360,6 +14421,71 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/Crownelius/Crow-9B-HERETIC/resolve/main/README.md",
     "description": "A 9B community model with aggressive fine-tuning for creative and unrestricted output."
+  },
+  {
+    "model_name": "gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF",
+    "developer": "TeichAI",
+    "downloads": 54609,
+    "createdAt": "2026-04-10T19:15:40.000Z",
+    "tools": true,
+    "num_quants": 8,
+    "quants": [
+      {
+        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.bf16",
+        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.bf16.gguf",
+        "file_size": "47.0 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.iq4_nl",
+        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.iq4_nl.gguf",
+        "file_size": "13.6 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q3_k_m",
+        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q3_k_m.gguf",
+        "file_size": "12.4 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q3_k_s",
+        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q3_k_s.gguf",
+        "file_size": "11.4 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q4_k_m",
+        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q4_k_m.gguf",
+        "file_size": "15.6 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q5_k_m",
+        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q5_k_m.gguf",
+        "file_size": "17.8 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q6_k",
+        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q6_k.gguf",
+        "file_size": "21.1 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-Claude-Opus-Distill.q8_0",
+        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-26B-A4B-it-Claude-Opus-Distill.q8_0.gguf",
+        "file_size": "25.0 GB"
+      }
+    ],
+    "num_mmproj": 2,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-BF16",
+        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/mmproj-BF16.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "mmproj-F16",
+        "path": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/mmproj-F16.gguf",
+        "file_size": "1.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/TeichAI/gemma-4-26B-A4B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/README.md",
+    "description": "26B Gemma 4 model fine-tuned with Claude Opus 4.6 reasoning data for enhanced reasoning, coding, and research capabilities."
   },
   {
     "model_name": "Qwen3.5-2B-Uncensored-HauhauCS-Aggressive",
@@ -15431,6 +15557,61 @@
     "description": "Uncensored Qwen3-VL-8B-Instruct model with no refusal to describe images."
   },
   {
+    "model_name": "Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF",
+    "developer": "mudler",
+    "downloads": 47132,
+    "createdAt": "2026-04-21T21:07:25.000Z",
+    "tools": true,
+    "num_quants": 7,
+    "quants": [
+      {
+        "model_id": "Qwen3.6-35B-A3B-uncensored-heretic-APEX-Balanced",
+        "path": "https://huggingface.co/mudler/Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF/resolve/main/Qwen3.6-35B-A3B-uncensored-heretic-APEX-Balanced.gguf",
+        "file_size": "23.9 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-uncensored-heretic-APEX-Compact",
+        "path": "https://huggingface.co/mudler/Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF/resolve/main/Qwen3.6-35B-A3B-uncensored-heretic-APEX-Compact.gguf",
+        "file_size": "16.1 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-uncensored-heretic-APEX-I-Balanced",
+        "path": "https://huggingface.co/mudler/Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF/resolve/main/Qwen3.6-35B-A3B-uncensored-heretic-APEX-I-Balanced.gguf",
+        "file_size": "23.9 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-uncensored-heretic-APEX-I-Compact",
+        "path": "https://huggingface.co/mudler/Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF/resolve/main/Qwen3.6-35B-A3B-uncensored-heretic-APEX-I-Compact.gguf",
+        "file_size": "16.1 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-uncensored-heretic-APEX-I-Mini",
+        "path": "https://huggingface.co/mudler/Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF/resolve/main/Qwen3.6-35B-A3B-uncensored-heretic-APEX-I-Mini.gguf",
+        "file_size": "13.3 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-uncensored-heretic-APEX-I-Quality",
+        "path": "https://huggingface.co/mudler/Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF/resolve/main/Qwen3.6-35B-A3B-uncensored-heretic-APEX-I-Quality.gguf",
+        "file_size": "21.3 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-uncensored-heretic-APEX-Quality",
+        "path": "https://huggingface.co/mudler/Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF/resolve/main/Qwen3.6-35B-A3B-uncensored-heretic-APEX-Quality.gguf",
+        "file_size": "21.3 GB"
+      }
+    ],
+    "num_mmproj": 1,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj",
+        "path": "https://huggingface.co/mudler/Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF/resolve/main/mmproj.gguf",
+        "file_size": "861.0 MB"
+      }
+    ],
+    "readme": "https://huggingface.co/mudler/Qwen3.6-35B-A3B-uncensored-heretic-APEX-GGUF/resolve/main/README.md",
+    "description": "APEX-quantized GGUF files for the Qwen3.6 35B-A3B MoE model in multiple quality/size presets."
+  },
+  {
     "model_name": "gemma-3n-E4B-it-text-GGUF",
     "developer": "lmstudio-community",
     "downloads": 47100,
@@ -15554,110 +15735,6 @@
     "description": "Qwen3.6-27B GGUF with MTP speculative decoding for 2.5x faster inference, 262K context, vision, and tool use."
   },
   {
-    "model_name": "Dolphin3.0-Llama3.1-8B-GGUF",
-    "developer": "dphn",
-    "downloads": 44974,
-    "createdAt": "2025-01-02T22:11:05.000Z",
-    "tools": false,
-    "num_quants": 18,
-    "quants": [
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-F16",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-F16.gguf",
-        "file_size": "15.0 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q2_K",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q2_K.gguf",
-        "file_size": "3.0 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q3_K",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q3_K.gguf",
-        "file_size": "3.7 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q3_K_L",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q3_K_L.gguf",
-        "file_size": "4.0 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q3_K_M",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q3_K_M.gguf",
-        "file_size": "3.7 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q3_K_S",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q3_K_S.gguf",
-        "file_size": "3.4 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q4_0",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_0.gguf",
-        "file_size": "4.3 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q4_1",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_1.gguf",
-        "file_size": "4.8 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q4_K",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_K.gguf",
-        "file_size": "4.6 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q4_K_M",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf",
-        "file_size": "4.6 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q4_K_S",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_K_S.gguf",
-        "file_size": "4.4 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q5_0",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q5_0.gguf",
-        "file_size": "5.2 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q5_1",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q5_1.gguf",
-        "file_size": "5.7 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q5_K",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q5_K.gguf",
-        "file_size": "5.3 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q5_K_M",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q5_K_M.gguf",
-        "file_size": "5.3 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q5_K_S",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q5_K_S.gguf",
-        "file_size": "5.2 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q6_K",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q6_K.gguf",
-        "file_size": "6.1 GB"
-      },
-      {
-        "model_id": "Dolphin3.0-Llama3.1-8B-Q8_0",
-        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q8_0.gguf",
-        "file_size": "8.0 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/README.md",
-    "description": "Dolphin 3.0 Llama 3.1 8B is a general-purpose instruct-tuned model designed for coding, math, agentic, and function calling tasks, offering full control to the user through customizable system prompts and data ownership."
-  },
-  {
     "model_name": "MiniCPM-o-4_5-gguf",
     "developer": "openbmb",
     "downloads": 44795,
@@ -15767,6 +15844,110 @@
     "description": "MiniCPM-o 4.5 is a 9B-parameter multimodal AI model that enables full-duplex vision, speech, and audio processing on phones."
   },
   {
+    "model_name": "Dolphin3.0-Llama3.1-8B-GGUF",
+    "developer": "dphn",
+    "downloads": 44619,
+    "createdAt": "2025-01-02T22:11:05.000Z",
+    "tools": false,
+    "num_quants": 18,
+    "quants": [
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-F16",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-F16.gguf",
+        "file_size": "15.0 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q2_K",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q2_K.gguf",
+        "file_size": "3.0 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q3_K",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q3_K.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q3_K_L",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q3_K_L.gguf",
+        "file_size": "4.0 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q3_K_M",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q3_K_M.gguf",
+        "file_size": "3.7 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q3_K_S",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q3_K_S.gguf",
+        "file_size": "3.4 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q4_0",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_0.gguf",
+        "file_size": "4.3 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q4_1",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_1.gguf",
+        "file_size": "4.8 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q4_K",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_K.gguf",
+        "file_size": "4.6 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q4_K_M",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf",
+        "file_size": "4.6 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q4_K_S",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_K_S.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q5_0",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q5_0.gguf",
+        "file_size": "5.2 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q5_1",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q5_1.gguf",
+        "file_size": "5.7 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q5_K",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q5_K.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q5_K_M",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q5_K_M.gguf",
+        "file_size": "5.3 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q5_K_S",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q5_K_S.gguf",
+        "file_size": "5.2 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q6_K",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q6_K.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "Dolphin3.0-Llama3.1-8B-Q8_0",
+        "path": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q8_0.gguf",
+        "file_size": "8.0 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/README.md",
+    "description": "Dolphin 3.0 Llama 3.1 8B is a general-purpose instruct-tuned model designed for coding, math, agentic, and function calling tasks, offering full control to the user through customizable system prompts and data ownership."
+  },
+  {
     "model_name": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
     "developer": "TeichAI",
     "downloads": 44578,
@@ -15844,6 +16025,76 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF/resolve/main/README.md",
     "description": "A reasoning-distilled version of GLM-4.7-Flash trained on Claude Opus 4.5 data for improved coding, science, and research capabilities."
+  },
+  {
+    "model_name": "gemma-4-31B-it-Claude-Opus-Distill-GGUF",
+    "developer": "TeichAI",
+    "downloads": 43986,
+    "createdAt": "2026-04-03T08:24:57.000Z",
+    "tools": true,
+    "num_quants": 8,
+    "quants": [
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.bf16",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.bf16.gguf",
+        "file_size": "57.2 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.iq4_nl",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.iq4_nl.gguf",
+        "file_size": "16.5 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q3_k_m",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q3_k_m.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q3_k_s",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q3_k_s.gguf",
+        "file_size": "12.8 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q4_k_m",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q4_k_m.gguf",
+        "file_size": "17.4 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q5_k_m",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q5_k_m.gguf",
+        "file_size": "20.3 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q6_k",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q6_k.gguf",
+        "file_size": "23.5 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q8_0",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q8_0.gguf",
+        "file_size": "30.4 GB"
+      }
+    ],
+    "num_mmproj": 3,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-BF16",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/mmproj-BF16.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "mmproj-F16",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/mmproj-F16.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "mmproj-F32",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/mmproj-F32.gguf",
+        "file_size": "2.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/README.md",
+    "description": "A variant of Google's Gemma 4 dense model distilled from Claude for improved reasoning."
   },
   {
     "model_name": "Qwen3.6-27B-MTP-UD-GGUF",
@@ -16312,6 +16563,86 @@
     "description": "The DeepSeek-R1 model, developed by DeepSeek-AI, is a reasoning model based on Llama3.1 and Qwen2.5, offering improved performance on various benchmarks and available for local use with tools like llama.cpp and vLLM, with detailed instructions for training and deployment"
   },
   {
+    "model_name": "Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF",
+    "developer": "DavidAU",
+    "downloads": 41065,
+    "createdAt": "2026-04-23T08:05:02.000Z",
+    "tools": true,
+    "num_quants": 10,
+    "quants": [
+      {
+        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-HIGH-Q8_0",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-HIGH-Q8_0.gguf",
+        "file_size": "27.8 GB"
+      },
+      {
+        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-IQ2_M",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-IQ2_M.gguf",
+        "file_size": "9.8 GB"
+      },
+      {
+        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-IQ3_M",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-IQ3_M.gguf",
+        "file_size": "12.0 GB"
+      },
+      {
+        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-IQ4_NL",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-IQ4_NL.gguf",
+        "file_size": "15.0 GB"
+      },
+      {
+        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-IQ4_XS",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-IQ4_XS.gguf",
+        "file_size": "14.3 GB"
+      },
+      {
+        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-Q4_K_M",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-Q4_K_M.gguf",
+        "file_size": "15.7 GB"
+      },
+      {
+        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-Q4_K_S",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-Q4_K_S.gguf",
+        "file_size": "14.8 GB"
+      },
+      {
+        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-Q5_K_M",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-Q5_K_M.gguf",
+        "file_size": "18.2 GB"
+      },
+      {
+        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-Q5_K_S",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-Q5_K_S.gguf",
+        "file_size": "17.7 GB"
+      },
+      {
+        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-Q6_K",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-Q6_K.gguf",
+        "file_size": "20.9 GB"
+      }
+    ],
+    "num_mmproj": 3,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-BF16",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/mmproj-BF16.gguf",
+        "file_size": "888.0 MB"
+      },
+      {
+        "model_id": "mmproj-F16",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/mmproj-F16.gguf",
+        "file_size": "884.6 MB"
+      },
+      {
+        "model_id": "mmproj-F32",
+        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/mmproj-F32.gguf",
+        "file_size": "1.7 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/README.md",
+    "description": "A quantized GGUF version of Qwen3.6-27B using dual imatrix calibration, offering multiple precision levels (IQ2_M to Q8_0) with extensive benchmarks showing up to 98.38% full-precision performance."
+  },
+  {
     "model_name": "gemma-7b-it",
     "developer": "google",
     "downloads": 40168,
@@ -16719,6 +17050,25 @@
     "description": "Qwen3-VL-4B-Thinking is a vision-language model for image-text-to-text tasks."
   },
   {
+    "model_name": "DeepSeek-V4-Flash-FP4-FP8-GGUF",
+    "developer": "nsparks",
+    "downloads": 38944,
+    "createdAt": "2026-04-26T17:41:26.000Z",
+    "tools": false,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "DeepSeek-V4-Flash-FP4-FP8-native",
+        "path": "https://huggingface.co/nsparks/DeepSeek-V4-Flash-FP4-FP8-GGUF/resolve/main/DeepSeek-V4-Flash-FP4-FP8-native.gguf",
+        "file_size": "145.4 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/nsparks/DeepSeek-V4-Flash-FP4-FP8-GGUF/resolve/main/README.md",
+    "description": "A ~146GB GGUF file of DeepSeek-V4-Flash with native FP8 dense weights and MXFP4 MoE experts, requiring a custom llama.cpp build to run."
+  },
+  {
     "model_name": "SmallThinker-21BA3B-Instruct-GGUF",
     "developer": "PowerInfer",
     "downloads": 38261,
@@ -17110,25 +17460,6 @@
     "description": "GGUF quantizations of the abliterated (uncensored) Qwen3.5-35B-A3B model in sizes from 13GB to 37GB."
   },
   {
-    "model_name": "DeepSeek-V4-Flash-FP4-FP8-GGUF",
-    "developer": "nsparks",
-    "downloads": 37508,
-    "createdAt": "2026-04-26T17:41:26.000Z",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "DeepSeek-V4-Flash-FP4-FP8-native",
-        "path": "https://huggingface.co/nsparks/DeepSeek-V4-Flash-FP4-FP8-GGUF/resolve/main/DeepSeek-V4-Flash-FP4-FP8-native.gguf",
-        "file_size": "145.4 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/nsparks/DeepSeek-V4-Flash-FP4-FP8-GGUF/resolve/main/README.md",
-    "description": "A ~146GB GGUF file of DeepSeek-V4-Flash with native FP8 dense weights and MXFP4 MoE experts, requiring a custom llama.cpp build to run."
-  },
-  {
     "model_name": "Qwen3-VL-8B-Instruct-GGUF",
     "developer": "Qwen",
     "downloads": 36750,
@@ -17167,86 +17498,6 @@
     ],
     "readme": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-GGUF/resolve/main/README.md",
     "description": "GGUF-quantized Qwen3-VL-8B-Instruct vision-language model for local inference via llama.cpp and similar tools."
-  },
-  {
-    "model_name": "Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF",
-    "developer": "DavidAU",
-    "downloads": 36570,
-    "createdAt": "2026-04-23T08:05:02.000Z",
-    "tools": true,
-    "num_quants": 10,
-    "quants": [
-      {
-        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-HIGH-Q8_0",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-HIGH-Q8_0.gguf",
-        "file_size": "27.8 GB"
-      },
-      {
-        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-IQ2_M",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-IQ2_M.gguf",
-        "file_size": "9.8 GB"
-      },
-      {
-        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-IQ3_M",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-IQ3_M.gguf",
-        "file_size": "12.0 GB"
-      },
-      {
-        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-IQ4_NL",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-IQ4_NL.gguf",
-        "file_size": "15.0 GB"
-      },
-      {
-        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-IQ4_XS",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-IQ4_XS.gguf",
-        "file_size": "14.3 GB"
-      },
-      {
-        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-Q4_K_M",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-Q4_K_M.gguf",
-        "file_size": "15.7 GB"
-      },
-      {
-        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-Q4_K_S",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-Q4_K_S.gguf",
-        "file_size": "14.8 GB"
-      },
-      {
-        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-Q5_K_M",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-Q5_K_M.gguf",
-        "file_size": "18.2 GB"
-      },
-      {
-        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-Q5_K_S",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-Q5_K_S.gguf",
-        "file_size": "17.7 GB"
-      },
-      {
-        "model_id": "Qwen3.6-27B-NEO-CODE-2T-OT-Q6_K",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-2T-OT-Q6_K.gguf",
-        "file_size": "20.9 GB"
-      }
-    ],
-    "num_mmproj": 3,
-    "mmproj_models": [
-      {
-        "model_id": "mmproj-BF16",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/mmproj-BF16.gguf",
-        "file_size": "888.0 MB"
-      },
-      {
-        "model_id": "mmproj-F16",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/mmproj-F16.gguf",
-        "file_size": "884.6 MB"
-      },
-      {
-        "model_id": "mmproj-F32",
-        "path": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/mmproj-F32.gguf",
-        "file_size": "1.7 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/README.md",
-    "description": "A quantized GGUF version of Qwen3.6-27B using dual imatrix calibration, offering multiple precision levels (IQ2_M to Q8_0) with extensive benchmarks showing up to 98.38% full-precision performance."
   },
   {
     "model_name": "Qwen2.5-Coder-3B-Instruct-GGUF",
@@ -18491,45 +18742,6 @@
     "description": "The SQLCoder-7B-2 model is a large language model capable of generating SQL queries from natural language questions, developed by Defog, Inc., based on CodeLlama-7B, and licensed under CC-by-SA-4.0."
   },
   {
-    "model_name": "Crow-9B-HERETIC-4.6",
-    "developer": "Crownelius",
-    "downloads": 32937,
-    "createdAt": "2026-03-03T08:14:36.000Z",
-    "tools": true,
-    "num_quants": 5,
-    "quants": [
-      {
-        "model_id": "Qwen3.5-9B-heretic-v2.BF16-mmproj",
-        "path": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/Qwen3.5-9B-heretic-v2.BF16-mmproj.gguf",
-        "file_size": "879.0 MB"
-      },
-      {
-        "model_id": "Qwen3.5-9B-heretic-v2.F16",
-        "path": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/Qwen3.5-9B-heretic-v2.F16.gguf",
-        "file_size": "16.7 GB"
-      },
-      {
-        "model_id": "Qwen3.5-9B-heretic-v2.Q4_K_M",
-        "path": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/Qwen3.5-9B-heretic-v2.Q4_K_M.gguf",
-        "file_size": "5.2 GB"
-      },
-      {
-        "model_id": "Qwen3.5-9B-heretic-v2.Q5_K_M",
-        "path": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/Qwen3.5-9B-heretic-v2.Q5_K_M.gguf",
-        "file_size": "6.1 GB"
-      },
-      {
-        "model_id": "Qwen3.5-9B-heretic-v2.Q8_0",
-        "path": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/Qwen3.5-9B-heretic-v2.Q8_0.gguf",
-        "file_size": "8.9 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/README.md",
-    "description": "A 9B parameter LLM distilled from Claude Opus 4.6 into Qwen3.5 architecture, available in multiple GGUF quantizations for consumer GPUs."
-  },
-  {
     "model_name": "Qwen3.5-9B-heretic-GGUF",
     "developer": "mradermacher",
     "downloads": 32825,
@@ -19736,6 +19948,45 @@
     "description": "Uncensored 20B MOE code generation model with 128k context."
   },
   {
+    "model_name": "Crow-9B-HERETIC-4.6",
+    "developer": "Crownelius",
+    "downloads": 31200,
+    "createdAt": "2026-03-03T08:14:36.000Z",
+    "tools": true,
+    "num_quants": 5,
+    "quants": [
+      {
+        "model_id": "Qwen3.5-9B-heretic-v2.BF16-mmproj",
+        "path": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/Qwen3.5-9B-heretic-v2.BF16-mmproj.gguf",
+        "file_size": "879.0 MB"
+      },
+      {
+        "model_id": "Qwen3.5-9B-heretic-v2.F16",
+        "path": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/Qwen3.5-9B-heretic-v2.F16.gguf",
+        "file_size": "16.7 GB"
+      },
+      {
+        "model_id": "Qwen3.5-9B-heretic-v2.Q4_K_M",
+        "path": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/Qwen3.5-9B-heretic-v2.Q4_K_M.gguf",
+        "file_size": "5.2 GB"
+      },
+      {
+        "model_id": "Qwen3.5-9B-heretic-v2.Q5_K_M",
+        "path": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/Qwen3.5-9B-heretic-v2.Q5_K_M.gguf",
+        "file_size": "6.1 GB"
+      },
+      {
+        "model_id": "Qwen3.5-9B-heretic-v2.Q8_0",
+        "path": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/Qwen3.5-9B-heretic-v2.Q8_0.gguf",
+        "file_size": "8.9 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/Crownelius/Crow-9B-HERETIC-4.6/resolve/main/README.md",
+    "description": "A 9B parameter LLM distilled from Claude Opus 4.6 into Qwen3.5 architecture, available in multiple GGUF quantizations for consumer GPUs."
+  },
+  {
     "model_name": "Qwen3.5-122B-A10B-heretic-GGUF",
     "developer": "mradermacher",
     "downloads": 30772,
@@ -20517,6 +20768,76 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/gabriellarson/Huihui-gpt-oss-20b-BF16-abliterated-GGUF/resolve/main/README.md",
     "description": "This is an uncensored version of the unsloth/gpt-oss-20b-BF16 model, created with abliteration, designed for research and experimental use with potential risks of generating sensitive or inappropriate content."
+  },
+  {
+    "model_name": "gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF",
+    "developer": "TeichAI",
+    "downloads": 27454,
+    "createdAt": "2026-04-12T03:11:30.000Z",
+    "tools": true,
+    "num_quants": 8,
+    "quants": [
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.bf16",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.bf16.gguf",
+        "file_size": "57.2 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.iq4_nl",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.iq4_nl.gguf",
+        "file_size": "16.5 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q3_k_m",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q3_k_m.gguf",
+        "file_size": "14.2 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q3_k_s",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q3_k_s.gguf",
+        "file_size": "12.8 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q4_k_m",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q4_k_m.gguf",
+        "file_size": "17.4 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q5_k_m",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q5_k_m.gguf",
+        "file_size": "20.3 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q6_k",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q6_k.gguf",
+        "file_size": "23.5 GB"
+      },
+      {
+        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q8_0",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q8_0.gguf",
+        "file_size": "30.4 GB"
+      }
+    ],
+    "num_mmproj": 3,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-BF16",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/mmproj-BF16.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "mmproj-F16",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/mmproj-F16.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "mmproj-F32",
+        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/mmproj-F32.gguf",
+        "file_size": "2.1 GB"
+      }
+    ],
+    "readme": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/README.md",
+    "description": "A 31B parameter Gemma 4 model fine-tuned on Claude Opus 4.6 reasoning data for enhanced complex problem-solving."
   },
   {
     "model_name": "gemma-3-12b-it-ultra-uncensored-heretic-GGUF",
@@ -23505,81 +23826,6 @@
     ],
     "readme": "https://huggingface.co/unsloth/Ministral-3-14B-Instruct-2512-GGUF/resolve/main/README.md",
     "description": "14B edge-optimized multimodal language model with multilingual support and vision capabilities."
-  },
-  {
-    "model_name": "gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF",
-    "developer": "TeichAI",
-    "downloads": 22489,
-    "createdAt": "2026-04-12T03:11:30.000Z",
-    "tools": true,
-    "num_quants": 9,
-    "quants": [
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.bf16",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.bf16.gguf",
-        "file_size": "57.2 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.f16",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.f16.gguf",
-        "file_size": "57.2 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.iq4_nl",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.iq4_nl.gguf",
-        "file_size": "16.5 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q3_k_m",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q3_k_m.gguf",
-        "file_size": "14.2 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q3_k_s",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q3_k_s.gguf",
-        "file_size": "12.8 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q4_k_m",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q4_k_m.gguf",
-        "file_size": "17.4 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q5_k_m",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q5_k_m.gguf",
-        "file_size": "20.3 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q6_k",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q6_k.gguf",
-        "file_size": "23.5 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q8_0",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q8_0.gguf",
-        "file_size": "30.4 GB"
-      }
-    ],
-    "num_mmproj": 3,
-    "mmproj_models": [
-      {
-        "model_id": "mmproj-BF16",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/mmproj-BF16.gguf",
-        "file_size": "1.1 GB"
-      },
-      {
-        "model_id": "mmproj-F16",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/mmproj-F16.gguf",
-        "file_size": "1.1 GB"
-      },
-      {
-        "model_id": "mmproj-F32",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/mmproj-F32.gguf",
-        "file_size": "2.1 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-v2-GGUF/resolve/main/README.md",
-    "description": "A 31B parameter Gemma 4 model fine-tuned on Claude Opus 4.6 reasoning data for enhanced complex problem-solving."
   },
   {
     "model_name": "Qwen3.6-35B-A3B-heretic-GGUF",
@@ -30324,71 +30570,6 @@
     "description": "Model excels on standard dataset."
   },
   {
-    "model_name": "gemma-4-31B-it-Claude-Opus-Distill-GGUF",
-    "developer": "TeichAI",
-    "downloads": 14858,
-    "createdAt": "2026-04-03T08:24:57.000Z",
-    "tools": true,
-    "num_quants": 7,
-    "quants": [
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.bf16",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.bf16.gguf",
-        "file_size": "57.2 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q3_k_m",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q3_k_m.gguf",
-        "file_size": "14.2 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q3_k_s",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q3_k_s.gguf",
-        "file_size": "12.8 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q4_k_m",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q4_k_m.gguf",
-        "file_size": "17.4 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q5_k_m",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q5_k_m.gguf",
-        "file_size": "20.3 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q6_k",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q6_k.gguf",
-        "file_size": "23.5 GB"
-      },
-      {
-        "model_id": "gemma-4-31B-it-Claude-Opus-Distill.q8_0",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/gemma-4-31B-it-Claude-Opus-Distill.q8_0.gguf",
-        "file_size": "30.4 GB"
-      }
-    ],
-    "num_mmproj": 3,
-    "mmproj_models": [
-      {
-        "model_id": "mmproj-BF16",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/mmproj-BF16.gguf",
-        "file_size": "1.1 GB"
-      },
-      {
-        "model_id": "mmproj-F16",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/mmproj-F16.gguf",
-        "file_size": "1.1 GB"
-      },
-      {
-        "model_id": "mmproj-F32",
-        "path": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/mmproj-F32.gguf",
-        "file_size": "2.1 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF/resolve/main/README.md",
-    "description": "A variant of Google's Gemma 4 dense model distilled from Claude for improved reasoning."
-  },
-  {
     "model_name": "Qwen2.5-Coder-14B-Instruct-abliterated-GGUF",
     "developer": "bartowski",
     "downloads": 14854,
@@ -31398,6 +31579,45 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/BasedBase/Qwen3-30B-A3B-Thinking-2507-Deepseek-v3.1-Distill/resolve/main/README.md",
     "description": "This model is a distilled version of Qwen3-30B-A3B-Thinking-2507, inheriting reasoning and behavioral traits from the larger DeepSeek-V3.1 teacher model through a high-rank LoRA distillation process with MoE layer synthesis."
+  },
+  {
+    "model_name": "gemma-4-26B-A4B-it-MXFP4_MOE-GGUF",
+    "developer": "noctrex",
+    "downloads": 14315,
+    "createdAt": "2026-04-02T17:18:43.000Z",
+    "tools": true,
+    "num_quants": 5,
+    "quants": [
+      {
+        "model_id": "gemma-4-26B-A4B-it-MXFP4_MOE",
+        "path": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/gemma-4-26B-A4B-it-MXFP4_MOE.gguf",
+        "file_size": "14.4 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-MXFP4_MOE_BF16",
+        "path": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/gemma-4-26B-A4B-it-MXFP4_MOE_BF16.gguf",
+        "file_size": "15.8 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-MXFP4_MOE_F16",
+        "path": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/gemma-4-26B-A4B-it-MXFP4_MOE_F16.gguf",
+        "file_size": "15.8 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-mmproj-BF16",
+        "path": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/gemma-4-26B-A4B-it-mmproj-BF16.gguf",
+        "file_size": "1.1 GB"
+      },
+      {
+        "model_id": "gemma-4-26B-A4B-it-mmproj-F32",
+        "path": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/gemma-4-26B-A4B-it-mmproj-F32.gguf",
+        "file_size": "2.1 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/README.md",
+    "description": "Google's Gemma 4 mixture-of-experts instruction-tuned model, offering strong performance with efficient active parameter usage."
   },
   {
     "model_name": "Qwen3.5-9b-heretic-v2-GGUF",
@@ -38119,90 +38339,6 @@
     "description": "A model fine-tuned for ChromaDB context-aware retrieval tasks."
   },
   {
-    "model_name": "Qwen2.5-7B-Instruct-Uncensored-GGUF",
-    "developer": "QuantFactory",
-    "downloads": 10593,
-    "createdAt": "2024-10-19T16:53:24.000Z",
-    "tools": false,
-    "num_quants": 14,
-    "quants": [
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q2_K",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q2_K.gguf",
-        "file_size": "2.8 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q3_K_L",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q3_K_L.gguf",
-        "file_size": "3.8 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q3_K_M",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q3_K_M.gguf",
-        "file_size": "3.5 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q3_K_S",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q3_K_S.gguf",
-        "file_size": "3.3 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q4_0",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q4_0.gguf",
-        "file_size": "4.1 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q4_1",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q4_1.gguf",
-        "file_size": "4.5 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q4_K_M",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q4_K_M.gguf",
-        "file_size": "4.4 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q4_K_S",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q4_K_S.gguf",
-        "file_size": "4.2 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q5_0",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q5_0.gguf",
-        "file_size": "5.0 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q5_1",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q5_1.gguf",
-        "file_size": "5.4 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q5_K_M",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q5_K_M.gguf",
-        "file_size": "5.1 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q5_K_S",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q5_K_S.gguf",
-        "file_size": "5.0 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q6_K",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q6_K.gguf",
-        "file_size": "5.8 GB"
-      },
-      {
-        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q8_0",
-        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q8_0.gguf",
-        "file_size": "7.5 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/README.md",
-    "description": "An uncensored, quantized version of Qwen2.5-7B-Instruct fine-tuned with SFT and DPO on toxic datasets for unrestricted content generation."
-  },
-  {
     "model_name": "Qwen3.6-27B-Uncensored-Wasserstein",
     "developer": "LuffyTheFox",
     "downloads": 10491,
@@ -40472,6 +40608,90 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/reedmayhew/claude-3.7-sonnet-reasoning-gemma3-12B/resolve/main/README.md",
     "description": "This model is a Gemma 3 12B variant fine-tuned with reasoning data from Claude 3.7 Sonnet using LoRA and trained 2x faster with Unsloth and Huggingface's TRL."
+  },
+  {
+    "model_name": "Qwen2.5-7B-Instruct-Uncensored-GGUF",
+    "developer": "QuantFactory",
+    "downloads": 9743,
+    "createdAt": "2024-10-19T16:53:24.000Z",
+    "tools": false,
+    "num_quants": 14,
+    "quants": [
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q2_K",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q2_K.gguf",
+        "file_size": "2.8 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q3_K_L",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q3_K_L.gguf",
+        "file_size": "3.8 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q3_K_M",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q3_K_M.gguf",
+        "file_size": "3.5 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q3_K_S",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q3_K_S.gguf",
+        "file_size": "3.3 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q4_0",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q4_0.gguf",
+        "file_size": "4.1 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q4_1",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q4_1.gguf",
+        "file_size": "4.5 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q4_K_M",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q4_K_M.gguf",
+        "file_size": "4.4 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q4_K_S",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q4_K_S.gguf",
+        "file_size": "4.2 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q5_0",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q5_0.gguf",
+        "file_size": "5.0 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q5_1",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q5_1.gguf",
+        "file_size": "5.4 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q5_K_M",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q5_K_M.gguf",
+        "file_size": "5.1 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q5_K_S",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q5_K_S.gguf",
+        "file_size": "5.0 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q6_K",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q6_K.gguf",
+        "file_size": "5.8 GB"
+      },
+      {
+        "model_id": "Qwen2.5-7B-Instruct-Uncensored.Q8_0",
+        "path": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/Qwen2.5-7B-Instruct-Uncensored.Q8_0.gguf",
+        "file_size": "7.5 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF/resolve/main/README.md",
+    "description": "An uncensored, quantized version of Qwen2.5-7B-Instruct fine-tuned with SFT and DPO on toxic datasets for unrestricted content generation."
   },
   {
     "model_name": "Huihui-Qwen3-VL-4B-Instruct-abliterated",
@@ -43217,6 +43437,30 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/mradermacher/G4-Runic-Oarfish-26B-A4B-v1-i1-GGUF/resolve/main/README.md",
     "description": "GGUF quantizations of a 26B vision-language model in various precision levels."
+  },
+  {
+    "model_name": "Bonsai-4B-gguf",
+    "developer": "prism-ml",
+    "downloads": 8586,
+    "createdAt": "2026-03-29T05:12:24.000Z",
+    "tools": true,
+    "num_quants": 2,
+    "quants": [
+      {
+        "model_id": "Bonsai-4B-Q1_0",
+        "path": "https://huggingface.co/prism-ml/Bonsai-4B-gguf/resolve/main/Bonsai-4B-Q1_0.gguf",
+        "file_size": "545.8 MB"
+      },
+      {
+        "model_id": "Bonsai-4B",
+        "path": "https://huggingface.co/prism-ml/Bonsai-4B-gguf/resolve/main/Bonsai-4B.gguf",
+        "file_size": "545.8 MB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/prism-ml/Bonsai-4B-gguf/resolve/main/README.md",
+    "description": "A 4B model from the Bonsai family for efficient general-purpose text generation."
   },
   {
     "model_name": "gpt-oss-20b-claude-4.5-sonnet-high-reasoning-distill-GGUF",
@@ -53387,45 +53631,6 @@
     "description": "Mistral's Devstral Small model, a code-specialized model for software development tasks."
   },
   {
-    "model_name": "gemma-4-26B-A4B-it-MXFP4_MOE-GGUF",
-    "developer": "noctrex",
-    "downloads": 6160,
-    "createdAt": "2026-04-02T17:18:43.000Z",
-    "tools": true,
-    "num_quants": 5,
-    "quants": [
-      {
-        "model_id": "gemma-4-26B-A4B-it-MXFP4_MOE",
-        "path": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/gemma-4-26B-A4B-it-MXFP4_MOE.gguf",
-        "file_size": "14.4 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-MXFP4_MOE_BF16",
-        "path": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/gemma-4-26B-A4B-it-MXFP4_MOE_BF16.gguf",
-        "file_size": "15.8 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-MXFP4_MOE_F16",
-        "path": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/gemma-4-26B-A4B-it-MXFP4_MOE_F16.gguf",
-        "file_size": "15.8 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-mmproj-BF16",
-        "path": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/gemma-4-26B-A4B-it-mmproj-BF16.gguf",
-        "file_size": "1.1 GB"
-      },
-      {
-        "model_id": "gemma-4-26B-A4B-it-mmproj-F32",
-        "path": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/gemma-4-26B-A4B-it-mmproj-F32.gguf",
-        "file_size": "2.1 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/noctrex/gemma-4-26B-A4B-it-MXFP4_MOE-GGUF/resolve/main/README.md",
-    "description": "Google's Gemma 4 mixture-of-experts instruction-tuned model, offering strong performance with efficient active parameter usage."
-  },
-  {
     "model_name": "Strand-Rust-Coder-14B-v1-GGUF",
     "developer": "Fortytwo-Network",
     "downloads": 6153,
@@ -59850,25 +60055,6 @@
     "description": "The Baichuan-M2-32B model from Baichuan Inc. is available in various GGUF quantized versions for efficient deployment in both English and Chinese, with the highest quality version being Q8_0 at 34.9GB."
   },
   {
-    "model_name": "Bonsai-4B-gguf",
-    "developer": "prism-ml",
-    "downloads": 4970,
-    "createdAt": "2026-03-29T05:12:24.000Z",
-    "tools": true,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "Bonsai-4B",
-        "path": "https://huggingface.co/prism-ml/Bonsai-4B-gguf/resolve/main/Bonsai-4B.gguf",
-        "file_size": "545.8 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/prism-ml/Bonsai-4B-gguf/resolve/main/README.md",
-    "description": "A 4B model from the Bonsai family for efficient general-purpose text generation."
-  },
-  {
     "model_name": "Huihui-Qwen3-30B-A3B-Thinking-2507-abliterated-GGUF",
     "developer": "mradermacher",
     "downloads": 4962,
@@ -60560,6 +60746,60 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/TheDrummer/Gemma-3-R1-27B-v1-GGUF/resolve/main/README.md",
     "description": "Hugging Face provides a platform for sharing and accessing machine learning models, datasets, and tools, with a focus on ease of use and community collaboration."
+  },
+  {
+    "model_name": "Sakura-GalTransl-14B-v3.8",
+    "developer": "SakuraLLM",
+    "downloads": 4805,
+    "createdAt": "2025-04-29T02:36:08.000Z",
+    "tools": true,
+    "num_quants": 8,
+    "quants": [
+      {
+        "model_id": "Sakura-Galtransl-14B-v3-IQ4_XS",
+        "path": "https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8/resolve/main/Sakura-Galtransl-14B-v3-IQ4_XS.gguf",
+        "file_size": "7.6 GB"
+      },
+      {
+        "model_id": "Sakura-Galtransl-14B-v3-Q5_K_S",
+        "path": "https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8/resolve/main/Sakura-Galtransl-14B-v3-Q5_K_S.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "Sakura-Galtransl-14B-v3.7-IQ4_XS",
+        "path": "https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8/resolve/main/Sakura-Galtransl-14B-v3.7-IQ4_XS.gguf",
+        "file_size": "7.6 GB"
+      },
+      {
+        "model_id": "Sakura-Galtransl-14B-v3.7-Q5_K_S",
+        "path": "https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8/resolve/main/Sakura-Galtransl-14B-v3.7-Q5_K_S.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "Sakura-Galtransl-14B-v3.8-IQ4_XS",
+        "path": "https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8/resolve/main/Sakura-Galtransl-14B-v3.8-IQ4_XS.gguf",
+        "file_size": "7.6 GB"
+      },
+      {
+        "model_id": "Sakura-Galtransl-14B-v3.8-Q4_K_M",
+        "path": "https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8/resolve/main/Sakura-Galtransl-14B-v3.8-Q4_K_M.gguf",
+        "file_size": "8.4 GB"
+      },
+      {
+        "model_id": "Sakura-Galtransl-14B-v3.8-Q5_K_S",
+        "path": "https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8/resolve/main/Sakura-Galtransl-14B-v3.8-Q5_K_S.gguf",
+        "file_size": "9.6 GB"
+      },
+      {
+        "model_id": "Sakura-Galtransl-14B-v3.8",
+        "path": "https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8/resolve/main/Sakura-Galtransl-14B-v3.8.gguf",
+        "file_size": "11.3 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/SakuraLLM/Sakura-GalTransl-14B-v3.8/resolve/main/README.md",
+    "description": "A 14B Japanese-to-Chinese novel translation model (GalTransl-14B-v3.8) with improved style and quality."
   },
   {
     "model_name": "MechaEpstein-8000-GGUF",
@@ -91140,6 +91380,55 @@
     "description": "A Qwen 2.5 Coder variant fine-tuned for generating n8n automation workflows."
   },
   {
+    "model_name": "Nemotron-3-Super-64B-A12B-Math-REAP-GGUF",
+    "developer": "Max-and-Omnis",
+    "downloads": 1559,
+    "createdAt": "2026-04-24T07:47:01.000Z",
+    "tools": true,
+    "num_quants": 7,
+    "quants": [
+      {
+        "model_id": "Nemotron-3-Super-64B-A12B-Math-REAP.IQ2_M",
+        "path": "https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-GGUF/resolve/main/Nemotron-3-Super-64B-A12B-Math-REAP.IQ2_M.gguf",
+        "file_size": "37.2 GB"
+      },
+      {
+        "model_id": "Nemotron-3-Super-64B-A12B-Math-REAP.IQ3_M",
+        "path": "https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-GGUF/resolve/main/Nemotron-3-Super-64B-A12B-Math-REAP.IQ3_M.gguf",
+        "file_size": "40.4 GB"
+      },
+      {
+        "model_id": "Nemotron-3-Super-64B-A12B-Math-REAP.IQ4_XS",
+        "path": "https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-GGUF/resolve/main/Nemotron-3-Super-64B-A12B-Math-REAP.IQ4_XS.gguf",
+        "file_size": "42.8 GB"
+      },
+      {
+        "model_id": "Nemotron-3-Super-64B-A12B-Math-REAP.Q4_K_M",
+        "path": "https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-GGUF/resolve/main/Nemotron-3-Super-64B-A12B-Math-REAP.Q4_K_M.gguf",
+        "file_size": "51.8 GB"
+      },
+      {
+        "model_id": "Nemotron-3-Super-64B-A12B-Math-REAP.Q6_K",
+        "path": "https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-GGUF/resolve/main/Nemotron-3-Super-64B-A12B-Math-REAP.Q6_K.gguf",
+        "file_size": "63.6 GB"
+      },
+      {
+        "model_id": "Nemotron-3-Super-64B-A12B-Math-REAP.Q8_0",
+        "path": "https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-GGUF/resolve/main/Nemotron-3-Super-64B-A12B-Math-REAP.Q8_0.gguf",
+        "file_size": "70.1 GB"
+      },
+      {
+        "model_id": "Nemotron-3-Super-64B-A12B-Math-REAP.bf16",
+        "path": "https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-GGUF/resolve/main/Nemotron-3-Super-64B-A12B-Math-REAP.bf16.gguf",
+        "file_size": "119.8 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-GGUF/resolve/main/README.md",
+    "description": "GGUF-quantized math-specialized fine-tune of Nemotron-3-64B with dual licensing (NVIDIA + Apache 2.0)."
+  },
+  {
     "model_name": "Nemotron-Orchestrator-8B-Claude-4.5-Opus-Distill-GGUF",
     "developer": "TeichAI",
     "downloads": 1557,
@@ -102476,6 +102765,25 @@
     "description": "A community model focused on specialized technical and security topics."
   },
   {
+    "model_name": "Qwen3.6-35B-A3B-MTP-IQ4_XS-Q8nextn-GGUF",
+    "developer": "localweights",
+    "downloads": 778,
+    "createdAt": "2026-05-06T18:55:20.000Z",
+    "tools": true,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "Qwen3.6-35B-A3B-MTP-IQ4_XS-Q8nextn",
+        "path": "https://huggingface.co/localweights/Qwen3.6-35B-A3B-MTP-IQ4_XS-Q8nextn-GGUF/resolve/main/Qwen3.6-35B-A3B-MTP-IQ4_XS-Q8nextn.gguf",
+        "file_size": "18.1 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/localweights/Qwen3.6-35B-A3B-MTP-IQ4_XS-Q8nextn-GGUF/resolve/main/README.md",
+    "description": "Qwen3.6-35B-A3B MoE GGUF with IQ4_XS body and Q8_0 MTP head for optimized speculative decoding."
+  },
+  {
     "model_name": "FINAL-Bench_Darwin-28B-Opus-GGUF",
     "developer": "WhoTookMyAmogusNickname",
     "downloads": 777,
@@ -109743,6 +110051,35 @@
     "description": "A 450M model for text-to-speech synthesis in Portuguese."
   },
   {
+    "model_name": "himalayagpt-0.5b-it-gguf",
+    "developer": "himalaya-ai",
+    "downloads": 378,
+    "createdAt": "2026-05-07T11:29:33.000Z",
+    "tools": false,
+    "num_quants": 3,
+    "quants": [
+      {
+        "model_id": "himalayagpt-0.5b-it-Q4_K_M",
+        "path": "https://huggingface.co/himalaya-ai/himalayagpt-0.5b-it-gguf/resolve/main/himalayagpt-0.5b-it-Q4_K_M.gguf",
+        "file_size": "299.7 MB"
+      },
+      {
+        "model_id": "himalayagpt-0.5b-it-Q8_0",
+        "path": "https://huggingface.co/himalaya-ai/himalayagpt-0.5b-it-gguf/resolve/main/himalayagpt-0.5b-it-Q8_0.gguf",
+        "file_size": "532.4 MB"
+      },
+      {
+        "model_id": "himalayagpt-0.5b-it-bf16",
+        "path": "https://huggingface.co/himalaya-ai/himalayagpt-0.5b-it-gguf/resolve/main/himalayagpt-0.5b-it-bf16.gguf",
+        "file_size": "1001.1 MB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/himalaya-ai/himalayagpt-0.5b-it-gguf/resolve/main/README.md",
+    "description": "GGUF quantizations of a multilingual 0.5B model requiring a custom llama.cpp fork for the Nanochat architecture."
+  },
+  {
     "model_name": "glm-edge-1.5b-chat-gguf",
     "developer": "zai-org",
     "downloads": 377,
@@ -116626,5 +116963,114 @@
     ],
     "readme": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF-MTP/resolve/main/README.md",
     "description": "Qwen3.6-35B-A3B is an open-weight multimodal AI model with 35B parameters (3B activated) optimized for agentic coding, featuring 262K native context length and improved tool-calling capabilities."
+  },
+  {
+    "model_name": "Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP",
+    "developer": "GestaltLabs",
+    "downloads": 0,
+    "createdAt": "2026-05-11T17:07:06.000Z",
+    "tools": true,
+    "num_quants": 11,
+    "quants": [
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-F16",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-F16.gguf",
+        "file_size": "66.2 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q2_K",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q2_K.gguf",
+        "file_size": "12.3 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q3_K_L",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q3_K_L.gguf",
+        "file_size": "17.3 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q3_K_M",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q3_K_M.gguf",
+        "file_size": "16.0 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q3_K_S",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q3_K_S.gguf",
+        "file_size": "14.5 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q4_K_M",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q4_K_M.gguf",
+        "file_size": "20.2 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q4_K_S",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q4_K_S.gguf",
+        "file_size": "19.0 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q5_K_M",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q5_K_M.gguf",
+        "file_size": "23.6 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q5_K_S",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q5_K_S.gguf",
+        "file_size": "22.9 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q6_K",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q6_K.gguf",
+        "file_size": "27.2 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q8_0",
+        "path": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/Qwen3.6-35B-A3B-NSC-ACE-SABER-MTP-Q8_0.gguf",
+        "file_size": "35.2 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/README.md",
+    "description": "MTP-enabled GGUF quantizations of Qwen3.6-35B-A3B for llama.cpp with tool-calling optimizations."
+  },
+  {
+    "model_name": "Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF",
+    "developer": "LuffyTheFox",
+    "downloads": 0,
+    "createdAt": "2026-05-12T09:15:29.000Z",
+    "tools": true,
+    "num_quants": 4,
+    "quants": [
+      {
+        "model_id": "Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-MXFP4_MOE",
+        "path": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-MXFP4_MOE.gguf",
+        "file_size": "20.7 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-Q8_0",
+        "path": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-Q8_0.gguf",
+        "file_size": "35.2 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MXFP4_MOE",
+        "path": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MXFP4_MOE.gguf",
+        "file_size": "20.2 GB"
+      },
+      {
+        "model_id": "Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-Q8_0",
+        "path": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-Q8_0.gguf",
+        "file_size": "34.4 GB"
+      }
+    ],
+    "num_mmproj": 1,
+    "mmproj_models": [
+      {
+        "model_id": "mmproj-Qwen3.6-35B-A3B-Uncensored.f16",
+        "path": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF/resolve/main/mmproj-Qwen3.6-35B-A3B-Uncensored.f16.gguf",
+        "file_size": "857.6 MB"
+      }
+    ],
+    "readme": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Wasserstein-MTP-GGUF/resolve/main/README.md",
+    "description": "An experimental uncensored Qwen3.6-35B MoE vision model merged from two bases, with tensor drift repaired and available in GGUF format."
   }
 ]
