@@ -45,6 +45,12 @@ NON_CHAT_PIPELINE_TAGS = {
     "image-to-text",
     "audio-classification",
     "audio-to-audio",
+    "text-to-video",
+    "image-to-video",
+    "video-to-video",
+    "video-classification",
+    "text-to-3d",
+    "image-to-3d",
 }
 NON_CHAT_NAME_KEYWORDS = (
     "embed",
@@ -71,6 +77,10 @@ def is_chat_model(detail: dict, require_chat_template: bool = False) -> bool:
     presence as the strongest signal. MLX/transformers repos don't, so we fall
     back to ``pipeline_tag`` and tags.
     """
+    pipeline_tag = (detail.get("pipeline_tag") or "").lower()
+    if pipeline_tag in NON_CHAT_PIPELINE_TAGS:
+        return False
+
     gguf_data = detail.get("gguf")
     if isinstance(gguf_data, dict):
         ct = gguf_data.get("chat_template")
@@ -79,9 +89,6 @@ def is_chat_model(detail: dict, require_chat_template: bool = False) -> bool:
         if require_chat_template:
             return False
 
-    pipeline_tag = (detail.get("pipeline_tag") or "").lower()
-    if pipeline_tag in NON_CHAT_PIPELINE_TAGS:
-        return False
     if pipeline_tag in CHAT_PIPELINE_TAGS:
         return True
 
