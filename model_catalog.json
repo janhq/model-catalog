@@ -2884,21 +2884,22 @@
     "createdAt": "2026-05-03T00:33:24.000Z",
     "pipeline_tag": "text-to-video",
     "tools": true,
-    "num_quants": 2,
+    "num_quants": 1,
     "quants": [
-      {
-        "model_id": "prompt_enhancer/mmproj-BF16",
-        "path": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/mmproj-BF16.gguf",
-        "file_size": "879.0 MB"
-      },
       {
         "model_id": "prompt_enhancer/sulphur_prompt_enhancer_model-q8_0",
         "path": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/sulphur_prompt_enhancer_model-q8_0.gguf",
         "file_size": "8.9 GB"
       }
     ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
+    "num_mmproj": 1,
+    "mmproj_models": [
+      {
+        "model_id": "prompt_enhancer/mmproj-BF16",
+        "path": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/mmproj-BF16.gguf",
+        "file_size": "879.0 MB"
+      }
+    ],
     "readme": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/README.md",
     "description": "An uncensored video generation model based on LTX 2.3 supporting text-to-video and image-to-video generation with an optional prompt enhancer."
   },
@@ -4818,41 +4819,6 @@
     "description": "Kimi K2.6 is an open-source multimodal MoE AI model (1T params, 32B active) specialized in coding and agentic tasks with 256K context support."
   },
   {
-    "model_name": "Sugoi-32B-Ultra-GGUF",
-    "developer": "sugoitoolkit",
-    "downloads": 257609,
-    "createdAt": "2025-08-23T13:16:07.000Z",
-    "tools": true,
-    "num_quants": 4,
-    "quants": [
-      {
-        "model_id": "Sugoi-32B-Ultra-F16",
-        "path": "https://huggingface.co/sugoitoolkit/Sugoi-32B-Ultra-GGUF/resolve/main/Sugoi-32B-Ultra-F16.gguf",
-        "file_size": "61.0 GB"
-      },
-      {
-        "model_id": "Sugoi-32B-Ultra-Q2_K",
-        "path": "https://huggingface.co/sugoitoolkit/Sugoi-32B-Ultra-GGUF/resolve/main/Sugoi-32B-Ultra-Q2_K.gguf",
-        "file_size": "11.5 GB"
-      },
-      {
-        "model_id": "Sugoi-32B-Ultra-Q4_K_M",
-        "path": "https://huggingface.co/sugoitoolkit/Sugoi-32B-Ultra-GGUF/resolve/main/Sugoi-32B-Ultra-Q4_K_M.gguf",
-        "file_size": "18.5 GB"
-      },
-      {
-        "model_id": "Sugoi-32B-Ultra-Q8_0",
-        "path": "https://huggingface.co/sugoitoolkit/Sugoi-32B-Ultra-GGUF/resolve/main/Sugoi-32B-Ultra-Q8_0.gguf",
-        "file_size": "32.4 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/sugoitoolkit/Sugoi-32B-Ultra-GGUF/resolve/main/README.md",
-    "description": "Sugoi LLM 32B Ultra is an ultra-large language model based on the Qwen/Qwen2.5-32B-Instruct model, optimized for Japanese and English translation tasks using the GGUF format.",
-    "pipeline_tag": "translation"
-  },
-  {
     "model_name": "Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
     "developer": "DavidAU",
     "downloads": 257445,
@@ -5349,41 +5315,6 @@
     "readme": "https://huggingface.co/MaziyarPanahi/Qwen3-14B-GGUF/resolve/main/README.md",
     "description": "Alibaba's Qwen 3 14B model, a capable mid-size model for reasoning and text generation.",
     "pipeline_tag": "text-generation"
-  },
-  {
-    "model_name": "Sugoi-14B-Ultra-GGUF",
-    "developer": "sugoitoolkit",
-    "downloads": 234894,
-    "createdAt": "2025-08-19T22:54:35.000Z",
-    "tools": true,
-    "num_quants": 4,
-    "quants": [
-      {
-        "model_id": "Sugoi-14B-Ultra-F16",
-        "path": "https://huggingface.co/sugoitoolkit/Sugoi-14B-Ultra-GGUF/resolve/main/Sugoi-14B-Ultra-F16.gguf",
-        "file_size": "27.5 GB"
-      },
-      {
-        "model_id": "Sugoi-14B-Ultra-Q2_K",
-        "path": "https://huggingface.co/sugoitoolkit/Sugoi-14B-Ultra-GGUF/resolve/main/Sugoi-14B-Ultra-Q2_K.gguf",
-        "file_size": "5.4 GB"
-      },
-      {
-        "model_id": "Sugoi-14B-Ultra-Q4_K_M",
-        "path": "https://huggingface.co/sugoitoolkit/Sugoi-14B-Ultra-GGUF/resolve/main/Sugoi-14B-Ultra-Q4_K_M.gguf",
-        "file_size": "8.4 GB"
-      },
-      {
-        "model_id": "Sugoi-14B-Ultra-Q8_0",
-        "path": "https://huggingface.co/sugoitoolkit/Sugoi-14B-Ultra-GGUF/resolve/main/Sugoi-14B-Ultra-Q8_0.gguf",
-        "file_size": "14.6 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/sugoitoolkit/Sugoi-14B-Ultra-GGUF/resolve/main/README.md",
-    "description": "Sugoi LLM 14B Ultra (GGUF version) is a Japanese-to-English translation model with near-double BLEU score and strong prompt-following skills, ideal for RPG Maker text localization.",
-    "pipeline_tag": "translation"
   },
   {
     "model_name": "gpt-oss-120b-GGUF",
@@ -10317,7 +10248,7 @@
     "downloads": 88703,
     "createdAt": "2026-04-27T17:55:47.000Z",
     "tools": true,
-    "num_quants": 34,
+    "num_quants": 33,
     "quants": [
       {
         "model_id": "BF16/Qwen3.5-9B-MoQ-16",
@@ -10480,18 +10411,18 @@
         "file_size": "8.4 GB"
       },
       {
-        "model_id": "MoQ-mmproj/mmproj-BF16",
-        "path": "https://huggingface.co/w-ahmad/Qwen3.5-9B-GGUF-MoQ/resolve/main/MoQ-mmproj/mmproj-BF16.gguf",
-        "file_size": "879.0 MB"
-      },
-      {
         "model_id": "imatrix_w-ahmad-MoQ-Qwen3.5-9B",
         "path": "https://huggingface.co/w-ahmad/Qwen3.5-9B-GGUF-MoQ/resolve/main/imatrix_w-ahmad-MoQ-Qwen3.5-9B.gguf",
         "file_size": "4.9 MB"
       }
     ],
-    "num_mmproj": 1,
+    "num_mmproj": 2,
     "mmproj_models": [
+      {
+        "model_id": "MoQ-mmproj/mmproj-BF16",
+        "path": "https://huggingface.co/w-ahmad/Qwen3.5-9B-GGUF-MoQ/resolve/main/MoQ-mmproj/mmproj-BF16.gguf",
+        "file_size": "879.0 MB"
+      },
       {
         "model_id": "MoQ-mmproj/mmproj-BF16",
         "path": "https://huggingface.co/w-ahmad/Qwen3.5-9B-GGUF-MoQ/resolve/main/MoQ-mmproj/mmproj-BF16.gguf",
@@ -17165,391 +17096,6 @@
     "pipeline_tag": "text-generation"
   },
   {
-    "model_name": "Qwen-Image-Edit-Rapid-AIO-GGUF",
-    "developer": "Phil2Sat",
-    "downloads": 34417,
-    "createdAt": "2025-10-16T11:32:49.000Z",
-    "tools": true,
-    "num_quants": 74,
-    "quants": [
-      {
-        "model_id": "Qwen2.5-VL-7B-Instruct-abliterated/Qwen2.5-VL-7B-Instruct-abliterated.Q4_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/Qwen2.5-VL-7B-Instruct-abliterated/Qwen2.5-VL-7B-Instruct-abliterated.Q4_K_M.gguf",
-        "file_size": "4.4 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Instruct-abliterated/Qwen2.5-VL-7B-Instruct-abliterated.Q8_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/Qwen2.5-VL-7B-Instruct-abliterated/Qwen2.5-VL-7B-Instruct-abliterated.Q8_0.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Instruct-abliterated/Qwen2.5-VL-7B-Instruct-abliterated.mmproj-Q8_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/Qwen2.5-VL-7B-Instruct-abliterated/Qwen2.5-VL-7B-Instruct-abliterated.mmproj-Q8_0.gguf",
-        "file_size": "813.6 MB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Instruct-abliterated/Qwen2.5-VL-7B-Instruct-abliterated.mmproj-f16",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/Qwen2.5-VL-7B-Instruct-abliterated/Qwen2.5-VL-7B-Instruct-abliterated.mmproj-f16.gguf",
-        "file_size": "1.3 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-F16",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-F16.gguf",
-        "file_size": "38.1 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q2_K",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q2_K.gguf",
-        "file_size": "6.9 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q3_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q3_K_M.gguf",
-        "file_size": "9.4 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q3_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q3_K_S.gguf",
-        "file_size": "8.7 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q4_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q4_0.gguf",
-        "file_size": "11.4 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q4_1",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q4_1.gguf",
-        "file_size": "12.3 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q4_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q4_K_M.gguf",
-        "file_size": "12.4 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q4_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q4_K_S.gguf",
-        "file_size": "11.6 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q5_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q5_0.gguf",
-        "file_size": "13.7 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q5_1",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q5_1.gguf",
-        "file_size": "14.5 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q5_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q5_K_M.gguf",
-        "file_size": "14.1 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q5_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q5_K_S.gguf",
-        "file_size": "13.4 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q6_K",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q6_K.gguf",
-        "file_size": "15.8 GB"
-      },
-      {
-        "model_id": "v50/qwen-rapid-nsfw-v5.0-Q8_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v50/qwen-rapid-nsfw-v5.0-Q8_0.gguf",
-        "file_size": "20.3 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-F16",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-F16.gguf",
-        "file_size": "38.1 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q2_K",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q2_K.gguf",
-        "file_size": "6.9 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q3_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q3_K_M.gguf",
-        "file_size": "9.4 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q3_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q3_K_S.gguf",
-        "file_size": "8.7 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q4_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q4_0.gguf",
-        "file_size": "11.4 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q4_1",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q4_1.gguf",
-        "file_size": "12.3 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q4_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q4_K_M.gguf",
-        "file_size": "12.4 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q4_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q4_K_S.gguf",
-        "file_size": "11.6 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q5_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q5_0.gguf",
-        "file_size": "13.7 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q5_1",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q5_1.gguf",
-        "file_size": "14.5 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q5_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q5_K_M.gguf",
-        "file_size": "14.1 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q5_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q5_K_S.gguf",
-        "file_size": "13.4 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q6_K",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q6_K.gguf",
-        "file_size": "15.8 GB"
-      },
-      {
-        "model_id": "v52/qwen-rapid-nsfw-v5.2-Q8_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v52/qwen-rapid-nsfw-v5.2-Q8_0.gguf",
-        "file_size": "20.3 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-F16",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-F16.gguf",
-        "file_size": "38.1 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q2_K",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q2_K.gguf",
-        "file_size": "6.9 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q3_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q3_K_M.gguf",
-        "file_size": "9.4 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q3_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q3_K_S.gguf",
-        "file_size": "8.7 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q4_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q4_0.gguf",
-        "file_size": "11.4 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q4_1",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q4_1.gguf",
-        "file_size": "12.3 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q4_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q4_K_M.gguf",
-        "file_size": "12.4 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q4_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q4_K_S.gguf",
-        "file_size": "11.6 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q5_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q5_0.gguf",
-        "file_size": "13.7 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q5_1",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q5_1.gguf",
-        "file_size": "14.5 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q5_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q5_K_M.gguf",
-        "file_size": "14.1 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q5_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q5_K_S.gguf",
-        "file_size": "13.4 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q6_K",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q6_K.gguf",
-        "file_size": "15.8 GB"
-      },
-      {
-        "model_id": "v53/qwen-rapid-nsfw-v5.3-Q8_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v53/qwen-rapid-nsfw-v5.3-Q8_0.gguf",
-        "file_size": "20.3 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-F16",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-F16.gguf",
-        "file_size": "38.1 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q2_K",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q2_K.gguf",
-        "file_size": "6.9 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q3_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q3_K_M.gguf",
-        "file_size": "9.4 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q3_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q3_K_S.gguf",
-        "file_size": "8.7 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q4_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q4_0.gguf",
-        "file_size": "11.4 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q4_1",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q4_1.gguf",
-        "file_size": "12.3 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q4_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q4_K_M.gguf",
-        "file_size": "12.4 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q4_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q4_K_S.gguf",
-        "file_size": "11.6 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q5_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q5_0.gguf",
-        "file_size": "13.7 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q5_1",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q5_1.gguf",
-        "file_size": "14.5 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q5_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q5_K_M.gguf",
-        "file_size": "14.1 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q5_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q5_K_S.gguf",
-        "file_size": "13.4 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q6_K",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q6_K.gguf",
-        "file_size": "15.8 GB"
-      },
-      {
-        "model_id": "v71/qwen-rapid-nsfw-v7.1-Q8_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v71/qwen-rapid-nsfw-v7.1-Q8_0.gguf",
-        "file_size": "20.3 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-F16",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-F16.gguf",
-        "file_size": "38.1 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q2_K",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q2_K.gguf",
-        "file_size": "6.9 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q3_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q3_K_M.gguf",
-        "file_size": "9.4 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q3_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q3_K_S.gguf",
-        "file_size": "8.7 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q4_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q4_0.gguf",
-        "file_size": "11.4 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q4_1",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q4_1.gguf",
-        "file_size": "12.3 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q4_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q4_K_M.gguf",
-        "file_size": "12.4 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q4_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q4_K_S.gguf",
-        "file_size": "11.6 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q5_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q5_0.gguf",
-        "file_size": "13.7 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q5_1",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q5_1.gguf",
-        "file_size": "14.5 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q5_K_M",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q5_K_M.gguf",
-        "file_size": "14.1 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q5_K_S",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q5_K_S.gguf",
-        "file_size": "13.4 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q6_K",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q6_K.gguf",
-        "file_size": "15.8 GB"
-      },
-      {
-        "model_id": "v90/qwen-rapid-nsfw-v9.0-Q8_0",
-        "path": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/v90/qwen-rapid-nsfw-v9.0-Q8_0.gguf",
-        "file_size": "20.3 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF/resolve/main/README.md",
-    "description": "ComfyUI quantized Qwen-Image-Edit-Rapid-AIO with NSFW/Lightning LoRAs, requiring mmproj, VAE, and text_encoder.",
-    "pipeline_tag": "text-to-image"
-  },
-  {
     "model_name": "mistralai_Mistral-Small-3.2-24B-Instruct-2506-GGUF",
     "developer": "bartowski",
     "downloads": 34349,
@@ -18762,7 +18308,7 @@
       }
     ],
     "readme": "https://huggingface.co/ggml-org/GLM-OCR-GGUF/resolve/main/README.md",
-    "description": "GLM-OCR-GGUF is a GGUF-converted version of the GLM-OCR model for use with llama-server."
+    "description": "This is a GGUF-converted OCR model for use with llama-server."
   },
   {
     "model_name": "moondream2-20250414-GGUF",
@@ -21435,36 +20981,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.3-GGUF/resolve/main/README.md",
     "description": "Llama.cpp imatrix quantized versions of the Cydonia-24B-v4.3 language model available in various formats (Q8_0 to IQ2_XS) for local inference via LM Studio or llama.cpp."
-  },
-  {
-    "model_name": "HY-MT1.5-1.8B-GGUF",
-    "developer": "tencent",
-    "downloads": 20198,
-    "createdAt": "2025-12-30T08:26:19.000Z",
-    "tools": false,
-    "num_quants": 3,
-    "quants": [
-      {
-        "model_id": "HY-MT1.5-1.8B-Q4_K_M",
-        "path": "https://huggingface.co/tencent/HY-MT1.5-1.8B-GGUF/resolve/main/HY-MT1.5-1.8B-Q4_K_M.gguf",
-        "file_size": "1.1 GB"
-      },
-      {
-        "model_id": "HY-MT1.5-1.8B-Q6_K",
-        "path": "https://huggingface.co/tencent/HY-MT1.5-1.8B-GGUF/resolve/main/HY-MT1.5-1.8B-Q6_K.gguf",
-        "file_size": "1.4 GB"
-      },
-      {
-        "model_id": "HY-MT1.5-1.8B-Q8_0",
-        "path": "https://huggingface.co/tencent/HY-MT1.5-1.8B-GGUF/resolve/main/HY-MT1.5-1.8B-Q8_0.gguf",
-        "file_size": "1.8 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/tencent/HY-MT1.5-1.8B-GGUF/resolve/main/README.md",
-    "description": "Tencent's Hunyuan MT is a 1.8B/7B parameter translation model supporting 33+ languages with features like terminology intervention and contextual translation.",
-    "pipeline_tag": "translation"
   },
   {
     "model_name": "google_gemma-3-4b-it-GGUF",
@@ -24786,7 +24302,7 @@
     "num_mmproj": 0,
     "mmproj_models": [],
     "readme": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder/resolve/main/README.md",
-    "description": "An abliterated text encoder for FLUX.2-klein-9B that mathematically removes safety filters to enable unrestricted image generation."
+    "description": "An uncensored text encoder for FLUX.2-klein-9B that removes safety filters through mathematical weight orthogonalization, allowing unrestricted image generation."
   },
   {
     "model_name": "MiniCPM-V-4.6-gguf",
@@ -32669,7 +32185,7 @@
     "num_mmproj": 0,
     "mmproj_models": [],
     "readme": "https://huggingface.co/jackxinning/Leanly_AI/resolve/main/README.md",
-    "description": "A clinically oriented LLM for obesity weight management, providing psychological support using UK Biobank population health evidence."
+    "description": "An LLM providing evidence-informed, clinically oriented psychological support for individuals with obesity during weight management, integrating UK Biobank population health data."
   },
   {
     "model_name": "QwenSeek-2B-GGUF",
@@ -33838,26 +33354,6 @@
     "mmproj_models": [],
     "num_mmproj": 0,
     "pipeline_tag": null
-  },
-  {
-    "model_name": "Hy-MT1.5-1.8B-1.25bit-GGUF",
-    "developer": "AngelSlim",
-    "downloads": 8936,
-    "createdAt": "2026-04-28T12:50:52.000Z",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "Hy-MT1.5-1.8B-1.25bit",
-        "path": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit-GGUF/resolve/main/Hy-MT1.5-1.8B-1.25bit.gguf",
-        "file_size": "440.5 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit-GGUF/resolve/main/README.md",
-    "description": "Tencent's 1.25-bit quantized 1.8B multilingual translation model for on-device mobile deployment.",
-    "pipeline_tag": "translation"
   },
   {
     "model_name": "Qwen_Qwen3.5-122B-A10B-GGUF",
@@ -37110,36 +36606,6 @@
     "pipeline_tag": "text-generation"
   },
   {
-    "model_name": "HY-MT1.5-7B-GGUF",
-    "developer": "tencent",
-    "downloads": 7375,
-    "createdAt": "2025-12-30T08:26:48.000Z",
-    "tools": false,
-    "num_quants": 3,
-    "quants": [
-      {
-        "model_id": "HY-MT1.5-7B-Q4_K_M",
-        "path": "https://huggingface.co/tencent/HY-MT1.5-7B-GGUF/resolve/main/HY-MT1.5-7B-Q4_K_M.gguf",
-        "file_size": "4.3 GB"
-      },
-      {
-        "model_id": "HY-MT1.5-7B-Q6_K",
-        "path": "https://huggingface.co/tencent/HY-MT1.5-7B-GGUF/resolve/main/HY-MT1.5-7B-Q6_K.gguf",
-        "file_size": "5.7 GB"
-      },
-      {
-        "model_id": "HY-MT1.5-7B-Q8_0",
-        "path": "https://huggingface.co/tencent/HY-MT1.5-7B-GGUF/resolve/main/HY-MT1.5-7B-Q8_0.gguf",
-        "file_size": "7.4 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/tencent/HY-MT1.5-7B-GGUF/resolve/main/README.md",
-    "description": "Tencent's Hunyuan MT 1.5 (1.8B/7B) is a multilingual translation model supporting 33+ languages with terminology intervention and contextual translation.",
-    "pipeline_tag": "translation"
-  },
-  {
     "model_name": "Step-3.5-Flash-APEX-GGUF",
     "developer": "mudler",
     "downloads": 7369,
@@ -37353,26 +36819,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic-GGUF/resolve/main/README.md",
     "description": "An uncensored, finetuned Gemma 4 31B model optimized for creative writing and role-playing with 91% fewer refusals than the original."
-  },
-  {
-    "model_name": "Hy-MT1.5-1.8B-2bit-GGUF",
-    "developer": "tencent",
-    "downloads": 7194,
-    "createdAt": "2026-04-29T04:26:09.000Z",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "Hy-MT1.5-1.8B-2bit",
-        "path": "https://huggingface.co/tencent/Hy-MT1.5-1.8B-2bit-GGUF/resolve/main/Hy-MT1.5-1.8B-2bit.gguf",
-        "file_size": "572.7 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/tencent/Hy-MT1.5-1.8B-2bit-GGUF/resolve/main/README.md",
-    "description": "2-bit quantized 1.8B-parameter translation model supporting 33 languages for on-device offline use.",
-    "pipeline_tag": "translation"
   },
   {
     "model_name": "Qwen3.5-9B-GLM5.1-Distill-v1-i1-GGUF",
@@ -39972,91 +39418,6 @@
     "pipeline_tag": null
   },
   {
-    "model_name": "Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF",
-    "developer": "mradermacher",
-    "downloads": 6087,
-    "createdAt": "2025-07-23T06:06:13.000Z",
-    "tools": false,
-    "num_quants": 14,
-    "quants": [
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.IQ4_XS",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.IQ4_XS.gguf",
-        "file_size": "4.0 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.Q2_K",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.Q2_K.gguf",
-        "file_size": "2.8 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.Q3_K_L",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.Q3_K_L.gguf",
-        "file_size": "3.8 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.Q3_K_M",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.Q3_K_M.gguf",
-        "file_size": "3.5 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.Q3_K_S",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.Q3_K_S.gguf",
-        "file_size": "3.3 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.Q4_K_M",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.Q4_K_M.gguf",
-        "file_size": "4.4 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.Q4_K_S",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.Q4_K_S.gguf",
-        "file_size": "4.2 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.Q5_K_M",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.Q5_K_M.gguf",
-        "file_size": "5.1 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.Q5_K_S",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.Q5_K_S.gguf",
-        "file_size": "5.0 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.Q6_K",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.Q6_K.gguf",
-        "file_size": "5.8 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.Q8_0",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.Q8_0.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.f16",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.f16.gguf",
-        "file_size": "14.2 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.mmproj-Q8_0",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.mmproj-Q8_0.gguf",
-        "file_size": "813.6 MB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-7B-Abliterated-Caption-it.mmproj-f16",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/Qwen2.5-VL-7B-Abliterated-Caption-it.mmproj-f16.gguf",
-        "file_size": "1.3 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF/resolve/main/README.md",
-    "description": "This is a multi-modal visual language model (VLm) for image captioning and text generation, quantized in various formats including GGUF, available in English, Chinese, and Thai.",
-    "pipeline_tag": "image-to-text"
-  },
-  {
     "model_name": "Rocinante-X-12B-v1-GGUF",
     "developer": "TheDrummer",
     "downloads": 6069,
@@ -40100,6 +39461,26 @@
     "readme": "https://huggingface.co/TheDrummer/Rocinante-X-12B-v1-GGUF/resolve/main/README.md",
     "description": "A 12B community model fine-tuned for creative writing and immersive roleplay.",
     "pipeline_tag": null
+  },
+  {
+    "model_name": "Hy-MT1.5-1.8B-2bit-GGUF",
+    "developer": "AngelSlim",
+    "downloads": 6020,
+    "createdAt": "2026-04-28T12:56:12.000Z",
+    "pipeline_tag": "translation",
+    "tools": false,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "Hy-MT1.5-1.8B-2bit",
+        "path": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-2bit-GGUF/resolve/main/Hy-MT1.5-1.8B-2bit.gguf",
+        "file_size": "572.7 MB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-2bit-GGUF/resolve/main/README.md",
+    "description": "574MB 2-bit quantized on-device translation model supporting 33 languages."
   },
   {
     "model_name": "translategemma-12b-it-GGUF",
@@ -43350,26 +42731,6 @@
     "pipeline_tag": "text-generation"
   },
   {
-    "model_name": "LORAs",
-    "developer": "jeremyhola",
-    "downloads": 5211,
-    "createdAt": "2026-01-31T20:02:29.000Z",
-    "tools": true,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "aiorbust/nsfw/Qwen3-4b-Z-Image-Engineer-V4-F16",
-        "path": "https://huggingface.co/jeremyhola/LORAs/resolve/main/aiorbust/nsfw/Qwen3-4b-Z-Image-Engineer-V4-F16.gguf",
-        "file_size": "7.5 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/jeremyhola/LORAs/resolve/main/README.md",
-    "description": "LoRA models for text-to-image generation fine-tuned on various datasets using the Diffusers library.",
-    "pipeline_tag": "text-to-image"
-  },
-  {
     "model_name": "TinyLlama-1.1B-Chat-v0.6",
     "developer": "TinyLlama",
     "downloads": 5191,
@@ -43458,26 +42819,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/GestaltLabs/Qwen3.6-35B-A3B-NSC-ACE-SABER-GGUF-MTP/resolve/main/README.md",
     "description": "MTP-enabled GGUF quantizations of Qwen3.6-35B-A3B for llama.cpp with tool-calling optimizations."
-  },
-  {
-    "model_name": "orpheus-3b-0.1-ft-Q4_K_M-GGUF",
-    "developer": "isaiahbjork",
-    "downloads": 5166,
-    "createdAt": "2025-03-20T01:43:53.000Z",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "orpheus-3b-0.1-ft-q4_k_m",
-        "path": "https://huggingface.co/isaiahbjork/orpheus-3b-0.1-ft-Q4_K_M-GGUF/resolve/main/orpheus-3b-0.1-ft-q4_k_m.gguf",
-        "file_size": "2.2 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/isaiahbjork/orpheus-3b-0.1-ft-Q4_K_M-GGUF/resolve/main/README.md",
-    "description": "Orpheus-TTS-Local is a lightweight client for running the Orpheus TTS model locally using LM Studio API for text-to-speech synthesis with multiple voice options and emotion tags.",
-    "pipeline_tag": "text-to-speech"
   },
   {
     "model_name": "Qwen3.5-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-i1-GGUF",
@@ -51783,7 +51124,7 @@
     "createdAt": "2026-05-14T10:02:20.000Z",
     "pipeline_tag": null,
     "tools": true,
-    "num_quants": 27,
+    "num_quants": 26,
     "quants": [
       {
         "model_id": "SFT-CODER-GGUF/gemma-4-E4B-it-coder-Q4_K_M",
@@ -51886,11 +51227,6 @@
         "file_size": "141.8 MB"
       },
       {
-        "model_id": "SFT-MODEL/mmproj-Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-f16",
-        "path": "https://huggingface.co/Shrijanagain/H-GEMMA4-SFT-INSTRUCT/resolve/main/SFT-MODEL/mmproj-Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-f16.gguf",
-        "file_size": "944.4 MB"
-      },
-      {
         "model_id": "SFT-REASONING/gemma-4-26B-A4B-it.BF16-mmproj",
         "path": "https://huggingface.co/Shrijanagain/H-GEMMA4-SFT-INSTRUCT/resolve/main/SFT-REASONING/gemma-4-26B-A4B-it.BF16-mmproj.gguf",
         "file_size": "1.1 GB"
@@ -51921,8 +51257,14 @@
         "file_size": "14.0 GB"
       }
     ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
+    "num_mmproj": 1,
+    "mmproj_models": [
+      {
+        "model_id": "SFT-MODEL/mmproj-Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-f16",
+        "path": "https://huggingface.co/Shrijanagain/H-GEMMA4-SFT-INSTRUCT/resolve/main/SFT-MODEL/mmproj-Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-f16.gguf",
+        "file_size": "944.4 MB"
+      }
+    ],
     "readme": "https://huggingface.co/Shrijanagain/H-GEMMA4-SFT-INSTRUCT/resolve/main/README.md",
     "description": "SKT AI Labs curates Google Gemma-4 models into coding, reasoning, and research tiers for hackathons under Google's license."
   },
@@ -54679,36 +54021,6 @@
     "pipeline_tag": "text-generation"
   },
   {
-    "model_name": "llava-llama-3-8b-v1_1-gguf",
-    "developer": "xtuner",
-    "downloads": 2850,
-    "createdAt": "2024-04-26T10:41:02.000Z",
-    "tools": false,
-    "num_quants": 3,
-    "quants": [
-      {
-        "model_id": "llava-llama-3-8b-v1_1-f16",
-        "path": "https://huggingface.co/xtuner/llava-llama-3-8b-v1_1-gguf/resolve/main/llava-llama-3-8b-v1_1-f16.gguf",
-        "file_size": "15.0 GB"
-      },
-      {
-        "model_id": "llava-llama-3-8b-v1_1-int4",
-        "path": "https://huggingface.co/xtuner/llava-llama-3-8b-v1_1-gguf/resolve/main/llava-llama-3-8b-v1_1-int4.gguf",
-        "file_size": "4.6 GB"
-      },
-      {
-        "model_id": "llava-llama-3-8b-v1_1-mmproj-f16",
-        "path": "https://huggingface.co/xtuner/llava-llama-3-8b-v1_1-gguf/resolve/main/llava-llama-3-8b-v1_1-mmproj-f16.gguf",
-        "file_size": "595.5 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/xtuner/llava-llama-3-8b-v1_1-gguf/resolve/main/README.md",
-    "description": "GGUF-formatted LLaVA model for image-to-text tasks.",
-    "pipeline_tag": "image-to-text"
-  },
-  {
     "model_name": "gemma-3-12b-it-abliterated-GGUF",
     "developer": "mlabonne",
     "downloads": 2787,
@@ -55247,56 +54559,6 @@
     "readme": "https://huggingface.co/bartowski/TheDrummer_Cydonia-24B-v4.1-GGUF/resolve/main/README.md",
     "description": "This is a quantized version of the Cydonia-24B-v4.1 model using llama.cpp's imatrix method, offering various quantization types for different performance and quality trade-offs.",
     "pipeline_tag": "text-generation"
-  },
-  {
-    "model_name": "LFM2-350M-ENJP-MT-GGUF",
-    "developer": "LiquidAI",
-    "downloads": 2707,
-    "createdAt": "2025-09-03T01:29:36.000Z",
-    "tools": true,
-    "num_quants": 7,
-    "quants": [
-      {
-        "model_id": "LFM2-350M-ENJP-MT-F16",
-        "path": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/main/LFM2-350M-ENJP-MT-F16.gguf",
-        "file_size": "678.5 MB"
-      },
-      {
-        "model_id": "LFM2-350M-ENJP-MT-F32",
-        "path": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/main/LFM2-350M-ENJP-MT-F32.gguf",
-        "file_size": "1.3 GB"
-      },
-      {
-        "model_id": "LFM2-350M-ENJP-MT-Q4_0",
-        "path": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/main/LFM2-350M-ENJP-MT-Q4_0.gguf",
-        "file_size": "209.1 MB"
-      },
-      {
-        "model_id": "LFM2-350M-ENJP-MT-Q4_K_M",
-        "path": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/main/LFM2-350M-ENJP-MT-Q4_K_M.gguf",
-        "file_size": "218.7 MB"
-      },
-      {
-        "model_id": "LFM2-350M-ENJP-MT-Q5_K_M",
-        "path": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/main/LFM2-350M-ENJP-MT-Q5_K_M.gguf",
-        "file_size": "248.3 MB"
-      },
-      {
-        "model_id": "LFM2-350M-ENJP-MT-Q6_K",
-        "path": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/main/LFM2-350M-ENJP-MT-Q6_K.gguf",
-        "file_size": "279.8 MB"
-      },
-      {
-        "model_id": "LFM2-350M-ENJP-MT-Q8_0",
-        "path": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/main/LFM2-350M-ENJP-MT-Q8_0.gguf",
-        "file_size": "361.6 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/main/README.md",
-    "description": "A GGUF checkpoint of LFM2‑350M fine‑tuned for fast Japanese↔English translation, runnable with llama.cpp.",
-    "pipeline_tag": "translation"
   },
   {
     "model_name": "Huihui-gpt-oss-20b-mxfp4-abliterated-v2",
@@ -56850,36 +56112,6 @@
     "pipeline_tag": null
   },
   {
-    "model_name": "llava-phi-3-mini-gguf",
-    "developer": "xtuner",
-    "downloads": 2503,
-    "createdAt": "2024-04-25T12:25:50.000Z",
-    "tools": false,
-    "num_quants": 3,
-    "quants": [
-      {
-        "model_id": "llava-phi-3-mini-f16",
-        "path": "https://huggingface.co/xtuner/llava-phi-3-mini-gguf/resolve/main/llava-phi-3-mini-f16.gguf",
-        "file_size": "7.1 GB"
-      },
-      {
-        "model_id": "llava-phi-3-mini-int4",
-        "path": "https://huggingface.co/xtuner/llava-phi-3-mini-gguf/resolve/main/llava-phi-3-mini-int4.gguf",
-        "file_size": "2.2 GB"
-      },
-      {
-        "model_id": "llava-phi-3-mini-mmproj-f16",
-        "path": "https://huggingface.co/xtuner/llava-phi-3-mini-gguf/resolve/main/llava-phi-3-mini-mmproj-f16.gguf",
-        "file_size": "579.5 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/xtuner/llava-phi-3-mini-gguf/resolve/main/README.md",
-    "description": "A compact multimodal model combining LLaVA vision capabilities with Phi-3 Mini.",
-    "pipeline_tag": "image-to-text"
-  },
-  {
     "model_name": "AuriAetherwiing_TQ3.5-27B-Musica-v1-GGUF",
     "developer": "bartowski",
     "downloads": 2500,
@@ -58002,26 +57234,6 @@
     "pipeline_tag": null
   },
   {
-    "model_name": "gpt-oss-120b-Distill-Phi-4-14B-GGUF",
-    "developer": "Jackrong",
-    "downloads": 2317,
-    "createdAt": "2025-09-24T01:12:30.000Z",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "gpt-oss-120b-Distill-Phi-4-14B.Q8_0",
-        "path": "https://huggingface.co/Jackrong/gpt-oss-120b-Distill-Phi-4-14B-GGUF/resolve/main/gpt-oss-120b-Distill-Phi-4-14B.Q8_0.gguf",
-        "file_size": "14.5 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/Jackrong/gpt-oss-120b-Distill-Phi-4-14B-GGUF/resolve/main/README.md",
-    "description": "14B Phi-4 model fine-tuned via SFT-GRPO-SFT using gpt-oss-120b distilled data for advanced reasoning.",
-    "pipeline_tag": "question-answering"
-  },
-  {
     "model_name": "Qwen3.5-9B-Abliterated-Claude-4.6-Opus-Reasoning-Distilled-v2",
     "developer": "Abhiray",
     "downloads": 2288,
@@ -58869,7 +58081,7 @@
     "downloads": 2171,
     "createdAt": "2025-08-31T08:41:52.000Z",
     "tools": true,
-    "num_quants": 5,
+    "num_quants": 4,
     "quants": [
       {
         "model_id": "GGUF/ggml-model-Q4_K_M",
@@ -58890,15 +58102,15 @@
         "model_id": "GGUF/ggml-model-f16",
         "path": "https://huggingface.co/huihui-ai/Huihui-MiniCPM-V-4_5-abliterated/resolve/main/GGUF/ggml-model-f16.gguf",
         "file_size": "15.3 GB"
-      },
+      }
+    ],
+    "num_mmproj": 2,
+    "mmproj_models": [
       {
         "model_id": "GGUF/mmproj-model-f16",
         "path": "https://huggingface.co/huihui-ai/Huihui-MiniCPM-V-4_5-abliterated/resolve/main/GGUF/mmproj-model-f16.gguf",
         "file_size": "1.0 GB"
-      }
-    ],
-    "num_mmproj": 1,
-    "mmproj_models": [
+      },
       {
         "model_id": "GGUF/mmproj-model-f16",
         "path": "https://huggingface.co/huihui-ai/Huihui-MiniCPM-V-4_5-abliterated/resolve/main/GGUF/mmproj-model-f16.gguf",
@@ -71133,81 +70345,6 @@
     "pipeline_tag": null
   },
   {
-    "model_name": "Hunyuan-MT-7B-GGUF",
-    "developer": "mradermacher",
-    "downloads": 1206,
-    "createdAt": "2025-09-02T08:08:48.000Z",
-    "tools": false,
-    "num_quants": 12,
-    "quants": [
-      {
-        "model_id": "Hunyuan-MT-7B.IQ4_XS",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.IQ4_XS.gguf",
-        "file_size": "3.9 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.Q2_K",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.Q2_K.gguf",
-        "file_size": "2.8 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.Q3_K_L",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.Q3_K_L.gguf",
-        "file_size": "3.8 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.Q3_K_M",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.Q3_K_M.gguf",
-        "file_size": "3.5 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.Q3_K_S",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.Q3_K_S.gguf",
-        "file_size": "3.2 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.Q4_K_M",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.Q4_K_M.gguf",
-        "file_size": "4.3 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.Q4_K_S",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.Q4_K_S.gguf",
-        "file_size": "4.1 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.Q5_K_M",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.Q5_K_M.gguf",
-        "file_size": "5.0 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.Q5_K_S",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.Q5_K_S.gguf",
-        "file_size": "4.9 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.Q6_K",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.Q6_K.gguf",
-        "file_size": "5.7 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.Q8_0",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.Q8_0.gguf",
-        "file_size": "7.4 GB"
-      },
-      {
-        "model_id": "Hunyuan-MT-7B.f16",
-        "path": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/Hunyuan-MT-7B.f16.gguf",
-        "file_size": "14.0 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/mradermacher/Hunyuan-MT-7B-GGUF/resolve/main/README.md",
-    "description": "This is a quantized version of the Tencent Hunyuan-MT-7B model for translation tasks, available in various quantization formats including Q2_K, Q3_K_S, Q4_K_S, Q8_0, and f16.",
-    "pipeline_tag": "translation"
-  },
-  {
     "model_name": "gemma4-heretic-Q4_K_M.gguf",
     "developer": "marafx2007",
     "downloads": 1203,
@@ -71943,81 +71080,6 @@
     "readme": "https://huggingface.co/seanbailey518/Step3-VL-10B-GGUF/resolve/main/README.md",
     "description": "GGUF quantizations of Step3-VL-10B, a 10B parameter multimodal vision-language model with image understanding capabilities.",
     "pipeline_tag": null
-  },
-  {
-    "model_name": "Huihui-gemma-3n-E4B-it-abliterated-GGUF",
-    "developer": "mradermacher",
-    "downloads": 1149,
-    "createdAt": "2025-07-11T00:48:21.000Z",
-    "tools": false,
-    "num_quants": 12,
-    "quants": [
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.IQ4_XS",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.IQ4_XS.gguf",
-        "file_size": "3.6 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.Q2_K",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.Q2_K.gguf",
-        "file_size": "2.6 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.Q3_K_L",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.Q3_K_L.gguf",
-        "file_size": "3.4 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.Q3_K_M",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.Q3_K_M.gguf",
-        "file_size": "3.2 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.Q3_K_S",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.Q3_K_S.gguf",
-        "file_size": "3.0 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.Q4_K_M",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.Q4_K_M.gguf",
-        "file_size": "3.9 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.Q4_K_S",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.Q4_K_S.gguf",
-        "file_size": "3.8 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.Q5_K_M",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.Q5_K_M.gguf",
-        "file_size": "4.6 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.Q5_K_S",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.Q5_K_S.gguf",
-        "file_size": "4.5 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.Q6_K",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.Q6_K.gguf",
-        "file_size": "5.3 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.Q8_0",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.Q8_0.gguf",
-        "file_size": "6.8 GB"
-      },
-      {
-        "model_id": "Huihui-gemma-3n-E4B-it-abliterated.f16",
-        "path": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/Huihui-gemma-3n-E4B-it-abliterated.f16.gguf",
-        "file_size": "12.8 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/mradermacher/Huihui-gemma-3n-E4B-it-abliterated-GGUF/resolve/main/README.md",
-    "description": "This is a quantized version of the Huihui-gemma-3n-E4B-it-abliterated model, available in various GGUF quantization formats for different performance and quality trade-offs.",
-    "pipeline_tag": "automatic-speech-recognition"
   },
   {
     "model_name": "Qwen3-4b-toolcall-gguf-llamacpp-codex",
@@ -76490,13 +75552,31 @@
     "downloads": 938,
     "createdAt": "2026-03-03T04:54:28.000Z",
     "tools": true,
-    "num_quants": 16,
+    "num_quants": 4,
     "quants": [
       {
         "model_id": "Qwen3.5-0.8B/Qwen3.5-0.8B-PRISM-DQ",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-0.8B/Qwen3.5-0.8B-PRISM-DQ.gguf",
         "file_size": "446.4 MB"
       },
+      {
+        "model_id": "Qwen3.5-2B/Qwen3.5-2B-PRISM-DQ",
+        "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-2B/Qwen3.5-2B-PRISM-DQ.gguf",
+        "file_size": "1.0 GB"
+      },
+      {
+        "model_id": "Qwen3.5-4B/Qwen3.5-4B-PRISM-DQ",
+        "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-4B/Qwen3.5-4B-PRISM-DQ.gguf",
+        "file_size": "2.1 GB"
+      },
+      {
+        "model_id": "Qwen3.5-9B/Qwen3.5-9B-PRISM-DQ",
+        "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-9B/Qwen3.5-9B-PRISM-DQ.gguf",
+        "file_size": "4.3 GB"
+      }
+    ],
+    "num_mmproj": 24,
+    "mmproj_models": [
       {
         "model_id": "Qwen3.5-0.8B/mmproj-BF16",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-0.8B/mmproj-BF16.gguf",
@@ -76511,11 +75591,6 @@
         "model_id": "Qwen3.5-0.8B/mmproj-F32",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-0.8B/mmproj-F32.gguf",
         "file_size": "383.7 MB"
-      },
-      {
-        "model_id": "Qwen3.5-2B/Qwen3.5-2B-PRISM-DQ",
-        "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-2B/Qwen3.5-2B-PRISM-DQ.gguf",
-        "file_size": "1.0 GB"
       },
       {
         "model_id": "Qwen3.5-2B/mmproj-BF16",
@@ -76533,11 +75608,6 @@
         "file_size": "1.2 GB"
       },
       {
-        "model_id": "Qwen3.5-4B/Qwen3.5-4B-PRISM-DQ",
-        "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-4B/Qwen3.5-4B-PRISM-DQ.gguf",
-        "file_size": "2.1 GB"
-      },
-      {
         "model_id": "Qwen3.5-4B/mmproj-BF16",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-4B/mmproj-BF16.gguf",
         "file_size": "644.3 MB"
@@ -76553,11 +75623,6 @@
         "file_size": "1.2 GB"
       },
       {
-        "model_id": "Qwen3.5-9B/Qwen3.5-9B-PRISM-DQ",
-        "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-9B/Qwen3.5-9B-PRISM-DQ.gguf",
-        "file_size": "4.3 GB"
-      },
-      {
         "model_id": "Qwen3.5-9B/mmproj-BF16",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-9B/mmproj-BF16.gguf",
         "file_size": "879.0 MB"
@@ -76571,10 +75636,7 @@
         "model_id": "Qwen3.5-9B/mmproj-F32",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-9B/mmproj-F32.gguf",
         "file_size": "1.7 GB"
-      }
-    ],
-    "num_mmproj": 12,
-    "mmproj_models": [
+      },
       {
         "model_id": "Qwen3.5-0.8B/mmproj-BF16",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-PRISM-Dynamic-Quant-GGUF/resolve/main/Qwen3.5-0.8B/mmproj-BF16.gguf",
@@ -81929,41 +80991,6 @@
     "pipeline_tag": "text-generation"
   },
   {
-    "model_name": "git-commit-message",
-    "developer": "Tavernari",
-    "downloads": 697,
-    "createdAt": "2024-04-21T00:18:53.000Z",
-    "tools": true,
-    "num_quants": 4,
-    "quants": [
-      {
-        "model_id": "unsloth.F16",
-        "path": "https://huggingface.co/Tavernari/git-commit-message/resolve/main/unsloth.F16.gguf",
-        "file_size": "5.8 GB"
-      },
-      {
-        "model_id": "unsloth.Q4_K_M",
-        "path": "https://huggingface.co/Tavernari/git-commit-message/resolve/main/unsloth.Q4_K_M.gguf",
-        "file_size": "1.8 GB"
-      },
-      {
-        "model_id": "unsloth.Q5_K_M",
-        "path": "https://huggingface.co/Tavernari/git-commit-message/resolve/main/unsloth.Q5_K_M.gguf",
-        "file_size": "2.1 GB"
-      },
-      {
-        "model_id": "unsloth.Q8_0",
-        "path": "https://huggingface.co/Tavernari/git-commit-message/resolve/main/unsloth.Q8_0.gguf",
-        "file_size": "3.1 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/Tavernari/git-commit-message/resolve/main/README.md",
-    "description": "Git commit message generator with reasoning from code diffs.",
-    "pipeline_tag": "summarization"
-  },
-  {
     "model_name": "Qwen3-30B-A1.5B-64K-High-Speed-NEO-Imatrix-MAX-gguf",
     "developer": "DavidAU",
     "downloads": 696,
@@ -84205,31 +83232,6 @@
     "readme": "https://huggingface.co/bartowski/ServiceNow-AI_Apriel-1.5-15b-Thinker-GGUF/resolve/main/README.md",
     "description": "imatrix-quantized GGUF versions of Apriel-1.5-15b-Thinker for efficient inference.",
     "pipeline_tag": "image-text-to-text"
-  },
-  {
-    "model_name": "phi4-multimodal-quantisized-gguf",
-    "developer": "ShayanCyan",
-    "downloads": 624,
-    "createdAt": "2026-02-16T12:24:30.000Z",
-    "tools": false,
-    "num_quants": 2,
-    "quants": [
-      {
-        "model_id": "phi4-mm-Q4_K_M",
-        "path": "https://huggingface.co/ShayanCyan/phi4-multimodal-quantisized-gguf/resolve/main/phi4-mm-Q4_K_M.gguf",
-        "file_size": "2.3 GB"
-      },
-      {
-        "model_id": "phi4-mm-vision-q8",
-        "path": "https://huggingface.co/ShayanCyan/phi4-multimodal-quantisized-gguf/resolve/main/phi4-mm-vision-q8.gguf",
-        "file_size": "585.8 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/ShayanCyan/phi4-multimodal-quantisized-gguf/resolve/main/README.md",
-    "description": "**Quantized Phi-4 Multimodal GGUF weights for local text, vision, and audio inference using llama.cpp.**",
-    "pipeline_tag": "image-to-text"
   },
   {
     "model_name": "II-Search-4B-GGUF",
@@ -88605,26 +87607,6 @@
     "pipeline_tag": "text-generation"
   },
   {
-    "model_name": "RealRobot-Chatbot-Ecommerce-Robot-Fibonacci-Nano-llm",
-    "developer": "fibonacciai",
-    "downloads": 516,
-    "createdAt": "2025-11-13T23:54:12.000Z",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "realrobot_chatbot_llm-q8_0",
-        "path": "https://huggingface.co/fibonacciai/RealRobot-Chatbot-Ecommerce-Robot-Fibonacci-Nano-llm/resolve/main/realrobot_chatbot_llm-q8_0.gguf",
-        "file_size": "4.5 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/fibonacciai/RealRobot-Chatbot-Ecommerce-Robot-Fibonacci-Nano-llm/resolve/main/README.md",
-    "description": "Specialized Gemma 3n product chatbot fine-tuned exclusively on RealRobot data for business-specific accuracy.",
-    "pipeline_tag": "question-answering"
-  },
-  {
     "model_name": "Lumimaid-v0.2-8B-GGUF-IQ-Imatrix",
     "developer": "Lewdiculous",
     "downloads": 514,
@@ -92473,86 +91455,6 @@
     "pipeline_tag": "text-generation"
   },
   {
-    "model_name": "PromptEnhancer-32B-GGUF",
-    "developer": "mradermacher",
-    "downloads": 437,
-    "createdAt": "2025-09-18T12:25:18.000Z",
-    "tools": false,
-    "num_quants": 13,
-    "quants": [
-      {
-        "model_id": "PromptEnhancer-32B.IQ4_XS",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.IQ4_XS.gguf",
-        "file_size": "16.6 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.Q2_K",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.Q2_K.gguf",
-        "file_size": "11.5 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.Q3_K_L",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.Q3_K_L.gguf",
-        "file_size": "16.1 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.Q3_K_M",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.Q3_K_M.gguf",
-        "file_size": "14.8 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.Q3_K_S",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.Q3_K_S.gguf",
-        "file_size": "13.4 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.Q4_K_M",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.Q4_K_M.gguf",
-        "file_size": "18.5 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.Q4_K_S",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.Q4_K_S.gguf",
-        "file_size": "17.5 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.Q5_K_M",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.Q5_K_M.gguf",
-        "file_size": "21.7 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.Q5_K_S",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.Q5_K_S.gguf",
-        "file_size": "21.1 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.Q6_K",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.Q6_K.gguf",
-        "file_size": "25.0 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.Q8_0",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.Q8_0.gguf",
-        "file_size": "32.4 GB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.mmproj-Q8_0",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.mmproj-Q8_0.gguf",
-        "file_size": "703.7 MB"
-      },
-      {
-        "model_id": "PromptEnhancer-32B.mmproj-f16",
-        "path": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/PromptEnhancer-32B.mmproj-f16.gguf",
-        "file_size": "1.3 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/mradermacher/PromptEnhancer-32B-GGUF/resolve/main/README.md",
-    "description": "A 32B model specialized for improving and expanding text-to-image prompts.",
-    "pipeline_tag": "text-to-image"
-  },
-  {
     "model_name": "Falcon-H1-Tiny-R-90M-GGUF",
     "developer": "tiiuae",
     "downloads": 436,
@@ -96026,26 +94928,6 @@
     "readme": "https://huggingface.co/mradermacher/CreativeSocialAgent_GLM_4.7_Flash-i1-GGUF/resolve/main/README.md",
     "description": "GGUF quantized versions of CyberNative-AI/CreativeSocialAgent_GLM_4.7_Flash model in various precision levels (6.3GB to 24.7GB).",
     "pipeline_tag": null
-  },
-  {
-    "model_name": "Orpheus-3b-FT-Q4_K_M.gguf",
-    "developer": "lex-au",
-    "downloads": 367,
-    "createdAt": "2025-03-24T09:25:52.000Z",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "Orpheus-3b-FT-Q4_K_M",
-        "path": "https://huggingface.co/lex-au/Orpheus-3b-FT-Q4_K_M.gguf/resolve/main/Orpheus-3b-FT-Q4_K_M.gguf",
-        "file_size": "2.2 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/lex-au/Orpheus-3b-FT-Q4_K_M.gguf/resolve/main/README.md",
-    "description": "English 8-bit quantized 3B TTS model with 8 voices and emotion tags for efficient GPU inference.",
-    "pipeline_tag": "text-to-speech"
   },
   {
     "model_name": "MARTHA-0.8B",
@@ -103051,26 +101933,6 @@
     "pipeline_tag": null
   },
   {
-    "model_name": "Trama",
-    "developer": "Trina-QwQ",
-    "downloads": 247,
-    "createdAt": "2026-03-09T16:27:26.000Z",
-    "tools": true,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "trama",
-        "path": "https://huggingface.co/Trina-QwQ/Trama/resolve/main/trama.gguf",
-        "file_size": "2.3 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/Trina-QwQ/Trama/resolve/main/README.md",
-    "description": "Trama v1是一个基于Qwen3-4B的中文解锁模型，支持Ollama和LM-Studio运行，可回答药物、代码安全、性内容等敏感问题，适合角色扮演。",
-    "pipeline_tag": "question-answering"
-  },
-  {
     "model_name": "baidu_ERNIE-4.5-0.3B-PT-GGUF",
     "developer": "bartowski",
     "downloads": 243,
@@ -105562,146 +104424,6 @@
     "pipeline_tag": null
   },
   {
-    "model_name": "Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF",
-    "developer": "mradermacher",
-    "downloads": 203,
-    "createdAt": "2025-08-16T21:07:14.000Z",
-    "tools": false,
-    "num_quants": 25,
-    "quants": [
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ1_M",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ1_M.gguf",
-        "file_size": "810.6 MB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ1_S",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ1_S.gguf",
-        "file_size": "754.4 MB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ2_M",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ2_M.gguf",
-        "file_size": "1.1 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ2_S",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ2_S.gguf",
-        "file_size": "1012.7 MB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ2_XS",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ2_XS.gguf",
-        "file_size": "983.8 MB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ2_XXS",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ2_XXS.gguf",
-        "file_size": "904.3 MB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ3_M",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ3_M.gguf",
-        "file_size": "1.4 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ3_S",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ3_S.gguf",
-        "file_size": "1.4 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ3_XS",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ3_XS.gguf",
-        "file_size": "1.3 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ3_XXS",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ3_XXS.gguf",
-        "file_size": "1.2 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ4_NL",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ4_NL.gguf",
-        "file_size": "1.7 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ4_XS",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-IQ4_XS.gguf",
-        "file_size": "1.6 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q2_K",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q2_K.gguf",
-        "file_size": "1.2 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q2_K_S",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q2_K_S.gguf",
-        "file_size": "1.1 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q3_K_L",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q3_K_L.gguf",
-        "file_size": "1.6 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q3_K_M",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q3_K_M.gguf",
-        "file_size": "1.5 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q3_K_S",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q3_K_S.gguf",
-        "file_size": "1.4 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q4_0",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q4_0.gguf",
-        "file_size": "1.7 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q4_1",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q4_1.gguf",
-        "file_size": "1.9 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q4_K_M",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q4_K_M.gguf",
-        "file_size": "1.8 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q4_K_S",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q4_K_S.gguf",
-        "file_size": "1.7 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q5_K_M",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q5_K_M.gguf",
-        "file_size": "2.1 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q5_K_S",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q5_K_S.gguf",
-        "file_size": "2.0 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q6_K",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.i1-Q6_K.gguf",
-        "file_size": "2.4 GB"
-      },
-      {
-        "model_id": "Qwen2.5-VL-3B-Abliterated-Caption-it.imatrix",
-        "path": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/Qwen2.5-VL-3B-Abliterated-Caption-it.imatrix.gguf",
-        "file_size": "3.2 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/mradermacher/Qwen2.5-VL-3B-Abliterated-Caption-it-i1-GGUF/resolve/main/README.md",
-    "description": "This is a GGUF-quantized vision model for image captioning and text generation, offering various quantization options for different trade-offs between speed, size, and quality.",
-    "pipeline_tag": "image-to-text"
-  },
-  {
     "model_name": "Nemotron-Terminal-8B-i1-GGUF",
     "developer": "mradermacher",
     "downloads": 200,
@@ -106117,7 +104839,7 @@
     "downloads": 198,
     "createdAt": "2025-08-18T08:40:07.000Z",
     "tools": true,
-    "num_quants": 4,
+    "num_quants": 2,
     "quants": [
       {
         "model_id": "Q8_0/Intern-S1-mini-Q8_0",
@@ -106125,23 +104847,23 @@
         "file_size": "8.1 GB"
       },
       {
+        "model_id": "f16/Intern-S1-mini-f16",
+        "path": "https://huggingface.co/internlm/Intern-S1-mini-GGUF/resolve/main/f16/Intern-S1-mini-f16.gguf",
+        "file_size": "15.3 GB"
+      }
+    ],
+    "num_mmproj": 4,
+    "mmproj_models": [
+      {
         "model_id": "Q8_0/mmproj-Intern-S1-mini-Q8_0",
         "path": "https://huggingface.co/internlm/Intern-S1-mini-GGUF/resolve/main/Q8_0/mmproj-Intern-S1-mini-Q8_0.gguf",
         "file_size": "346.7 MB"
       },
       {
-        "model_id": "f16/Intern-S1-mini-f16",
-        "path": "https://huggingface.co/internlm/Intern-S1-mini-GGUF/resolve/main/f16/Intern-S1-mini-f16.gguf",
-        "file_size": "15.3 GB"
-      },
-      {
         "model_id": "f16/mmproj-Intern-S1-mini-f16",
         "path": "https://huggingface.co/internlm/Intern-S1-mini-GGUF/resolve/main/f16/mmproj-Intern-S1-mini-f16.gguf",
         "file_size": "646.7 MB"
-      }
-    ],
-    "num_mmproj": 2,
-    "mmproj_models": [
+      },
       {
         "model_id": "Q8_0/mmproj-Intern-S1-mini-Q8_0",
         "path": "https://huggingface.co/internlm/Intern-S1-mini-GGUF/resolve/main/Q8_0/mmproj-Intern-S1-mini-Q8_0.gguf",
@@ -106914,21 +105636,21 @@
     "downloads": 186,
     "createdAt": "2026-02-28T09:34:36.000Z",
     "tools": true,
-    "num_quants": 2,
+    "num_quants": 1,
     "quants": [
       {
         "model_id": "Dynamic/Qwen3.5-122B-A10B-PRISM-LITE-Dynamic",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-122B-A10B-PRISM-LITE-GGUF/resolve/main/Dynamic/Qwen3.5-122B-A10B-PRISM-LITE-Dynamic.gguf",
         "file_size": "57.7 GB"
-      },
+      }
+    ],
+    "num_mmproj": 2,
+    "mmproj_models": [
       {
         "model_id": "Dynamic/mmproj-Qwen3.5-122B-A10B-PRISM-LITE",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-122B-A10B-PRISM-LITE-GGUF/resolve/main/Dynamic/mmproj-Qwen3.5-122B-A10B-PRISM-LITE.gguf",
         "file_size": "870.0 MB"
-      }
-    ],
-    "num_mmproj": 1,
-    "mmproj_models": [
+      },
       {
         "model_id": "Dynamic/mmproj-Qwen3.5-122B-A10B-PRISM-LITE",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-122B-A10B-PRISM-LITE-GGUF/resolve/main/Dynamic/mmproj-Qwen3.5-122B-A10B-PRISM-LITE.gguf",
@@ -109295,146 +108017,6 @@
     "readme": "https://huggingface.co/prithivMLmods/Nanbeige4.1-3B-f32-GGUF/resolve/main/README.md",
     "description": "A compact 3B-parameter language model optimized for reasoning tasks, available in GGUF format.",
     "pipeline_tag": "text-generation"
-  },
-  {
-    "model_name": "Alisia-7B-it-i1-GGUF",
-    "developer": "mradermacher",
-    "downloads": 149,
-    "createdAt": "2025-09-16T09:17:18.000Z",
-    "tools": false,
-    "num_quants": 25,
-    "quants": [
-      {
-        "model_id": "Alisia-7B-it.i1-IQ1_M",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ1_M.gguf",
-        "file_size": "1.9 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ1_S",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ1_S.gguf",
-        "file_size": "1.8 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ2_M",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ2_M.gguf",
-        "file_size": "2.6 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ2_S",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ2_S.gguf",
-        "file_size": "2.4 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ2_XS",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ2_XS.gguf",
-        "file_size": "2.3 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ2_XXS",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ2_XXS.gguf",
-        "file_size": "2.1 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ3_M",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ3_M.gguf",
-        "file_size": "3.3 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ3_S",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ3_S.gguf",
-        "file_size": "3.3 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ3_XS",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ3_XS.gguf",
-        "file_size": "3.1 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ3_XXS",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ3_XXS.gguf",
-        "file_size": "2.9 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ4_NL",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ4_NL.gguf",
-        "file_size": "4.1 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-IQ4_XS",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-IQ4_XS.gguf",
-        "file_size": "3.9 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q2_K",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q2_K.gguf",
-        "file_size": "2.8 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q2_K_S",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q2_K_S.gguf",
-        "file_size": "2.6 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q3_K_L",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q3_K_L.gguf",
-        "file_size": "3.8 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q3_K_M",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q3_K_M.gguf",
-        "file_size": "3.5 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q3_K_S",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q3_K_S.gguf",
-        "file_size": "3.3 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q4_0",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q4_0.gguf",
-        "file_size": "4.1 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q4_1",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q4_1.gguf",
-        "file_size": "4.5 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q4_K_M",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q4_K_M.gguf",
-        "file_size": "4.4 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q4_K_S",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q4_K_S.gguf",
-        "file_size": "4.2 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q5_K_M",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q5_K_M.gguf",
-        "file_size": "5.1 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q5_K_S",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q5_K_S.gguf",
-        "file_size": "5.0 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.i1-Q6_K",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.i1-Q6_K.gguf",
-        "file_size": "5.8 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.imatrix",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/Alisia-7B-it.imatrix.gguf",
-        "file_size": "4.3 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/mradermacher/Alisia-7B-it-i1-GGUF/resolve/main/README.md",
-    "description": "A 7B instruction-tuned model for general-purpose conversational AI tasks.",
-    "pipeline_tag": "question-answering"
   },
   {
     "model_name": "Baichuan-M2-32B-GGUF",
@@ -112288,36 +110870,6 @@
     "pipeline_tag": "text-generation"
   },
   {
-    "model_name": "WiNGPT-Babel-2-GGUF",
-    "developer": "winninghealth",
-    "downloads": 100,
-    "createdAt": "2025-06-11T06:11:04.000Z",
-    "tools": false,
-    "num_quants": 3,
-    "quants": [
-      {
-        "model_id": "WiNGPT-Babel-2-IQ4_XS",
-        "path": "https://huggingface.co/winninghealth/WiNGPT-Babel-2-GGUF/resolve/main/WiNGPT-Babel-2-IQ4_XS.gguf",
-        "file_size": "1.5 GB"
-      },
-      {
-        "model_id": "WiNGPT-Babel-2-Q4_K_M",
-        "path": "https://huggingface.co/winninghealth/WiNGPT-Babel-2-GGUF/resolve/main/WiNGPT-Babel-2-Q4_K_M.gguf",
-        "file_size": "1.6 GB"
-      },
-      {
-        "model_id": "WiNGPT-Babel-2-Q8_0",
-        "path": "https://huggingface.co/winninghealth/WiNGPT-Babel-2-GGUF/resolve/main/WiNGPT-Babel-2-Q8_0.gguf",
-        "file_size": "2.6 GB"
-      }
-    ],
-    "readme": "https://huggingface.co/winninghealth/WiNGPT-Babel-2-GGUF/resolve/main/README.md",
-    "description": "WiNGPT-Babel-2 is a multilingual translation language model optimized for 55 languages, enhanced Chinese translation, and structured data handling, built on the GemmaX2-28-2B-Pretrain base model.",
-    "mmproj_models": [],
-    "num_mmproj": 0,
-    "pipeline_tag": "translation"
-  },
-  {
     "model_name": "OpenResearcher-30B-A3B-GGUF",
     "developer": "OpenResearcher",
     "downloads": 99,
@@ -114362,46 +112914,6 @@
     "readme": "https://huggingface.co/NightForger/avibe-GGUF/resolve/main/README.md",
     "description": "Russian SFT-tuned qwen3-8b-base model in GGUF format for text generation.",
     "pipeline_tag": "text-generation"
-  },
-  {
-    "model_name": "Hugston-microsoft-Fara-7B",
-    "developer": "Trilogix1",
-    "downloads": 81,
-    "createdAt": "2025-11-24T20:12:24.000Z",
-    "tools": false,
-    "num_quants": 5,
-    "quants": [
-      {
-        "model_id": "Hugston-microsoft-Fara-7B-F16-f16",
-        "path": "https://huggingface.co/Trilogix1/Hugston-microsoft-Fara-7B/resolve/main/Hugston-microsoft-Fara-7B-F16-f16.gguf",
-        "file_size": "14.2 GB"
-      },
-      {
-        "model_id": "Hugston-microsoft-Fara-7B-F16.Q4_K_M",
-        "path": "https://huggingface.co/Trilogix1/Hugston-microsoft-Fara-7B/resolve/main/Hugston-microsoft-Fara-7B-F16.Q4_K_M.gguf",
-        "file_size": "4.4 GB"
-      },
-      {
-        "model_id": "Hugston-microsoft-Fara-7B-F16.Q5_K_M",
-        "path": "https://huggingface.co/Trilogix1/Hugston-microsoft-Fara-7B/resolve/main/Hugston-microsoft-Fara-7B-F16.Q5_K_M.gguf",
-        "file_size": "5.1 GB"
-      },
-      {
-        "model_id": "Hugston-microsoft-Fara-7B-F16.Q6_K",
-        "path": "https://huggingface.co/Trilogix1/Hugston-microsoft-Fara-7B/resolve/main/Hugston-microsoft-Fara-7B-F16.Q6_K.gguf",
-        "file_size": "5.8 GB"
-      },
-      {
-        "model_id": "Hugston-microsoft-Fara-7B-F16.Q8_0",
-        "path": "https://huggingface.co/Trilogix1/Hugston-microsoft-Fara-7B/resolve/main/Hugston-microsoft-Fara-7B-F16.Q8_0.gguf",
-        "file_size": "7.5 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/Trilogix1/Hugston-microsoft-Fara-7B/resolve/main/README.md",
-    "description": "Hugston's quantized GGUF version of Microsoft's Fara-7B (7B) text-generation model.",
-    "pipeline_tag": "text-classification"
   },
   {
     "model_name": "Mixtral-4x3B-v1-GGUF",
@@ -117686,31 +116198,6 @@
     "pipeline_tag": "text-generation"
   },
   {
-    "model_name": "TowerInstruct-Mistral-7B-v0.2-GGUF",
-    "developer": "tensorblock",
-    "downloads": 33,
-    "createdAt": "2024-11-10T16:21:47.000Z",
-    "tools": false,
-    "num_quants": 2,
-    "quants": [
-      {
-        "model_id": "TowerInstruct-Mistral-7B-v0.2-Q2_K",
-        "path": "https://huggingface.co/tensorblock/TowerInstruct-Mistral-7B-v0.2-GGUF/resolve/main/TowerInstruct-Mistral-7B-v0.2-Q2_K.gguf",
-        "file_size": "2.5 GB"
-      },
-      {
-        "model_id": "TowerInstruct-Mistral-7B-v0.2-Q3_K_M",
-        "path": "https://huggingface.co/tensorblock/TowerInstruct-Mistral-7B-v0.2-GGUF/resolve/main/TowerInstruct-Mistral-7B-v0.2-Q3_K_M.gguf",
-        "file_size": "3.3 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/tensorblock/TowerInstruct-Mistral-7B-v0.2-GGUF/resolve/main/README.md",
-    "description": "A Mistral 7B variant fine-tuned for multilingual translation tasks.",
-    "pipeline_tag": "translation"
-  },
-  {
     "model_name": "Cydonia-24B-v4o-GGUF",
     "developer": "BeaverAI",
     "downloads": 32,
@@ -118428,26 +116915,6 @@
     "pipeline_tag": "text-generation"
   },
   {
-    "model_name": "wt-neko-instruct",
-    "developer": "Trina-QwQ",
-    "downloads": 26,
-    "createdAt": "2026-01-03T04:47:38.000Z",
-    "tools": true,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "trina_neko",
-        "path": "https://huggingface.co/Trina-QwQ/wt-neko-instruct/resolve/main/trina_neko.gguf",
-        "file_size": "2.3 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/Trina-QwQ/wt-neko-instruct/resolve/main/README.md",
-    "description": "A catgirl role-playing AI model based on Qwen3-4B-Instruct-2507 with R-18 content, trained via multi-stage LoRA and knowledge distillation.",
-    "pipeline_tag": "question-answering"
-  },
-  {
     "model_name": "HyperNova-60B-MXFP4_MOE-GGUF",
     "developer": "noctrex",
     "downloads": 25,
@@ -118572,81 +117039,6 @@
     ],
     "num_mmproj": 3,
     "pipeline_tag": null
-  },
-  {
-    "model_name": "Alisia-7B-it-GGUF",
-    "developer": "mradermacher",
-    "downloads": 23,
-    "createdAt": "2025-09-16T09:01:48.000Z",
-    "tools": false,
-    "num_quants": 12,
-    "quants": [
-      {
-        "model_id": "Alisia-7B-it.IQ4_XS",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.IQ4_XS.gguf",
-        "file_size": "4.0 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.Q2_K",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.Q2_K.gguf",
-        "file_size": "2.8 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.Q3_K_L",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.Q3_K_L.gguf",
-        "file_size": "3.8 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.Q3_K_M",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.Q3_K_M.gguf",
-        "file_size": "3.5 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.Q3_K_S",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.Q3_K_S.gguf",
-        "file_size": "3.3 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.Q4_K_M",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.Q4_K_M.gguf",
-        "file_size": "4.4 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.Q4_K_S",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.Q4_K_S.gguf",
-        "file_size": "4.2 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.Q5_K_M",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.Q5_K_M.gguf",
-        "file_size": "5.1 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.Q5_K_S",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.Q5_K_S.gguf",
-        "file_size": "5.0 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.Q6_K",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.Q6_K.gguf",
-        "file_size": "5.8 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.Q8_0",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.Q8_0.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "Alisia-7B-it.f16",
-        "path": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/Alisia-7B-it.f16.gguf",
-        "file_size": "14.2 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/mradermacher/Alisia-7B-it-GGUF/resolve/main/README.md",
-    "description": "A 7B instruction-tuned model for general-purpose conversational AI tasks.",
-    "pipeline_tag": "question-answering"
   },
   {
     "model_name": "chat",
@@ -119729,21 +118121,21 @@
     "downloads": 10,
     "createdAt": "2026-02-28T11:06:09.000Z",
     "tools": true,
-    "num_quants": 2,
+    "num_quants": 1,
     "quants": [
       {
         "model_id": "Dynamic/Qwen3.5-122B-A10B-PRISM-PRO-Dynamic",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-122B-A10B-PRISM-PRO-GGUF/resolve/main/Dynamic/Qwen3.5-122B-A10B-PRISM-PRO-Dynamic.gguf",
         "file_size": "57.7 GB"
-      },
+      }
+    ],
+    "num_mmproj": 2,
+    "mmproj_models": [
       {
         "model_id": "Dynamic/mmproj-Qwen3.5-122B-A10B-PRISM-PRO",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-122B-A10B-PRISM-PRO-GGUF/resolve/main/Dynamic/mmproj-Qwen3.5-122B-A10B-PRISM-PRO.gguf",
         "file_size": "870.0 MB"
-      }
-    ],
-    "num_mmproj": 1,
-    "mmproj_models": [
+      },
       {
         "model_id": "Dynamic/mmproj-Qwen3.5-122B-A10B-PRISM-PRO",
         "path": "https://huggingface.co/Ex0bit/Qwen3.5-122B-A10B-PRISM-PRO-GGUF/resolve/main/Dynamic/mmproj-Qwen3.5-122B-A10B-PRISM-PRO.gguf",
@@ -119913,31 +118305,6 @@
     "readme": "https://huggingface.co/NikolayKozloff/UserLM-8b-Q8_0-GGUF/resolve/main/README.md",
     "description": "An 8B model for general-purpose user-facing language model tasks.",
     "pipeline_tag": "text-generation"
-  },
-  {
-    "model_name": "streaming-speech-translation",
-    "developer": "pltobing",
-    "downloads": 5,
-    "createdAt": "2026-03-14T02:46:44.000Z",
-    "tools": false,
-    "num_quants": 2,
-    "quants": [
-      {
-        "model_id": "models/nmt/translategemma-4b-it-q4_k_m-gguf/translategemma-4b-it-q4_k_m",
-        "path": "https://huggingface.co/pltobing/streaming-speech-translation/resolve/main/models/nmt/translategemma-4b-it-q4_k_m-gguf/translategemma-4b-it-q4_k_m.gguf",
-        "file_size": "2.3 GB"
-      },
-      {
-        "model_id": "models/nmt/translategemma-4b-it-q8_0-gguf/translategemma-4b-it-q8_0",
-        "path": "https://huggingface.co/pltobing/streaming-speech-translation/resolve/main/models/nmt/translategemma-4b-it-q8_0-gguf/translategemma-4b-it-q8_0.gguf",
-        "file_size": "3.8 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/pltobing/streaming-speech-translation/resolve/main/README.md",
-    "description": "A model specialized for real-time streaming speech-to-text translation.",
-    "pipeline_tag": "audio-to-audio"
   },
   {
     "model_name": "GLM-4.7-PRISM",
