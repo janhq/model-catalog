@@ -25,6 +25,80 @@ BLACKLISTED_DEVELOPERS = {
 
 EXCLUDED_GGUF_KEYWORDS = ("embedding", "ocr", "speech", "reranker", "encoder", "clip")
 
+CHAT_PIPELINE_TAGS = {"text-generation", "image-text-to-text"}
+NON_CHAT_PIPELINE_TAGS = {
+    "feature-extraction",
+    "sentence-similarity",
+    "automatic-speech-recognition",
+    "text-classification",
+    "text-to-image",
+    "text-to-speech",
+    "fill-mask",
+    "token-classification",
+    "zero-shot-classification",
+    "summarization",
+    "translation",
+    "question-answering",
+    "image-classification",
+    "object-detection",
+    "image-segmentation",
+    "image-to-text",
+    "audio-classification",
+    "audio-to-audio",
+}
+NON_CHAT_NAME_KEYWORDS = (
+    "embed",
+    "embedding",
+    "reranker",
+    "rerank",
+    "ocr",
+    "whisper",
+    "parakeet",
+    "-tts",
+    "tts-",
+    "text-to-speech",
+    "speech-to-text",
+    "colbert",
+    "text-encoder",
+    "text_encoder",
+)
+
+
+def is_chat_model(detail: dict, require_chat_template: bool = False) -> bool:
+    """Decide if an HF model entry is a chat model (text-only or VLM).
+
+    GGUF repos expose ``gguf.chat_template`` directly — for those we treat its
+    presence as the strongest signal. MLX/transformers repos don't, so we fall
+    back to ``pipeline_tag`` and tags.
+    """
+    gguf_data = detail.get("gguf")
+    if isinstance(gguf_data, dict):
+        ct = gguf_data.get("chat_template")
+        if isinstance(ct, str) and ct.strip():
+            return True
+        if require_chat_template:
+            return False
+
+    pipeline_tag = (detail.get("pipeline_tag") or "").lower()
+    if pipeline_tag in NON_CHAT_PIPELINE_TAGS:
+        return False
+    if pipeline_tag in CHAT_PIPELINE_TAGS:
+        return True
+
+    tags = {str(t).lower() for t in detail.get("tags", [])}
+    if "conversational" in tags:
+        return True
+    if tags & NON_CHAT_PIPELINE_TAGS:
+        return False
+    if tags & CHAT_PIPELINE_TAGS:
+        return True
+    return False
+
+
+def has_non_chat_name(repo_id: str) -> bool:
+    n = repo_id.lower()
+    return any(kw in n for kw in NON_CHAT_NAME_KEYWORDS)
+
 HF_TOKEN = os.getenv("HF_TOKEN")
 HEADERS = {"Authorization": f"Bearer {HF_TOKEN}"} if HF_TOKEN else {}
 
@@ -153,8 +227,13 @@ def process_gguf_model(repo_id: str, detail: dict, existing_entry: dict = None) 
         print(f"Filtering out blacklisted developer: {developer}/{model_name}")
         return None
 
+    if not is_chat_model(detail):
+        print(f"  -> Not a chat model (pipeline_tag={detail.get('pipeline_tag')}), skipping")
+        return None
+
     downloads = detail.get("downloads", 0)
     createdAt = detail.get("createdAt")
+    pipeline_tag = detail.get("pipeline_tag")
 
     supports_tools = False
     gguf_data = detail.get("gguf")
@@ -206,6 +285,7 @@ def process_gguf_model(repo_id: str, detail: dict, existing_entry: dict = None) 
         "developer": developer,
         "downloads": downloads,
         "createdAt": createdAt,
+        "pipeline_tag": pipeline_tag,
         "library_name": "gguf",
         "tools": supports_tools,
         "num_quants": len(quants),
@@ -229,8 +309,17 @@ def process_mlx_model(repo_id: str, detail: dict, existing_entry: dict = None) -
         print(f"Filtering out blacklisted developer: {developer}/{model_name}")
         return None
 
+    if not is_chat_model(detail):
+        print(f"  -> Not a chat model (pipeline_tag={detail.get('pipeline_tag')}), skipping")
+        return None
+
+    if has_non_chat_name(repo_id):
+        print(f"  -> Repo name flagged as non-chat, skipping: {repo_id}")
+        return None
+
     downloads = detail.get("downloads", 0)
     createdAt = detail.get("createdAt")
+    pipeline_tag = detail.get("pipeline_tag")
 
     safetensors_files = []
     readme_url = None
@@ -266,6 +355,7 @@ def process_mlx_model(repo_id: str, detail: dict, existing_entry: dict = None) -
         "developer": developer,
         "downloads": downloads,
         "createdAt": createdAt,
+        "pipeline_tag": pipeline_tag,
         "library_name": "mlx",
         "tools": False,
         "num_safetensors": len(safetensors_files),
