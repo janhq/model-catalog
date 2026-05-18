@@ -214,7 +214,7 @@ def fetch_gguf_models(existing_map: dict) -> list:
             r.raise_for_status()
             detail = r.json()
 
-            entry = process_gguf_model(pinned_repo_id, detail, existing_entry)
+            entry = process_gguf_model(pinned_repo_id, detail, existing_entry, is_pinned=True)
             if entry:
                 gguf_models.append(entry)
                 print(f"  -> Added pinned GGUF model")
@@ -329,7 +329,7 @@ def fetch_mlx_models(existing_map: dict) -> list:
             r.raise_for_status()
             detail = r.json()
 
-            entry = process_mlx_model(pinned_repo_id, detail, existing_entry)
+            entry = process_mlx_model(pinned_repo_id, detail, existing_entry, is_pinned=True)
             if entry:
                 mlx_models.append(entry)
                 print(f"  -> Added pinned MLX model")

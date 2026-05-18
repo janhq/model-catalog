@@ -166,7 +166,7 @@ def is_mmproj_file(filename):
     return name.startswith("mmproj") and name.endswith(".gguf")
 
 
-def process_model_details(repo_id, detail=None, existing_entry=None):
+def process_model_details(repo_id, detail=None, existing_entry=None, is_pinned=False):
     """
     Process model details from HF API response and return structured entry.
     Returns None if model should be skipped.
@@ -183,8 +183,11 @@ def process_model_details(repo_id, detail=None, existing_entry=None):
         return None
 
     if not is_chat_model(detail):
-        print(f"  -> Not a chat model (pipeline_tag={detail.get('pipeline_tag')}), skipping")
-        return None
+        if is_pinned:
+            print(f"  -> Pinned override: keeping despite chat-model check (pipeline_tag={detail.get('pipeline_tag')})")
+        else:
+            print(f"  -> Not a chat model (pipeline_tag={detail.get('pipeline_tag')}), skipping")
+            return None
 
     downloads = detail.get("downloads", 0)
     createdAt = detail.get("createdAt")
@@ -852,7 +855,7 @@ def get_gguf_model_catalog():
                 print(f"  -> Successfully fetched pinned model details")
 
                 # Process the pinned model details
-                entry = process_model_details(pinned_repo_id, detail)
+                entry = process_model_details(pinned_repo_id, detail, is_pinned=True)
                 if entry is not None:
                     existing_map[pinned_repo_id] = entry
                     added_or_updated += 1

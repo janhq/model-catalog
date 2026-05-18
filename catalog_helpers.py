@@ -215,8 +215,18 @@ def _resolve_description(readme_text: str | None, existing_entry: dict | None) -
     return description
 
 
-def process_gguf_model(repo_id: str, detail: dict, existing_entry: dict = None) -> dict | None:
-    """Process GGUF model details. Returns None if model should be skipped."""
+def process_gguf_model(
+    repo_id: str,
+    detail: dict,
+    existing_entry: dict = None,
+    is_pinned: bool = False,
+) -> dict | None:
+    """Process GGUF model details. Returns None if model should be skipped.
+
+    When ``is_pinned`` is True, the chat-model gate is bypassed so pinned
+    repos are kept even if HF returns ``pipeline_tag = None`` and no other
+    chat signals are present.
+    """
     if not detail:
         return None
 
@@ -231,9 +241,11 @@ def process_gguf_model(repo_id: str, detail: dict, existing_entry: dict = None) 
         print(f"  -> Not a GGUF repo (library_name={detail.get('library_name')}), skipping")
         return None
 
-    if not is_chat_model(detail):
+    if not is_pinned and not is_chat_model(detail):
         print(f"  -> Not a chat model (pipeline_tag={detail.get('pipeline_tag')}), skipping")
         return None
+    if is_pinned and not is_chat_model(detail):
+        print(f"  -> Pinned override: keeping despite chat-model check (pipeline_tag={detail.get('pipeline_tag')})")
 
     downloads = detail.get("downloads", 0)
     createdAt = detail.get("createdAt")
@@ -301,8 +313,17 @@ def process_gguf_model(repo_id: str, detail: dict, existing_entry: dict = None) 
     }
 
 
-def process_mlx_model(repo_id: str, detail: dict, existing_entry: dict = None) -> dict | None:
-    """Process MLX model details. Returns None if model should be skipped."""
+def process_mlx_model(
+    repo_id: str,
+    detail: dict,
+    existing_entry: dict = None,
+    is_pinned: bool = False,
+) -> dict | None:
+    """Process MLX model details. Returns None if model should be skipped.
+
+    When ``is_pinned`` is True, the chat-model and non-chat-name gates are
+    bypassed so pinned repos are kept even when HF metadata is missing.
+    """
     if not detail:
         return None
 
@@ -317,11 +338,13 @@ def process_mlx_model(repo_id: str, detail: dict, existing_entry: dict = None) -
         print(f"  -> Not an MLX repo (library_name={detail.get('library_name')}), skipping")
         return None
 
-    if not is_chat_model(detail):
+    if not is_pinned and not is_chat_model(detail):
         print(f"  -> Not a chat model (pipeline_tag={detail.get('pipeline_tag')}), skipping")
         return None
+    if is_pinned and not is_chat_model(detail):
+        print(f"  -> Pinned override: keeping despite chat-model check (pipeline_tag={detail.get('pipeline_tag')})")
 
-    if has_non_chat_name(repo_id):
+    if not is_pinned and has_non_chat_name(repo_id):
         print(f"  -> Repo name flagged as non-chat, skipping: {repo_id}")
         return None
 
