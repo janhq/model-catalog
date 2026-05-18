@@ -9536,32 +9536,6 @@
     "description": "Google's Gemma 4 dense instruction-tuned model, designed for general-purpose text generation and understanding."
   },
   {
-    "model_name": "Sulphur-2-base",
-    "developer": "SulphurAI",
-    "downloads": 1049229,
-    "createdAt": "2026-05-03T00:33:24.000Z",
-    "pipeline_tag": "text-to-video",
-    "library_name": "gguf",
-    "tools": true,
-    "num_quants": 2,
-    "quants": [
-      {
-        "model_id": "prompt_enhancer/mmproj-BF16",
-        "path": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/mmproj-BF16.gguf",
-        "file_size": "879.0 MB"
-      },
-      {
-        "model_id": "prompt_enhancer/sulphur_prompt_enhancer_model-q8_0",
-        "path": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/sulphur_prompt_enhancer_model-q8_0.gguf",
-        "file_size": "8.9 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/README.md",
-    "description": "An uncensored video generation model based on LTX 2.3 supporting text-to-video and image-to-video generation with an optional prompt enhancer."
-  },
-  {
     "model_name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
     "developer": "HauhauCS",
     "downloads": 902871,
@@ -13865,6 +13839,27 @@
     "description": "A 27B parameter vision-language model optimized for coding/agentic tasks with benchmarked GGUF quantizations."
   },
   {
+    "model_name": "Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-IQ4_XS-GGUF",
+    "developer": "lordx64",
+    "downloads": 44474,
+    "createdAt": "2026-04-20T03:34:18.000Z",
+    "pipeline_tag": "text-generation",
+    "library_name": "gguf",
+    "tools": true,
+    "num_quants": 1,
+    "quants": [
+      {
+        "model_id": "Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled.IQ4_XS",
+        "path": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-IQ4_XS-GGUF/resolve/main/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled.IQ4_XS.gguf",
+        "file_size": "17.6 GB"
+      }
+    ],
+    "num_mmproj": 0,
+    "mmproj_models": [],
+    "readme": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-IQ4_XS-GGUF/resolve/main/README.md",
+    "description": "Quantized Qwen model distilled to mimic Claude Opus's chain-of-thought reasoning for efficient local inference."
+  },
+  {
     "model_name": "Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-GGUF",
     "developer": "mudler",
     "downloads": 44463,
@@ -14690,7 +14685,7 @@
       }
     ],
     "readme": "https://huggingface.co/ggml-org/GLM-OCR-GGUF/resolve/main/README.md",
-    "description": "GLM-OCR-GGUF is a GGUF-converted version of the GLM-OCR model for use with llama-server."
+    "description": "A GGUF-converted OCR model for use with llama-server."
   },
   {
     "model_name": "Crow-9B-HERETIC-4.6",
@@ -15663,42 +15658,6 @@
     ],
     "readme": "https://huggingface.co/CISCai/gemma-4-31B-it-NVFP4-turbo-GGUF/resolve/main/README.md",
     "description": "FP4-quantized Gemma 4 31B that's 68% smaller and 2.5× faster, fitting on a single RTX 5090 with minimal quality loss."
-  },
-  {
-    "model_name": "flux2-klein-9b-uncensored-text-encoder",
-    "developer": "ponpoke",
-    "downloads": 15364,
-    "createdAt": "2026-04-30T16:44:38.000Z",
-    "pipeline_tag": "text-to-image",
-    "library_name": "gguf",
-    "tools": true,
-    "num_quants": 4,
-    "quants": [
-      {
-        "model_id": "flux2-klein-9b-uncensored-f16",
-        "path": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder/resolve/main/flux2-klein-9b-uncensored-f16.gguf",
-        "file_size": "15.3 GB"
-      },
-      {
-        "model_id": "flux2-klein-9b-uncensored-q4_k_m",
-        "path": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder/resolve/main/flux2-klein-9b-uncensored-q4_k_m.gguf",
-        "file_size": "4.7 GB"
-      },
-      {
-        "model_id": "flux2-klein-9b-uncensored-q6_k",
-        "path": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder/resolve/main/flux2-klein-9b-uncensored-q6_k.gguf",
-        "file_size": "6.3 GB"
-      },
-      {
-        "model_id": "flux2-klein-9b-uncensored-q8_0",
-        "path": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder/resolve/main/flux2-klein-9b-uncensored-q8_0.gguf",
-        "file_size": "8.1 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder/resolve/main/README.md",
-    "description": "An abliterated text encoder for FLUX.2-klein-9B that removes safety filters through mathematical weight orthogonalization, enabling unrestricted image generation."
   },
   {
     "model_name": "MiniCPM-V-4.6-gguf",
@@ -16891,62 +16850,6 @@
     "description": "A Q4 GGUF quant of Qwen3.6-27B preserving MTP layers for ~20% faster speculative decoding."
   },
   {
-    "model_name": "Leanly_AI",
-    "developer": "jackxinning",
-    "downloads": 9432,
-    "createdAt": "2026-04-16T10:43:03.000Z",
-    "pipeline_tag": "question-answering",
-    "library_name": "gguf",
-    "tools": true,
-    "num_quants": 8,
-    "quants": [
-      {
-        "model_id": "Leanly_AI_14B_CHINESE_NONTHINK/Leanly_AI_14B_CHINESE_NONTHINK",
-        "path": "https://huggingface.co/jackxinning/Leanly_AI/resolve/main/Leanly_AI_14B_CHINESE_NONTHINK/Leanly_AI_14B_CHINESE_NONTHINK.gguf",
-        "file_size": "27.5 GB"
-      },
-      {
-        "model_id": "Leanly_AI_14B_CHINESE_THINK/Leanly_AI_14B_CHINESE_THINK",
-        "path": "https://huggingface.co/jackxinning/Leanly_AI/resolve/main/Leanly_AI_14B_CHINESE_THINK/Leanly_AI_14B_CHINESE_THINK.gguf",
-        "file_size": "27.5 GB"
-      },
-      {
-        "model_id": "Leanly_AI_14B_ENGLISH_NONTHINK/Leanly_AI_14B_ENGLISH_NONTHINK",
-        "path": "https://huggingface.co/jackxinning/Leanly_AI/resolve/main/Leanly_AI_14B_ENGLISH_NONTHINK/Leanly_AI_14B_ENGLISH_NONTHINK.gguf",
-        "file_size": "27.5 GB"
-      },
-      {
-        "model_id": "Leanly_AI_14B_ENGLISH_THINK/Leanly_AI_14B_ENGLISH_THINK",
-        "path": "https://huggingface.co/jackxinning/Leanly_AI/resolve/main/Leanly_AI_14B_ENGLISH_THINK/Leanly_AI_14B_ENGLISH_THINK.gguf",
-        "file_size": "27.5 GB"
-      },
-      {
-        "model_id": "Leanly_AI_4B_CHINESE_NONTHINK/Leanly_AI_4B_CHINESE_NONTHINK",
-        "path": "https://huggingface.co/jackxinning/Leanly_AI/resolve/main/Leanly_AI_4B_CHINESE_NONTHINK/Leanly_AI_4B_CHINESE_NONTHINK.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "Leanly_AI_4B_CHINESE_THINK/Leanly_AI_4B_CHINESE_THINK",
-        "path": "https://huggingface.co/jackxinning/Leanly_AI/resolve/main/Leanly_AI_4B_CHINESE_THINK/Leanly_AI_4B_CHINESE_THINK.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "Leanly_AI_4B_ENGLISH_NONTHINK/Leanly_AI_4B_ENGLISH_NONTHINK",
-        "path": "https://huggingface.co/jackxinning/Leanly_AI/resolve/main/Leanly_AI_4B_ENGLISH_NONTHINK/Leanly_AI_4B_ENGLISH_NONTHINK.gguf",
-        "file_size": "7.5 GB"
-      },
-      {
-        "model_id": "Leanly_AI_4B_ENGLISH_THINK/Leanly_AI_4B_ENGLISH_THINK",
-        "path": "https://huggingface.co/jackxinning/Leanly_AI/resolve/main/Leanly_AI_4B_ENGLISH_THINK/Leanly_AI_4B_ENGLISH_THINK.gguf",
-        "file_size": "7.5 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/jackxinning/Leanly_AI/resolve/main/README.md",
-    "description": "Leanly_AI is a clinically oriented psychological support LLM for individuals with obesity, integrating UK Biobank evidence to provide structured, stigma-reducing, and physician-assisted emotional care during weight management."
-  },
-  {
     "model_name": "QwenSeek-2B-GGUF",
     "developer": "faunix",
     "downloads": 9430,
@@ -17875,27 +17778,6 @@
     "description": "Qwen3.5-27B is a 27B-parameter multimodal AI model supporting text, images, and video with reasoning capabilities."
   },
   {
-    "model_name": "Hy-MT1.5-1.8B-2bit-GGUF",
-    "developer": "AngelSlim",
-    "downloads": 6020,
-    "createdAt": "2026-04-28T12:56:12.000Z",
-    "pipeline_tag": "translation",
-    "library_name": "gguf",
-    "tools": false,
-    "num_quants": 1,
-    "quants": [
-      {
-        "model_id": "Hy-MT1.5-1.8B-2bit",
-        "path": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-2bit-GGUF/resolve/main/Hy-MT1.5-1.8B-2bit.gguf",
-        "file_size": "572.7 MB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-2bit-GGUF/resolve/main/README.md",
-    "description": "A Tencent 1.8B-parameter multilingual translation model quantized to 2-bit (574MB) for fast, fully offline on-device use across 33 languages."
-  },
-  {
     "model_name": "Darwin-28B-Opus-i1-GGUF",
     "developer": "mradermacher",
     "downloads": 5632,
@@ -18770,37 +18652,6 @@
     "mmproj_models": [],
     "readme": "https://huggingface.co/mudler/Darwin-36B-Opus-APEX-GGUF/resolve/main/README.md",
     "description": "APEX GGUF quantizations of Darwin-36B-Opus, a 36B Qwen 3.5 MoE model with 256 experts, available in sizes from 11GB to 65GB."
-  },
-  {
-    "model_name": "lordx64-Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-MTP-GGUF",
-    "developer": "Dyluhn",
-    "downloads": 4237,
-    "createdAt": "2026-05-06T22:20:53.000Z",
-    "pipeline_tag": "text-generation",
-    "library_name": "gguf",
-    "tools": true,
-    "num_quants": 3,
-    "quants": [
-      {
-        "model_id": "lordx64-distill-MTP-IQ4_XS",
-        "path": "https://huggingface.co/Dyluhn/lordx64-Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-MTP-GGUF/resolve/main/lordx64-distill-MTP-IQ4_XS.gguf",
-        "file_size": "17.9 GB"
-      },
-      {
-        "model_id": "lordx64-distill-MTP-Q4_K_M",
-        "path": "https://huggingface.co/Dyluhn/lordx64-Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-MTP-GGUF/resolve/main/lordx64-distill-MTP-Q4_K_M.gguf",
-        "file_size": "20.2 GB"
-      },
-      {
-        "model_id": "lordx64-distill-MTP-Q8_0",
-        "path": "https://huggingface.co/Dyluhn/lordx64-Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-MTP-GGUF/resolve/main/lordx64-distill-MTP-Q8_0.gguf",
-        "file_size": "35.2 GB"
-      }
-    ],
-    "num_mmproj": 0,
-    "mmproj_models": [],
-    "readme": "https://huggingface.co/Dyluhn/lordx64-Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-MTP-GGUF/resolve/main/README.md",
-    "description": "MTP-enabled GGUF quantizations of a Claude Opus-distilled Qwen 3.6 35B MoE model, offering ~25% faster code generation via speculative decoding."
   },
   {
     "model_name": "Gryphe_WorldSim-Opus-3.6-35B-A3B-GGUF",
