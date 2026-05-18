@@ -227,6 +227,10 @@ def process_gguf_model(repo_id: str, detail: dict, existing_entry: dict = None) 
         print(f"Filtering out blacklisted developer: {developer}/{model_name}")
         return None
 
+    if detect_library_name(detail) != "gguf":
+        print(f"  -> Not a GGUF repo (library_name={detail.get('library_name')}), skipping")
+        return None
+
     if not is_chat_model(detail):
         print(f"  -> Not a chat model (pipeline_tag={detail.get('pipeline_tag')}), skipping")
         return None
@@ -307,6 +311,10 @@ def process_mlx_model(repo_id: str, detail: dict, existing_entry: dict = None) -
 
     if developer in BLACKLISTED_DEVELOPERS:
         print(f"Filtering out blacklisted developer: {developer}/{model_name}")
+        return None
+
+    if detect_library_name(detail) != "mlx":
+        print(f"  -> Not an MLX repo (library_name={detail.get('library_name')}), skipping")
         return None
 
     if not is_chat_model(detail):
