@@ -19,7 +19,9 @@ from catalog_helpers import (
     BLACKLISTED_DEVELOPERS,
     HEADERS,
     HF_BASE_API_URL,
+    NON_CHAT_PIPELINE_TAGS,
     REQUEST_TIMEOUT,
+    has_non_chat_name,
     process_gguf_model,
     process_mlx_model,
 )
@@ -33,8 +35,8 @@ REQUEST_DELAY = 0.1
 priority_devs = ["Menlo", "janhq", "cortexso", "mlx-community"]
 
 # Tags to look for
-DESIRED_TAGS_GGUF = {"text-generation", "conversational", "llama", "image-text-to-text"}
-DESIRED_TAGS_MLX = {"text-generation", "conversational", "mlx"}
+DESIRED_TAGS_GGUF = {"text-generation", "conversational", "image-text-to-text"}
+DESIRED_TAGS_MLX = {"text-generation", "conversational", "image-text-to-text"}
 
 PINNED_GGUF_MODELS = [
     "janhq/Jan-v3.5-4B-gguf",
@@ -72,11 +74,31 @@ def load_existing_v2_catalog() -> dict:
     if os.path.exists(OUTPUT_FILE_V2):
         with open(OUTPUT_FILE_V2, "r", encoding="utf-8") as f:
             catalog = json.load(f)
-            for entry in catalog:
-                key = f"{entry.get('developer', '')}/{entry.get('model_name', '')}"
-                if key != "/":
-                    existing_map[key] = entry
-        print(f"Loaded {len(existing_map)} existing entries from {OUTPUT_FILE_V2}")
+        dropped_blacklisted = 0
+        dropped_non_chat = 0
+        for entry in catalog:
+            developer = entry.get("developer", "")
+            model_name = entry.get("model_name", "")
+            key = f"{developer}/{model_name}"
+            if key == "/":
+                continue
+            if developer in BLACKLISTED_DEVELOPERS:
+                dropped_blacklisted += 1
+                continue
+            pt = (entry.get("pipeline_tag") or "").lower()
+            if pt in NON_CHAT_PIPELINE_TAGS:
+                print(f"  -> Dropping non-chat existing entry (pipeline_tag={pt}): {key}")
+                dropped_non_chat += 1
+                continue
+            if has_non_chat_name(key):
+                print(f"  -> Dropping non-chat existing entry by name: {key}")
+                dropped_non_chat += 1
+                continue
+            existing_map[key] = entry
+        print(
+            f"Loaded {len(existing_map)} existing entries from {OUTPUT_FILE_V2} "
+            f"(dropped {dropped_blacklisted} blacklisted, {dropped_non_chat} non-chat)"
+        )
     return existing_map
 
 
@@ -136,7 +158,11 @@ def fetch_gguf_models(existing_map: dict) -> list:
             # Skip if existing entry is up to date (same downloads)
             downloads = summary.get("downloads", 0)
             if existing_entry and existing_entry.get("library_name") == "gguf":
-                if existing_entry.get("downloads") == downloads and existing_entry.get("description"):
+                if (
+                    existing_entry.get("downloads") == downloads
+                    and existing_entry.get("description")
+                    and "pipeline_tag" in existing_entry
+                ):
                     gguf_models.append(existing_entry)
                     continue
 
@@ -247,9 +273,19 @@ def fetch_mlx_models(existing_map: dict) -> list:
                 # Skip if existing entry is up to date
                 downloads = summary.get("downloads", 0)
                 if existing_entry and existing_entry.get("library_name") == "mlx":
-                    if existing_entry.get("downloads") == downloads and existing_entry.get("description"):
+                    if (
+                        existing_entry.get("downloads") == downloads
+                        and existing_entry.get("description")
+                        and "pipeline_tag" in existing_entry
+                    ):
                         mlx_models.append(existing_entry)
                         continue
+
+                summary_tags = {str(t).lower() for t in summary.get("tags", [])}
+                if summary_tags & NON_CHAT_PIPELINE_TAGS:
+                    continue
+                if has_non_chat_name(repo_id):
+                    continue
 
                 print(f"Processing MLX: {repo_id}")
 

@@ -18,7 +18,73 @@ REQUEST_TIMEOUT = 10  # seconds
 priority_devs = ["Menlo", "janhq", "cortexso"]
 
 # Tags to look for in the summary metadata
-DESIRED_TAGS = {"text-generation", "conversational", "llama", "image-text-to-text"}
+DESIRED_TAGS = {"text-generation", "conversational", "image-text-to-text"}
+
+CHAT_PIPELINE_TAGS = {"text-generation", "image-text-to-text"}
+NON_CHAT_PIPELINE_TAGS = {
+    "feature-extraction",
+    "sentence-similarity",
+    "automatic-speech-recognition",
+    "text-classification",
+    "text-to-image",
+    "text-to-speech",
+    "fill-mask",
+    "token-classification",
+    "zero-shot-classification",
+    "summarization",
+    "translation",
+    "question-answering",
+    "image-classification",
+    "object-detection",
+    "image-segmentation",
+    "image-to-text",
+    "audio-classification",
+    "audio-to-audio",
+}
+NON_CHAT_NAME_KEYWORDS = (
+    "embed",
+    "embedding",
+    "reranker",
+    "rerank",
+    "ocr",
+    "whisper",
+    "-tts",
+    "tts-",
+    "text-to-speech",
+    "speech-to-text",
+    "colbert",
+    "text-encoder",
+    "text_encoder",
+)
+
+
+def is_chat_model(detail: dict) -> bool:
+    """Decide whether a HF model entry represents a chat (or VLM) model."""
+    gguf_data = detail.get("gguf")
+    if isinstance(gguf_data, dict):
+        ct = gguf_data.get("chat_template")
+        if isinstance(ct, str) and ct.strip():
+            return True
+
+    pipeline_tag = (detail.get("pipeline_tag") or "").lower()
+    if pipeline_tag in NON_CHAT_PIPELINE_TAGS:
+        return False
+    if pipeline_tag in CHAT_PIPELINE_TAGS:
+        return True
+
+    tags = {str(t).lower() for t in detail.get("tags", [])}
+    if "conversational" in tags:
+        return True
+    if tags & NON_CHAT_PIPELINE_TAGS:
+        return False
+    if tags & CHAT_PIPELINE_TAGS:
+        return True
+    return False
+
+
+def has_non_chat_name(repo_id: str) -> bool:
+    n = repo_id.lower()
+    return any(kw in n for kw in NON_CHAT_NAME_KEYWORDS)
 
 BLACKLISTED_DEVELOPERS = {
     "TheBloke",
@@ -116,8 +182,13 @@ def process_model_details(repo_id, detail=None, existing_entry=None):
         print(f"Filtering out blacklisted developer: {developer}/{model_name}")
         return None
 
+    if not is_chat_model(detail):
+        print(f"  -> Not a chat model (pipeline_tag={detail.get('pipeline_tag')}), skipping")
+        return None
+
     downloads = detail.get("downloads", 0)
     createdAt = detail.get("createdAt")
+    pipeline_tag = detail.get("pipeline_tag")
 
     # Check for tool support in chat template
     supports_tools = False
@@ -210,6 +281,7 @@ def process_model_details(repo_id, detail=None, existing_entry=None):
         "developer": developer,
         "downloads": downloads,
         "createdAt": createdAt,
+        "pipeline_tag": pipeline_tag,
         "tools": supports_tools,
         "num_quants": len(quants),
         "quants": quants,
@@ -359,6 +431,24 @@ def get_gguf_model_catalog():
                 print(
                     f"  -> Removed {removed_blacklisted} model(s) from blacklisted developers"
                 )
+
+            print("=== FILTERING NON-CHAT MODELS FROM EXISTING CATALOG ===")
+            pre_chat_count = len(existing_catalog)
+            kept_catalog = []
+            for entry in existing_catalog:
+                repo_id = f"{entry.get('developer','')}/{entry.get('model_name','')}"
+                pt = (entry.get("pipeline_tag") or "").lower()
+                if pt in NON_CHAT_PIPELINE_TAGS:
+                    print(f"  -> Removing non-chat model (pipeline_tag={pt}): {repo_id}")
+                    continue
+                if has_non_chat_name(repo_id):
+                    print(f"  -> Removing non-chat model by name: {repo_id}")
+                    continue
+                kept_catalog.append(entry)
+            existing_catalog = kept_catalog
+            removed_non_chat = pre_chat_count - len(existing_catalog)
+            if removed_non_chat > 0:
+                print(f"  -> Removed {removed_non_chat} non-chat model(s)")
             # Separate mmproj models from existing catalog entries
             print("=== SEPARATING MMPROJ FROM EXISTING CATALOG ===")
             for entry in existing_catalog:
@@ -473,8 +563,9 @@ def get_gguf_model_catalog():
                 "quants",
                 "readme",
                 "description",
-                "mmproj_models",  # Added mmproj_models to expected keys
-                "num_mmproj",  # Added num_mmproj to expected keys
+                "mmproj_models",
+                "num_mmproj",
+                "pipeline_tag",
             ]
             if existing_entry is None:
                 # New entry
@@ -573,6 +664,7 @@ def get_gguf_model_catalog():
             "description",
             "mmproj_models",
             "num_mmproj",
+            "pipeline_tag",
         ]
         missing_keys = []
 
@@ -596,6 +688,11 @@ def get_gguf_model_catalog():
             )
             r.raise_for_status()
             detail = r.json()
+
+            if not is_chat_model(detail):
+                print(f"  -> Existing entry is not a chat model, removing: {repo_id}")
+                del existing_map[entry_key]
+                continue
 
             # Extract basic info
             downloads = detail.get("downloads", existing_entry.get("downloads", 0))
@@ -709,6 +806,7 @@ def get_gguf_model_catalog():
                 "developer": existing_entry.get("developer", repo_id.split("/")[0]),
                 "downloads": downloads,
                 "createdAt": createdAt,
+                "pipeline_tag": detail.get("pipeline_tag", existing_entry.get("pipeline_tag")),
                 "tools": supports_tools,
                 "num_quants": (
                     len(quants) if quants else existing_entry.get("num_quants", 0)
