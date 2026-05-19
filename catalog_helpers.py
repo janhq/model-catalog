@@ -53,15 +53,17 @@ NON_CHAT_PIPELINE_TAGS = {
     "text-ranking",
     "voice-activity-detection",
     "image-feature-extraction",
-    "any-to-any",
     "mask-generation",
 }
 # Text-output tasks that LLMs are often fine-tuned for. HF mislabels many chat
 # GGUF/MLX repos with these, so we only reject when no chat_template is present.
+# `any-to-any` covers multimodal chat models like Gemma 4 E2B/E4B that output
+# text (and other modalities) — keep if a chat_template is present.
 SOFT_NON_CHAT_PIPELINE_TAGS = {
     "question-answering",
     "summarization",
     "translation",
+    "any-to-any",
 }
 NON_CHAT_NAME_KEYWORDS = (
     "embed",
