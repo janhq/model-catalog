@@ -36,9 +36,6 @@ NON_CHAT_PIPELINE_TAGS = {
     "fill-mask",
     "token-classification",
     "zero-shot-classification",
-    "summarization",
-    "translation",
-    "question-answering",
     "image-classification",
     "object-detection",
     "image-segmentation",
@@ -51,6 +48,20 @@ NON_CHAT_PIPELINE_TAGS = {
     "video-classification",
     "text-to-3d",
     "image-to-3d",
+    "time-series-forecasting",
+    "zero-shot-image-classification",
+    "text-ranking",
+    "voice-activity-detection",
+    "image-feature-extraction",
+    "any-to-any",
+    "mask-generation",
+}
+# Text-output tasks that LLMs are often fine-tuned for. HF mislabels many chat
+# GGUF/MLX repos with these, so we only reject when no chat_template is present.
+SOFT_NON_CHAT_PIPELINE_TAGS = {
+    "question-answering",
+    "summarization",
+    "translation",
 }
 NON_CHAT_NAME_KEYWORDS = (
     "embed",
@@ -88,6 +99,9 @@ def is_chat_model(detail: dict, require_chat_template: bool = False) -> bool:
             return True
         if require_chat_template:
             return False
+
+    if pipeline_tag in SOFT_NON_CHAT_PIPELINE_TAGS:
+        return False
 
     if pipeline_tag in CHAT_PIPELINE_TAGS:
         return True
