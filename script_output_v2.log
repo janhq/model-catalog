@@ -1,49 +1,81 @@
   -> Dropping non-chat existing entry by name: sahilchachra/Unlimited-OCR-GGUF
   -> Dropping non-chat existing entry by name: ggml-org/GLM-OCR-GGUF
-  -> Dropping non-chat existing entry by name: Cordux/flux2-klein-4B-uncensored-text-encoder
-Loaded 304 existing entries from model_catalog_v2.json (dropped 0 blacklisted, 3 non-chat)
+Loaded 304 existing entries from model_catalog_v2.json (dropped 0 blacklisted, 2 non-chat)
 
 === Fetching GGUF models from HuggingFace API ===
 Fetching page 1...
-Processing GGUF: baidu/Unlimited-OCR
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF
   -> Added with 10 quants
 Processing GGUF: zai-org/GLM-5.2
   -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: baidu/Unlimited-OCR
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: deepreinforce-ai/Ornith-1.0-35B-GGUF
   -> Added with 5 quants
-Processing GGUF: deepreinforce-ai/Ornith-1.0-9B-GGUF
-  -> Added with 5 quants
+Processing GGUF: deepseek-ai/DeepSeek-V4-Pro-DSpark
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF
   -> Added with 7 quants
-Processing GGUF: Qwen/Qwen-AgentWorld-35B-A3B
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: deepreinforce-ai/Ornith-1.0-9B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: deepreinforce-ai/Ornith-1.0-9B-GGUF
+  -> Added with 5 quants
+Processing GGUF: nvidia/Qwen3.6-27B-NVFP4
+  -> Not a GGUF repo (library_name=Model Optimizer), skipping
+Processing GGUF: InternScience/Agents-A1
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: deepreinforce-ai/Ornith-1.0-35B
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: empero-ai/Qwythos-9B-Claude-Mythos-5-1M
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: deepseek-ai/DeepSeek-V4-Pro-DSpark
+Processing GGUF: Qwen/Qwen-AgentWorld-35B-A3B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: nvidia/LocateAnything-3B
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF
   -> Added with 5 quants
+Processing GGUF: deepseek-ai/DeepSeek-V4-Flash-DSpark
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: huihui-ai/Huihui-GLM-5.2-abliterated-GGUF
+  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00001-of-00006.gguf
+  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00002-of-00006.gguf
+  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00003-of-00006.gguf
+  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00004-of-00006.gguf
+  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00005-of-00006.gguf
+  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00006-of-00006.gguf
+  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00001-of-00007.gguf
+  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00002-of-00007.gguf
+  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00003-of-00007.gguf
+  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00004-of-00007.gguf
+  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00005-of-00007.gguf
+  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00006-of-00007.gguf
+  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00007-of-00007.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00001-of-00009.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00002-of-00009.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00003-of-00009.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00004-of-00009.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00005-of-00009.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00006-of-00009.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00007-of-00009.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00008-of-00009.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00009-of-00009.gguf
+Processing GGUF: HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+  -> Added with 11 quants
+Processing GGUF: Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF
+  -> Added with 11 quants
+Processing GGUF: BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6
+  -> Added with 1 quants
 Processing GGUF: nvidia/GLM-5.2-NVFP4
   -> Not a GGUF repo (library_name=Model Optimizer), skipping
 Processing GGUF: deepreinforce-ai/Ornith-1.0-397B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: nvidia/LocateAnything-3B
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: LiquidAI/LFM2.5-230M
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: nvidia/Qwen3.6-27B-NVFP4
-  -> Not a GGUF repo (library_name=Model Optimizer), skipping
-Processing GGUF: InternScience/Agents-A1
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
-  -> Added with 11 quants
-Processing GGUF: deepseek-ai/DeepSeek-V4-Flash-DSpark
+Processing GGUF: unsloth/Qwen3.6-27B-MTP-GGUF
+  -> Skipping multi-part file: BF16/Qwen3.6-27B-BF16-00001-of-00002.gguf
+  -> Skipping multi-part file: BF16/Qwen3.6-27B-BF16-00002-of-00002.gguf
+  -> Added with 21 quants
+Processing GGUF: nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: unsloth/GLM-5.2-GGUF
   -> Skipping multi-part file: BF16/GLM-5.2-BF16-00001-of-00033.gguf
@@ -296,256 +328,134 @@ Processing GGUF: unsloth/GLM-5.2-GGUF
   -> Skipping multi-part file: UD-Q8_K_XL/GLM-5.2-UD-Q8_K_XL-00016-of-00018.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/GLM-5.2-UD-Q8_K_XL-00017-of-00018.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/GLM-5.2-UD-Q8_K_XL-00018-of-00018.gguf
+Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: unsloth/Qwen-AgentWorld-35B-A3B-GGUF
   -> Skipping multi-part file: BF16/Qwen-AgentWorld-35B-A3B-BF16-00001-of-00002.gguf
   -> Skipping multi-part file: BF16/Qwen-AgentWorld-35B-A3B-BF16-00002-of-00002.gguf
   -> Added with 20 quants
-Processing GGUF: huihui-ai/Huihui-GLM-5.2-abliterated-GGUF
-  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00001-of-00006.gguf
-  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00002-of-00006.gguf
-  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00003-of-00006.gguf
-  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00004-of-00006.gguf
-  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00005-of-00006.gguf
-  -> Skipping multi-part file: UD-IQ1_M/GLM-5.2-UD-IQ1_M-00006-of-00006.gguf
-  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00001-of-00007.gguf
-  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00002-of-00007.gguf
-  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00003-of-00007.gguf
-  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00004-of-00007.gguf
-  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00005-of-00007.gguf
-  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00006-of-00007.gguf
-  -> Skipping multi-part file: UD-Q2_K_MXFP4/GLM-5.2-UD-Q2_K_MXFP4-00007-of-00007.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00001-of-00009.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00002-of-00009.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00003-of-00009.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00004-of-00009.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00005-of-00009.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00006-of-00009.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00007-of-00009.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00008-of-00009.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/GLM-5.2-UD-Q3_K_M-00009-of-00009.gguf
-Processing GGUF: BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6
-  -> Added with 1 quants
-Processing GGUF: Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF
-  -> Added with 11 quants
-Processing GGUF: nvidia/Qwen3.6-35B-A3B-NVFP4
-  -> Not a GGUF repo (library_name=Model Optimizer), skipping
-Processing GGUF: nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Chunjiang-Intelligence/DeepSeek-v4-Fable
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: unsloth/Qwen3.6-27B-MTP-GGUF
-  -> Skipping multi-part file: BF16/Qwen3.6-27B-BF16-00001-of-00002.gguf
-  -> Skipping multi-part file: BF16/Qwen3.6-27B-BF16-00002-of-00002.gguf
-  -> Added with 21 quants
-Processing GGUF: Qwen/Qwen3.6-35B-A3B
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: deepseek-ai/DeepSeek-V4-Flash
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: WeiboAI/VibeThinker-3B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: deepreinforce-ai/Ornith-1.0-397B-FP8
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED
+Processing GGUF: Qwen/Qwen3.6-35B-A3B
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: Qwen/Qwen3.6-27B
   -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: nvidia/Qwen3.6-35B-A3B-NVFP4
+  -> Not a GGUF repo (library_name=Model Optimizer), skipping
+Processing GGUF: protoLabsAI/Ornith-1.0-9B-MTP-GGUF
+  -> Added with 10 quants
+Processing GGUF: poolside/Laguna-XS-2.1
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/gemma-4-31B-it
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: deepseek-ai/DeepSeek-V4-Pro
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: LiquidAI/LFM2.5-230M-GGUF
-  -> Added with 7 quants
-Processing GGUF: huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF
-  -> Added with 5 quants
-Processing GGUF: deepreinforce-ai/Ornith-1.0-35B-FP8
+Processing GGUF: yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: SulphurAI/Sulphur-2-base
   -> Not a chat model (pipeline_tag=text-to-video), skipping
-Processing GGUF: HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive
-  -> Added with 4 quants
+Processing GGUF: HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced
+  -> Added with 2 quants
 Processing GGUF: sahilchachra/Unlimited-OCR-GGUF
   -> Generated description
   -> Added with 0 quants
-Processing GGUF: HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP
-  -> Added with 2 quants
-Processing GGUF: HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced
-  -> Added with 2 quants
+Processing GGUF: deepreinforce-ai/Ornith-1.0-35B-FP8
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF
   -> Added with 10 quants
-Processing GGUF: google/gemma-4-31B-it
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: google/gemma-4-12B-it
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: MiniMaxAI/MiniMax-M3
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: protoLabsAI/Ornith-1.0-9B-MTP-GGUF
-  -> Added with 9 quants
-Processing GGUF: nvidia/MiniMax-M3-NVFP4
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: bosonai/higgs-tts-3-4b
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: empero-ai/Qwable-9B-Claude-Fable-5
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: ahmed22xa/Huihui-Qwen3-VL-4B-Instruct-abliterated-comfy
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: bartowski/deepreinforce-ai_Ornith-1.0-35B-GGUF
-  -> Skipping multi-part file: deepreinforce-ai_Ornith-1.0-35B-bf16/deepreinforce-ai_Ornith-1.0-35B-bf16-00001-of-00002.gguf
-  -> Skipping multi-part file: deepreinforce-ai_Ornith-1.0-35B-bf16/deepreinforce-ai_Ornith-1.0-35B-bf16-00002-of-00002.gguf
-  -> Added with 27 quants
-Processing GGUF: yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: unsloth/Qwen3.6-35B-A3B-MTP-GGUF
   -> Skipping multi-part file: BF16/Qwen3.6-35B-A3B-BF16-00001-of-00002.gguf
   -> Skipping multi-part file: BF16/Qwen3.6-35B-A3B-BF16-00002-of-00002.gguf
   -> Added with 21 quants
-Processing GGUF: moonshotai/Kimi-K2.7-Code
+Processing GGUF: huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF
+  -> Added with 5 quants
+Processing GGUF: bosonai/higgs-tts-3-4b
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3.5-9B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: google/gemma-4-E4B-it
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: datalab-to/lift
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: unsloth/gemma-4-26B-A4B-it-qat-GGUF
-  -> Added with 6 quants
-Processing GGUF: MaralGPT/MaralGPT-Mythos-9B-2606-GGUF
+Processing GGUF: HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive
   -> Added with 4 quants
-Processing GGUF: microsoft/GELab-Zero-4B-preview-Sico-Evolution
+Processing GGUF: Chunjiang-Intelligence/DeepSeek-v4-Fable
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP
-  -> Added with 2 quants
-Processing GGUF: google/diffusiongemma-26B-A4B-it
+Processing GGUF: deepreinforce-ai/Ornith-1.0-397B-FP8
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: google/gemma-4-26B-A4B-it
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
-  -> Added with 11 quants
-Processing GGUF: meta-llama/Llama-3.1-8B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: bartowski/deepreinforce-ai_Ornith-1.0-9B-GGUF
-  -> Added with 25 quants
-Processing GGUF: Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF
-  -> Added with 12 quants
-Processing GGUF: Jackrong/Qwopus3.6-27B-Coder-Compat-MTP-GGUF
-  -> Added with 12 quants
 Processing GGUF: AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-NVFP4
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3.5-4B
+Processing GGUF: moonshotai/Kimi-K2.7-Code
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: kogai/laneformer-2b-it
+Processing GGUF: WeiboAI/VibeThinker-3B
   -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: ahmed22xa/Huihui-Qwen3-VL-4B-Instruct-abliterated-comfy
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: microsoft/GELab-Zero-4B-preview-Sico-Evolution
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: MaralGPT/MaralGPT-Mythos-9B-2606-GGUF
+  -> Added with 4 quants
+Processing GGUF: google/gemma-4-E4B-it
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: InternScience/Agents-A1-Q4_K_M-GGUF
+  -> Added with 1 quants
+Processing GGUF: MiniMaxAI/MiniMax-M3
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: SC117/Ornith-1.0-35B-MTP-APEX-GGUF
+  -> Added with 5 quants
 Processing GGUF: unsloth/Qwen3.6-35B-A3B-GGUF
   -> Skipping multi-part file: BF16/Qwen3.6-35B-A3B-BF16-00001-of-00002.gguf
   -> Skipping multi-part file: BF16/Qwen3.6-35B-A3B-BF16-00002-of-00002.gguf
   -> Added with 23 quants
-Processing GGUF: squ11z1/Mythos-nano
-  -> Added with 11 quants
-Processing GGUF: CohereLabs/North-Mini-Code-1.0-w4a16
+Processing GGUF: google/gemma-4-12B-it
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jackrong/Qwopus3.6-35B-A3B-Coder
-  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP
+  -> Added with 2 quants
 Processing GGUF: bartowski/DeepSeek-V4-Flash-GGUF
   -> Skipping multi-part file: DeepSeek-V4-Flash-MXFP4/DeepSeek-V4-Flash-MXFP4-00001-of-00004.gguf
   -> Skipping multi-part file: DeepSeek-V4-Flash-MXFP4/DeepSeek-V4-Flash-MXFP4-00002-of-00004.gguf
   -> Skipping multi-part file: DeepSeek-V4-Flash-MXFP4/DeepSeek-V4-Flash-MXFP4-00003-of-00004.gguf
   -> Skipping multi-part file: DeepSeek-V4-Flash-MXFP4/DeepSeek-V4-Flash-MXFP4-00004-of-00004.gguf
-Processing GGUF: openai/gpt-oss-120b
+Processing GGUF: kai-os/Grug-12B
   -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/gemma-4-26B-A4B-it
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/gemma-4-26B-A4B-it-qat-GGUF
+  -> Added with 6 quants
 Processing GGUF: openai/gpt-oss-20b
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen3.5-9B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive
+  -> Added with 11 quants
+Processing GGUF: google/diffusiongemma-26B-A4B-it
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Jackrong/Qwopus3.6-35B-A3B-Coder
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: meta-llama/Llama-3.1-8B-Instruct
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: antirez/deepseek-v4-gguf
   -> Added with 10 quants
-Processing GGUF: unsloth/gemma-4-12b-it-GGUF
-  -> Added with 25 quants
-Processing GGUF: huihui-ai/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: 0xSero/GLM-5.2-REAP-504B-GGUF
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00001-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00002-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00003-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00004-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00005-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00006-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00007-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00008-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00009-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00010-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00011-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00012-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00013-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00014-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00015-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00016-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00017-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00018-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00019-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00020-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00021-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00022-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00023-of-00023.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q2_K_XL-00001-of-00005.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q2_K_XL-00002-of-00005.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q2_K_XL-00003-of-00005.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q2_K_XL-00004-of-00005.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q2_K_XL-00005-of-00005.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00001-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00002-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00003-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00004-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00005-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00006-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00001-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00002-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00003-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00004-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00005-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00006-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00007-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00008-of-00008.gguf
-Processing GGUF: zandenAI/GLM-5.2-FP8-Uncensored
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF
-  -> Added with 10 quants
-Processing GGUF: AlicanKiraz0/Titus-CybersecurityLLM-v1.0-mlx-4Bit
-  -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: CohereLabs/North-Mini-Code-1.0
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: zai-org/GLM-5.2-FP8
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: SC117/Ornith-1.0-35B-MTP-APEX-GGUF
-  -> Added with 4 quants
+Processing GGUF: bartowski/deepreinforce-ai_Ornith-1.0-35B-GGUF
+  -> Skipping multi-part file: deepreinforce-ai_Ornith-1.0-35B-bf16/deepreinforce-ai_Ornith-1.0-35B-bf16-00001-of-00002.gguf
+  -> Skipping multi-part file: deepreinforce-ai_Ornith-1.0-35B-bf16/deepreinforce-ai_Ornith-1.0-35B-bf16-00002-of-00002.gguf
+  -> Added with 27 quants
 Processing GGUF: Pageshift-Entertainment/pagestorm-research-preview-14b-full-book
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: datalab-to/chandra-ocr-2
+Processing GGUF: zai-org/GLM-OCR
   -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: bartowski/deepreinforce-ai_Ornith-1.0-9B-GGUF
+  -> Added with 25 quants
+Processing GGUF: llmfan46/Qwythos-9B-Claude-Mythos-5-1M-uncensored-heretic-GGUF
+  -> Added with 8 quants
 Processing GGUF: unsloth/Qwen3.6-27B-GGUF
   -> Skipping multi-part file: BF16/Qwen3.6-27B-BF16-00001-of-00002.gguf
   -> Skipping multi-part file: BF16/Qwen3.6-27B-BF16-00002-of-00002.gguf
   -> Added with 21 quants
-Processing GGUF: unsloth/Qwen3.5-9B-MTP-GGUF
-  -> Added with 21 quants
-Processing GGUF: google/gemma-4-12B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: PaddlePaddle/PaddleOCR-VL-1.6
-  -> Not a GGUF repo (library_name=PaddleOCR), skipping
-Processing GGUF: 0xSero/GLM-5.2-504B-Nvidia
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: MaralGPT/MaralGPT-Mythos-9B-2606
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: zai-org/GLM-OCR
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: unsloth/gemma-4-26B-A4B-it-GGUF
-  -> Skipping multi-part file: BF16/gemma-4-26B-A4B-it-BF16-00001-of-00002.gguf
-  -> Skipping multi-part file: BF16/gemma-4-26B-A4B-it-BF16-00002-of-00002.gguf
-  -> Added with 24 quants
-Processing GGUF: yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: ponpoke/flux2-klein-9b-uncensored-text-encoder
-  -> Not a chat model (pipeline_tag=text-to-image), skipping
-Processing GGUF: huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF
-  -> Added with 5 quants
-Processing GGUF: nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4
-  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF
+  -> Added with 10 quants
 Processing GGUF: unsloth/gemma-4-12B-it-qat-GGUF
   -> Added with 6 quants
+Processing GGUF: Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF
+  -> Added with 12 quants
+Processing GGUF: empero-ai/Qwable-9B-Claude-Fable-5
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: nvidia/MiniMax-M3-NVFP4
+  -> Not a GGUF repo (library_name=None), skipping
 Processing GGUF: bartowski/deepreinforce-ai_Ornith-1.0-397B-GGUF
   -> Skipping multi-part file: deepreinforce-ai_Ornith-1.0-397B-IQ1_M/deepreinforce-ai_Ornith-1.0-397B-IQ1_M-00001-of-00003.gguf
   -> Skipping multi-part file: deepreinforce-ai_Ornith-1.0-397B-IQ1_M/deepreinforce-ai_Ornith-1.0-397B-IQ1_M-00002-of-00003.gguf
@@ -691,102 +601,164 @@ Processing GGUF: bartowski/deepreinforce-ai_Ornith-1.0-397B-GGUF
   -> Skipping multi-part file: deepreinforce-ai_Ornith-1.0-397B-Q8_0/deepreinforce-ai_Ornith-1.0-397B-Q8_0-00010-of-00011.gguf
   -> Skipping multi-part file: deepreinforce-ai_Ornith-1.0-397B-Q8_0/deepreinforce-ai_Ornith-1.0-397B-Q8_0-00011-of-00011.gguf
   -> Added with 1 quants
-Processing GGUF: llmfan46/Qwythos-9B-Claude-Mythos-5-1M-uncensored-heretic-GGUF
-  -> Added with 8 quants
-Processing GGUF: unsloth/Qwen3.5-9B-GGUF
-  -> Added with 22 quants
-Processing GGUF: LiquidAI/LFM2.5-350M
+Processing GGUF: AliesTaha/fable-traces
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: moonshotai/Kimi-K2.6
+Processing GGUF: google/gemma-4-12B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: XiaomiMiMo/MiMo-V2.5-Pro
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: unsloth/diffusiongemma-26B-A4B-it-GGUF
-  -> Added with 5 quants
+Processing GGUF: LiquidAI/LFM2.5-230M-GGUF
+  -> Added with 7 quants
+Processing GGUF: BennyDaBall/Krea-2-Engineer-V1-GGUF
+  -> Added with 7 quants
+Processing GGUF: MaralGPT/MaralGPT-Mythos-9B-2606
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: RedHatAI/GLM-5.2-speculator.dspark-preview
+  -> Not a GGUF repo (library_name=speculators), skipping
+Processing GGUF: openai/gpt-oss-120b
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF
+  -> Added with 4 quants
+Processing GGUF: datalab-to/lift
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
+  -> Added with 10 quants
+Processing GGUF: ponpoke/flux2-klein-9b-uncensored-text-encoder
+  -> Not a chat model (pipeline_tag=text-to-image), skipping
+Processing GGUF: Jackrong/Qwopus3.6-27B-Coder-Compat-MTP-GGUF
+  -> Added with 12 quants
+Processing GGUF: nvidia/Mistral-Medium-3.5-128B-NVFP4
+  -> Not a GGUF repo (library_name=Model Optimizer), skipping
+Processing GGUF: Qwen/Qwen3-Coder-Next
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/gemma-4-12b-it-GGUF
+  -> Added with 25 quants
+Processing GGUF: 0xSero/GLM-5.2-REAP-504B-GGUF
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00001-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00002-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00003-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00004-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00005-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00006-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00007-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00008-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00009-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00010-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00011-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00012-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00013-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00014-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00015-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00016-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00017-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00018-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00019-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00020-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00021-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00022-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-BF16-00023-of-00023.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q2_K_XL-00001-of-00005.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q2_K_XL-00002-of-00005.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q2_K_XL-00003-of-00005.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q2_K_XL-00004-of-00005.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q2_K_XL-00005-of-00005.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00001-of-00006.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00002-of-00006.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00003-of-00006.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00004-of-00006.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00005-of-00006.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q3_K_XL-00006-of-00006.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00001-of-00008.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00002-of-00008.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00003-of-00008.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00004-of-00008.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00005-of-00008.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00006-of-00008.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00007-of-00008.gguf
+  -> Skipping multi-part file: GLM-5.2-REAP-504B-Q4_K_XL-00008-of-00008.gguf
+Processing GGUF: HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP
+  -> Added with 2 quants
 Processing GGUF: s-batman/Ornith-1.0-35B-NVFP4-MTP-GGUF
   -> Added with 2 quants
+Processing GGUF: PaddlePaddle/PaddleOCR-VL-1.6
+  -> Not a GGUF repo (library_name=PaddleOCR), skipping
+Processing GGUF: OBLITERATUS/Gemma-4-12B-OBLITERATED
+  -> Added with 3 quants
+Processing GGUF: empero-ai/Qwable-9B-Claude-Fable-5-GGUF
+  -> Added with 5 quants
+Processing GGUF: 0xSero/GLM-5.2-504B-Nvidia
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: ai-sage/GFusion-10B-A1.8B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: meta-llama/Meta-Llama-3-8B-Instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: Qwen/Qwen3-0.6B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: google/gemma-4-E2B-it
+Processing GGUF: Qwen/Qwen3.5-4B
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: google/gemma-4-31B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: yuxinlu1/gemma-4-12B-it-Claude-4.6-4.8-Opus-GGUF
-  -> Added with 7 quants
-Processing GGUF: OBLITERATUS/Gemma-4-12B-OBLITERATED
-  -> Added with 3 quants
-Processing GGUF: unsloth/gemma-4-E4B-it-qat-GGUF
-  -> Added with 7 quants
-Processing GGUF: unsloth/North-Mini-Code-1.0-GGUF
-  -> Skipping multi-part file: BF16/North-Mini-Code-1.0-BF16-00001-of-00002.gguf
-  -> Skipping multi-part file: BF16/North-Mini-Code-1.0-BF16-00002-of-00002.gguf
+Processing GGUF: datalab-to/chandra-ocr-2
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/gemma-4-26B-A4B-it-GGUF
+  -> Skipping multi-part file: BF16/gemma-4-26B-A4B-it-BF16-00001-of-00002.gguf
+  -> Skipping multi-part file: BF16/gemma-4-26B-A4B-it-BF16-00002-of-00002.gguf
+  -> Added with 24 quants
+Processing GGUF: LiquidAI/LFM2.5-8B-A1B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: CohereLabs/North-Mini-Code-1.0
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: CohereLabs/North-Mini-Code-1.0-w4a16
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: zai-org/GLM-5.2-FP8
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: FINAL-Bench/Qwen3.5-35B-A3B-VKAE
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: unsloth/Qwen3.5-9B-GGUF
+  -> Added with 22 quants
+Processing GGUF: meituan-longcat/LongCat-Next
+  -> Not a GGUF repo (library_name=LongCat-Next), skipping
+Processing GGUF: unsloth/Qwen3.5-9B-MTP-GGUF
   -> Added with 21 quants
+Processing GGUF: jica98/qwen3.5-4B-super-coder
+  -> Added with 2 quants
+Processing GGUF: squ11z1/Mythos-nano
+  -> Added with 11 quants
+Processing GGUF: yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: AutoArk-AI/ARK-ASR-3B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: OpenMOSS-Team/MOSS-Transcribe-preview-2B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: BennyDaBall/Krea-2-Engineer-V1-GGUF
-  -> Added with 7 quants
-Processing GGUF: deepseek-ai/DeepSeek-OCR-2
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jiunsong/supergemma4-26b-uncensored-gguf-v2
-  -> Added with 1 quants
-Processing GGUF: AlexWortega/SIQ-1-35B
-  -> Added with 5 quants
-Processing GGUF: empero-ai/Qwable-9B-Claude-Fable-5-GGUF
-  -> Added with 5 quants
-Processing GGUF: 0xSero/GLM-5.2-504B
-  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: nvidia/Kimi-K2.6-DFlash
+  -> Not a GGUF repo (library_name=Model Optimizer), skipping
 Processing GGUF: AKMESSI/lfm2.5-230m-fable-5
   -> Added with 3 quants
 Processing GGUF: canada-quant/GLM-5.2-W4A16-MTP
   -> Not a GGUF repo (library_name=vllm), skipping
-Processing GGUF: meta-llama/Meta-Llama-3-8B-Instruct
+Processing GGUF: Pageshift-Entertainment/pagestorm-research-preview-24b-first-chapter-only
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen2.5-Coder-7B-Instruct-GGUF
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-fp16-00001-of-00004.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-fp16-00002-of-00004.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-fp16-00003-of-00004.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-fp16-00004-of-00004.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q4_0-00001-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q4_0-00002-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q4_k_m-00001-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q4_k_m-00002-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q5_0-00001-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q5_0-00002-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q5_k_m-00001-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q5_k_m-00002-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q6_k-00001-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q6_k-00002-of-00002.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q8_0-00001-of-00003.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q8_0-00002-of-00003.gguf
-  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q8_0-00003-of-00003.gguf
-  -> Added with 8 quants
-Processing GGUF: unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF
-  -> Skipping multi-part file: BF16/Qwen3-Coder-30B-A3B-Instruct-BF16-00001-of-00002.gguf
-  -> Skipping multi-part file: BF16/Qwen3-Coder-30B-A3B-Instruct-BF16-00002-of-00002.gguf
-  -> Added with 26 quants
-Processing GGUF: nvidia/DeepSeek-V4-Flash-NVFP4
-  -> Not a GGUF repo (library_name=Model Optimizer), skipping
-Processing GGUF: SKT-NRS/NRS_QWEN_MYTHOS_1M
+Processing GGUF: deepseek-ai/DeepSeek-R1
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: meta-llama/Llama-3.2-3B-Instruct
+Processing GGUF: deepseek-ai/DeepSeek-OCR-2
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-Coder-30B-A3B-Instruct
+Processing GGUF: google/gemma-4-E2B-it
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-Coder-Next
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: google/gemma-4-E2B
-  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: LiquidAI/LFM2.5-8B-A1B-GGUF
+  -> Added with 7 quants
+Processing GGUF: SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF
+  -> Added with 3 quants
+Processing GGUF: unsloth/gemma-4-E4B-it-qat-GGUF
+  -> Added with 7 quants
 Processing GGUF: unsloth/gemma-4-31B-it-qat-GGUF
   -> Added with 6 quants
-Processing GGUF: hotdogs/qwen3.6-27b-fable5-lora
-  -> Added with 6 quants
-Processing GGUF: google/gemma-3-1b-it
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+Processing GGUF: llmfan46/Ornith-1.0-35B-uncensored-heretic-GGUF
+  -> Added with 10 quants
+Processing GGUF: RedHatAI/GLM-5.2-speculator.dspark
+  -> Not a GGUF repo (library_name=speculators), skipping
+Processing GGUF: FINAL-Bench/Darwin-36B-Opus-VKAE
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: meituan-longcat/LongCat-2.0-FP8
+  -> Not a GGUF repo (library_name=LongCat-2.0), skipping
+Processing GGUF: meta-llama/Llama-3.2-3B-Instruct
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: unsloth/Qwen3-Coder-Next-GGUF
   -> Skipping multi-part file: BF16/Qwen3-Coder-Next-BF16-00001-of-00004.gguf
@@ -827,89 +799,28 @@ Processing GGUF: unsloth/Qwen3-Coder-Next-GGUF
   -> Skipping multi-part file: UD-Q8_K_XL/Qwen3-Coder-Next-UD-Q8_K_XL-00002-of-00003.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/Qwen3-Coder-Next-UD-Q8_K_XL-00003-of-00003.gguf
   -> Added with 26 quants
-Processing GGUF: Qwen/Qwen3.5-0.8B
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: BugTraceAI/BugTraceAI-Apex-G4-26B-Q4
   -> Added with 1 quants
 Processing GGUF: z-lab/Qwen3.6-27B-DFlash
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: nvidia/Gemma-4-26B-A4B-NVFP4
-  -> Not a GGUF repo (library_name=Model Optimizer), skipping
-Processing GGUF: Jackrong/Qwopus3.6-27B-v2-MTP-GGUF
-  -> Added with 12 quants
-Processing GGUF: LiquidAI/LFM2.5-8B-A1B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: nex-agi/Nex-N2-mini
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: lordx64/Qwable-v1
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Mia-AiLab/Qwable-3.6-27b
-  -> Added with 1 quants
-Processing GGUF: mradermacher/Mythos-nano-i1-GGUF
-  -> Added with 25 quants
-Processing GGUF: unsloth/LFM2.5-230M-GGUF
-  -> Generated description
-  -> Added with 21 quants
-Processing GGUF: AtomicChat/ornith-9b-GGUF
-  -> Added with 6 quants
-Processing GGUF: sakamakismile/Ornith-1.0-35B-NVFP4
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jiunsong/SuperQwen-AgentWorld-35B-A3B-abliterated
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Pageshift-Entertainment/pagestorm-research-preview-24b-first-chapter-only
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen2.5-7B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: google/gemma-3-4b-it
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-8B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: ibm-granite/granite-docling-258M
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: zai-org/GLM-4.7-Flash
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: google/gemma-4-E4B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive
-  -> Added with 4 quants
-Processing GGUF: meituan-longcat/LongCat-Next
-  -> Not a GGUF repo (library_name=LongCat-Next), skipping
-Processing GGUF: unsloth/gemma-4-31B-it-GGUF
-  -> Skipping multi-part file: BF16/gemma-4-31B-it-BF16-00001-of-00002.gguf
-  -> Skipping multi-part file: BF16/gemma-4-31B-it-BF16-00002-of-00002.gguf
-  -> Added with 25 quants
-Processing GGUF: zai-org/GLM-5.1
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3.6-27B-FP8
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive
-  -> Added with 10 quants
+Processing GGUF: XiaomiMiMo/MiMo-V2.5-Pro
+  -> Not a GGUF repo (library_name=None), skipping
 Processing GGUF: DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: numind/NuExtract3
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF
   -> Added with 12 quants
-Processing GGUF: stepfun-ai/Step-3.7-Flash
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: SC117/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-APEX-GGUF
-  -> Added with 3 quants
-Processing GGUF: AlicanKiraz0/Titus-CybersecurityLLM-v1.0-Q4_K_M-No-MTP-GGUF
-  -> Added with 1 quants
-Processing GGUF: huihui-ai/Huihui-gemma-4-12B-it-abliterated
-  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Jackrong/Qwopus3.5-9B-Coder-GGUF
+  -> Added with 5 quants
 Processing GGUF: OpenOneRec/OneReason-0.8B-pretrain-competition
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jackrong/Qwopus3.6-27B-Coder-GGUF
+Processing GGUF: unsloth/North-Mini-Code-1.0-GGUF
+  -> Skipping multi-part file: BF16/North-Mini-Code-1.0-BF16-00001-of-00002.gguf
+  -> Skipping multi-part file: BF16/North-Mini-Code-1.0-BF16-00002-of-00002.gguf
+  -> Added with 21 quants
+Processing GGUF: AlexWortega/SIQ-1-35B
   -> Added with 5 quants
-Processing GGUF: jica98/qwen3.5-4B-super-coder
-  -> Added with 2 quants
-Processing GGUF: egomnia/emma-5
-  -> Not a GGUF repo (library_name=onnxruntime), skipping
-Processing GGUF: huihui-ai/Huihui-Qwable-3.6-27b-abliterated-MTP-GGUF
-  -> Added with 3 quants
-Processing GGUF: nvidia/Kimi-K2.6-DFlash
-  -> Not a GGUF repo (library_name=Model Optimizer), skipping
+Processing GGUF: hotdogs/qwen3.6-27b-fable5-lora
+  -> Added with 7 quants
 Processing GGUF: tarruda/DeepSeek-V4-Flash-GGUF
   -> Skipping multi-part file: IQ3_XXS/DeepSeek-V4-Flash-IQ3_XXS-00001-of-00004.gguf
   -> Skipping multi-part file: IQ3_XXS/DeepSeek-V4-Flash-IQ3_XXS-00002-of-00004.gguf
@@ -923,44 +834,484 @@ Processing GGUF: tarruda/DeepSeek-V4-Flash-GGUF
   -> Skipping multi-part file: Q2_K/DeepSeek-V4-Flash-Q2_K-00001-of-00003.gguf
   -> Skipping multi-part file: Q2_K/DeepSeek-V4-Flash-Q2_K-00002-of-00003.gguf
   -> Skipping multi-part file: Q2_K/DeepSeek-V4-Flash-Q2_K-00003-of-00003.gguf
-  -> Generated description
+  -> Skipping multi-part file: Q3_K/DeepSeek-V4-Flash-Q3_K-00001-of-00004.gguf
+  -> Skipping multi-part file: Q3_K/DeepSeek-V4-Flash-Q3_K-00002-of-00004.gguf
+  -> Skipping multi-part file: Q3_K/DeepSeek-V4-Flash-Q3_K-00003-of-00004.gguf
+  -> Skipping multi-part file: Q3_K/DeepSeek-V4-Flash-Q3_K-00004-of-00004.gguf
   -> Added with 1 quants
-Processing GGUF: nvidia/Mistral-Medium-3.5-128B-NVFP4
+Processing GGUF: kai-os/Grug-35B-A3B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen2.5-Coder-7B-Instruct-GGUF
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-fp16-00001-of-00004.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-fp16-00002-of-00004.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-fp16-00003-of-00004.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-fp16-00004-of-00004.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q4_0-00001-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q4_0-00002-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q4_k_m-00001-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q4_k_m-00002-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q5_0-00001-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q5_0-00002-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q5_k_m-00001-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q5_k_m-00002-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q6_k-00001-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q6_k-00002-of-00002.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q8_0-00001-of-00003.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q8_0-00002-of-00003.gguf
+  -> Skipping multi-part file: qwen2.5-coder-7b-instruct-q8_0-00003-of-00003.gguf
+  -> Added with 8 quants
+Processing GGUF: unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF
+  -> Skipping multi-part file: BF16/Qwen3-Coder-30B-A3B-Instruct-BF16-00001-of-00002.gguf
+  -> Skipping multi-part file: BF16/Qwen3-Coder-30B-A3B-Instruct-BF16-00002-of-00002.gguf
+  -> Added with 26 quants
+Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: zai-org/GLM-4.7-Flash
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive
+  -> Added with 4 quants
+Processing GGUF: moonshotai/Kimi-K2.6
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen3.6-35B-A3B-FP8
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: numind/NuExtract3
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: nvidia/Gemma-4-26B-A4B-NVFP4
   -> Not a GGUF repo (library_name=Model Optimizer), skipping
+Processing GGUF: tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF
+  -> Added with 10 quants
+Processing GGUF: lordx64/Qwable-v1
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: sokann/GLM-5.2-GGUF-2.244bpw
+  -> Added with 2 quants
+Processing GGUF: 0xSero/GLM-5.2-504B
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: Jiunsong/SuperQwen-AgentWorld-35B-A3B-abliterated
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: williamliao/Qwen3.6-27B-NVFP4-GGUF
+  -> Added with 1 quants
+Processing GGUF: meta-llama/Llama-3.1-8B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: ibm-granite/granite-docling-258M
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: LiquidAI/LFM2.5-350M
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Jiunsong/supergemma4-26b-uncensored-gguf-v2
+  -> Added with 1 quants
+Processing GGUF: z-lab/Qwen3.6-35B-A3B-DFlash
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Jackrong/Qwopus3.6-27B-v2-MTP-GGUF
+  -> Added with 12 quants
+Processing GGUF: AlicanKiraz0/Titus-CybersecurityLLM-v1.0-mlx-4Bit
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: yuxinlu1/gemma-4-12B-it-Claude-4.6-4.8-Opus-GGUF
+  -> Added with 7 quants
+Processing GGUF: unsloth/diffusiongemma-26B-A4B-it-GGUF
+  -> Added with 5 quants
+Processing GGUF: huihui-ai/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: arbazsiddiqui/Ozan-v1-12B
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: OpenMOSS-Team/MOSS-Transcribe-preview-2B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Spectral-Labs25/Qwen3.5-0.8B-SpectralQuant-Q4_K_M
+  -> Added with 1 quants
+Processing GGUF: vcruz305/Ornith-1.0-35B-AEON-Ultimate-Uncensored-GGUF
+  -> Added with 17 quants
+Processing GGUF: poolside/Laguna-XS-2.1-GGUF
+  -> Generated description
+  -> Added with 2 quants
+Processing GGUF: mudler/Agents-A1-APEX-GGUF
+  -> Added with 7 quants
+Processing GGUF: Qwen/Qwen2.5-7B-Instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: HuggingFaceTB/SmolVLM-256M-Instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen3-8B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen3-Coder-30B-A3B-Instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen3.5-0.8B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/Qwen3.5-4B-GGUF
+  -> Added with 22 quants
+Processing GGUF: google/gemma-4-E2B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/gemma-4-31B-it-GGUF
+  -> Skipping multi-part file: BF16/gemma-4-31B-it-BF16-00001-of-00002.gguf
+  -> Skipping multi-part file: BF16/gemma-4-31B-it-BF16-00002-of-00002.gguf
+  -> Added with 25 quants
+Processing GGUF: unsloth/gemma-4-E4B-it-GGUF
+  -> Added with 25 quants
+Processing GGUF: HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
+  -> Added with 7 quants
+Processing GGUF: Qwen/Qwen3.6-27B-FP8
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/gemma-4-E2B-it-qat-q4_0-gguf
+  -> Added with 2 quants
+Processing GGUF: google/gemma-4-26B-A4B-it-qat-q4_0-gguf
+  -> Added with 2 quants
+Processing GGUF: nvidia/DeepSeek-V4-Flash-NVFP4
+  -> Not a GGUF repo (library_name=Model Optimizer), skipping
+Processing GGUF: huihui-ai/Huihui-gemma-4-12B-it-abliterated
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: kogai/laneformer-2b-it
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: kaitchup/MiniMax-M3-GGUF-MoQ
+  -> Added with 8 quants
+Processing GGUF: SKT-NRS/NRS_QWEN_MYTHOS_1M
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: amalia-llm/AMALIA-9B-0626-SFT
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: LordNeel/Ornith-1.0-35B-GGUF-llamacpp-tp1
+  -> Added with 8 quants
+Processing GGUF: huihui-ai/Huihui-Qwen-AgentWorld-35B-A3B-abliterated
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: autotrust/DeepSeek-V4-Flash-DSpark-4E
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: paragon-of-brah/Ornith-1.0-397B-DFLASH-GGUF
+  -> Skipping multi-part file: IQ2_KS/Ornith-1.0-397B-A17B-IQ2_KS-00001-of-00005.gguf
+  -> Skipping multi-part file: IQ2_KS/Ornith-1.0-397B-A17B-IQ2_KS-00002-of-00005.gguf
+  -> Skipping multi-part file: IQ2_KS/Ornith-1.0-397B-A17B-IQ2_KS-00003-of-00005.gguf
+  -> Skipping multi-part file: IQ2_KS/Ornith-1.0-397B-A17B-IQ2_KS-00004-of-00005.gguf
+  -> Skipping multi-part file: IQ2_KS/Ornith-1.0-397B-A17B-IQ2_KS-00005-of-00005.gguf
+  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00001-of-00008.gguf
+  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00002-of-00008.gguf
+  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00003-of-00008.gguf
+  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00004-of-00008.gguf
+  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00005-of-00008.gguf
+  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00006-of-00008.gguf
+  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00007-of-00008.gguf
+  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00008-of-00008.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00001-of-00011.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00002-of-00011.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00003-of-00011.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00004-of-00011.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00005-of-00011.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00006-of-00011.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00007-of-00011.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00008-of-00011.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00009-of-00011.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00010-of-00011.gguf
+  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00011-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00001-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00002-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00003-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00004-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00005-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00006-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00007-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00008-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00009-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00010-of-00011.gguf
+  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00011-of-00011.gguf
+  -> Added with 5 quants
+Processing GGUF: BennyDaBall/Krea-2-Engineer-V1
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: mudler/Ornith-1.0-35B-APEX-GGUF
+  -> Added with 7 quants
+Processing GGUF: llmfan46/Ornith-1.0-35B-uncensored-heretic
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: meta-llama/Llama-3.2-1B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: deepseek-ai/DeepSeek-R1
+Processing GGUF: meta-llama/Llama-3.3-70B-Instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/gemma-3-1b-it
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: microsoft/bitnet-b1.58-2B-4T
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: Qwen/Qwen3-Embedding-0.6B
   -> Not a GGUF repo (library_name=sentence-transformers), skipping
-Processing GGUF: litert-community/functiongemma-270m-ft-mobile-actions
-  -> Not a GGUF repo (library_name=litert-lm), skipping
-Processing GGUF: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4
-  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/GLM-4.7-Flash-REAP-23B-A3B-GGUF
+  -> Added with 27 quants
+Processing GGUF: Andycurrent/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_GGUF
+  -> Added with 7 quants
 Processing GGUF: LiquidAI/LFM2.5-350M-GGUF
   -> Added with 7 quants
-Processing GGUF: unsloth/gemma-4-E4B-it-GGUF
-  -> Added with 25 quants
-Processing GGUF: OBLITERATUS/gemma-4-E4B-it-OBLITERATED
-  -> Added with 4 quants
-Processing GGUF: Qwen/Qwen3.6-35B-A3B-FP8
+Processing GGUF: openbmb/MiniCPM-V-4.6
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: z-lab/Qwen3.6-35B-A3B-DFlash
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: unsloth/Qwen3.6-27B-NVFP4
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: Jackrong/Qwopus3.5-9B-Coder-GGUF
-  -> Added with 5 quants
-Processing GGUF: LiquidAI/LFM2.5-8B-A1B-GGUF
+Processing GGUF: MassivDash/Gemma-4-Rust-Coder
   -> Added with 7 quants
-Processing GGUF: JetBrains/Mellum2-12B-A2.5B-Thinking
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: nex-agi/Nex-N2-Pro
+Processing GGUF: stepfun-ai/Step-3.7-Flash
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16
   -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: nex-agi/Nex-N2-mini
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-GGUF
   -> Added with 1 quants
+Processing GGUF: nvidia/Privasis-Cleaner-4B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: nvidia/Privasis-Cleaner-0.6B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: poolside/Laguna-M.1
+  -> Not a GGUF repo (library_name=vllm), skipping
+Processing GGUF: prithivMLmods/VibeThinker-3B-GGUF
+  -> Added with 15 quants
+Processing GGUF: Naphula/Goetia-26B-A4B-v1.3-Absolute-Heretic-ARA
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: ShaunGves/FastContext-1.0-4B-SFT
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: mradermacher/FastContext-1.0-4B-SFT-GGUF
+  -> Added with 12 quants
+Processing GGUF: nerkyor/Qwen3.6-27B-DSV4Pro-Thinking-Distill
+  -> Added with 8 quants
+Processing GGUF: zaakirio/Ornith-1.0-9B-uncensored-GGUF
+  -> Added with 4 quants
+Processing GGUF: AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: hotdogs/qwen35b-a3b-fable-sft-abliterated
+  -> Added with 3 quants
+Processing GGUF: sii-research/InnoSpark3.0-9B-260630
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: InternScience/Agents-A1-FP8
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Abiray/Agents-A1-Q4_K_M-GGUF
+  -> Generated description
+  -> Added with 1 quants
+Processing GGUF: LordNeel/Agents-A1-GGUF
+  -> Added with 9 quants
+Processing GGUF: CodeFault/Nvidia-Qwen3.6-27B-NVFP4-GGUF
+  -> Generated description
+  -> Added with 1 quants
+Processing GGUF: Ttimofeyka/MistralRP-Noromaid-NSFW-Mistral-7B-GGUF
+  -> Added with 3 quants
+Processing GGUF: Qwen/Qwen2.5-3B-Instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/gemma-3-4b-it
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: bartowski/cognitivecomputations_Dolphin-Mistral-24B-Venice-Edition-GGUF
+  -> Added with 27 quants
+Processing GGUF: google/medgemma-27b-it
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: microsoft/VibeVoice-1.5B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: deepseek-ai/DeepSeek-OCR
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/medgemma-1.5-4b-it
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
+  -> Added with 13 quants
+Processing GGUF: litert-community/functiongemma-270m-ft-mobile-actions
+  -> Not a GGUF repo (library_name=litert-lm), skipping
+Processing GGUF: google/gemma-4-E4B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/Mistral-Small-4-119B-2603-GGUF
+  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00001-of-00006.gguf
+  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00002-of-00006.gguf
+  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00003-of-00006.gguf
+  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00004-of-00006.gguf
+  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00005-of-00006.gguf
+  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00006-of-00006.gguf
+  -> Skipping multi-part file: MXFP4_MOE/Mistral-Small-4-119B-2603-MXFP4_MOE-00001-of-00003.gguf
+  -> Skipping multi-part file: MXFP4_MOE/Mistral-Small-4-119B-2603-MXFP4_MOE-00002-of-00003.gguf
+  -> Skipping multi-part file: MXFP4_MOE/Mistral-Small-4-119B-2603-MXFP4_MOE-00003-of-00003.gguf
+  -> Skipping multi-part file: Q8_0/Mistral-Small-4-119B-2603-Q8_0-00001-of-00004.gguf
+  -> Skipping multi-part file: Q8_0/Mistral-Small-4-119B-2603-Q8_0-00002-of-00004.gguf
+  -> Skipping multi-part file: Q8_0/Mistral-Small-4-119B-2603-Q8_0-00003-of-00004.gguf
+  -> Skipping multi-part file: Q8_0/Mistral-Small-4-119B-2603-Q8_0-00004-of-00004.gguf
+  -> Skipping multi-part file: UD-IQ4_NL/Mistral-Small-4-119B-2603-UD-IQ4_NL-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ4_NL/Mistral-Small-4-119B-2603-UD-IQ4_NL-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ4_NL/Mistral-Small-4-119B-2603-UD-IQ4_NL-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ4_XS/Mistral-Small-4-119B-2603-UD-IQ4_XS-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ4_XS/Mistral-Small-4-119B-2603-UD-IQ4_XS-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-IQ4_XS/Mistral-Small-4-119B-2603-UD-IQ4_XS-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/Mistral-Small-4-119B-2603-UD-Q3_K_M-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/Mistral-Small-4-119B-2603-UD-Q3_K_M-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-Q3_K_M/Mistral-Small-4-119B-2603-UD-Q3_K_M-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q3_K_XL/Mistral-Small-4-119B-2603-UD-Q3_K_XL-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-Q3_K_XL/Mistral-Small-4-119B-2603-UD-Q3_K_XL-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-Q3_K_XL/Mistral-Small-4-119B-2603-UD-Q3_K_XL-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q4_K_M/Mistral-Small-4-119B-2603-UD-Q4_K_M-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-Q4_K_M/Mistral-Small-4-119B-2603-UD-Q4_K_M-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-Q4_K_M/Mistral-Small-4-119B-2603-UD-Q4_K_M-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q4_K_S/Mistral-Small-4-119B-2603-UD-Q4_K_S-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-Q4_K_S/Mistral-Small-4-119B-2603-UD-Q4_K_S-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-Q4_K_S/Mistral-Small-4-119B-2603-UD-Q4_K_S-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q4_K_XL/Mistral-Small-4-119B-2603-UD-Q4_K_XL-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-Q4_K_XL/Mistral-Small-4-119B-2603-UD-Q4_K_XL-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-Q4_K_XL/Mistral-Small-4-119B-2603-UD-Q4_K_XL-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q5_K_M/Mistral-Small-4-119B-2603-UD-Q5_K_M-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-Q5_K_M/Mistral-Small-4-119B-2603-UD-Q5_K_M-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-Q5_K_M/Mistral-Small-4-119B-2603-UD-Q5_K_M-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q5_K_S/Mistral-Small-4-119B-2603-UD-Q5_K_S-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-Q5_K_S/Mistral-Small-4-119B-2603-UD-Q5_K_S-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-Q5_K_S/Mistral-Small-4-119B-2603-UD-Q5_K_S-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/Mistral-Small-4-119B-2603-UD-Q5_K_XL-00001-of-00003.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/Mistral-Small-4-119B-2603-UD-Q5_K_XL-00002-of-00003.gguf
+  -> Skipping multi-part file: UD-Q5_K_XL/Mistral-Small-4-119B-2603-UD-Q5_K_XL-00003-of-00003.gguf
+  -> Skipping multi-part file: UD-Q6_K/Mistral-Small-4-119B-2603-UD-Q6_K-00001-of-00004.gguf
+  -> Skipping multi-part file: UD-Q6_K/Mistral-Small-4-119B-2603-UD-Q6_K-00002-of-00004.gguf
+  -> Skipping multi-part file: UD-Q6_K/Mistral-Small-4-119B-2603-UD-Q6_K-00003-of-00004.gguf
+  -> Skipping multi-part file: UD-Q6_K/Mistral-Small-4-119B-2603-UD-Q6_K-00004-of-00004.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/Mistral-Small-4-119B-2603-UD-Q6_K_XL-00001-of-00004.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/Mistral-Small-4-119B-2603-UD-Q6_K_XL-00002-of-00004.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/Mistral-Small-4-119B-2603-UD-Q6_K_XL-00003-of-00004.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/Mistral-Small-4-119B-2603-UD-Q6_K_XL-00004-of-00004.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/Mistral-Small-4-119B-2603-UD-Q8_K_XL-00001-of-00004.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/Mistral-Small-4-119B-2603-UD-Q8_K_XL-00002-of-00004.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/Mistral-Small-4-119B-2603-UD-Q8_K_XL-00003-of-00004.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/Mistral-Small-4-119B-2603-UD-Q8_K_XL-00004-of-00004.gguf
+  -> Added with 7 quants
+Processing GGUF: zai-org/GLM-5.1
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/Qwen3.6-27B-NVFP4
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced
+  -> Added with 10 quants
+Processing GGUF: mlx-community/Qwen3.6-27B-OptiQ-4bit
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: tencent/Hy-MT2-1.8B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/Qwen3.5-4B-MTP-GGUF
+  -> Added with 21 quants
+Processing GGUF: NemoStation/Marlin-2B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: openbmb/MiniCPM5-1B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: JetBrains/Mellum2-12B-A2.5B-Thinking
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: stepfun-ai/Step-3.7-Flash-GGUF
+  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00001-of-00009.gguf
+  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00002-of-00009.gguf
+  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00003-of-00009.gguf
+  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00004-of-00009.gguf
+  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00005-of-00009.gguf
+  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00006-of-00009.gguf
+  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00007-of-00009.gguf
+  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00008-of-00009.gguf
+  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00009-of-00009.gguf
+  -> Skipping multi-part file: IQ3_XXS/Step-3.7-flash-IQ3_XXS-00001-of-00002.gguf
+  -> Skipping multi-part file: IQ3_XXS/Step-3.7-flash-IQ3_XXS-00002-of-00002.gguf
+  -> Skipping multi-part file: IQ4_XS/Step-3.7-flash-IQ4_XS-00001-of-00003.gguf
+  -> Skipping multi-part file: IQ4_XS/Step-3.7-flash-IQ4_XS-00002-of-00003.gguf
+  -> Skipping multi-part file: IQ4_XS/Step-3.7-flash-IQ4_XS-00003-of-00003.gguf
+  -> Skipping multi-part file: Q3_K_L/Step-3.7-flash-Q3_K_L-00001-of-00003.gguf
+  -> Skipping multi-part file: Q3_K_L/Step-3.7-flash-Q3_K_L-00002-of-00003.gguf
+  -> Skipping multi-part file: Q3_K_L/Step-3.7-flash-Q3_K_L-00003-of-00003.gguf
+  -> Skipping multi-part file: Q3_K_M/Step-3.7-flash-Q3_K_M-00001-of-00003.gguf
+  -> Skipping multi-part file: Q3_K_M/Step-3.7-flash-Q3_K_M-00002-of-00003.gguf
+  -> Skipping multi-part file: Q3_K_M/Step-3.7-flash-Q3_K_M-00003-of-00003.gguf
+  -> Skipping multi-part file: Q4_K_S/Step-3.7-flash-Q4_K_S-00001-of-00003.gguf
+  -> Skipping multi-part file: Q4_K_S/Step-3.7-flash-Q4_K_S-00002-of-00003.gguf
+  -> Skipping multi-part file: Q4_K_S/Step-3.7-flash-Q4_K_S-00003-of-00003.gguf
+  -> Skipping multi-part file: Q8_0/Step-3.7-flash-Q8_0-00001-of-00005.gguf
+  -> Skipping multi-part file: Q8_0/Step-3.7-flash-Q8_0-00002-of-00005.gguf
+  -> Skipping multi-part file: Q8_0/Step-3.7-flash-Q8_0-00003-of-00005.gguf
+  -> Skipping multi-part file: Q8_0/Step-3.7-flash-Q8_0-00004-of-00005.gguf
+  -> Skipping multi-part file: Q8_0/Step-3.7-flash-Q8_0-00005-of-00005.gguf
+  -> Generated description
+  -> Added with 3 quants
+Processing GGUF: Hcompany/Holo-3.1-35B-A3B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: nex-agi/Nex-N2-Pro
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/gemma-4-12B-it-qat-q4_0-gguf
+  -> Added with 1 quants
+Processing GGUF: deadbydawn101/RavenX-OpenFable-Qwopus-Coder-Holo3-Qwen3.6-35B-A3B-MTP
+  -> Added with 1 quants
+Processing GGUF: egomnia/emma-5
+  -> Not a GGUF repo (library_name=onnxruntime), skipping
+Processing GGUF: PhalaCloud/GLM-5.2-W4AFP8
+  -> Not a GGUF repo (library_name=sglang), skipping
+Processing GGUF: mradermacher/Mythos-nano-i1-GGUF
+  -> Added with 25 quants
+Processing GGUF: mlx-community/gemma-4-12b-coder-fable5-composer2.5-8bit
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: unsloth/LFM2.5-230M-GGUF
+  -> Generated description
+  -> Added with 21 quants
+Processing GGUF: leonsarmiento/Ornith-1.0-35B-5bit-mlx
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: AtomicChat/ornith-9b-GGUF
+  -> Added with 6 quants
+Processing GGUF: sakamakismile/Ornith-1.0-35B-NVFP4
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: amalia-llm/AMALIA-9B-0626-DPO
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: protoLabsAI/Ornith-1.0-35B-FP8
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: wang-yang/Ornith-1.0-35B-MTPLX
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: autotrust/DeepSeek-V4-Flash-4E
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: ai-sage/GFusion-10B-A1.8B-base
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Jackrong/Qwopus3.6-35B-A3B-Coder-FP8
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: armand0e/Qwen3.6-35B-A3B-Fable-5-Distill
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: BananaMind/BananaMind-1.5-Base
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: litert-community/Gemma3-1B-IT
+  -> Not a GGUF repo (library_name=litert-lm), skipping
+Processing GGUF: Qwen/Qwen3-1.7B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen3-4B-Instruct-2507
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: huihui-ai/Huihui-Qwen3-VL-4B-Instruct-abliterated
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: voyageai/voyage-4-nano
+  -> Not a GGUF repo (library_name=sentence-transformers), skipping
+Processing GGUF: DavidAU/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
+  -> Added with 12 quants
+Processing GGUF: ggml-org/GLM-OCR-GGUF
+  -> Generated description
+  -> Added with 0 quants
+Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: nvidia/Gemma-4-31B-IT-NVFP4
+  -> Not a GGUF repo (library_name=Model Optimizer), skipping
+Processing GGUF: RedHatAI/gemma-4-31B-it-FP8-block
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: llmfan46/gemma-4-E4B-it-ultra-uncensored-heretic-GGUF
+  -> Generated description
+  -> Added with 7 quants
+Processing GGUF: ibm-granite/granite-4.1-3b
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Minthy/ToriiGate-0.5
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: mudler/Qwen3.6-35B-A3B-APEX-GGUF
+  -> Added with 7 quants
+Processing GGUF: prism-ml/Ternary-Bonsai-8B-gguf
+  -> Generated description
+  -> Added with 4 quants
+Processing GGUF: lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: bartowski/Qwen_Qwen3.6-27B-GGUF
+  -> Skipping multi-part file: Qwen_Qwen3.6-27B-bf16/Qwen_Qwen3.6-27B-bf16-00001-of-00002.gguf
+  -> Skipping multi-part file: Qwen_Qwen3.6-27B-bf16/Qwen_Qwen3.6-27B-bf16-00002-of-00002.gguf
+  -> Added with 29 quants
+Processing GGUF: ponpoke/flux2-klein-4b-uncensored-text-encoder
+  -> Not a chat model (pipeline_tag=text-to-image), skipping
+Processing GGUF: HiDream-ai/HiDream-O1-Image
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: HauhauCS/Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced
+  -> Added with 12 quants
+Processing GGUF: Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF
+  -> Added with 12 quants
+Processing GGUF: opendatalab/MinerU2.5-Pro-2605-1.2B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: michaelw9999/Qwen3.6-27B-NVFP4-MTP-GGUF
+  -> Added with 1 quants
+Processing GGUF: PaddlePaddle/PaddleOCR-VL-1.6-GGUF
+Processing GGUF: microsoft/HARC
+  -> Not a GGUF repo (library_name=peft), skipping
+Processing GGUF: yuuko-eth/LocateAnything-3B-GGUF
+  -> Added with 5 quants
+Processing GGUF: BennyDaBall/Z-Image-Engineer-V6-GGUF
+  -> Generated description
+  -> Added with 7 quants
+Processing GGUF: XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Bahushruth/Qwen3.6-35B-A3B-abliterated-v4-GGUF
+  -> Added with 13 quants
 Processing GGUF: unsloth/MiniMax-M3-GGUF
   -> Skipping multi-part file: BF16/MiniMax-M3-BF16-00001-of-00018.gguf
   -> Skipping multi-part file: BF16/MiniMax-M3-BF16-00002-of-00018.gguf
@@ -1120,304 +1471,23 @@ Processing GGUF: unsloth/MiniMax-M3-GGUF
   -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M3-UD-Q8_K_XL-00009-of-00011.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M3-UD-Q8_K_XL-00010-of-00011.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M3-UD-Q8_K_XL-00011-of-00011.gguf
-Processing GGUF: prithivMLmods/VibeThinker-3B-GGUF
-  -> Added with 15 quants
-Processing GGUF: Naphula/Goetia-26B-A4B-v1.3-Absolute-Heretic-ARA
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: sokann/GLM-5.2-GGUF-2.244bpw
+Processing GGUF: Mia-AiLab/Qwable-3.6-27b
   -> Added with 1 quants
-Processing GGUF: huihui-ai/Huihui-gemma-4-12B-agentic-fable5-abliterated-GGUF
-  -> Added with 2 quants
-Processing GGUF: nerkyor/Qwen3.6-27B-DSV4Pro-Thinking-Distill
-  -> Added with 8 quants
-Processing GGUF: Jiunsong/SuperGemma-4-12b-abliterated-gguf-4bit
-  -> Added with 1 quants
-Processing GGUF: LordNeel/Ornith-1.0-35B-GGUF-llamacpp-tp1
-  -> Added with 8 quants
-Processing GGUF: Spectral-Labs25/Qwen3.5-0.8B-SpectralQuant-Q4_K_M
-  -> Added with 1 quants
-Processing GGUF: autotrust/DeepSeek-V4-Flash-DSpark-4E
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: mudler/Ornith-1.0-35B-APEX-GGUF
-  -> Generated description
-  -> Added with 7 quants
-Processing GGUF: InternScience/Agents-A1-Q4_K_M-GGUF
-  -> Generated description
-  -> Added with 1 quants
-Processing GGUF: bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF
-  -> Skipping multi-part file: DeepSeek-Coder-V2-Lite-Instruct-f32.gguf/DeepSeek-Coder-V2-Lite-Instruct-f32-00001-of-00002.gguf
-  -> Skipping multi-part file: DeepSeek-Coder-V2-Lite-Instruct-f32.gguf/DeepSeek-Coder-V2-Lite-Instruct-f32-00002-of-00002.gguf
-  -> Added with 21 quants
-Processing GGUF: meta-llama/Llama-3.1-8B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: meta-llama/Llama-3.3-70B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: microsoft/bitnet-b1.58-2B-4T
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-1.7B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-4B-Instruct-2507
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: openbmb/MiniCPM-V-4.6
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: MassivDash/Gemma-4-Rust-Coder
-  -> Added with 7 quants
-Processing GGUF: HauhauCS/Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced
-  -> Added with 12 quants
-Processing GGUF: opendatalab/MinerU2.5-Pro-2605-1.2B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: openbmb/MiniCPM5-1B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: 0xSero/DeepSeek-V4-Flash-180B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Mia-AiLab/Qwable-3.6-35b
-  -> Added with 4 quants
-Processing GGUF: mlx-community/gemma-4-12b-coder-fable5-composer2.5-8bit
-  -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: kaitchup/MiniMax-M3-GGUF-MoQ
-  -> Added with 8 quants
-Processing GGUF: unsloth/LFM2.5-230M
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: eldavoo/emma-5
-  -> Not a GGUF repo (library_name=onnxruntime), skipping
-Processing GGUF: antirez/glm-5.2-gguf
-  -> Added with 3 quants
-Processing GGUF: AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: BennyDaBall/Krea-2-Engineer-V1
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: Abiray/Agents-A1-Q4_K_M-GGUF
-  -> Generated description
-  -> Added with 1 quants
-Processing GGUF: llmfan46/Ornith-1.0-35B-uncensored-heretic-GGUF
-  -> Generated description
-  -> Added with 10 quants
-Processing GGUF: TinyLlama/TinyLlama-1.1B-Chat-v1.0
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: DavidAU/Mistral-MOE-4X7B-Dark-MultiVerse-Uncensored-Enhanced32-24B-gguf
-  -> Added with 19 quants
-Processing GGUF: google/medgemma-27b-it
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: microsoft/VibeVoice-1.5B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-VL-8B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: nvidia/Cosmos-Reason2-2B
-  -> Not a GGUF repo (library_name=cosmos), skipping
-Processing GGUF: google/medgemma-1.5-4b-it
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: unsloth/GLM-4.7-Flash-REAP-23B-A3B-GGUF
-  -> Added with 27 quants
-Processing GGUF: unsloth/Qwen3.5-4B-GGUF
-  -> Added with 22 quants
-Processing GGUF: google/gemma-4-26B-A4B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive
-  -> Added with 7 quants
-Processing GGUF: google/gemma-4-E2B-it-qat-q4_0-gguf
-  -> Added with 2 quants
-Processing GGUF: google/gemma-4-26B-A4B-it-qat-q4_0-gguf
-  -> Added with 2 quants
-Processing GGUF: google/gemma-4-31B-it-qat-q4_0-gguf
-  -> Added with 2 quants
-Processing GGUF: unsloth/Qwen3.5-4B-MTP-GGUF
-  -> Added with 21 quants
-Processing GGUF: datalab-to/surya-ocr-2
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: stepfun-ai/Step-3.7-Flash-GGUF
-  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00001-of-00009.gguf
-  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00002-of-00009.gguf
-  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00003-of-00009.gguf
-  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00004-of-00009.gguf
-  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00005-of-00009.gguf
-  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00006-of-00009.gguf
-  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00007-of-00009.gguf
-  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00008-of-00009.gguf
-  -> Skipping multi-part file: BF16/Step3.7-flash-bf16-00009-of-00009.gguf
-  -> Skipping multi-part file: IQ3_XXS/Step-3.7-flash-IQ3_XXS-00001-of-00002.gguf
-  -> Skipping multi-part file: IQ3_XXS/Step-3.7-flash-IQ3_XXS-00002-of-00002.gguf
-  -> Skipping multi-part file: IQ4_XS/Step-3.7-flash-IQ4_XS-00001-of-00003.gguf
-  -> Skipping multi-part file: IQ4_XS/Step-3.7-flash-IQ4_XS-00002-of-00003.gguf
-  -> Skipping multi-part file: IQ4_XS/Step-3.7-flash-IQ4_XS-00003-of-00003.gguf
-  -> Skipping multi-part file: Q3_K_L/Step-3.7-flash-Q3_K_L-00001-of-00003.gguf
-  -> Skipping multi-part file: Q3_K_L/Step-3.7-flash-Q3_K_L-00002-of-00003.gguf
-  -> Skipping multi-part file: Q3_K_L/Step-3.7-flash-Q3_K_L-00003-of-00003.gguf
-  -> Skipping multi-part file: Q3_K_M/Step-3.7-flash-Q3_K_M-00001-of-00003.gguf
-  -> Skipping multi-part file: Q3_K_M/Step-3.7-flash-Q3_K_M-00002-of-00003.gguf
-  -> Skipping multi-part file: Q3_K_M/Step-3.7-flash-Q3_K_M-00003-of-00003.gguf
-  -> Skipping multi-part file: Q4_K_S/Step-3.7-flash-Q4_K_S-00001-of-00003.gguf
-  -> Skipping multi-part file: Q4_K_S/Step-3.7-flash-Q4_K_S-00002-of-00003.gguf
-  -> Skipping multi-part file: Q4_K_S/Step-3.7-flash-Q4_K_S-00003-of-00003.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-flash-Q8_0-00001-of-00005.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-flash-Q8_0-00002-of-00005.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-flash-Q8_0-00003-of-00005.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-flash-Q8_0-00004-of-00005.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-flash-Q8_0-00005-of-00005.gguf
-  -> Generated description
-  -> Added with 3 quants
-Processing GGUF: yuuko-eth/LocateAnything-3B-GGUF
-  -> Added with 5 quants
-Processing GGUF: nerkyor/Qwen3.6-35B-A3B-DSV4Pro-Thinking-Distill
-  -> Added with 7 quants
-Processing GGUF: XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: LiquidAI/LFM2.5-230M-ONNX
-  -> Not a GGUF repo (library_name=None), skipping
 Processing GGUF: LiquidAI/LFM2.5-230M-Base
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: deadbydawn101/RavenX-OpenFable-Qwopus-Coder-Holo3-Qwen3.6-35B-A3B-MTP
-  -> Added with 1 quants
-Processing GGUF: ShaunGves/FastContext-1.0-4B-SFT
-  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: King3Djbl/mythos-9b-unhinged
+  -> Generated description
+  -> Added with 19 quants
 Processing GGUF: Gryphe/Gemma-4-12B-StyleTune
   -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: mradermacher/FastContext-1.0-4B-SFT-GGUF
-  -> Generated description
-  -> Added with 12 quants
 Processing GGUF: Gryphe/Gemma-4-26B-A4B-StyleTune-V2
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: autotrust/gemma4-31B-Fable-5-Distilled
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jiunsong/SuperGemma-4-12b-abliterated
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: andrevp/Ornith-1.0-9B-Heretic-Uncensored
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: protoLabsAI/Ornith-1.0-35B-FP8
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: wang-yang/Ornith-1.0-35B-MTPLX
-  -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: autotrust/DeepSeek-V4-Flash-4E
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: paragon-of-brah/Ornith-1.0-397B-DFLASH-GGUF
-  -> Skipping multi-part file: IQ2_KS/Ornith-1.0-397B-A17B-IQ2_KS-00001-of-00005.gguf
-  -> Skipping multi-part file: IQ2_KS/Ornith-1.0-397B-A17B-IQ2_KS-00002-of-00005.gguf
-  -> Skipping multi-part file: IQ2_KS/Ornith-1.0-397B-A17B-IQ2_KS-00003-of-00005.gguf
-  -> Skipping multi-part file: IQ2_KS/Ornith-1.0-397B-A17B-IQ2_KS-00004-of-00005.gguf
-  -> Skipping multi-part file: IQ2_KS/Ornith-1.0-397B-A17B-IQ2_KS-00005-of-00005.gguf
-  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00001-of-00008.gguf
-  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00002-of-00008.gguf
-  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00003-of-00008.gguf
-  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00004-of-00008.gguf
-  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00005-of-00008.gguf
-  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00006-of-00008.gguf
-  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00007-of-00008.gguf
-  -> Skipping multi-part file: IQ3_KS/Ornith-1.0-397B-A17B-IQ3_KS-00008-of-00008.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00001-of-00011.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00002-of-00011.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00003-of-00011.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00004-of-00011.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00005-of-00011.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00006-of-00011.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00007-of-00011.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00008-of-00011.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00009-of-00011.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00010-of-00011.gguf
-  -> Skipping multi-part file: IQ4_K/Ornith-1.0-397B-A17B-IQ4_K-00011-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00001-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00002-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00003-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00004-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00005-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00006-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00007-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00008-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00009-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00010-of-00011.gguf
-  -> Skipping multi-part file: IQ4_KSS/Ornith-1.0-397B-A17B-IQ4_KSS-00011-of-00011.gguf
-  -> Added with 5 quants
-Processing GGUF: vcruz305/Ornith-1.0-35B-AEON-Ultimate-Uncensored-GGUF
-  -> Added with 11 quants
-Processing GGUF: Jackrong/Qwopus3.6-35B-A3B-Coder-FP8
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: armand0e/Qwen3.6-35B-A3B-Fable-5-Distill
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: williamliao/Qwen3.6-27B-NVFP4-GGUF
-  -> Generated description
-  -> Added with 1 quants
-Processing GGUF: mudler/Agents-A1-APEX-GGUF
-  -> Generated description
-  -> Added with 7 quants
-Processing GGUF: openai-community/gpt2
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Ttimofeyka/MistralRP-Noromaid-NSFW-Mistral-7B-GGUF
-  -> Added with 3 quants
-Processing GGUF: google/gemma-2-2b-it
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: meta-llama/Llama-3.2-1B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: microsoft/Phi-4-mini-instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: litert-community/Gemma3-1B-IT
-  -> Not a GGUF repo (library_name=litert-lm), skipping
-Processing GGUF: bartowski/cognitivecomputations_Dolphin-Mistral-24B-Venice-Edition-GGUF
-  -> Added with 27 quants
-Processing GGUF: google/medgemma-4b-it
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: dphn/Dolphin-Mistral-24B-Venice-Edition
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: voyageai/voyage-4-nano
-  -> Not a GGUF repo (library_name=sentence-transformers), skipping
-Processing GGUF: lightonai/LightOnOCR-2-1B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: LiquidAI/LFM2.5-1.2B-Thinking
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: DavidAU/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF
-  -> Added with 12 quants
-Processing GGUF: TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF
-  -> Added with 13 quants
-Processing GGUF: Andycurrent/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_GGUF
-  -> Added with 7 quants
-Processing GGUF: Qwen/Qwen3.5-9B-Base
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Tesslate/OmniCoder-9B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: bartowski/Qwen_Qwen3.6-27B-GGUF
-  -> Skipping multi-part file: Qwen_Qwen3.6-27B-bf16/Qwen_Qwen3.6-27B-bf16-00001-of-00002.gguf
-  -> Skipping multi-part file: Qwen_Qwen3.6-27B-bf16/Qwen_Qwen3.6-27B-bf16-00002-of-00002.gguf
-  -> Added with 29 quants
-Processing GGUF: AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: mlx-community/Qwen3.6-27B-OptiQ-4bit
-  -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: tencent/Hy-MT2-1.8B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: NemoStation/Marlin-2B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jackrong/Qwopus3.6-27B-v2-GGUF
-  -> Added with 5 quants
-Processing GGUF: Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF
-  -> Added with 12 quants
-Processing GGUF: huihui-ai/Huihui-Qwen3.6-27B-abliterated-MTP-GGUF
-  -> Added with 7 quants
-Processing GGUF: LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-Genesis-GGUF
-  -> Added with 6 quants
-Processing GGUF: michaelw9999/Qwen3.6-27B-NVFP4-MTP-GGUF
-  -> Added with 1 quants
-Processing GGUF: Hcompany/Holo-3.1-4B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: google/gemma-4-12B-it-qat-q4_0-gguf
-  -> Added with 1 quants
-Processing GGUF: google/gemma-4-12B-it-qat-w4a16-ct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Janvitos/gemma-4-12B-it-qat-assistant-MTP-Q8_0-GGUF
-  -> Generated description
-  -> Added with 1 quants
-Processing GGUF: nvidia/diffusiongemma-26B-A4B-it-NVFP4
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF
-  -> Added with 10 quants
-Processing GGUF: poolside/Laguna-M.1
-  -> Not a GGUF repo (library_name=vllm), skipping
-Processing GGUF: PhalaCloud/GLM-5.2-W4AFP8
-  -> Not a GGUF repo (library_name=sglang), skipping
-Processing GGUF: DJLougen/Qwable-5-27B-Coder
   -> Not a GGUF repo (library_name=None), skipping
 Processing GGUF: sahilchachra/unlimited-ocr-mxfp8-mlx
   -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: LLM-OS-Models/Fabliq-8B-Agent
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: lordx64/Qwable-v2
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: win10/Qwopucode-full-v15-27B-FP8-Block
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: arbazsiddiqui/Ozan-v1-12B-GGUF
@@ -1425,102 +1495,101 @@ Processing GGUF: arbazsiddiqui/Ozan-v1-12B-GGUF
 Processing GGUF: Vavavania/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
   -> Generated description
   -> Added with 11 quants
-Processing GGUF: leonsarmiento/Ornith-1.0-35B-5bit-mlx
-  -> Not a GGUF repo (library_name=mlx), skipping
 Processing GGUF: Jiunsong/SuperQwen-AgentWorld-35B-A3B-abliterated-gguf-4bit
-  -> Generated description
   -> Added with 1 quants
-Processing GGUF: zaakirio/Ornith-1.0-9B-uncensored-GGUF
-  -> Added with 4 quants
+Processing GGUF: andrevp/Ornith-1.0-9B-Heretic-Uncensored
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: antirez/glm-5.2-gguf
+  -> Added with 3 quants
 Processing GGUF: wepiqx/Ornith-1.0-9B-ASHQ1-GGUF
   -> Added with 4 quants
-Processing GGUF: huihui-ai/Huihui-Qwen-AgentWorld-35B-A3B-abliterated
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: mlx-community/Ornith-1.0-35B-bf16
   -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: InternScience/Agents-A1-FP8
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: LordNeel/Agents-A1-GGUF
+Processing GGUF: llmfan46/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-uncensored-heretic-GGUF
   -> Generated description
-  -> Added with 9 quants
-Processing GGUF: meta-llama/Llama-2-7b-hf
+  -> Added with 7 quants
+Processing GGUF: InternScience/Agents-A1-F16-GGUF
+  -> Generated description
+  -> Added with 1 quants
+Processing GGUF: InternScience/Agents-A1-Q8_0-GGUF
+  -> Added with 1 quants
+Processing GGUF: s-batman/Agents-A1-NVFP4-MTP-GGUF
+  -> Generated description
+  -> Added with 2 quants
+Processing GGUF: openai-community/gpt2
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: microsoft/Florence-2-base
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen2.5-3B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen2.5-1.5B-Instruct
+Processing GGUF: mistralai/Mistral-7B-v0.1
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: Qwen/Qwen2.5-Coder-32B-Instruct
   -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: DavidAU/Llama-3.2-8X3B-MOE-Dark-Champion-Instruct-uncensored-abliterated-18.4B-GGUF
+  -> Added with 13 quants
+Processing GGUF: DavidAU/Mistral-MOE-4X7B-Dark-MultiVerse-Uncensored-Enhanced32-24B-gguf
+  -> Added with 19 quants
 Processing GGUF: Qwen/Qwen2.5-VL-7B-Instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: microsoft/Phi-4-mini-instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/Qwen2.5-VL-7B-Instruct-GGUF
+  -> Added with 26 quants
+Processing GGUF: unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF
+  -> Added with 26 quants
+Processing GGUF: google/gemma-3n-E2B-it-litert-lm
+  -> Not a GGUF repo (library_name=litert-lm), skipping
+Processing GGUF: dphn/Dolphin-Mistral-24B-Venice-Edition
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen3-30B-A3B-Instruct-2507
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: LiquidAI/LFM2-1.2B-Tool
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: google/functiongemma-270m-it
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: deepseek-ai/DeepSeek-OCR
+Processing GGUF: Qwen/Qwen3-VL-8B-Instruct
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-VL-8B-Instruct-GGUF
-  -> Added with 3 quants
-Processing GGUF: WeiboAI/VibeThinker-1.5B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: LiquidAI/LFM2.5-1.2B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: LiquidAI/LFM2.5-Audio-1.5B-GGUF
-  -> Added with 9 quants
-Processing GGUF: unsloth/GLM-4.7-Flash-GGUF
-  -> Skipping multi-part file: BF16/GLM-4.7-Flash-BF16-00001-of-00002.gguf
-  -> Skipping multi-part file: BF16/GLM-4.7-Flash-BF16-00002-of-00002.gguf
-  -> Added with 27 quants
-Processing GGUF: BennyDaBall/Qwen3-4b-Z-Image-Turbo-AbliteratedV1
-  -> Added with 8 quants
-Processing GGUF: ggml-org/GLM-OCR-GGUF
+Processing GGUF: DavidAU/OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf
   -> Generated description
-  -> Added with 0 quants
-Processing GGUF: nvidia/NVIDIA-Nemotron-Parse-v1.2
+  -> Added with 17 quants
+Processing GGUF: NousResearch/Hermes-4.3-36B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3.5-27B
+Processing GGUF: nvidia/Cosmos-Reason2-2B
+  -> Not a GGUF repo (library_name=cosmos), skipping
+Processing GGUF: lightonai/LightOnOCR-2-1B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: unsloth/Qwen3.5-35B-A3B-GGUF
-  -> Skipping multi-part file: BF16/Qwen3.5-35B-A3B-BF16-00001-of-00002.gguf
-  -> Skipping multi-part file: BF16/Qwen3.5-35B-A3B-BF16-00002-of-00002.gguf
-  -> Added with 23 quants
-Processing GGUF: Qwen/Qwen3.5-2B
+Processing GGUF: Qwen/Qwen3.5-397B-A17B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive
-  -> Added with 4 quants
-Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF
-  -> Added with 11 quants
-Processing GGUF: nvidia/Gemma-4-31B-IT-NVFP4
-  -> Not a GGUF repo (library_name=Model Optimizer), skipping
+Processing GGUF: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: nvidia/Nemotron-Labs-Diffusion-3B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
+  -> Added with 10 quants
+Processing GGUF: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/gemma-4-26B-A4B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: prism-ml/Bonsai-8B-gguf
+  -> Generated description
+  -> Added with 2 quants
+Processing GGUF: Hcompany/Holo3-35B-A3B
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: llmfan46/gemma-4-31B-it-uncensored-heretic-GGUF
   -> Added with 10 quants
-Processing GGUF: dealignai/Gemma-4-31B-JANG_4M-CRACK
-  -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: ibm-granite/granite-4.1-3b
+Processing GGUF: LiquidAI/LFM2.5-VL-450M
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: ibm-granite/granite-4.1-30b
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: infly/Infinity-Parser2-Pro
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Minthy/ToriiGate-0.5
-  -> Not a GGUF repo (library_name=None), skipping
 Processing GGUF: Jiunsong/supergemma4-26b-uncensored-mlx-4bit-v2
   -> Not a GGUF repo (library_name=mlx), skipping
 Processing GGUF: FINAL-Bench/Darwin-4B-Genesis
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: AEON-7/Qwen3.6-35B-A3B-heretic-NVFP4
+Processing GGUF: OBLITERATUS/gemma-4-E4B-it-OBLITERATED
+  -> Added with 4 quants
+Processing GGUF: saricles/MiniMax-M2.7-REAP-172B-A10B-NVFP4-GB10
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled
+Processing GGUF: AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-BF16
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: barozp/Qwen3.6-28B-REAP20-A3B-GGUF
-  -> Added with 12 quants
-Processing GGUF: XiaomiMiMo/MiMo-V2.5-ASR
+Processing GGUF: InternScience/Agents-K1
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: poolside/Laguna-XS.2
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced
-  -> Generated description
-  -> Added with 10 quants
+Processing GGUF: llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF
+  -> Added with 11 quants
 Processing GGUF: teamblobfish/DeepSeek-V4-Flash-GGUF
   -> Skipping multi-part file: IQ1_M-XL/DeepSeek-V4-Flash-IQ1_M-XL-00001-of-00002.gguf
   -> Skipping multi-part file: IQ1_M-XL/DeepSeek-V4-Flash-IQ1_M-XL-00002-of-00002.gguf
@@ -1550,168 +1619,147 @@ Processing GGUF: llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserve
   -> Added with 10 quants
 Processing GGUF: nvidia/Qwen3.5-122B-A10B-NVFP4
   -> Not a GGUF repo (library_name=Model Optimizer), skipping
-Processing GGUF: unsloth/Qwen3.5-122B-A10B-MTP-GGUF
-  -> Skipping multi-part file: BF16/Qwen3.5-122B-A10B-BF16-00001-of-00005.gguf
-  -> Skipping multi-part file: BF16/Qwen3.5-122B-A10B-BF16-00002-of-00005.gguf
-  -> Skipping multi-part file: BF16/Qwen3.5-122B-A10B-BF16-00003-of-00005.gguf
-  -> Skipping multi-part file: BF16/Qwen3.5-122B-A10B-BF16-00004-of-00005.gguf
-  -> Skipping multi-part file: BF16/Qwen3.5-122B-A10B-BF16-00005-of-00005.gguf
-  -> Skipping multi-part file: MXFP4_MOE/Qwen3.5-122B-A10B-MXFP4_MOE-00001-of-00003.gguf
-  -> Skipping multi-part file: MXFP4_MOE/Qwen3.5-122B-A10B-MXFP4_MOE-00002-of-00003.gguf
-  -> Skipping multi-part file: MXFP4_MOE/Qwen3.5-122B-A10B-MXFP4_MOE-00003-of-00003.gguf
-  -> Skipping multi-part file: Q8_0/Qwen3.5-122B-A10B-Q8_0-00001-of-00004.gguf
-  -> Skipping multi-part file: Q8_0/Qwen3.5-122B-A10B-Q8_0-00002-of-00004.gguf
-  -> Skipping multi-part file: Q8_0/Qwen3.5-122B-A10B-Q8_0-00003-of-00004.gguf
-  -> Skipping multi-part file: Q8_0/Qwen3.5-122B-A10B-Q8_0-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-IQ3_S/Qwen3.5-122B-A10B-UD-IQ3_S-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_S/Qwen3.5-122B-A10B-UD-IQ3_S-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_S/Qwen3.5-122B-A10B-UD-IQ3_S-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/Qwen3.5-122B-A10B-UD-IQ4_NL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/Qwen3.5-122B-A10B-UD-IQ4_NL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/Qwen3.5-122B-A10B-UD-IQ4_NL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/Qwen3.5-122B-A10B-UD-IQ4_XS-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/Qwen3.5-122B-A10B-UD-IQ4_XS-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/Qwen3.5-122B-A10B-UD-IQ4_XS-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/Qwen3.5-122B-A10B-UD-Q3_K_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/Qwen3.5-122B-A10B-UD-Q3_K_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/Qwen3.5-122B-A10B-UD-Q3_K_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/Qwen3.5-122B-A10B-UD-Q3_K_XL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/Qwen3.5-122B-A10B-UD-Q3_K_XL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/Qwen3.5-122B-A10B-UD-Q3_K_XL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/Qwen3.5-122B-A10B-UD-Q4_K_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/Qwen3.5-122B-A10B-UD-Q4_K_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/Qwen3.5-122B-A10B-UD-Q4_K_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/Qwen3.5-122B-A10B-UD-Q4_K_S-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/Qwen3.5-122B-A10B-UD-Q4_K_S-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/Qwen3.5-122B-A10B-UD-Q4_K_S-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/Qwen3.5-122B-A10B-UD-Q5_K_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/Qwen3.5-122B-A10B-UD-Q5_K_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/Qwen3.5-122B-A10B-UD-Q5_K_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/Qwen3.5-122B-A10B-UD-Q5_K_S-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/Qwen3.5-122B-A10B-UD-Q5_K_S-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/Qwen3.5-122B-A10B-UD-Q5_K_S-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Qwen3.5-122B-A10B-UD-Q5_K_XL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Qwen3.5-122B-A10B-UD-Q5_K_XL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Qwen3.5-122B-A10B-UD-Q5_K_XL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q6_K/Qwen3.5-122B-A10B-UD-Q6_K-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K/Qwen3.5-122B-A10B-UD-Q6_K-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K/Qwen3.5-122B-A10B-UD-Q6_K-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K/Qwen3.5-122B-A10B-UD-Q6_K-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Qwen3.5-122B-A10B-UD-Q6_K_XL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Qwen3.5-122B-A10B-UD-Q6_K_XL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Qwen3.5-122B-A10B-UD-Q6_K_XL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Qwen3.5-122B-A10B-UD-Q6_K_XL-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00004-of-00004.gguf
-  -> Added with 5 quants
-Processing GGUF: sapientinc/HRM-Text-1B
+Processing GGUF: nvidia/DeepSeek-V4-Pro-NVFP4
+  -> Not a GGUF repo (library_name=Model Optimizer), skipping
+Processing GGUF: datalab-to/surya-ocr-2
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF
-  -> Generated description
+Processing GGUF: Jackrong/Qwopus3.6-27B-v2-GGUF
+  -> Added with 5 quants
+Processing GGUF: huihui-ai/Huihui-Qwen3.6-27B-abliterated-MTP-GGUF
   -> Added with 7 quants
 Processing GGUF: tencent/Hy-MT2-1.8B-GGUF
   -> Added with 3 quants
-Processing GGUF: Qwen/Qwen-Image-Bench
+Processing GGUF: Jackrong/Qwopus3.6-27B-v2-FP8
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: stefans71/frontend-design-expert-8b
-  -> Added with 2 quants
-Processing GGUF: 0xSero/DeepSeek-V4-Flash-162B-GGUF
-  -> Added with 1 quants
-Processing GGUF: PaddlePaddle/PaddleOCR-VL-1.6-GGUF
-Processing GGUF: Hcompany/Holo-3.1-35B-A3B
+Processing GGUF: occ-ai/OCC-RAG-1.7B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: SupraLabs/Supra-50M-Reasoning
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: apodex/Apodex-1.0-mini
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Shadow0482/mythos_fast
-  -> Added with 8 quants
+Processing GGUF: mlx-community/gemma-4-12B-it-8bit
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: Gryphe/Gemma-4-31B-StyleTune
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: nvidia/MiniMax-M2.7-DFlash
+  -> Not a GGUF repo (library_name=Model Optimizer), skipping
 Processing GGUF: MSALab/PerceptionDLM
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: DJLougen/Qwable-5-27B-Coder-NVFP4
-  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: poolside/Laguna-XS-2.1-NVFP4
+  -> Not a GGUF repo (library_name=vllm), skipping
+Processing GGUF: huihui-ai/Huihui-Qwable-3.6-27b-abliterated-MTP-GGUF
+  -> Added with 3 quants
 Processing GGUF: llmfan46/gemma-4-12B-coder-fable5-composer2.5-v1-uncensored-heretic-GGUF
   -> Added with 8 quants
-Processing GGUF: QuantTrio/GLM-5.2-Int4-Int8Mix
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: LLM-OS-Models/Fabliq-8B-Agent
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: lordx64/Qwable-v2
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: sakamakismile/Qwen-AgentWorld-35B-A3B-NVFP4
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: arbazsiddiqui/Ozan-v1-12B
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: AtomicChat/ornith-35b-GGUF
-  -> Added with 5 quants
-Processing GGUF: Retreatcost/Limn-Alpha-12B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: nerkyor/Qwen3.6-35B-A3B-DSV4Pro-Thinking-Distill-GGUF
-  -> Added with 7 quants
-Processing GGUF: skinnyctax/Ornith-1.0-35B-Q6_K-Frankenstein-MTP-GGUF
-  -> Added with 4 quants
-Processing GGUF: Abiray/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF
-  -> Generated description
-  -> Added with 9 quants
+Processing GGUF: huihui-ai/Huihui-gemma-4-12B-agentic-fable5-abliterated-GGUF
+  -> Added with 2 quants
 Processing GGUF: olka-fi/Ornith-1.0-397B-MXFP4
   -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: KikoCis/Ornith-1.0-9B-Ollama-fixed-GGUF
+  -> Added with 1 quants
+Processing GGUF: williamliao/qwen3.6-27B-DFlash-GGUF
+  -> Generated description
+  -> Added with 6 quants
 Processing GGUF: jojohai/Qwen3.6-27B-DFlash-GGUF
-  -> Generated description
   -> Added with 1 quants
+Processing GGUF: nvidia/Qwen3.5-397B-A17B-NVFP4-V2
+  -> Not a GGUF repo (library_name=Model Optimizer), skipping
 Processing GGUF: mudler/Nex-N2-mini-APEX-GGUF
-  -> Generated description
   -> Added with 7 quants
-Processing GGUF: hotdogs/qwen35b-a3b-fable-sft-abliterated
-  -> Generated description
-  -> Added with 3 quants
-Processing GGUF: BananaMind/BananaMind-1.5-Base
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: llmfan46/Ornith-1.0-35B-uncensored-heretic
+Processing GGUF: llmfan46/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-uncensored-heretic
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: InternScience/Agents-A1-Q8_0-GGUF
+Processing GGUF: duarteocarmo/AMALIA-9B-0626-DPO-GGUF
+  -> Generated description
+  -> Added with 12 quants
+Processing GGUF: kai-os/Grug-12B-GGUF
   -> Generated description
   -> Added with 1 quants
+Processing GGUF: bigscience/bloom
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: flyingfishinwater/good_and_small_models
+  -> Generated description
+  -> Added with 40 quants
+Processing GGUF: google/gemma-7b
+  -> Generated description
+  -> Added with 1 quants
+Processing GGUF: microsoft/Florence-2-base
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/gemma-2-2b-it
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: bartowski/Meta-Llama-3.1-8B-Instruct-GGUF
+  -> Added with 24 quants
+Processing GGUF: Qwen/Qwen2.5-0.5B-Instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen2.5-Coder-7B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen2.5-1.5B-Instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: meta-llama/Llama-3.2-3B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: HuggingFaceTB/SmolLM2-360M-Instruct
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: microsoft/phi-4
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: jinaai/ReaderLM-v2
   -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/gemma-3-27b-it
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: google/gemma-3-12b-it
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: ByteDance-Seed/UI-TARS-1.5-7B
+Processing GGUF: Qwen/QwQ-32B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: unsloth/Qwen3-0.6B-GGUF
-  -> Added with 26 quants
-Processing GGUF: Qwen/Qwen3-14B-GGUF
-  -> Added with 5 quants
-Processing GGUF: unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF
-  -> Generated description
-  -> Added with 26 quants
-Processing GGUF: Qwen/Qwen3-30B-A3B-Instruct-2507
+Processing GGUF: Qwen/Qwen3-Reranker-8B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: LiquidAI/LFM2-1.2B-Tool
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-VL-8B-Thinking
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: NousResearch/Hermes-4.3-36B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: deepseek-ai/DeepSeek-V3.2
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: bartowski/TheDrummer_Cydonia-24B-v4.3-GGUF
+Processing GGUF: unsloth/gpt-oss-120b-GGUF
+  -> Skipping multi-part file: Q2_K/gpt-oss-120b-Q2_K-00001-of-00002.gguf
+  -> Skipping multi-part file: Q2_K/gpt-oss-120b-Q2_K-00002-of-00002.gguf
+  -> Skipping multi-part file: Q2_K_L/gpt-oss-120b-Q2_K_L-00001-of-00002.gguf
+  -> Skipping multi-part file: Q2_K_L/gpt-oss-120b-Q2_K_L-00002-of-00002.gguf
+  -> Skipping multi-part file: Q3_K_M/gpt-oss-120b-Q3_K_M-00001-of-00002.gguf
+  -> Skipping multi-part file: Q3_K_M/gpt-oss-120b-Q3_K_M-00002-of-00002.gguf
+  -> Skipping multi-part file: Q3_K_S/gpt-oss-120b-Q3_K_S-00001-of-00002.gguf
+  -> Skipping multi-part file: Q3_K_S/gpt-oss-120b-Q3_K_S-00002-of-00002.gguf
+  -> Skipping multi-part file: Q4_0/gpt-oss-120b-Q4_0-00001-of-00002.gguf
+  -> Skipping multi-part file: Q4_0/gpt-oss-120b-Q4_0-00002-of-00002.gguf
+  -> Skipping multi-part file: Q4_1/gpt-oss-120b-Q4_1-00001-of-00002.gguf
+  -> Skipping multi-part file: Q4_1/gpt-oss-120b-Q4_1-00002-of-00002.gguf
+  -> Skipping multi-part file: Q4_K_M/gpt-oss-120b-Q4_K_M-00001-of-00002.gguf
+  -> Skipping multi-part file: Q4_K_M/gpt-oss-120b-Q4_K_M-00002-of-00002.gguf
+  -> Skipping multi-part file: Q4_K_S/gpt-oss-120b-Q4_K_S-00001-of-00002.gguf
+  -> Skipping multi-part file: Q4_K_S/gpt-oss-120b-Q4_K_S-00002-of-00002.gguf
+  -> Skipping multi-part file: Q5_K_M/gpt-oss-120b-Q5_K_M-00001-of-00002.gguf
+  -> Skipping multi-part file: Q5_K_M/gpt-oss-120b-Q5_K_M-00002-of-00002.gguf
+  -> Skipping multi-part file: Q5_K_S/gpt-oss-120b-Q5_K_S-00001-of-00002.gguf
+  -> Skipping multi-part file: Q5_K_S/gpt-oss-120b-Q5_K_S-00002-of-00002.gguf
+  -> Skipping multi-part file: Q6_K/gpt-oss-120b-Q6_K-00001-of-00002.gguf
+  -> Skipping multi-part file: Q6_K/gpt-oss-120b-Q6_K-00002-of-00002.gguf
+  -> Skipping multi-part file: Q8_0/gpt-oss-120b-Q8_0-00001-of-00002.gguf
+  -> Skipping multi-part file: Q8_0/gpt-oss-120b-Q8_0-00002-of-00002.gguf
+  -> Skipping multi-part file: UD-Q4_K_XL/gpt-oss-120b-UD-Q4_K_XL-00001-of-00002.gguf
+  -> Skipping multi-part file: UD-Q4_K_XL/gpt-oss-120b-UD-Q4_K_XL-00002-of-00002.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/gpt-oss-120b-UD-Q6_K_XL-00001-of-00002.gguf
+  -> Skipping multi-part file: UD-Q6_K_XL/gpt-oss-120b-UD-Q6_K_XL-00002-of-00002.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/gpt-oss-120b-UD-Q8_K_XL-00001-of-00002.gguf
+  -> Skipping multi-part file: UD-Q8_K_XL/gpt-oss-120b-UD-Q8_K_XL-00002-of-00002.gguf
+  -> Added with 1 quants
+Processing GGUF: bartowski/NousResearch_Hermes-4-14B-GGUF
   -> Added with 27 quants
-Processing GGUF: LiquidAI/LFM2.5-VL-1.6B
+Processing GGUF: allenai/olmOCR-2-7B-1025-FP8
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-VL-Embedding-2B
-  -> Not a GGUF repo (library_name=sentence-transformers), skipping
-Processing GGUF: HauhauCS/Qwen3VL-8B-Uncensored-HauhauCS-Balanced
-  -> Generated description
-  -> Added with 5 quants
+Processing GGUF: PaddlePaddle/PaddleOCR-VL
+  -> Not a GGUF repo (library_name=PaddleOCR), skipping
+Processing GGUF: Qwen/Qwen3-VL-32B-Instruct
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: moonshotai/Kimi-Linear-48B-A3B-Base
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: LiquidAI/LFM2.5-Audio-1.5B-GGUF
+  -> Added with 9 quants
+Processing GGUF: google/translategemma-4b-it
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: openbmb/AgentCPM-Report
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/GLM-4.7-Flash-GGUF
+  -> Skipping multi-part file: BF16/GLM-4.7-Flash-BF16-00001-of-00002.gguf
+  -> Skipping multi-part file: BF16/GLM-4.7-Flash-BF16-00002-of-00002.gguf
+  -> Added with 27 quants
+Processing GGUF: BennyDaBall/Qwen3-4b-Z-Image-Turbo-AbliteratedV1
+  -> Added with 8 quants
 Processing GGUF: Qwen/Qwen3-Coder-Next-GGUF
   -> Skipping multi-part file: Qwen3-Coder-Next-F16/Qwen3-Coder-Next-00001-of-00004.gguf
   -> Skipping multi-part file: Qwen3-Coder-Next-F16/Qwen3-Coder-Next-00002-of-00004.gguf
@@ -1737,367 +1785,129 @@ Processing GGUF: Qwen/Qwen3-Coder-Next-GGUF
   -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00002-of-00004.gguf
   -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00003-of-00004.gguf
   -> Skipping multi-part file: Qwen3-Coder-Next-Q8_0/Qwen3-Coder-Next-Q8_0-00004-of-00004.gguf
-Processing GGUF: Nanbeige/Nanbeige4.1-3B
+Processing GGUF: nvidia/NVIDIA-Nemotron-Parse-v1.2
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen3.5-35B-A3B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Qwen/Qwen3.5-27B
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/Qwen3.5-35B-A3B-GGUF
+  -> Skipping multi-part file: BF16/Qwen3.5-35B-A3B-BF16-00001-of-00002.gguf
+  -> Skipping multi-part file: BF16/Qwen3.5-35B-A3B-BF16-00002-of-00002.gguf
+  -> Added with 23 quants
+Processing GGUF: Qwen/Qwen3.5-9B-Base
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  -> Generated description
   -> Added with 6 quants
-Processing GGUF: nvidia/Nemotron-Labs-Diffusion-3B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF
-  -> Generated description
-  -> Added with 10 quants
+Processing GGUF: mlx-community/Qwen3.5-9B-MLX-4bit
+  -> Not a GGUF repo (library_name=mlx), skipping
 Processing GGUF: mradermacher/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED-GGUF
-  -> Generated description
   -> Added with 14 quants
-Processing GGUF: nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: huihui-ai/Huihui-Qwen3.5-9B-abliterated
-  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: mlx-community/Qwen3.5-9B-OptiQ-4bit
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: DavidAU/Qwen3.5-9B-Claude-4.6-OS-Auto-Variable-HERETIC-UNCENSORED-THINKING-MAX-NEOCODE-Imatrix-GGUF
+  -> Added with 11 quants
 Processing GGUF: HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive
-  -> Generated description
   -> Added with 9 quants
+Processing GGUF: Tesslate/OmniCoder-9B
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: Tesslate/OmniCoder-9B-GGUF
   -> Added with 13 quants
-Processing GGUF: unsloth/Mistral-Small-4-119B-2603-GGUF
-  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00001-of-00006.gguf
-  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00002-of-00006.gguf
-  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00003-of-00006.gguf
-  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00004-of-00006.gguf
-  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00005-of-00006.gguf
-  -> Skipping multi-part file: BF16/Mistral-Small-4-119B-2603-BF16-00006-of-00006.gguf
-  -> Skipping multi-part file: MXFP4_MOE/Mistral-Small-4-119B-2603-MXFP4_MOE-00001-of-00003.gguf
-  -> Skipping multi-part file: MXFP4_MOE/Mistral-Small-4-119B-2603-MXFP4_MOE-00002-of-00003.gguf
-  -> Skipping multi-part file: MXFP4_MOE/Mistral-Small-4-119B-2603-MXFP4_MOE-00003-of-00003.gguf
-  -> Skipping multi-part file: Q8_0/Mistral-Small-4-119B-2603-Q8_0-00001-of-00004.gguf
-  -> Skipping multi-part file: Q8_0/Mistral-Small-4-119B-2603-Q8_0-00002-of-00004.gguf
-  -> Skipping multi-part file: Q8_0/Mistral-Small-4-119B-2603-Q8_0-00003-of-00004.gguf
-  -> Skipping multi-part file: Q8_0/Mistral-Small-4-119B-2603-Q8_0-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/Mistral-Small-4-119B-2603-UD-IQ4_NL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/Mistral-Small-4-119B-2603-UD-IQ4_NL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/Mistral-Small-4-119B-2603-UD-IQ4_NL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/Mistral-Small-4-119B-2603-UD-IQ4_XS-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/Mistral-Small-4-119B-2603-UD-IQ4_XS-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/Mistral-Small-4-119B-2603-UD-IQ4_XS-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/Mistral-Small-4-119B-2603-UD-Q3_K_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/Mistral-Small-4-119B-2603-UD-Q3_K_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/Mistral-Small-4-119B-2603-UD-Q3_K_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/Mistral-Small-4-119B-2603-UD-Q3_K_XL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/Mistral-Small-4-119B-2603-UD-Q3_K_XL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/Mistral-Small-4-119B-2603-UD-Q3_K_XL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/Mistral-Small-4-119B-2603-UD-Q4_K_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/Mistral-Small-4-119B-2603-UD-Q4_K_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/Mistral-Small-4-119B-2603-UD-Q4_K_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/Mistral-Small-4-119B-2603-UD-Q4_K_S-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/Mistral-Small-4-119B-2603-UD-Q4_K_S-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/Mistral-Small-4-119B-2603-UD-Q4_K_S-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/Mistral-Small-4-119B-2603-UD-Q4_K_XL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/Mistral-Small-4-119B-2603-UD-Q4_K_XL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/Mistral-Small-4-119B-2603-UD-Q4_K_XL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/Mistral-Small-4-119B-2603-UD-Q5_K_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/Mistral-Small-4-119B-2603-UD-Q5_K_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/Mistral-Small-4-119B-2603-UD-Q5_K_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/Mistral-Small-4-119B-2603-UD-Q5_K_S-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/Mistral-Small-4-119B-2603-UD-Q5_K_S-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/Mistral-Small-4-119B-2603-UD-Q5_K_S-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Mistral-Small-4-119B-2603-UD-Q5_K_XL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Mistral-Small-4-119B-2603-UD-Q5_K_XL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Mistral-Small-4-119B-2603-UD-Q5_K_XL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q6_K/Mistral-Small-4-119B-2603-UD-Q6_K-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K/Mistral-Small-4-119B-2603-UD-Q6_K-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K/Mistral-Small-4-119B-2603-UD-Q6_K-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K/Mistral-Small-4-119B-2603-UD-Q6_K-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Mistral-Small-4-119B-2603-UD-Q6_K_XL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Mistral-Small-4-119B-2603-UD-Q6_K_XL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Mistral-Small-4-119B-2603-UD-Q6_K_XL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Mistral-Small-4-119B-2603-UD-Q6_K_XL-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Mistral-Small-4-119B-2603-UD-Q8_K_XL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Mistral-Small-4-119B-2603-UD-Q8_K_XL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Mistral-Small-4-119B-2603-UD-Q8_K_XL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Mistral-Small-4-119B-2603-UD-Q8_K_XL-00004-of-00004.gguf
+Processing GGUF: unsloth/NVIDIA-Nemotron-3-Nano-4B-GGUF
   -> Generated description
-  -> Added with 7 quants
-Processing GGUF: rednote-hilab/dots.mocr
-  -> Not a GGUF repo (library_name=dots_mocr), skipping
-Processing GGUF: Hcompany/Holo3-35B-A3B
+  -> Added with 22 quants
+Processing GGUF: HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive
+  -> Generated description
+  -> Added with 13 quants
+Processing GGUF: empero-ai/openNemo-9B
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: unsloth/gemma-4-E2B-it-GGUF
   -> Added with 25 quants
-Processing GGUF: RedHatAI/gemma-4-31B-it-FP8-block
+Processing GGUF: dealignai/Gemma-4-31B-JANG_4M-CRACK
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: LGAI-EXAONE/EXAONE-4.5-33B
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: DavidAU/gemma-4-31B-it-The-DECKARD-HERETIC-UNCENSORED-Thinking
   -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF
+  -> Generated description
+  -> Added with 10 quants
 Processing GGUF: gghfez/gemma-4-31b-it-control-vectors
   -> Added with 24 quants
-Processing GGUF: unsloth/MiniMax-M2.7-GGUF
-  -> Skipping multi-part file: BF16/MiniMax-M2.7-BF16-00001-of-00010.gguf
-  -> Skipping multi-part file: BF16/MiniMax-M2.7-BF16-00002-of-00010.gguf
-  -> Skipping multi-part file: BF16/MiniMax-M2.7-BF16-00003-of-00010.gguf
-  -> Skipping multi-part file: BF16/MiniMax-M2.7-BF16-00004-of-00010.gguf
-  -> Skipping multi-part file: BF16/MiniMax-M2.7-BF16-00005-of-00010.gguf
-  -> Skipping multi-part file: BF16/MiniMax-M2.7-BF16-00006-of-00010.gguf
-  -> Skipping multi-part file: BF16/MiniMax-M2.7-BF16-00007-of-00010.gguf
-  -> Skipping multi-part file: BF16/MiniMax-M2.7-BF16-00008-of-00010.gguf
-  -> Skipping multi-part file: BF16/MiniMax-M2.7-BF16-00009-of-00010.gguf
-  -> Skipping multi-part file: BF16/MiniMax-M2.7-BF16-00010-of-00010.gguf
-  -> Skipping multi-part file: MXFP4_MOE/MiniMax-M2.7-MXFP4_MOE-00001-of-00004.gguf
-  -> Skipping multi-part file: MXFP4_MOE/MiniMax-M2.7-MXFP4_MOE-00002-of-00004.gguf
-  -> Skipping multi-part file: MXFP4_MOE/MiniMax-M2.7-MXFP4_MOE-00003-of-00004.gguf
-  -> Skipping multi-part file: MXFP4_MOE/MiniMax-M2.7-MXFP4_MOE-00004-of-00004.gguf
-  -> Skipping multi-part file: Q8_0/MiniMax-M2.7-Q8_0-00001-of-00006.gguf
-  -> Skipping multi-part file: Q8_0/MiniMax-M2.7-Q8_0-00002-of-00006.gguf
-  -> Skipping multi-part file: Q8_0/MiniMax-M2.7-Q8_0-00003-of-00006.gguf
-  -> Skipping multi-part file: Q8_0/MiniMax-M2.7-Q8_0-00004-of-00006.gguf
-  -> Skipping multi-part file: Q8_0/MiniMax-M2.7-Q8_0-00005-of-00006.gguf
-  -> Skipping multi-part file: Q8_0/MiniMax-M2.7-Q8_0-00006-of-00006.gguf
-  -> Skipping multi-part file: UD-IQ1_M/MiniMax-M2.7-UD-IQ1_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ1_M/MiniMax-M2.7-UD-IQ1_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ1_M/MiniMax-M2.7-UD-IQ1_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_M/MiniMax-M2.7-UD-IQ2_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_M/MiniMax-M2.7-UD-IQ2_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_M/MiniMax-M2.7-UD-IQ2_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_XXS/MiniMax-M2.7-UD-IQ2_XXS-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_XXS/MiniMax-M2.7-UD-IQ2_XXS-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_XXS/MiniMax-M2.7-UD-IQ2_XXS-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_S/MiniMax-M2.7-UD-IQ3_S-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_S/MiniMax-M2.7-UD-IQ3_S-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_S/MiniMax-M2.7-UD-IQ3_S-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_XXS/MiniMax-M2.7-UD-IQ3_XXS-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_XXS/MiniMax-M2.7-UD-IQ3_XXS-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_XXS/MiniMax-M2.7-UD-IQ3_XXS-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/MiniMax-M2.7-UD-IQ4_NL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/MiniMax-M2.7-UD-IQ4_NL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/MiniMax-M2.7-UD-IQ4_NL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/MiniMax-M2.7-UD-IQ4_NL-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/MiniMax-M2.7-UD-IQ4_XS-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/MiniMax-M2.7-UD-IQ4_XS-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/MiniMax-M2.7-UD-IQ4_XS-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/MiniMax-M2.7-UD-IQ4_XS-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q2_K_XL/MiniMax-M2.7-UD-Q2_K_XL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q2_K_XL/MiniMax-M2.7-UD-Q2_K_XL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q2_K_XL/MiniMax-M2.7-UD-Q2_K_XL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/MiniMax-M2.7-UD-Q3_K_M-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/MiniMax-M2.7-UD-Q3_K_M-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/MiniMax-M2.7-UD-Q3_K_M-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/MiniMax-M2.7-UD-Q3_K_M-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q3_K_S/MiniMax-M2.7-UD-Q3_K_S-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_S/MiniMax-M2.7-UD-Q3_K_S-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_S/MiniMax-M2.7-UD-Q3_K_S-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/MiniMax-M2.7-UD-Q3_K_XL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/MiniMax-M2.7-UD-Q3_K_XL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/MiniMax-M2.7-UD-Q3_K_XL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/MiniMax-M2.7-UD-Q3_K_XL-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/MiniMax-M2.7-UD-Q4_K_M-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/MiniMax-M2.7-UD-Q4_K_M-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/MiniMax-M2.7-UD-Q4_K_M-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/MiniMax-M2.7-UD-Q4_K_M-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/MiniMax-M2.7-UD-Q4_K_S-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/MiniMax-M2.7-UD-Q4_K_S-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/MiniMax-M2.7-UD-Q4_K_S-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/MiniMax-M2.7-UD-Q4_K_S-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/MiniMax-M2.7-UD-Q4_K_XL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/MiniMax-M2.7-UD-Q4_K_XL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/MiniMax-M2.7-UD-Q4_K_XL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/MiniMax-M2.7-UD-Q4_K_XL-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/MiniMax-M2.7-UD-Q5_K_M-00001-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/MiniMax-M2.7-UD-Q5_K_M-00002-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/MiniMax-M2.7-UD-Q5_K_M-00003-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/MiniMax-M2.7-UD-Q5_K_M-00004-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/MiniMax-M2.7-UD-Q5_K_M-00005-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/MiniMax-M2.7-UD-Q5_K_S-00001-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/MiniMax-M2.7-UD-Q5_K_S-00002-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/MiniMax-M2.7-UD-Q5_K_S-00003-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/MiniMax-M2.7-UD-Q5_K_S-00004-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/MiniMax-M2.7-UD-Q5_K_S-00005-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/MiniMax-M2.7-UD-Q5_K_XL-00001-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/MiniMax-M2.7-UD-Q5_K_XL-00002-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/MiniMax-M2.7-UD-Q5_K_XL-00003-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/MiniMax-M2.7-UD-Q5_K_XL-00004-of-00005.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/MiniMax-M2.7-UD-Q5_K_XL-00005-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K/MiniMax-M2.7-UD-Q6_K-00001-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K/MiniMax-M2.7-UD-Q6_K-00002-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K/MiniMax-M2.7-UD-Q6_K-00003-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K/MiniMax-M2.7-UD-Q6_K-00004-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K/MiniMax-M2.7-UD-Q6_K-00005-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/MiniMax-M2.7-UD-Q6_K_XL-00001-of-00006.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/MiniMax-M2.7-UD-Q6_K_XL-00002-of-00006.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/MiniMax-M2.7-UD-Q6_K_XL-00003-of-00006.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/MiniMax-M2.7-UD-Q6_K_XL-00004-of-00006.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/MiniMax-M2.7-UD-Q6_K_XL-00005-of-00006.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/MiniMax-M2.7-UD-Q6_K_XL-00006-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00001-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00002-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00003-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00004-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00005-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00006-of-00006.gguf
-Processing GGUF: deadbydawn101/gemma-4-E4B-Agentic-Opus-Reasoning-GeminiCLI-GGUF
+Processing GGUF: tencent/Hy3-preview
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: trillionlabs/Gravity-16B-A3B-Preview
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Jackrong/Gemopus-4-31B-it-GGUF
   -> Generated description
-  -> Added with 4 quants
-Processing GGUF: mudler/Qwen3.6-35B-A3B-APEX-GGUF
-  -> Added with 7 quants
+  -> Added with 5 quants
 Processing GGUF: unsloth/Qwen3.6-35B-A3B-UD-MLX-4bit
   -> Not a GGUF repo (library_name=mlx), skipping
 Processing GGUF: WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF
   -> Added with 3 quants
-Processing GGUF: AIML-TUDA/OlmoLogic-7B-Think
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: unsloth/Qwen3.6-35B-A3B-NVFP4
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: DavidAU/Qwen3.6-27B-NEO-CODE-Di-IMatrix-MAX-GGUF
-  -> Added with 10 quants
-Processing GGUF: sphaela/Qwen3.6-27B-AutoRound-GGUF
+Processing GGUF: Jackrong/Qwen3.5-27B-GLM5.1-Distill-v1-GGUF
   -> Generated description
-  -> Added with 15 quants
+  -> Added with 6 quants
+Processing GGUF: AEON-7/Qwen3.6-35B-A3B-heretic-NVFP4
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: barozp/Qwen3.6-28B-REAP20-A3B-GGUF
+  -> Added with 12 quants
+Processing GGUF: mlx-community/Qwen3.6-27B-4bit
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: XiaomiMiMo/MiMo-V2.5-ASR
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: Guilherme34/Firefly-v4-BetterGGUF
+  -> Generated description
+  -> Added with 13 quants
 Processing GGUF: mlx-community/Qwen3.6-35B-A3B-OptiQ-4bit
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: google/gemma-4-31B-it-qat-q4_0-gguf
+  -> Added with 2 quants
+Processing GGUF: mlx-community/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-8bit
   -> Not a GGUF repo (library_name=mlx), skipping
 Processing GGUF: Axiveri/Africlaude-7B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: InternScience/Agents-K1
+Processing GGUF: zed-industries/zeta-2.1
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jackrong/Qwopus3.6-35B-A3B-v1-GGUF
-  -> Added with 8 quants
-Processing GGUF: llmfan46/Qwen3.6-27B-uncensored-heretic-v2-Native-MTP-Preserved-GGUF
-  -> Added with 11 quants
-Processing GGUF: cyburn/Qwopus3.6-35B-A3B-v1-PrismaSCOUT-Blackwell-NVFP4-BF16-vllm-4.75bits
+Processing GGUF: chiennv/Orthrus-Qwen3-8B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: osunlp/QUEST-35B-RL
+Processing GGUF: mudler/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-MTP-GGUF
+  -> Generated description
+  -> Added with 9 quants
+Processing GGUF: sapientinc/HRM-Text-1B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: domyn/Domyn-Small-v1.0
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: tencent/Hy-MT2-7B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jackrong/Qwopus3.5-9B-Coder
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF
+Processing GGUF: Anbeeld/Qwen3.6-27B-DFlash-GGUF
+  -> Generated description
+  -> Added with 6 quants
+Processing GGUF: huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF
   -> Added with 7 quants
-Processing GGUF: Jackrong/Qwopus3.6-27B-v2-FP8
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: AutoArk-AI/ARK-ASR-0.6B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: JetBrains/Mellum2-12B-A2.5B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Jackrong/Qwopus3.5-4B-Coder-GGUF
-  -> Generated description
-  -> Added with 12 quants
-Processing GGUF: stepfun-ai/Step-3.7-Flash-NVFP4
-  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: 0xSero/DeepSeek-V4-Flash-162B-GGUF
+  -> Added with 1 quants
 Processing GGUF: mudler/LFM2.5-8B-A1B-APEX-GGUF
-  -> Generated description
   -> Added with 7 quants
-Processing GGUF: occ-ai/OCC-RAG-1.7B
+Processing GGUF: Hcompany/Holo-3.1-4B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: tvall43/Qwen3.6-14B-A3B-VibeForged-v2-GGUF
-  -> Added with 8 quants
-Processing GGUF: unsloth/Step-3.7-Flash-GGUF
-  -> Skipping multi-part file: BF16/Step-3.7-Flash-BF16-00001-of-00008.gguf
-  -> Skipping multi-part file: BF16/Step-3.7-Flash-BF16-00002-of-00008.gguf
-  -> Skipping multi-part file: BF16/Step-3.7-Flash-BF16-00003-of-00008.gguf
-  -> Skipping multi-part file: BF16/Step-3.7-Flash-BF16-00004-of-00008.gguf
-  -> Skipping multi-part file: BF16/Step-3.7-Flash-BF16-00005-of-00008.gguf
-  -> Skipping multi-part file: BF16/Step-3.7-Flash-BF16-00006-of-00008.gguf
-  -> Skipping multi-part file: BF16/Step-3.7-Flash-BF16-00007-of-00008.gguf
-  -> Skipping multi-part file: BF16/Step-3.7-Flash-BF16-00008-of-00008.gguf
-  -> Skipping multi-part file: MXFP4_MOE/Step-3.7-Flash-MXFP4_MOE-00001-of-00004.gguf
-  -> Skipping multi-part file: MXFP4_MOE/Step-3.7-Flash-MXFP4_MOE-00002-of-00004.gguf
-  -> Skipping multi-part file: MXFP4_MOE/Step-3.7-Flash-MXFP4_MOE-00003-of-00004.gguf
-  -> Skipping multi-part file: MXFP4_MOE/Step-3.7-Flash-MXFP4_MOE-00004-of-00004.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-Flash-Q8_0-00001-of-00006.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-Flash-Q8_0-00002-of-00006.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-Flash-Q8_0-00003-of-00006.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-Flash-Q8_0-00004-of-00006.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-Flash-Q8_0-00005-of-00006.gguf
-  -> Skipping multi-part file: Q8_0/Step-3.7-Flash-Q8_0-00006-of-00006.gguf
-  -> Skipping multi-part file: UD-IQ1_M/Step-3.7-Flash-UD-IQ1_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ1_M/Step-3.7-Flash-UD-IQ1_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ1_M/Step-3.7-Flash-UD-IQ1_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_M/Step-3.7-Flash-UD-IQ2_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_M/Step-3.7-Flash-UD-IQ2_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_M/Step-3.7-Flash-UD-IQ2_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_XXS/Step-3.7-Flash-UD-IQ2_XXS-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_XXS/Step-3.7-Flash-UD-IQ2_XXS-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ2_XXS/Step-3.7-Flash-UD-IQ2_XXS-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_S/Step-3.7-Flash-UD-IQ3_S-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_S/Step-3.7-Flash-UD-IQ3_S-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_S/Step-3.7-Flash-UD-IQ3_S-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_XXS/Step-3.7-Flash-UD-IQ3_XXS-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_XXS/Step-3.7-Flash-UD-IQ3_XXS-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ3_XXS/Step-3.7-Flash-UD-IQ3_XXS-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/Step-3.7-Flash-UD-IQ4_NL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/Step-3.7-Flash-UD-IQ4_NL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_NL/Step-3.7-Flash-UD-IQ4_NL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/Step-3.7-Flash-UD-IQ4_XS-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/Step-3.7-Flash-UD-IQ4_XS-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-IQ4_XS/Step-3.7-Flash-UD-IQ4_XS-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q2_K_XL/Step-3.7-Flash-UD-Q2_K_XL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q2_K_XL/Step-3.7-Flash-UD-Q2_K_XL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q2_K_XL/Step-3.7-Flash-UD-Q2_K_XL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/Step-3.7-Flash-UD-Q3_K_M-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/Step-3.7-Flash-UD-Q3_K_M-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_M/Step-3.7-Flash-UD-Q3_K_M-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/Step-3.7-Flash-UD-Q3_K_XL-00001-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/Step-3.7-Flash-UD-Q3_K_XL-00002-of-00003.gguf
-  -> Skipping multi-part file: UD-Q3_K_XL/Step-3.7-Flash-UD-Q3_K_XL-00003-of-00003.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/Step-3.7-Flash-UD-Q4_K_M-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/Step-3.7-Flash-UD-Q4_K_M-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/Step-3.7-Flash-UD-Q4_K_M-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_M/Step-3.7-Flash-UD-Q4_K_M-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/Step-3.7-Flash-UD-Q4_K_S-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/Step-3.7-Flash-UD-Q4_K_S-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/Step-3.7-Flash-UD-Q4_K_S-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_S/Step-3.7-Flash-UD-Q4_K_S-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/Step-3.7-Flash-UD-Q4_K_XL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/Step-3.7-Flash-UD-Q4_K_XL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/Step-3.7-Flash-UD-Q4_K_XL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/Step-3.7-Flash-UD-Q4_K_XL-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/Step-3.7-Flash-UD-Q5_K_M-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/Step-3.7-Flash-UD-Q5_K_M-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/Step-3.7-Flash-UD-Q5_K_M-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_M/Step-3.7-Flash-UD-Q5_K_M-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/Step-3.7-Flash-UD-Q5_K_S-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/Step-3.7-Flash-UD-Q5_K_S-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/Step-3.7-Flash-UD-Q5_K_S-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_S/Step-3.7-Flash-UD-Q5_K_S-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Step-3.7-Flash-UD-Q5_K_XL-00001-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Step-3.7-Flash-UD-Q5_K_XL-00002-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Step-3.7-Flash-UD-Q5_K_XL-00003-of-00004.gguf
-  -> Skipping multi-part file: UD-Q5_K_XL/Step-3.7-Flash-UD-Q5_K_XL-00004-of-00004.gguf
-  -> Skipping multi-part file: UD-Q6_K/Step-3.7-Flash-UD-Q6_K-00001-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K/Step-3.7-Flash-UD-Q6_K-00002-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K/Step-3.7-Flash-UD-Q6_K-00003-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K/Step-3.7-Flash-UD-Q6_K-00004-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K/Step-3.7-Flash-UD-Q6_K-00005-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Step-3.7-Flash-UD-Q6_K_XL-00001-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Step-3.7-Flash-UD-Q6_K_XL-00002-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Step-3.7-Flash-UD-Q6_K_XL-00003-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Step-3.7-Flash-UD-Q6_K_XL-00004-of-00005.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/Step-3.7-Flash-UD-Q6_K_XL-00005-of-00005.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Step-3.7-Flash-UD-Q8_K_XL-00001-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Step-3.7-Flash-UD-Q8_K_XL-00002-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Step-3.7-Flash-UD-Q8_K_XL-00003-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Step-3.7-Flash-UD-Q8_K_XL-00004-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Step-3.7-Flash-UD-Q8_K_XL-00005-of-00006.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/Step-3.7-Flash-UD-Q8_K_XL-00006-of-00006.gguf
-  -> Added with 0 quants
-Processing GGUF: lmstudio-community/Qwen3.6-27B-MLX-8bit
+Processing GGUF: Naphula/Slimaki-Tavern-24B-v1.3
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: mlx-community/gemma-4-12B-it-8bit
+Processing GGUF: deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx
   -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: apodex/Apodex-1.0-4B-SFT
+Processing GGUF: bartowski/gemma-4-12B-it-GGUF
+  -> Generated description
+  -> Added with 28 quants
+Processing GGUF: google/gemma-4-12B-it-qat-w4a16-ct
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: vectionlabs/Maestro1-9B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: SC117/gemma-4-26B-A4B-it-qat-heretic-GGUF
-  -> Added with 2 quants
-Processing GGUF: huihui-ai/Huihui-gemma-4-12B-it-qat-q4_0-unquantized-abliterated-GGUF
-  -> Added with 3 quants
+Processing GGUF: Janvitos/gemma-4-12B-it-qat-assistant-MTP-Q8_0-GGUF
+  -> Added with 1 quants
+Processing GGUF: nerkyor/Qwen3.6-35B-A3B-DSV4Pro-Thinking-Distill
+  -> Added with 7 quants
 Processing GGUF: KDLAI/KDL-Frontier-Parser-nano
   -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: vectionlabs/Salience-1-9B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Bahushruth/Qwen3.6-35B-A3B-abliterated-v4-GGUF
-  -> Generated description
-  -> Added with 12 quants
+Processing GGUF: Jackrong/Qwopus3.6-27B-Coder-GGUF
+  -> Added with 5 quants
 Processing GGUF: unsloth/Kimi-K2.7-Code-GGUF
   -> Skipping multi-part file: UD-IQ1_M/Kimi-K2.7-Code-UD-IQ1_M-00001-of-00008.gguf
   -> Skipping multi-part file: UD-IQ1_M/Kimi-K2.7-Code-UD-IQ1_M-00002-of-00008.gguf
@@ -2204,77 +2014,41 @@ Processing GGUF: unsloth/Kimi-K2.7-Code-GGUF
   -> Skipping multi-part file: UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00013-of-00014.gguf
   -> Skipping multi-part file: UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00014-of-00014.gguf
   -> Added with 0 quants
-Processing GGUF: speakleash/Bielik-11B-v3.0-DFlash
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: GSAI-ML/iLLaDA-8B-Base
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: GSAI-ML/iLLaDA-8B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: mitkox/FastContext-1.0-4B-SFT-Q4_K_M-GGUF
-  -> Generated description
   -> Added with 1 quants
-Processing GGUF: sakamakismile/gemma-4-12B-coder-fable5-composer2.5-MTP-NVFP4
+Processing GGUF: unsloth/GLM-5.2
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: shuhulx/Qwopus3.5-4B-Coder-Fable5-v1-GGUF
+Processing GGUF: Multilingual-Multimodal-NLP/LoopCoder-V2
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: mradermacher/Qwen3.6-34B-80L-Fable-5-Heretic-i1-GGUF
   -> Generated description
-  -> Added with 3 quants
-Processing GGUF: Gryphe/Qwen3.6-35B-A3B-StyleTune
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: Mia-AiLab/Qwable-3.6-27b-MTP
-  -> Added with 5 quants
-Processing GGUF: mlx-community/GLM-5.2-mxfp4
+  -> Added with 15 quants
+Processing GGUF: philipjohnbasile/GLM-5.2-Demolition-q4a4-soul-MLX
   -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: 8sp4rk/Qwopus3.6-27B-Coder-heretic
-  -> Added with 5 quants
-Processing GGUF: huihui-ai/Huihui-Qwable-3.6-27b-abliterated-GGUF
-  -> Added with 3 quants
 Processing GGUF: mlx-community/gemma-4-12b-coder-fable5-composer2.5-4bit
   -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: JANGQ-AI/MiniMax-M3-REAP32-Coder
+Processing GGUF: poolside/Laguna-XS-2.1-FP8
+  -> Not a GGUF repo (library_name=vllm), skipping
+Processing GGUF: poolside/Laguna-XS-2.1-INT4
+  -> Not a GGUF repo (library_name=vllm), skipping
+Processing GGUF: OsaurusAI/Osaurus-AppleScript-8B-JANG_6M
   -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: Verdugie/Fable-Therapy-9B
-  -> Generated description
-  -> Added with 5 quants
 Processing GGUF: chatqaq/Qwen3.6-27B-Claude-Mythos-Distilled-MTP-GGUF
   -> Added with 3 quants
-Processing GGUF: di-zhang-fdu/openfugu-conductor-3b
+Processing GGUF: QuantTrio/GLM-5.2-Int4-Int8Mix
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: SixVolts/GLM-5.2-ewaste-edition-GGUF
-  -> Skipping multi-part file: GLM-5.2-Q2_K_XL-00001-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-Q2_K_XL-00002-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-Q2_K_XL-00003-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-Q2_K_XL-00004-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-Q2_K_XL-00005-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-Q2_K_XL-00006-of-00006.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_M-00001-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_M-00002-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_M-00003-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_M-00004-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_M-00005-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_M-00006-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_M-00007-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_M-00008-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_XL-00001-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_XL-00002-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_XL-00003-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_XL-00004-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_XL-00005-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_XL-00006-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_XL-00007-of-00008.gguf
-  -> Skipping multi-part file: GLM-5.2-Q3_K_XL-00008-of-00008.gguf
-Processing GGUF: lovedheart/Qwen-AgentWorld-35B-A3B-NVFP4
+Processing GGUF: LLM-OS-Models/Fabliq-8B-Agent-Reasoning
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: litert-community/Qwen3-1.7B
-  -> Not a GGUF repo (library_name=litert-lm), skipping
-Processing GGUF: Benjamin-png/swahili-gpt-71m
-  -> Not a GGUF repo (library_name=pytorch), skipping
+Processing GGUF: simpledirect/Vinci-Piccolo-1.0
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: iskiai/iski-lora
+  -> Not a GGUF repo (library_name=peft), skipping
+Processing GGUF: Retreatcost/Limn-Alpha-12B
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: Jiunsong/SuperQwen-AgentWorld-35B-A3B-abliterated-nvf4
   -> Not a GGUF repo (library_name=mlx), skipping
 Processing GGUF: Jiunsong/SuperQwen-AgentWorld-35B-A3B-abliterated-mlx-4bit
   -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: nerkyor/Qwen3.6-27B-DSV4Pro-Thinking-Distill-GGUF
-  -> Generated description
-  -> Added with 8 quants
 Processing GGUF: Alittlehammmer/Ornith-1.0-397B-GGUF
   -> Skipping multi-part file: Ornith-1.0-397B-BF16/Ornith-1.0-397B-BF16-00001-of-00017.gguf
   -> Skipping multi-part file: Ornith-1.0-397B-BF16/Ornith-1.0-397B-BF16-00002-of-00017.gguf
@@ -2305,10 +2079,13 @@ Processing GGUF: Alittlehammmer/Ornith-1.0-397B-GGUF
   -> Skipping multi-part file: Ornith-1.0-397B-Q6_K/Ornith-1.0-397B-Q6_K-00005-of-00007.gguf
   -> Skipping multi-part file: Ornith-1.0-397B-Q6_K/Ornith-1.0-397B-Q6_K-00006-of-00007.gguf
   -> Skipping multi-part file: Ornith-1.0-397B-Q6_K/Ornith-1.0-397B-Q6_K-00007-of-00007.gguf
+Processing GGUF: OsaurusAI/Ornith-1.0-35B-MXFP8
+  -> Not a GGUF repo (library_name=mlx), skipping
+Processing GGUF: inferencerlabs/Ornith-1.0-397B-MLX-Q9
+  -> Not a GGUF repo (library_name=mlx), skipping
 Processing GGUF: thanet-s/Ornith-1.0-35B-heretic
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: thanet-s/Ornith-1.0-35B-heretic-gguf
-  -> Generated description
   -> Added with 3 quants
 Processing GGUF: AtomixLabs/AtomixS2-5M-v1.0
   -> Not a GGUF repo (library_name=None), skipping
@@ -2317,133 +2094,84 @@ Processing GGUF: pankajpandey-dev/gemma-4-e4b-hindi-instruct-GGUF
 Processing GGUF: sadii0101/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
   -> Generated description
   -> Added with 11 quants
-Processing GGUF: KikoCis/Ornith-1.0-9B-Ollama-fixed-GGUF
-  -> Added with 1 quants
+Processing GGUF: mlx-community/Qwen-AgentWorld-35B-A3B-oQ4
+  -> Not a GGUF repo (library_name=mlx), skipping
 Processing GGUF: lmtlssss/lmtlssss-holo-ocpi
   -> Not a GGUF repo (library_name=ocpi), skipping
+Processing GGUF: mlx-community/Ornith-1.0-9B-4bit
+  -> Not a GGUF repo (library_name=mlx), skipping
 Processing GGUF: YTan2000/Ornith-1.0-35B-TQ3_4S
   -> Added with 1 quants
+Processing GGUF: iFlytekOpenSource/Domux
+  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: BananaMind/MiniBananaMind-v3-9M
   -> Not a GGUF repo (library_name=None), skipping
 Processing GGUF: mlx-community/Qwopus3.6-35B-A3B-Coder-8bit
   -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: bigscience/bloom
+Processing GGUF: iselabvn/Tini-Cybersec-8B-A1B
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: Ateron/Gemma-4-Novelist-31B
+  -> Not a GGUF repo (library_name=None), skipping
+Processing GGUF: utautako/Qwen3.6-27B-NVIDIA-NVFP4-MTP-GGUF
+  -> Generated description
+  -> Added with 1 quants
+Processing GGUF: prithivMLmods/Q3.5-9B-GLM-5.1-v2.0
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-GGUF
+  -> Generated description
+  -> Added with 3 quants
+Processing GGUF: cyankiwi/Agents-A1-AWQ-INT4
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: mudler/Qwen-AgentWorld-35B-A3B-APEX-GGUF
+  -> Generated description
+  -> Added with 7 quants
+Processing GGUF: AtomicChat/Laguna-XS-2.1-GGUF
+  -> Generated description
+  -> Added with 5 quants
+Processing GGUF: meituan-longcat/LongCat-2.0-INT8
+  -> Not a GGUF repo (library_name=LongCat-2.0), skipping
+Processing GGUF: bigcode/starcoder
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: meta-llama/Llama-2-7b-chat-hf
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: mistralai/Mistral-7B-Instruct-v0.2
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: microsoft/phi-2
   -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: google/gemma-2b-it
   -> Added with 1 quants
-Processing GGUF: vikhyatk/moondream2
+Processing GGUF: ai21labs/Jamba-v0.1
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct
+Processing GGUF: openvla/openvla-7b
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: SciPhi/Triplex
-  -> Generated description
-  -> Added with 1 quants
-Processing GGUF: meta-llama/Llama-Guard-3-8B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: bartowski/Meta-Llama-3.1-8B-Instruct-GGUF
-  -> Added with 24 quants
 Processing GGUF: Qwen/Qwen2.5-0.5B
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen2.5-0.5B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen2.5-Coder-7B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen2.5-Coder-7B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: Qwen/Qwen2.5-0.5B-Instruct-GGUF
-  -> Generated description
   -> Added with 9 quants
-Processing GGUF: Qwen/Qwen2.5-Coder-1.5B-Instruct
+Processing GGUF: meta-llama/Llama-3.2-1B-Instruct
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: bartowski/Llama-3.2-3B-Instruct-GGUF
-  -> Added with 18 quants
+Processing GGUF: hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF
+  -> Generated description
+  -> Added with 1 quants
 Processing GGUF: QuantFactory/Qwen2.5-7B-Instruct-Uncensored-GGUF
   -> Added with 14 quants
-Processing GGUF: HuggingFaceTB/SmolLM2-360M-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
 Processing GGUF: MaziyarPanahi/calme-3.2-instruct-78b
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: DavidAU/Llama-3.2-8X3B-MOE-Dark-Champion-Instruct-uncensored-abliterated-18.4B-GGUF
+Processing GGUF: mlx-community/DeepSeek-R1-Distill-Qwen-32B-4bit
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: huihui-ai/DeepSeek-R1-Distill-Qwen-32B-abliterated
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: redrix/GodSlayer-12B-ABYSS
+  -> Not a GGUF repo (library_name=transformers), skipping
+Processing GGUF: unsloth/Phi-4-mini-instruct-GGUF
   -> Generated description
-  -> Added with 13 quants
-Processing GGUF: HuggingFaceTB/SmolVLM-256M-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF
-  -> Added with 1 quants
-Processing GGUF: m-a-p/YuE-s1-7B-anneal-en-cot
-  -> Not a GGUF repo (library_name=None), skipping
-Processing GGUF: DavidAU/Llama-3.2-8X4B-MOE-V2-Dark-Champion-Instruct-uncensored-abliterated-21B-GGUF
+  -> Added with 8 quants
+Processing GGUF: bartowski/huihui-ai_QwQ-32B-abliterated-GGUF
   -> Generated description
-  -> Added with 10 quants
-Processing GGUF: google/gemma-3-27b-it
-  -> Not a GGUF repo (library_name=transformers), skipping
+  -> Added with 26 quants
 Processing GGUF: canopylabs/orpheus-3b-0.1-ft
   -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-32B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: microsoft/Phi-4-mini-reasoning
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-4B-GGUF
-  -> Added with 5 quants
-Processing GGUF: fancyfeast/llama-joycaption-beta-one-hf-llava
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: unsloth/Qwen2.5-VL-7B-Instruct-GGUF
-  -> Added with 26 quants
-Processing GGUF: Qwen/Qwen3-Reranker-8B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: mlx-community/Qwen3-Coder-30B-A3B-Instruct-4bit
-  -> Not a GGUF repo (library_name=mlx), skipping
-Processing GGUF: unsloth/gpt-oss-120b-GGUF
-  -> Skipping multi-part file: Q2_K/gpt-oss-120b-Q2_K-00001-of-00002.gguf
-  -> Skipping multi-part file: Q2_K/gpt-oss-120b-Q2_K-00002-of-00002.gguf
-  -> Skipping multi-part file: Q2_K_L/gpt-oss-120b-Q2_K_L-00001-of-00002.gguf
-  -> Skipping multi-part file: Q2_K_L/gpt-oss-120b-Q2_K_L-00002-of-00002.gguf
-  -> Skipping multi-part file: Q3_K_M/gpt-oss-120b-Q3_K_M-00001-of-00002.gguf
-  -> Skipping multi-part file: Q3_K_M/gpt-oss-120b-Q3_K_M-00002-of-00002.gguf
-  -> Skipping multi-part file: Q3_K_S/gpt-oss-120b-Q3_K_S-00001-of-00002.gguf
-  -> Skipping multi-part file: Q3_K_S/gpt-oss-120b-Q3_K_S-00002-of-00002.gguf
-  -> Skipping multi-part file: Q4_0/gpt-oss-120b-Q4_0-00001-of-00002.gguf
-  -> Skipping multi-part file: Q4_0/gpt-oss-120b-Q4_0-00002-of-00002.gguf
-  -> Skipping multi-part file: Q4_1/gpt-oss-120b-Q4_1-00001-of-00002.gguf
-  -> Skipping multi-part file: Q4_1/gpt-oss-120b-Q4_1-00002-of-00002.gguf
-  -> Skipping multi-part file: Q4_K_M/gpt-oss-120b-Q4_K_M-00001-of-00002.gguf
-  -> Skipping multi-part file: Q4_K_M/gpt-oss-120b-Q4_K_M-00002-of-00002.gguf
-  -> Skipping multi-part file: Q4_K_S/gpt-oss-120b-Q4_K_S-00001-of-00002.gguf
-  -> Skipping multi-part file: Q4_K_S/gpt-oss-120b-Q4_K_S-00002-of-00002.gguf
-  -> Skipping multi-part file: Q5_K_M/gpt-oss-120b-Q5_K_M-00001-of-00002.gguf
-  -> Skipping multi-part file: Q5_K_M/gpt-oss-120b-Q5_K_M-00002-of-00002.gguf
-  -> Skipping multi-part file: Q5_K_S/gpt-oss-120b-Q5_K_S-00001-of-00002.gguf
-  -> Skipping multi-part file: Q5_K_S/gpt-oss-120b-Q5_K_S-00002-of-00002.gguf
-  -> Skipping multi-part file: Q6_K/gpt-oss-120b-Q6_K-00001-of-00002.gguf
-  -> Skipping multi-part file: Q6_K/gpt-oss-120b-Q6_K-00002-of-00002.gguf
-  -> Skipping multi-part file: Q8_0/gpt-oss-120b-Q8_0-00001-of-00002.gguf
-  -> Skipping multi-part file: Q8_0/gpt-oss-120b-Q8_0-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/gpt-oss-120b-UD-Q4_K_XL-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-Q4_K_XL/gpt-oss-120b-UD-Q4_K_XL-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/gpt-oss-120b-UD-Q6_K_XL-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-Q6_K_XL/gpt-oss-120b-UD-Q6_K_XL-00002-of-00002.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/gpt-oss-120b-UD-Q8_K_XL-00001-of-00002.gguf
-  -> Skipping multi-part file: UD-Q8_K_XL/gpt-oss-120b-UD-Q8_K_XL-00002-of-00002.gguf
-  -> Generated description
-  -> Added with 1 quants
-Processing GGUF: unsloth/gpt-oss-20b-GGUF
-  -> Added with 16 quants
-Processing GGUF: NousResearch/Hermes-4-14B
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: bartowski/NousResearch_Hermes-4-14B-GGUF
-  -> Generated description
-  -> Added with 27 quants
-Processing GGUF: moondream/moondream3-preview
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-VL-235B-A22B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: allenai/olmOCR-2-7B-1025-FP8
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processing GGUF: Qwen/Qwen3-VL-4B-Instruct
-  -> Not a GGUF repo (library_name=transformers), skipping
-Processed 216 GGUF models from page 1
+Processed 209 GGUF models from page 1
 Reached end of available models.
 
 === Processing pinned GGUF models ===
@@ -2471,7 +2199,7 @@ Processing pinned GGUF: unsloth/Olmo-3-32B-Think-GGUF
 Processing pinned GGUF: Menlo/Jan-nano-128k-gguf
   -> Added pinned GGUF model
 
-Total GGUF models: 226
+Total GGUF models: 219
 
 === Fetching MLX models from HuggingFace API ===
 Fetching models from author: mlx-community
@@ -2484,22 +2212,22 @@ Processing MLX: mlx-community/Devstral-Small-2-24B-Instruct-2512-4bit
   -> Not a chat model (pipeline_tag=None), skipping
 Processing MLX: mlx-community/Qwen2.5-14B-Instruct-4bit
   -> Added with 2 safetensors files
-Processing MLX: mlx-community/gemma-3-4b-it-qat-4bit
-  -> Added with 1 safetensors files
-Processing MLX: mlx-community/Devstral-Small-2505-4bit
-  -> Added with 3 safetensors files
 Processing MLX: mlx-community/gemma-4-e2b-it-4bit
   -> Not a chat model (pipeline_tag=any-to-any), skipping
+Processing MLX: mlx-community/gemma-3-4b-it-qat-4bit
+  -> Added with 1 safetensors files
 Processing MLX: mlx-community/DeepSeek-R1-Distill-Qwen-14B-4bit
   -> Not a chat model (pipeline_tag=None), skipping
 Processing MLX: mlx-community/gemma-3-12b-it-qat-4bit
   -> Added with 2 safetensors files
-Processing MLX: mlx-community/Qwen3.6-35B-A3B-4bit
-  -> Added with 4 safetensors files
+Processing MLX: mlx-community/Devstral-Small-2505-4bit
+  -> Added with 3 safetensors files
 Processing MLX: mlx-community/gemma-4-12B-it-8bit
   -> Added with 3 safetensors files
 Processing MLX: mlx-community/Llama-3.2-1B-Instruct-4bit
   -> Added with 1 safetensors files
+Processing MLX: mlx-community/Qwen3.6-35B-A3B-4bit
+  -> Added with 4 safetensors files
 Processing MLX: mlx-community/Qwen3.5-27B-OptiQ-4bit
   -> Added with 6 safetensors files
 Processing MLX: mlx-community/gemma-4-e4b-it-4bit
@@ -2508,29 +2236,27 @@ Processing MLX: mlx-community/gemma-4-12B-it-4bit
   -> Added with 2 safetensors files
 Processing MLX: mlx-community/gemma-3-1b-it-qat-4bit
   -> Added with 1 safetensors files
-Processing MLX: mlx-community/Qwen3.5-9B-4bit
-  -> Added with 2 safetensors files
+Processing MLX: mlx-community/Qwen3-0.6B-8bit
+  -> Added with 1 safetensors files
 Processing MLX: mlx-community/gemma-4-26b-a4b-it-4bit
   -> Added with 3 safetensors files
-Processing MLX: mlx-community/Qwen3-0.6B-8bit
+Processing MLX: mlx-community/Qwen3-4B-Instruct-2507-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/gemma-3-27b-it-qat-4bit
   -> Added with 4 safetensors files
-Processing MLX: mlx-community/Qwen3-4B-Instruct-2507-4bit
-  -> Added with 1 safetensors files
 Processing MLX: mlx-community/Llama-3.2-3B-Instruct-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/gemma-4-31b-it-4bit
   -> Added with 4 safetensors files
 Processing MLX: mlx-community/GLM-5.2-mxfp4
   -> Added with 76 safetensors files
+Processing MLX: mlx-community/Qwen3.5-9B-4bit
+  -> Added with 2 safetensors files
 Processing MLX: mlx-community/diffusiongemma-26B-A4B-it-4bit
   -> Added with 4 safetensors files
 Processing MLX: mlx-community/gemma-4-12B-it-OptiQ-4bit
   -> Added with 3 safetensors files
 Processing MLX: mlx-community/Qwen3-8B-4bit
-  -> Added with 1 safetensors files
-Processing MLX: mlx-community/Meta-Llama-3.1-8B-Instruct-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Ministral-3-3B-Instruct-2512-4bit
   -> Not a chat model (pipeline_tag=None), skipping
@@ -2538,10 +2264,12 @@ Processing MLX: mlx-community/gemma-4-12B-it-qat-4bit
   -> Added with 3 safetensors files
 Processing MLX: mlx-community/Qwen3.5-4B-4bit
   -> Not an MLX repo (library_name=None), skipping
-Processing MLX: mlx-community/Qwen3.5-4B-MLX-4bit
-  -> Not a chat model (pipeline_tag=None), skipping
+Processing MLX: mlx-community/Meta-Llama-3.1-8B-Instruct-4bit
+  -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3-0.6B-4bit
   -> Added with 1 safetensors files
+Processing MLX: mlx-community/Qwen3.5-4B-MLX-4bit
+  -> Not a chat model (pipeline_tag=None), skipping
 Processing MLX: mlx-community/gemma-2-9b-it-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3.5-27B-Claude-4.6-Opus-Distilled-MLX-4bit
@@ -2550,107 +2278,107 @@ Processing MLX: mlx-community/Qwen2.5-0.5B-Instruct-bf16
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen2.5-3B-Instruct-4bit
   -> Added with 1 safetensors files
-Processing MLX: mlx-community/Qwen3.5-9B-MLX-4bit
-  -> Added with 2 safetensors files
-Processing MLX: mlx-community/Qwen2.5-32B-Instruct-4bit
+Processing MLX: mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit
   -> Added with 4 safetensors files
 Processing MLX: mlx-community/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-8bit
   -> Added with 8 safetensors files
+Processing MLX: mlx-community/Qwen3.5-9B-MLX-4bit
+  -> Added with 2 safetensors files
 Processing MLX: mlx-community/Qwen2.5-7B-Instruct-4bit
   -> Added with 1 safetensors files
-Processing MLX: mlx-community/Qwen3.5-9B-OptiQ-4bit
-  -> Added with 4 safetensors files
+Processing MLX: mlx-community/GLM-5.2-DQ4plus-q8
+  -> Added with 113 safetensors files
+Processing MLX: mlx-community/Qwen3-VL-4B-Instruct-4bit
+  -> Added with 1 safetensors files
+Processing MLX: mlx-community/Mistral-Small-3.1-24B-Instruct-2503-4bit
+  -> Not a chat model (pipeline_tag=None), skipping
 Processing MLX: mlx-community/Qwen3.6-27B-4bit
   -> Added with 3 safetensors files
 Processing MLX: mlx-community/Qwen3.6-35B-A3B-8bit
   -> Added with 8 safetensors files
-Processing MLX: mlx-community/Qwen3-VL-4B-Instruct-4bit
+Processing MLX: mlx-community/Qwen2.5-1.5B-Instruct-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/DeepSeek-V4-Flash-2bit-DQ
   -> Added with 19 safetensors files
-Processing MLX: mlx-community/GLM-5.2-DQ4plus-q8
-  -> Added with 113 safetensors files
-Processing MLX: mlx-community/Qwen2.5-1.5B-Instruct-4bit
-  -> Added with 1 safetensors files
-Processing MLX: mlx-community/Qwen2.5-0.5B-Instruct-4bit
-  -> Added with 1 safetensors files
-Processing MLX: mlx-community/LFM2.5-1.2B-Instruct-4bit
-  -> Added with 1 safetensors files
-Processing MLX: mlx-community/gemma-4-26B-A4B-it-OptiQ-4bit
-  -> Added with 5 safetensors files
-Processing MLX: mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit
-  -> Generated description
+Processing MLX: mlx-community/Qwen3.5-9B-OptiQ-4bit
   -> Added with 4 safetensors files
-Processing MLX: mlx-community/Qwen3.6-35B-A3B-OptiQ-4bit
-  -> Added with 7 safetensors files
-Processing MLX: mlx-community/Mistral-Small-3.1-24B-Instruct-2503-4bit
-  -> Not a chat model (pipeline_tag=None), skipping
 Processing MLX: mlx-community/gemma-4-31B-it-OptiQ-4bit
   -> Added with 6 safetensors files
-Processing MLX: mlx-community/Qwen3-4B-4bit
+Processing MLX: mlx-community/LFM2.5-1.2B-Instruct-4bit
+  -> Added with 1 safetensors files
+Processing MLX: mlx-community/Qwen3.6-35B-A3B-OptiQ-4bit
+  -> Added with 7 safetensors files
+Processing MLX: mlx-community/Qwen2.5-0.5B-Instruct-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Llama-3.3-70B-Instruct-4bit
   -> Added with 8 safetensors files
-Processing MLX: mlx-community/Qwen3.6-27B-OptiQ-4bit
-  -> Added with 6 safetensors files
-Processing MLX: mlx-community/Qwen3-1.7B-4bit
+Processing MLX: mlx-community/gemma-4-26B-A4B-it-OptiQ-4bit
+  -> Added with 5 safetensors files
+Processing MLX: mlx-community/Qwen3-4B-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen2.5-Coder-7B-Instruct-4bit
   -> Added with 1 safetensors files
+Processing MLX: mlx-community/Qwen3-1.7B-4bit
+  -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3.5-2B-6bit
   -> Added with 1 safetensors files
+Processing MLX: mlx-community/Qwen3.6-27B-OptiQ-4bit
+  -> Added with 6 safetensors files
+Processing MLX: mlx-community/Meta-Llama-3.1-8B-Instruct-bf16
+  -> Added with 4 safetensors files
 Processing MLX: mlx-community/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-mlx-8bit
   -> Added with 7 safetensors files
 Processing MLX: mlx-community/gemma-4-12B-4bit
   -> Not a chat model (pipeline_tag=any-to-any), skipping
-Processing MLX: mlx-community/Meta-Llama-3.1-8B-Instruct-bf16
-  -> Added with 4 safetensors files
 Processing MLX: mlx-community/Qwen3-30B-A3B-4bit
   -> Added with 4 safetensors files
+Processing MLX: mlx-community/gpt-oss-120b-MXFP4-Q8
+  -> Added with 13 safetensors files
 Processing MLX: mlx-community/DeepSeek-V4-Flash-4bit
   -> Added with 33 safetensors files
 Processing MLX: mlx-community/DeepSeek-V4-Flash
   -> Added with 33 safetensors files
-Processing MLX: mlx-community/diffusiongemma-26B-A4B-it-8bit
-  -> Added with 6 safetensors files
 Processing MLX: mlx-community/GLM-4.7-Flash-4bit
   -> Added with 4 safetensors files
+Processing MLX: mlx-community/diffusiongemma-26B-A4B-it-8bit
+  -> Added with 6 safetensors files
 Processing MLX: mlx-community/Qwen3.5-35B-A3B-4bit
   -> Added with 4 safetensors files
-Processing MLX: mlx-community/LFM2-VL-1.6B-4bit
-  -> Added with 1 safetensors files
-Processing MLX: mlx-community/Qwen3-Coder-30B-A3B-Instruct-4bit
-  -> Added with 4 safetensors files
-Processing MLX: mlx-community/Qwen3.5-2B-4bit
-  -> Added with 1 safetensors files
 Processing MLX: mlx-community/llama-3.3-70b-instruct-fp16
   -> Added with 28 safetensors files
-Processing MLX: mlx-community/gemma-3-12b-it-4bit
-  -> Added with 2 safetensors files
+Processing MLX: mlx-community/LFM2-VL-1.6B-4bit
+  -> Added with 1 safetensors files
+Processing MLX: mlx-community/Qwen2.5-32B-Instruct-4bit
+  -> Added with 4 safetensors files
+Processing MLX: mlx-community/gemma-4-12b-coder-fable5-composer2.5-8bit
+  -> Added with 3 safetensors files
+Processing MLX: mlx-community/Qwen3-Coder-30B-A3B-Instruct-4bit
+  -> Added with 4 safetensors files
 Processing MLX: mlx-community/Llama-3.3-70B-Instruct-8bit
   -> Added with 15 safetensors files
-Processing MLX: mlx-community/Qwen1.5-0.5B-Chat-4bit
+Processing MLX: mlx-community/Kimi-K2-Thinking
+  -> Added with 182 safetensors files
+Processing MLX: mlx-community/Qwen3.5-2B-4bit
   -> Added with 1 safetensors files
 Processing MLX: mlx-community/Qwen3.5-4B-OptiQ-4bit
   -> Added with 3 safetensors files
-Processing MLX: mlx-community/gemma-4-12B-bf16
-  -> Not a chat model (pipeline_tag=any-to-any), skipping
-Processing MLX: mlx-community/gemma-4-12B-it-bf16
-  -> Added with 5 safetensors files
-Processing MLX: mlx-community/Mistral-Nemo-Instruct-2407-4bit
-  -> Not a chat model (pipeline_tag=None), skipping
-Processing MLX: mlx-community/Kimi-K2-Thinking
-  -> Added with 182 safetensors files
-Processing MLX: mlx-community/Qwen3.5-122B-A10B-4bit
-  -> Added with 14 safetensors files
+Processing MLX: mlx-community/gemma-3-12b-it-4bit
+  -> Added with 2 safetensors files
 Processing MLX: mlx-community/GLM-4.7-Flash-8bit
   -> Added with 7 safetensors files
 Processing MLX: mlx-community/Meta-Llama-3.1-8B-Instruct-8bit
-  -> Generated description
   -> Added with 2 safetensors files
-Processing MLX: mlx-community/gemma-4-12b-coder-fable5-composer2.5-8bit
+Processing MLX: mlx-community/Mistral-Nemo-Instruct-2407-4bit
+  -> Not a chat model (pipeline_tag=None), skipping
+Processing MLX: mlx-community/Qwen1.5-0.5B-Chat-4bit
+  -> Added with 1 safetensors files
+Processing MLX: mlx-community/Qwen3.5-122B-A10B-4bit
+  -> Added with 14 safetensors files
+Processing MLX: mlx-community/gemma-4-12B-bf16
+  -> Not a chat model (pipeline_tag=any-to-any), skipping
+Processing MLX: mlx-community/Kimi-K2-Instruct-4bit
   -> Generated description
-  -> Added with 3 safetensors files
+  -> Added with 180 safetensors files
 Processing MLX: mlx-community/Kimi-K2.7-Code-4bit
   -> Added with 180 safetensors files
 
@@ -2687,12 +2415,12 @@ Processing pinned MLX: janhq/Jan-v2-VL-low-bf16-mlx
 Total MLX models: 86
 
 === Removing duplicates ===
-After dedup: 306 models
+After dedup: 299 models
 
 === V2 Catalog Summary ===
-Total models: 306
-  - GGUF models: 220
+Total models: 299
+  - GGUF models: 213
   - MLX models: 86
 Written to: model_catalog_v2.json
 
-Updated catalog; total now 306 (GGUF: 220, MLX: 86)
+Updated catalog; total now 299 (GGUF: 213, MLX: 86)
